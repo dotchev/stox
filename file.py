@@ -3,6 +3,7 @@ import os
 import json
 
 option_leverage_dir = 'data/option_leverage'
+option_rel_price_dir = 'data/option_rel_price'
 
 def save_file(symbol, data):
     fname = 'data/' + symbol
@@ -16,7 +17,7 @@ def load_file(fname):
 def save_option_leverage(symbol, data):
     os.makedirs(option_leverage_dir, exist_ok=True)
     with open(f'{option_leverage_dir}/{symbol}.json', 'w') as json_file:
-        json.dump(data, json_file, sort_keys=True, indent=4)
+        json.dump(data, json_file, sort_keys=True, indent=2)
 
 def load_all_option_leverage():
     result = {}
@@ -33,3 +34,16 @@ def load_all_option_leverage():
         result[symbol] = data
     
     return result
+
+def save_option_rel_price(symbol, data):
+    os.makedirs(option_rel_price_dir, exist_ok=True)
+    with open(f'{option_rel_price_dir}/{symbol}.json', 'w') as json_file:
+        json.dump(data, json_file, sort_keys=True, indent=2)
+
+def load_option_rel_price(symbol):
+    with open(f'{option_rel_price_dir}/{symbol}.json', 'r') as file:
+        data = json.load(file)
+
+    # Convert keys from strings to numbers
+    data = {int(key): value for key, value in data.items()}
+
