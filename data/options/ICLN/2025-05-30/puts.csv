@@ -1,0 +1,2 @@
+contractSymbol,lastTradeDate,strike,lastPrice,bid,ask,change,percentChange,volume,openInterest,impliedVolatility,inTheMoney,contractSize,currency
+ICLN250530P00012500,2025-05-02 15:13:59+00:00,12.5,0.69,0.0,0.0,0.0,0.0,1,0,0.015634843750000002,False,REGULAR,USD

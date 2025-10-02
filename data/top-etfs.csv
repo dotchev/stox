@@ -1,0 +1,1002 @@
+Symbol,ETF Name,Asset Class,Total Assets ($MM),YTD Price Change,Avg. Daily Share Volume (3mo),Previous Closing Price
+VOO,Vanguard S&P 500 ETF,Equity,"$570,557",-9.88%,"8,272,862",$483.90
+SPY,SPDR S&P 500 ETF Trust,Equity,"$547,944",-9.91%,"72,038,727",$526.41
+IVV,iShares Core S&P 500 ETF,Equity,"$536,048",-9.92%,"7,560,604",$528.67
+VTI,Vanguard Total Stock Market ETF,Equity,"$417,964",-10.40%,"4,384,454",$258.75
+QQQ,Invesco QQQ Trust Series I,Equity,"$284,123",-13.00%,"46,424,867",$444.10
+VEA,Vanguard FTSE Developed Markets ETF,Equity,"$142,387",6.61%,"13,937,040",$50.75
+VUG,Vanguard Growth ETF,Equity,"$139,435",-14.09%,"1,760,194",$352.14
+IEFA,iShares Core MSCI EAFE ETF,Equity,"$125,772",7.23%,"12,507,735",$75.36
+BND,Vanguard Total Bond Market ETF,Bond,"$125,322",1.99%,"7,373,952",$72.65
+VTV,Vanguard Value ETF,Equity,"$125,320",-3.90%,"3,198,154",$161.76
+AGG,iShares Core U.S. Aggregate Bond ETF,Bond,"$122,909",1.98%,"8,791,851",$97.87
+GLD,SPDR Gold Shares,Commodity,"$101,721",26.43%,"10,491,771",$306.12
+IWF,iShares Russell 1000 Growth ETF,Equity,"$91,861",-14.84%,"1,919,062",$341.62
+IJH,iShares Core S&P Mid-Cap ETF,Equity,"$83,214",-11.73%,"11,410,997",$54.85
+VIG,Vanguard Dividend Appreciation ETF,Equity,"$82,435",-5.66%,"1,316,887",$183.86
+VXUS,Vanguard Total International Stock ETF,Equity,"$81,291",4.36%,"4,684,573",$61.32
+IEMG,iShares Core MSCI Emerging Markets ETF,Equity,"$79,442",-0.48%,"11,293,031",$51.97
+VWO,Vanguard FTSE Emerging Markets ETF,Equity,"$77,861",-1.59%,"9,799,733",$43.30
+VGT,Vanguard Information Technology ETF,Equity,"$71,314",-18.60%,"775,138",$505.53
+IJR,iShares Core S&P Small-Cap ETF,Equity,"$70,698",-16.17%,"5,422,329",$96.30
+VO,Vanguard Mid-Cap ETF,Equity,"$70,377",-6.55%,"910,464",$245.73
+RSP,Invesco S&P 500® Equal Weight ETF,Equity,"$67,154",-6.73%,"10,268,875",$162.66
+SCHD,Schwab US Dividend Equity ETF,Equity,"$64,856",-6.12%,"17,992,084",$25.42
+BNDX,Vanguard Total International Bond ETF,Bond,"$63,918",1.05%,"3,949,314",$49.26
+ITOT,iShares Core S&P Total U.S. Stock Market ETF,Equity,"$60,686",-10.48%,"2,375,965",$114.81
+XLK,Technology Select Sector SPDR Fund,Equity,"$60,061",-16.91%,"5,932,087",$192.86
+IWD,iShares Russell 1000 Value ETF,Equity,"$58,432",-4.35%,"2,439,933",$176.32
+IWM,iShares Russell 2000 ETF,Equity,"$57,901",-15.42%,"34,015,469",$186.48
+SPLG,SPDR Portfolio S&P 500 ETF,Equity,"$57,188",-9.89%,"11,629,032",$61.92
+EFA,iShares MSCI EAFE ETF,Equity,"$56,830",7.26%,"16,515,684",$81.10
+VYM,Vanguard High Dividend Yield Index ETF,Equity,"$55,100",-4.67%,"1,626,881",$120.84
+VB,Vanguard Small Cap ETF,Equity,"$54,612",-13.50%,"1,117,081",$207.02
+VCIT,Vanguard Intermediate-Term Corporate Bond ETF,Bond,"$51,463",1.72%,"7,494,622",$80.74
+BIL,SPDR Bloomberg 1-3 Month T-Bill ETF,Bond,"$49,072",1.25%,"12,457,749",$91.63
+TLT,iShares 20+ Year Treasury Bond ETF,Bond,"$48,505",1.26%,"41,401,781",$87.53
+IVW,iShares S&P 500 Growth ETF,Equity,"$48,278",-12.78%,"2,509,913",$88.46
+IBIT,iShares Bitcoin Trust ETF,Currency,"$48,116",-9.03%,"46,010,770",$48.26
+XLF,Financial Select Sector SPDR Fund,Equity,"$47,621",-3.13%,"56,244,461",$46.65
+SCHX,Schwab U.S. Large-Cap ETF,Equity,"$47,476",-10.06%,"13,060,538",$20.79
+IAU,iShares Gold Trust,Commodity,"$46,286",26.50%,"7,909,108",$62.63
+QUAL,iShares MSCI USA Quality Factor ETF,Equity,"$45,708",-9.15%,"1,789,483",$161.43
+SGOV,iShares 0-3 Month Treasury Bond ETF,Bond,"$43,765",1.27%,"11,105,227",$100.57
+SCHF,Schwab International Equity ETF,Equity,"$42,689",6.59%,"11,475,609",$19.72
+VT,Vanguard Total World Stock ETF,Equity,"$40,472",-5.06%,"2,311,317",$111.18
+VEU,Vanguard FTSE All-World ex-US Index Fund,Equity,"$39,482",4.48%,"3,222,405",$59.80
+IXUS,iShares Core MSCI Total International Stock ETF,Equity,"$38,869",4.20%,"2,548,795",$68.92
+MUB,iShares National Muni Bond ETF,Bond,"$38,751",-2.01%,"5,753,022",$103.60
+QQQM,Invesco NASDAQ 100 ETF,Equity,"$38,559",-12.97%,"3,023,735",$182.86
+BSV,Vanguard Short-Term Bond ETF,Bond,"$38,077",2.21%,"3,015,909",$78.25
+JEPI,JPMorgan Equity Premium Income Fund,Equity,"$37,113",-4.84%,"4,961,449",$53.76
+IWR,iShares Russell Midcap ETF,Equity,"$36,509",-8.75%,"1,933,630",$80.42
+MBB,iShares MBS ETF,Bond,"$36,342",1.95%,"3,184,721",$92.48
+VV,Vanguard Large Cap ETF,Equity,"$36,058",-9.79%,"548,802",$242.47
+IWB,iShares Russell 1000 ETF,Equity,"$35,860",-10.09%,"1,068,727",$288.89
+XLV,Health Care Select Sector SPDR Fund,Equity,"$35,301",-1.13%,"9,836,305",$135.49
+VTEB,Vanguard Tax-Exempt Bond ETF,Bond,"$35,155",-2.17%,"7,353,243",$48.65
+IEF,iShares 7-10 Year Treasury Bond ETF,Bond,"$34,786",3.36%,"9,797,354",$94.68
+IVE,iShares S&P 500 Value ETF,Equity,"$34,748",-6.71%,"977,762",$177.38
+DIA,SPDR Dow Jones Industrial Average ETF Trust,Equity,"$34,576",-7.68%,"3,316,821",$391.36
+VCSH,Vanguard Short-Term Corporate Bond ETF,Bond,"$34,275",1.86%,"5,043,729",$78.63
+SCHG,Schwab U.S. Large-Cap Growth ETF,Equity,"$33,768",-14.92%,"13,087,726",$23.69
+IUSB,iShares Core Total USD Bond Market ETF,Bond,"$32,802",1.79%,"2,879,125",$45.54
+VNQ,Vanguard Real Estate ETF,Real Estate,"$32,440",-1.52%,"3,822,437",$86.84
+VGIT,Vanguard Intermediate-Term Treasury ETF,Bond,"$31,844",3.20%,"3,932,127",$59.29
+JPST,JPMorgan Ultra-Short Income ETF,Bond,"$30,037",1.36%,"7,526,051",$50.49
+DFAC,Dimensional U.S. Core Equity 2 ETF,Equity,"$29,420",-10.57%,"2,922,316",$30.86
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,Bond,"$29,201",1.05%,"29,369,418",$106.75
+SCHB,Schwab U.S. Broad Market ETF,Equity,"$29,071",-10.54%,"5,733,563",$20.25
+SPYG,SPDR Portfolio S&P 500 Growth ETF,Equity,"$29,039",-12.76%,"3,152,702",$76.58
+DGRO,iShares Core Dividend Growth ETF,Equity,"$28,592",-4.61%,"2,190,525",$58.22
+GOVT,iShares U.S. Treasury Bond ETF,Bond,"$27,124",0.12%,"13,669,016",$22.81
+XLE,Energy Select Sector SPDR Fund,Equity,"$26,473",-4.12%,"19,311,682",$81.50
+VBR,Vanguard Small Cap Value ETF,Equity,"$26,016",-12.08%,"595,391",$173.10
+SHY,iShares 1-3 Year Treasury Bond ETF,Bond,"$24,094",1.93%,"4,503,154",$82.75
+SPYV,SPDR Portfolio S&P 500 Value ETF,Equity,"$23,671",-6.72%,"3,214,689",$47.54
+SPDW,SPDR Portfolio Developed World ex-US ETF,Equity,"$23,637",6.39%,"4,467,603",$36.31
+VONG,Vanguard Russell 1000 Growth ETF,Equity,"$23,293",-14.79%,"1,559,343",$87.90
+USMV,iShares MSCI USA Min Vol Factor ETF,Equity,"$23,171",1.76%,"2,967,762",$90.04
+SHV,iShares Short Treasury Bond ETF,Bond,"$23,024",1.25%,"7,123,616",$110.34
+VGSH,Vanguard Short-Term Treasury ETF,Bond,"$22,919",1.95%,"3,736,954",$58.71
+BIV,Vanguard Intermediate-Term Bond ETF,Bond,"$22,863",2.70%,"1,514,948",$76.00
+JEPQ,JPMorgan NASDAQ Equity Premium Income ETF,Equity,"$22,306",-11.19%,"6,938,783",$48.74
+VGK,Vanguard FTSE Europe ETF,Equity,"$21,692",10.62%,"5,400,963",$69.93
+MGK,Vanguard Mega Cap Growth ETF,Equity,"$21,292",-14.73%,"533,208",$292.51
+IGSB,iShares 1-5 Year Investment Grade Corporate Bond ETF,Bond,"$21,054",1.91%,"3,955,541",$52.12
+COWZ,Pacer US Cash Cows 100 ETF,Equity,"$20,465",-10.72%,"2,762,211",$50.22
+MDY,SPDR S&P Midcap 400 ETF Trust,Equity,"$20,452",-11.69%,"1,265,670",$501.78
+EFV,iShares MSCI EAFE Value ETF,Equity,"$19,835",11.59%,"3,230,462",$58.55
+USHY,iShares Broad USD High Yield Corporate Bond ETF,Bond,"$19,690",0.14%,"15,350,100",$36.22
+JAAA,Janus Henderson AAA CLO ETF,Bond,"$19,645",0.49%,"8,278,959",$50.30
+SMH,VanEck Semiconductor ETF,Equity,"$19,330",-20.50%,"8,450,743",$192.53
+VMBS,Vanguard Mortgage-Backed Securities ETF,Bond,"$19,154",1.94%,"2,063,573",$45.74
+SDY,SPDR S&P Dividend ETF,Equity,"$18,952",-1.42%,"318,308",$129.43
+ACWI,iShares MSCI ACWI ETF,Equity,"$18,933",-5.19%,"3,118,600",$111.40
+XLC,Communication Services Select Sector SPDR Fund,Equity,"$18,866",-6.54%,"5,746,833",$90.21
+IUSV,iShares Core S&P U.S. Value ETF,Equity,"$18,845",-6.99%,"1,042,343",$85.78
+IUSG,iShares Core S&P U.S. Growth ETF,Equity,"$18,841",-12.86%,"718,981",$121.27
+VXF,Vanguard Extended Market ETF,Equity,"$18,659",-14.50%,"558,105",$161.89
+USFR,WisdomTree Floating Rate Treasury Fund,Bond,"$18,620",1.23%,"6,086,740",$50.42
+DVY,iShares Select Dividend ETF,Equity,"$18,475",-3.38%,"506,205",$125.86
+TQQQ,ProShares UltraPro QQQ,Equity,"$18,370",-42.76%,"99,043,461",$45.16
+FBND,Fidelity Total Bond ETF,Bond,"$18,271",1.58%,"2,302,686",$45.09
+XLI,Industrial Select Sector SPDR Fund,Equity,"$18,236",-4.61%,"11,233,482",$125.30
+XLY,Consumer Discretionary Select Sector SPDR Fund,Equity,"$18,003",-17.13%,"4,543,021",$185.40
+IDEV,iShares Core MSCI International Developed Markets ETF,Equity,"$17,897",6.39%,"1,997,922",$68.59
+XLU,Utilities Select Sector SPDR Fund,Equity,"$17,304",3.47%,"11,391,114",$77.77
+IYW,iShares U.S. Technology ETF,Equity,"$16,551",-17.63%,"943,686",$131.33
+IEI,iShares 3-7 Year Treasury Bond ETF,Bond,"$16,547",3.09%,"2,062,110",$118.14
+FBTC,Fidelity Wise Origin Bitcoin Fund,Currency,"$16,338",-9.10%,"4,414,657",$74.16
+GDX,VanEck Gold Miners ETF,Equity,"$16,334",50.16%,"20,964,512",$50.92
+VOE,Vanguard Mid-Cap Value ETF,Equity,"$16,270",-5.84%,"348,373",$151.33
+VBK,Vanguard Small Cap Growth ETF,Equity,"$16,101",-15.41%,"322,100",$236.53
+IWP,iShares Russell Mid-Cap Growth ETF,Equity,"$16,092",-10.52%,"1,250,708",$113.32
+FNDX,Schwab Fundamental U.S. Large Company ETF,Equity,"$16,066",-6.65%,"3,391,687",$22.01
+GBTC,Grayscale Bitcoin Trust ETF,Currency,"$16,036",-9.36%,"2,599,252",$67.09
+OEF,iShares S&P 100 ETF,Equity,"$15,718",-11.87%,"509,633",$254.04
+EEM,iShares MSCI Emerging Markets ETF,Equity,"$15,673",0.24%,"29,321,602",$41.92
+XLP,Consumer Staples Select Sector SPDR Fund,Equity,"$15,386",4.70%,"14,808,214",$81.87
+VHT,Vanguard Health Care ETF,Equity,"$15,168",-2.64%,"273,086",$246.13
+SLV,iShares Silver Trust,Commodity,"$14,958",12.23%,"23,111,559",$29.55
+SCHA,Schwab U.S. Small-Cap ETF,Equity,"$14,903",-15.40%,"3,709,267",$21.83
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,Bond,"$14,701",0.28%,"48,839,449",$77.77
+VTIP,Vanguard Short-Term Inflation-Protected Securities ETF,Bond,"$14,616",3.17%,"2,120,100",$49.86
+GLDM,SPDR Gold MiniShares Trust,Commodity,"$14,615",26.52%,"3,944,013",$65.78
+DYNF,iShares U.S. Equity Factor Rotation Active ETF,Equity,"$14,486",-10.07%,"2,061,164",$45.93
+IGIB,iShares 5-10 Year Investment Grade Corporate Bond ETF,Bond,"$14,410",1.79%,"2,048,848",$51.84
+FNDF,Schwab Fundamental International Equity ETF,Equity,"$14,259",7.83%,"1,490,935",$35.81
+CGDV,Capital Group Dividend Value ETF,Equity,"$14,131",-4.71%,"3,727,297",$33.50
+VOT,Vanguard Mid-Cap Growth ETF,Equity,"$14,040",-7.42%,"286,098",$234.51
+VOOG,Vanguard S&P 500 Growth ETF,Equity,"$13,944",-12.76%,"366,113",$318.87
+EMXC,iShares MSCI Emerging Markets ex China ETF,Equity,"$13,927",-1.95%,"2,781,125",$54.37
+DGRW,WisdomTree US Quality Dividend Growth Fund,Equity,"$13,925",-6.74%,"716,087",$75.23
+TIP,iShares TIPS Bond ETF,Bond,"$13,879",2.98%,"2,315,421",$109.03
+IWV,iShares Russell 3000 ETF,Equity,"$13,668",-10.33%,"242,340",$298.97
+EWJ,iShares MSCI Japan ETF,Equity,"$13,567",1.45%,"5,369,645",$68.07
+PFF,iShares Preferred & Income Securities ETF,Preferred Stock,"$13,456",-4.51%,"4,128,506",$29.53
+MTUM,iShares MSCI USA Momentum Factor ETF,Equity,"$13,451",-5.35%,"1,293,668",$195.35
+AVUV,Avantis U.S. Small Cap Value ETF,Equity,"$13,438",-16.35%,"1,347,327",$80.45
+VCLT,Vanguard Long-Term Corporate Bond ETF,Bond,"$13,197",-0.39%,"2,959,408",$73.51
+MINT,PIMCO Enhanced Short Maturity Active Exchange-Traded Fund,Bond,"$12,936",1.16%,"1,644,825",$100.28
+SCHP,Schwab U.S. TIPS ETF,Bond,"$12,913",2.75%,"3,392,594",$26.43
+DFUS,Dimensional U.S. Equity Market ETF,Equity,"$12,728",-10.54%,"524,451",$56.91
+RDVY,First Trust Rising Dividend Achievers ETF,Equity,"$12,641",-7.20%,"1,180,813",$54.65
+USIG,iShares Broad USD Investment Grade Corporate Bond ETF,Bond,"$12,593",1.21%,"1,494,379",$50.31
+EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,Bond,"$12,443",1.08%,"7,039,260",$88.80
+IWS,iShares Russell Mid-Cap Value ETF,Equity,"$12,372",-8.26%,"570,322",$118.24
+MOAT,VanEck Morningstar Wide Moat ETF,Equity,"$11,920",-12.53%,"1,008,519",$81.11
+ESGU,iShares ESG Aware MSCI USA ETF,Equity,"$11,845",-10.74%,"719,595",$114.68
+EFG,iShares MSCI EAFE Growth ETF,Equity,"$11,789",2.47%,"1,681,160",$99.22
+GSLC,TR Activebeta US Large Cap Equity ETF,Equity,"$11,761",-9.65%,"305,133",$103.76
+STIP,iShares 0-5 Year TIPS Bond ETF,Bond,"$11,707",3.11%,"794,330",$102.84
+SPHQ,Invesco S&P 500® Quality ETF,Equity,"$11,596",-5.73%,"1,491,503",$63.00
+SPTL,SPDR Portfolio Long Term Treasury ETF,Bond,"$11,435",1.53%,"4,349,808",$26.33
+BBJP,JPMorgan BetaBuilders Japan ETF,Equity,"$11,289",1.58%,"1,720,840",$55.76
+SPMD,SPDR Portfolio S&P 400 Mid Cap ETF,Equity,"$11,248",-11.73%,"2,080,403",$48.11
+IWY,iShares Russell Top 200 Growth ETF,Equity,"$11,185",-14.96%,"548,662",$199.85
+SCHV,Schwab U.S. Large-Cap Value ETF,Equity,"$11,163",-3.65%,"1,823,578",$24.99
+NOBL,ProShares S&P 500 Dividend Aristocrats ETF,Equity,"$11,118",-2.43%,"931,441",$96.69
+SCHO,Schwab Short-Term U.S. Treasury ETF,Bond,"$11,001",2.32%,"4,209,378",$24.36
+VFH,Vanguard Financials ETF,Equity,"$10,879",-5.08%,"611,252",$111.60
+VONV,Vanguard Russell 1000 Value ETF,Equity,"$10,875",-4.30%,"952,535",$77.40
+HDV,iShares Core High Dividend ETF,Equity,"$10,784",1.66%,"598,575",$113.37
+FTEC,Fidelity MSCI Information Technology Index ETF,Equity,"$10,717",-18.62%,"462,830",$150.25
+PULS,PGIM Ultra Short Bond ETF,Bond,"$10,709",1.11%,"2,878,963",$49.52
+SCHR,Schwab Intermediate-Term U.S. Treasury ETF,Bond,"$10,534",3.18%,"2,242,097",$24.82
+VTWO,Vanguard Russell 2000 ETF,Equity,"$10,459",-15.37%,"1,949,346",$75.38
+DFUV,Dimensional US Marketwide Value ETF,Equity,"$10,352",-6.50%,"399,303",$38.11
+IWN,iShares Russell 2000 Value ETF,Equity,"$10,272",-14.41%,"1,087,763",$140.07
+IWO,iShares Russell 2000 Growth ETF,Equity,"$10,215",-16.20%,"486,468",$240.86
+SOXX,iShares Semiconductor ETF,Equity,"$10,171",-22.61%,"4,983,075",$166.55
+SCHM,Schwab US Mid-Cap ETF,Equity,"$10,094",-11.34%,"1,606,854",$24.50
+TLH,iShares 10-20 Year Treasury Bond ETF,Bond,"$10,060",2.01%,"1,665,978",$100.59
+AMLP,Alerian MLP ETF,Equity,"$10,027",2.91%,"1,645,895",$48.64
+SPEM,SPDR Portfolio Emerging Markets ETF,Equity,"$9,935",-1.64%,"2,415,371",$37.74
+SPSM,SPDR Portfolio S&P 600 Small Cap ETF,Equity,"$9,914",-16.07%,"2,496,819",$37.56
+CGGR,Capital Group Growth ETF,Equity,"$9,789",-12.64%,"3,437,684",$32.47
+VGLT,Vanguard Long-Term Treasury ETF,Bond,"$9,706",1.56%,"2,646,798",$55.62
+IGV,iShares Expanded Tech-Software Sector ETF,Equity,"$9,657",-13.51%,"6,573,714",$86.59
+DFIV,Dimensional International Value ETF,Equity,"$9,394",9.26%,"930,573",$38.63
+SPIB,SPDR Portfolio Intermediate Term Corporate Bond ETF,Bond,"$9,368",1.78%,"6,668,264",$32.97
+DFAT,Dimensional U.S. Targeted Value ETF,Equity,"$9,175",-14.62%,"509,602",$47.38
+SCZ,iShares MSCI EAFE Small-Cap ETF,Equity,"$9,078",5.83%,"1,372,308",$64.29
+SCHE,Schwab Emerging Markets Equity ETF,Equity,"$9,002",-0.34%,"1,436,711",$26.54
+SUB,iShares Short-Term National Muni Bond ETF,Bond,"$8,982",0.31%,"636,662",$105.20
+DFAI,Dimensional International Core Equity Market ETF,Equity,"$8,978",6.86%,"1,506,605",$31.11
+VYMI,Vanguard International High Dividend Yield ETF,Equity,"$8,967",8.38%,"651,365",$72.99
+ESGV,Vanguard ESG U.S. Stock ETF,Equity,"$8,966",-11.93%,"304,416",$92.13
+SPTM,SPDR Portfolio S&P 1500 Composite Stock Market ETF,Equity,"$8,948",-10.13%,"882,330",$63.99
+IQLT,iShares MSCI Intl Quality Factor ETF,Equity,"$8,849",7.11%,"1,737,300",$39.76
+FLOT,iShares Floating Rate Bond ETF,Bond,"$8,801",0.95%,"2,084,325",$50.76
+ESGD,iShares ESG Aware MSCI EAFE ETF,Equity,"$8,713",6.71%,"517,711",$81.25
+FVD,First Trust Value Line Dividend Index Fund,Equity,"$8,702",-1.03%,"690,870",$42.94
+EZU,iShares MSCI Eurozone ETF,Equity,"$8,699",13.03%,"2,447,068",$53.35
+INDA,iShares MSCI India ETF,Equity,"$8,696",-0.72%,"7,341,854",$52.26
+DFAS,Dimensional U.S. Small Cap ETF,Equity,"$8,554",-14.28%,"674,022",$55.67
+SPAB,SPDR Portfolio Aggregate Bond ETF,Bond,"$8,515",2.12%,"2,647,216",$25.27
+SCHZ,Schwab U.S. Aggregate Bond ETF,Bond,"$8,507",2.05%,"1,727,908",$22.93
+MGV,Vanguard Mega Cap Value ETF,Equity,"$8,378",-3.13%,"345,149",$120.37
+DFIC,Dimensional International Core Equity 2 ETF,Equity,"$8,183",7.95%,"1,103,446",$27.82
+FNDA,Schwab Fundamental U.S. Small Company ETF,Equity,"$8,141",-14.46%,"1,236,462",$25.36
+QYLD,Global X NASDAQ 100 Covered Call ETF,Equity,"$8,046",-9.54%,"8,761,700",$16.01
+FTCS,First Trust Capital Strength ETF,Equity,"$8,023",-1.20%,"330,051",$86.56
+VSS,Vanguard FTSE All-World ex-US Small-Cap ETF,Equity,"$7,983",1.31%,"559,437",$115.98
+IJK,iShares S&P Mid-Cap 400 Growth ETF,Equity,"$7,941",-12.58%,"385,717",$79.38
+SCHI,Schwab 5-10 Year Corporate Bond ETF,Bond,"$7,940",1.80%,"978,846",$22.18
+SPSB,SPDR Portfolio Short Term Corporate Bond ETF,Bond,"$7,913",1.63%,"3,446,738",$29.99
+SPTI,SPDR Portfolio Intermediate Term Treasury ETF,Bond,"$7,901",3.31%,"6,248,006",$28.53
+AVDV,Avantis International Small Cap Value ETF,Equity,"$7,731",7.56%,"626,025",$70.00
+AVEM,Avantis Emerging Markets Equity ETF,Equity,"$7,674",-1.21%,"720,194",$58.08
+CIBR,First Trust NASDAQ Cybersecurity ETF,Equity,"$7,653",-2.65%,"961,894",$61.77
+XLG,Invesco S&P 500® Top 50 ETF,Equity,"$7,652",-13.39%,"3,238,419",$43.19
+SPHY,SPDR Portfolio High Yield Bond ETF,Bond,"$7,568",-0.17%,"6,789,938",$22.99
+SOXL,Direxion Daily Semiconductor Bull 3x Shares,Equity,"$7,542",-66.21%,"158,444,234",$9.20
+DFAX,Dimensional World ex U.S. Core Equity 2 ETF,Equity,"$7,509",4.52%,"813,025",$25.92
+BBCA,JPMorgan BetaBuilders Canada ETF,Equity,"$7,504",2.07%,"385,389",$72.05
+SPLV,Invesco S&P 500® Low Volatility ETF,Equity,"$7,496",3.47%,"2,597,913",$72.12
+VIGI,Vanguard International Dividend Appreciation ETF,Equity,"$7,333",3.69%,"346,746",$82.44
+DBEF,Xtrackers MSCI EAFE Hedged Equity ETF,Equity,"$7,293",-1.21%,"915,902",$40.90
+HEFA,iShares Currency Hedged MSCI EAFE ETF,Equity,"$7,273",-1.04%,"1,949,325",$34.39
+SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,Equity,"$7,236",-12.18%,"2,130,076",$31.34
+VDC,Vanguard Consumer Staples ETF,Equity,"$7,203",4.81%,"167,259",$220.35
+SCHH,Schwab US REIT ETF,Real Estate,"$7,172",-1.36%,"6,913,708",$20.68
+TFLO,iShares Treasury Floating Rate Bond ETF,Bond,"$7,166",1.26%,"2,054,551",$50.58
+AVUS,Avantis U.S. Equity ETF,Equity,"$7,142",-10.49%,"489,552",$86.49
+PAVE,Global X US Infrastructure Development ETF,Equity,"$7,123",-10.39%,"1,477,625",$36.21
+DUHP,Dimensional US High Profitability ETF,Equity,"$7,121",-7.03%,"1,054,398",$31.34
+PRF,Invesco RAFI US 1000 ETF,Equity,"$7,083",-5.96%,"506,737",$37.76
+IJJ,iShares S&P Mid-Cap 400 Value ETF,Equity,"$7,017",-10.86%,"346,637",$110.98
+XLRE,Real Estate Select Sector SPDR Fund,Real Estate,"$6,956",0.09%,"6,873,584",$40.45
+DFAU,Dimensional US Core Equity Market ETF,Equity,"$6,855",-10.69%,"1,022,467",$36.08
+IAGG,iShares Core International Aggregate Bond ETF,Bond,"$6,836",1.22%,"765,217",$50.53
+VPL,Vanguard FTSE Pacific ETF,Equity,"$6,660",2.42%,"744,437",$72.36
+FTSM,First Trust Enhanced Short Maturity ETF,Bond,"$6,619",1.34%,"1,031,946",$59.92
+DFCF,Dimensional Core Fixed Income ETF,Bond,"$6,545",1.60%,"718,860",$41.63
+VPU,Vanguard Utilities ETF,Equity,"$6,542",4.03%,"216,341",$168.78
+VDE,Vanguard Energy ETF,Equity,"$6,520",-5.81%,"512,351",$113.43
+ONEQ,Fidelity Nasdaq Composite Index ETF,Equity,"$6,444",-15.70%,"462,906",$64.04
+JIRE,JPMorgan International Research Enhanced Equity ETF,Equity,"$6,437",8.07%,"473,057",$63.23
+SRLN,SPDR Blackstone Senior Loan ETF,Bond,"$6,428",-1.29%,"7,864,568",$40.40
+SPYD,SPDR Portfolio S&P 500 High Dividend ETF,Equity,"$6,395",-3.83%,"1,041,000",$41.19
+GBIL,ACCESS TREASURY 0-1 YEAR ETF,Bond,"$6,279",1.17%,"837,748",$100.08
+BKLN,Invesco Senior Loan ETF,Bond,"$6,261",-0.72%,"21,358,549",$20.58
+IGF,iShares Global Infrastructure ETF,Equity,"$6,162",6.05%,"842,906",$55.43
+FNDE,Schwab Fundamental Emerging Markets Equity ETF,Equity,"$6,154",0.10%,"912,465",$29.08
+JCPB,JPMorgan Core Plus Bond ETF,Bond,"$6,143",1.78%,"1,021,462",$46.33
+AVLV,Avantis U.S. Large Cap Value ETF,Equity,"$6,124",-9.00%,"855,584",$60.52
+BUFR,FT Vest Laddered Buffer ETF,Equity,"$6,108",-6.66%,"1,341,133",$28.44
+ITA,iShares U.S. Aerospace & Defense ETF,Equity,"$6,104",3.06%,"520,830",$149.55
+BLV,Vanguard Long-Term Bond ETF,Bond,"$6,061",0.68%,"1,005,441",$68.12
+VLUE,iShares MSCI USA Value Factor ETF,Equity,"$5,979",-6.00%,"650,946",$98.65
+GDXJ,VanEck Junior Gold Miners ETF,Equity,"$5,966",49.99%,"4,934,776",$64.12
+JGLO,JPMorgan Global Select Equity ETF Global Select Equity ETF,Equity,"$5,962",-7.66%,"294,917",$55.44
+AVDE,Avantis International Equity ETF,Equity,"$5,948",7.98%,"466,751",$66.27
+SPTS,SPDR Portfolio Short Term Treasury ETF,Bond,"$5,913",1.84%,"2,048,435",$29.25
+MGC,Vanguard Mega Cap ETF,Equity,"$5,830",-10.65%,"143,130",$189.47
+SPMB,SPDR Portfolio Mortgage Backed Bond ETF,Bond,"$5,794",1.94%,"1,071,525",$21.77
+KWEB,KraneShares CSI China Internet ETF,Equity,"$5,783",3.32%,"30,655,125",$30.21
+BOXX,Alpha Architect 1-3 Month Box ETF,Bond,"$5,777",1.33%,"892,606",$111.75
+IOO,iShares Global 100 ETF,Equity,"$5,766",-9.51%,"241,060",$91.19
+SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,Bond,"$5,764",-0.03%,"2,122,733",$41.84
+ICSH,iShares Ultra Short-Term Bond Active ETF,Bond,"$5,748",1.47%,"1,447,735",$50.59
+JNK,SPDR Bloomberg High Yield Bond ETF,Bond,"$5,725",-0.19%,"4,799,281",$93.72
+FDN,First Trust Dow Jones Internet Index Fund,Equity,"$5,719",-12.85%,"530,471",$211.93
+ACWX,iShares MSCI ACWI ex U.S. ETF,Equity,"$5,614",4.77%,"1,686,925",$54.65
+PBUS,Invesco MSCI USA ETF,Equity,"$5,564",-10.02%,"207,138",$52.82
+FPE,First Trust Preferred Securities & Income ETF,Preferred Stock,"$5,555",-1.21%,"1,502,471",$17.24
+IJS,iShares S&P Small-Cap 600 Value ETF,Equity,"$5,547",-18.67%,"405,975",$88.02
+FXI,iShares China Large-Cap ETF,Equity,"$5,501",6.44%,"61,082,824",$32.40
+TBIL,US Treasury 3 Month Bill ETF,Bond,"$5,498",1.22%,"2,288,791",$49.95
+BOND,PIMCO Active Bond Exchange-Traded Fund,Bond,"$5,479",1.57%,"425,683",$90.70
+JQUA,JPMorgan U.S. Quality Factor ETF,Equity,"$5,436",-6.24%,"856,514",$53.55
+IJT,iShares S&P Small-Cap 600 Growth ETF,Equity,"$5,365",-13.61%,"188,414",$116.71
+JMBS,Janus Henderson Mortgage-Backed Securities ETF,Bond,"$5,332",1.89%,"770,049",$44.45
+IEUR,iShares Core MSCI Europe ETF,Equity,"$5,301",10.95%,"1,097,916",$59.89
+VONE,Vanguard Russell 1000 ETF,Equity,"$5,277",-10.20%,"152,965",$238.80
+MCHI,iShares MSCI China ETF,Equity,"$5,253",5.19%,"4,036,692",$49.29
+QLD,ProShares Ultra QQQ,Equity,"$5,207",-28.25%,"4,752,106",$77.64
+SPMO,Invesco S&P 500® Momentum ETF,Equity,"$5,201",-6.93%,"1,341,552",$88.26
+IBB,iShares Biotechnology ETF,Equity,"$5,196",-10.45%,"1,457,959",$118.29
+SGOL,abrdn Physical Gold Shares ETF,Commodity,"$5,152",26.47%,"5,371,137",$31.68
+VUSB,Vanguard Ultra-Short Bond ETF,Bond,"$5,119",1.35%,"1,201,967",$49.69
+FDL,First Trust Morningstar Dividend Leaders Index Fund,Equity,"$5,018",0.32%,"912,119",$40.06
+CGGO,Capital Group Global Growth Equity ETF,Equity,"$5,017",-7.05%,"1,102,536",$27.16
+DFAE,Dimensional Emerging Core Equity Market ETF,Equity,"$5,017",-1.49%,"1,050,267",$24.94
+VCR,Vanguard Consumer Discretionary ETF,Equity,"$5,007",-18.26%,"105,759",$306.15
+RWL,Invesco S&P 500 Revenue ETF,Equity,"$4,971",-3.81%,"348,787",$93.82
+EFAV,iShares MSCI EAFE Min Vol Factor ETF,Equity,"$4,938",13.22%,"595,344",$80.06
+IGM,iShares Expanded Tech Sector ETF,Equity,"$4,928",-16.67%,"492,427",$85.03
+VOOV,Vanguard S&P 500 Value ETF,Equity,"$4,922",-6.80%,"142,868",$171.18
+LMBS,First Trust Low Duration Opportunities ETF,Bond,"$4,893",1.58%,"529,267",$48.93
+ARKK,ARK Innovation ETF,Equity,"$4,869",-20.52%,"12,527,990",$45.12
+BBIN,JPMorgan BetaBuilders International Equity ETF,Equity,"$4,860",7.19%,"328,525",$61.01
+XLB,Materials Select Sector SPDR Fund,Equity,"$4,800",-3.57%,"6,744,951",$80.75
+JGRO,JPMorgan Active Growth ETF,Equity,"$4,722",-13.50%,"558,737",$70.09
+CGUS,Capital Group Core Equity ETF,Equity,"$4,712",-10.10%,"1,403,656",$31.36
+VWOB,Vanguard Emerging Markets Government Bond ETF,Bond,"$4,704",1.29%,"692,749",$62.91
+VIS,Vanguard Industrials ETF,Equity,"$4,701",-6.60%,"128,648",$236.90
+XBI,SPDR S&P Biotech ETF,Equity,"$4,695",-15.69%,"10,545,454",$75.93
+CGCP,Capital Group Core Plus Income ETF,Bond,"$4,651",0.91%,"1,216,868",$22.15
+PYLD,PIMCO Multisector Bond Active Exchange-Traded Fund,Bond,"$4,644",1.06%,"2,251,270",$25.85
+DFEM,Dimensional Emerging Markets Core Equity 2 ETF,Equity,"$4,614",-2.23%,"918,132",$25.55
+GUNR,FlexShares Morningstar Global Upstream Natural Resources Index Fund,Equity,"$4,583",3.36%,"751,371",$37.33
+TMF,Direxion Daily 20+ Year Treasury Bull 3X Shares,Bond,"$4,574",-1.52%,"7,868,544",$39.10
+BBAX,JPMorgan BetaBuilders Developed Asia Pacific-ex Japan ETF,Equity,"$4,570",-0.63%,"292,668",$48.01
+XMHQ,Invesco S&P MidCap Quality ETF,Equity,"$4,554",-10.09%,"561,894",$88.36
+FDVV,Fidelity High Dividend ETF,Equity,"$4,514",-5.99%,"664,802",$46.56
+PPA,Invesco Aerospace & Defense ETF,Equity,"$4,494",0.97%,"223,449",$115.80
+ISTB,iShares Core 1-5 Year USD Bond ETF,Bond,"$4,492",1.97%,"561,114",$48.22
+PDBC,Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF,Commodity,"$4,482",-0.77%,"5,419,373",$12.89
+DLN,WisdomTree U.S. LargeCap Dividend Fund,Equity,"$4,462",-3.53%,"268,521",$74.73
+OMFL,Invesco Russell 1000 Dynamic Multifactor ETF,Equity,"$4,422",-5.20%,"419,365",$51.30
+IDV,iShares International Select Dividend ETF,Equity,"$4,403",14.29%,"757,257",$31.11
+DFSD,Dimensional Short-Duration Fixed Income ETF,Bond,"$4,385",1.90%,"469,140",$47.53
+SSO,ProShares Ultra S&P 500,Equity,"$4,325",-22.19%,"3,650,992",$71.85
+IHI,iShares U.S. Medical Devices ETF,Equity,"$4,309",-2.38%,"851,913",$56.93
+ESGE,iShares ESG Aware MSCI EM ETF,Equity,"$4,276",0.27%,"700,105",$33.48
+FEZ,SPDR EURO STOXX 50 ETF,Equity,"$4,257",11.96%,"2,912,976",$53.77
+BSCQ,Invesco BulletShares 2026 Corporate Bond ETF,Bond,"$4,230",1.49%,"749,217",$19.52
+CALF,Pacer US Small Cap Cash Cows ETF,Equity,"$4,127",-21.77%,"2,596,213",$34.37
+IXN,iShares Global Tech ETF,Equity,"$4,110",-16.31%,"380,049",$70.93
+EEMV,iShares MSCI Emerging Markets Min Vol Factor ETF,Equity,"$4,101",-0.29%,"356,256",$57.82
+BBUS,JPMorgan BetaBuilders U.S. Equity ETF,Equity,"$4,074",-10.00%,"233,621",$95.08
+BBEU,JPMorgan BetaBuilders Europe ETF,Equity,"$4,073",10.96%,"608,075",$61.31
+URTH,iShares MSCI World ETF,Equity,"$4,041",-5.68%,"376,433",$146.67
+VSGX,Vanguard ESG International Stock ETF,Equity,"$4,034",2.84%,"161,849",$57.94
+EWT,iShares MSCI Taiwan ETF,Equity,"$4,027",-13.29%,"3,407,408",$44.88
+DSI,iShares ESG MSCI KLD 400 ETF,Equity,"$4,001",-12.11%,"165,124",$96.65
+SJNK,SPDR Bloomberg Short Term High Yield Bond ETF,Bond,"$3,982",-0.27%,"4,478,511",$24.73
+DIVO,Amplify CWP Enhanced Dividend Income ETF,Equity,"$3,968",-2.42%,"552,843",$39.03
+SCHC,Schwab International Small-Cap Equity ETF,Equity,"$3,966",6.26%,"532,437",$36.48
+FNGA,MicroSectors FANG+ Index 3X Leveraged ETN,Equity,"$3,960",-48.95%,"853,762",$297.94
+FNGS,MicroSectors FANG+ ETN,Equity,"$0",5%,"2",$2
+PGX,Invesco Preferred ETF,Preferred Stock,"$3,938",-3.72%,"7,137,967",$10.94
+VOX,Vanguard Communication Services ETF,Equity,"$3,933",-10.22%,"292,233",$138.78
+DFSV,Dimensional US Small Cap Value ETF,Equity,"$3,916",-16.44%,"1,621,092",$25.65
+BILS,SPDR Bloomberg 3-12 Month T-Bill ETF,Bond,"$3,878",1.26%,"515,892",$99.36
+ARKB,ARK 21Shares Bitcoin ETF,Currency,"$3,863",-9.18%,"1,120,643",$84.71
+TSLL,Direxion Daily TSLA Bull 2X Shares,Equity,"$3,863",-71.93%,"154,712,047",$7.67
+TCAF,T. Rowe Price Capital Appreciation Equity ETF,Equity,"$3,854",-8.36%,"1,031,217",$30.49
+FELC,Fidelity Enhanced Large Cap Core ETF,Equity,"$3,828",-10.55%,"1,534,594",$29.37
+EAGG,iShares ESG Aware US Aggregate Bond ETF,Bond,"$3,775",2.01%,"412,113",$46.92
+IXJ,iShares Global Healthcare ETF,Equity,"$3,704",-0.66%,"193,156",$85.40
+FIXD,First Trust TCW Opportunistic Fixed Income ETF,Bond,"$3,697",2.00%,"777,213",$43.37
+REET,iShares Global REIT ETF,Real Estate,"$3,693",-0.67%,"777,821",$23.69
+SCHK,Schwab 1000 Index ETF,Equity,"$3,693",-10.24%,"849,052",$25.34
+GSIE,Goldman Sachs ActiveBeta International Equity ETF,Equity,"$3,665",7.31%,"535,951",$35.65
+JHMM,John Hancock Multifactor Mid Cap ETF,Equity,"$3,594",-9.89%,"271,240",$53.82
+BSCP,Invesco BulletShares 2025 Corporate Bond ETF,Bond,"$3,586",1.44%,"999,521",$20.74
+KNG,FT Vest S&P 500 Dividend Aristocrats Target Income ETF,Equity,"$3,533",-2.28%,"488,159",$48.03
+DIHP,Dimensional International High Profitability ETF,Equity,"$3,510",7.08%,"569,892",$26.94
+SPXL,Direxion Daily S&P 500 Bull 3X Shares,Equity,"$3,501",-34.20%,"5,431,281",$110.64
+TOTL,SPDR DoubleLine Total Return Tactical ETF,Bond,"$3,497",2.17%,"397,983",$39.74
+BTC,Grayscale Bitcoin Mini Trust ETF,Currency,"$3,471",-10.08%,"1,167,437",$37.65
+CWB,SPDR Bloomberg Convertible Securities ETF,Bond,"$3,470",-3.76%,"702,703",$74.63
+CMF,iShares California Muni Bond ETF,Bond,"$3,469",-2.92%,"595,946",$55.20
+FSEC,Fidelity Investment Grade Securitized ETF,Bond,"$3,451",2.10%,"883,756",$43.07
+JMST,JPMorgan Ultra-Short Municipal Income ETF,Bond,"$3,447",0.58%,"597,881",$50.63
+IYF,iShares U.S. Financials ETF,Equity,"$3,445",-4.34%,"454,011",$105.43
+NVDL,GraniteShares 2x Long NVDA Daily ETF,Equity,"$3,411",-53.91%,"28,502,463",$30.60
+GVI,iShares Intermediate Government/Credit Bond ETF,Bond,"$3,410",2.31%,"154,357",$105.73
+EDV,Vanguard Extended Duration Treasury ETF,Bond,"$3,396",-0.98%,"1,228,651",$66.31
+SHM,SPDR Nuveen Bloomberg Short Term Municipal Bond ETF,Bond,"$3,380",0.12%,"494,614",$47.15
+HYLB,Xtrackers USD High Yield Corporate Bond ETF,Bond,"$3,354",0.29%,"2,501,035",$35.64
+FBCG,Fidelity Blue Chip Growth ETF,Equity,"$3,346",-19.24%,"708,479",$37.36
+DON,WisdomTree U.S. MidCap Dividend Fund,Equity,"$3,339",-8.82%,"184,211",$46.24
+BSCR,Invesco BulletShares 2027 Corporate Bond ETF,Bond,"$3,314",1.70%,"1,273,144",$19.61
+ACWV,iShares MSCI Global Min Vol Factor ETF,Equity,"$3,307",4.72%,"311,163",$114.35
+SLYV,SPDR S&P 600 Small Cap Value ETF,Equity,"$3,289",-18.63%,"364,879",$70.68
+JPIE,JPMorgan Income ETF,Bond,"$3,287",1.62%,"702,103",$45.71
+VFLO,VictoryShares Free Cash Flow ETF,Equity,"$3,272",-6.34%,"1,543,794",$31.78
+FV,First Trust Dorsey Wright Focus 5 ETF,Equity,"$3,259",-12.03%,"156,289",$51.90
+SPHD,Invesco S&P 500® High Dividend Low Volatility ETF,Equity,"$3,254",-1.65%,"849,414",$47.12
+XMMO,Invesco S&P MidCap Momentum ETF,Equity,"$3,236",-11.00%,"483,643",$109.65
+KBWB,Invesco KBW Bank ETF,Equity,"$3,230",-12.58%,"2,456,435",$56.76
+UCON,First Trust TCW Unconstrained Plus Bond ETF,Bond,"$3,224",1.01%,"1,088,286",$24.62
+IBDR,iShares iBonds Dec 2026 Term Corporate ETF,Bond,"$3,224",1.38%,"611,371",$24.15
+HYD,VanEck High Yield Muni ETF,Bond,"$3,221",-2.80%,"953,495",$49.92
+CGXU,Capital Group International Focus Equity ETF,Equity,"$3,201",-5.15%,"864,679",$23.40
+NEAR,iShares Short Duration Bond Active ETF,Bond,"$3,179",1.53%,"458,056",$50.70
+FNDC,Schwab Fundamental International Small Equity ETF,Equity,"$3,173",7.47%,"200,435",$36.69
+BITB,Bitwise Bitcoin ETF Trust,Currency,"$3,172",-9.09%,"1,491,429",$46.23
+DFLV,Dimensional US Large Cap Value ETF,Equity,"$3,163",-5.58%,"706,294",$28.24
+EWZ,iShares MSCI Brazil ETF,Equity,"$3,156",12.04%,"24,986,418",$25.22
+VNQI,Vanguard Global ex-U.S. Real Estate ETF,Real Estate,"$3,155",6.27%,"268,535",$42.04
+IBDQ,iShares iBonds Dec 2025 Term Corporate ETF,Bond,"$3,141",1.28%,"483,117",$25.12
+SUSA,iShares MSCI USA ESG Select ETF,Equity,"$3,094",-10.40%,"133,433",$108.68
+EMLP,First Trust North American Energy Infrastructure Fund,Equity,"$3,088",2.38%,"398,786",$36.21
+PTLC,Pacer Trendpilot US Large Cap ETF,Multi-Asset,"$3,076",-9.09%,"422,779",$48.58
+EWU,iShares MSCI United Kingdom ETF,Equity,"$3,068",9.06%,"1,865,743",$36.97
+DXJ,WisdomTree Japan Hedged Equity Fund,Equity,"$3,068",-6.82%,"542,930",$102.77
+TFI,SPDR Nuveen Bloomberg Municipal Bond ETF,Bond,"$3,066",-2.29%,"1,647,625",$44.23
+JAVA,JPMorgan Active Value ETF,Equity,"$3,037",-5.63%,"439,341",$59.58
+SPYI,NEOS S&P 500 High Income ETF,Equity,"$3,013",-7.84%,"1,187,579",$45.44
+AIRR,First Trust RBA American Industrial Renaissance ETF,Equity,"$3,012",-12.67%,"668,443",$67.21
+EUFN,iShares MSCI Europe Financials ETF,Equity,"$2,983",22.49%,"1,910,527",$28.54
+EPI,WisdomTree India Earnings Fund,Equity,"$2,972",-2.72%,"1,090,337",$44.04
+XYLD,Global X S&P 500 Covered Call ETF,Equity,"$2,969",-7.29%,"854,287",$37.86
+IBDS,iShares iBonds Dec 2027 Term Corporate ETF,Bond,"$2,965",1.69%,"601,827",$24.10
+IYH,iShares U.S. Healthcare ETF,Equity,"$2,916",-3.08%,"350,117",$56.33
+UPRO,ProShares UltraPro S&P500,Equity,"$2,902",-34.10%,"6,788,273",$58.28
+IYR,iShares U.S. Real Estate ETF,Real Estate,"$2,890",-0.85%,"5,428,713",$91.93
+PZA,Invesco National AMT-Free Municipal Bond ETF,Bond,"$2,872",-3.88%,"1,778,556",$22.51
+SLYG,SPDR S&P 600 Small Cap Growth ETF,Equity,"$2,865",-13.57%,"247,052",$77.89
+KRE,SPDR S&P Regional Banking ETF,Equity,"$2,862",-14.23%,"14,863,276",$51.42
+FELG,Fidelity Enhanced Large Cap Growth ETF,Equity,"$2,860",-15.71%,"548,670",$29.77
+XT,iShares Exponential Technologies ETF,Equity,"$2,845",-8.87%,"193,817",$54.37
+RSPT,Invesco S&P 500 Equal Weight Technology ETF,Equity,"$2,842",-15.00%,"494,868",$31.77
+SKYY,First Trust Cloud Computing ETF,Equity,"$2,838",-19.95%,"259,256",$95.35
+HELO,JPMorgan Hedged Equity Laddered Overlay ETF,Equity,"$2,807",-6.38%,"482,133",$58.00
+VTHR,Vanguard Russell 3000 ETF,Equity,"$2,799",-10.28%,"63,149",$232.34
+ANGL,VanEck Fallen Angel High Yield Bond ETF,Bond,"$2,766",-0.88%,"1,381,548",$27.98
+IBDT,iShares iBonds Dec 2028 Term Corporate ETF,Bond,"$2,758",2.19%,"520,462",$25.16
+GSY,Invesco Ultra Short Duration ETF,Bond,"$2,752",0.88%,"707,414",$50.16
+EWY,iShares MSCI South Korea ETF,Equity,"$2,745",6.72%,"3,626,681",$54.31
+FLRN,SPDR Bloomberg Investment Grade Floating Rate ETF,Bond,"$2,737",1.09%,"1,070,430",$30.67
+USRT,iShares Core U.S. REIT ETF,Real Estate,"$2,737",-3.60%,"346,448",$55.01
+SPGP,Invesco S&P 500 GARP ETF,Equity,"$2,729",-11.29%,"262,259",$92.61
+DEM,WisdomTree Emerging Markets High Dividend Fund,Equity,"$2,713",1.68%,"301,651",$40.77
+EMLC,VanEck J. P. Morgan EM Local Currency Bond ETF,Bond,"$2,685",6.06%,"2,526,084",$24.14
+MSTY,YieldMax MSTR Option Income Strategy ETF,Equity,"$2,677",8.01%,"6,291,573",$21.23
+MSLC,Morgan Stanley Pathway Large Cap Equity ETF,Equity,"$2,670",-9.16%,"148,865",$43.63
+EWC,iShares MSCI Canada ETF,Equity,"$2,660",1.99%,"3,340,789",$41.10
+AIQ,Global X Artificial Intelligence & Technology ETF,Equity,"$2,658",-12.27%,"864,735",$33.90
+DFIS,Dimensional International Small Cap ETF,Equity,"$2,640",6.46%,"418,089",$26.11
+DISV,Dimensional International Small Cap Value ETF,Equity,"$2,627",10.01%,"364,252",$29.20
+JMUB,JPMorgan Municipal ETF,Bond,"$2,599",-1.04%,"525,954",$49.22
+XAR,SPDR S&P Aerospace & Defense ETF,Equity,"$2,597",-1.67%,"133,208",$162.86
+SQQQ,ProShares UltraPro Short QQQ,Equity,"$2,576",25.88%,"89,549,500",$38.64
+GNR,SPDR S&P Global Natural Resources ETF,Equity,"$2,572",1.73%,"205,224",$50.62
+URA,Global X Uranium ETF,Equity,"$2,567",-14.60%,"3,225,586",$22.87
+MLPX,Global X MLP & Energy Infrastructure ETF,Equity,"$2,557",1.14%,"630,343",$60.58
+HYMB,SPDR Nuveen Bloomberg High Yield Municipal Bond ETF,Bond,"$2,556",-3.34%,"1,334,136",$24.46
+IHDG,WisdomTree International Hedged Quality Dividend Growth Fund,Equity,"$2,550",-5.57%,"468,360",$41.05
+TBLL,Invesco Short Term Treasury ETF,Bond,"$2,548",1.24%,"302,771",$105.77
+VNLA,Janus Henderson Short Duration Income ETF,Bond,"$2,543",1.17%,"397,690",$48.92
+FLCB,Franklin U.S. Core Bond ETF,Bond,"$2,529",1.70%,"413,795",$21.23
+VIOO,Vanguard S&P Small-Cap 600 ETF,Equity,"$2,521",-16.28%,"219,011",$88.78
+IBDU,iShares iBonds Dec 2029 Term Corporate ETF,Bond,"$2,518",2.03%,"547,946",$22.99
+BSCS,Invesco BulletShares 2028 Corporate Bond ETF,Bond,"$2,517",2.25%,"574,738",$20.36
+FHLC,Fidelity MSCI Health Care Index ETF,Equity,"$2,508",-2.55%,"165,140",$63.45
+USCA,Xtrackers MSCI USA Climate Action Equity ETF,Equity,"$2,504",-10.05%,"19,710",$33.25
+TDIV,First Trust NASDAQ Technology Dividend Index Fund,Equity,"$2,495",-12.07%,"148,286",$68.75
+IMTM,iShares MSCI Intl Momentum Factor ETF,Equity,"$2,462",7.81%,"411,444",$40.32
+BKLC,BNY Mellon US Large Cap Core Equity ETF,Equity,"$2,461",-10.04%,"231,010",$100.50
+IGLB,iShares 10+ Year Investment Grade Corporate Bond ETF,Bond,"$2,447",-0.35%,"866,703",$48.60
+USMC,Principal U.S. Mega-Cap ETF,Equity,"$2,435",-10.37%,"148,657",$53.68
+IAUM,iShares Gold Trust Micro ETF of Benef Interest,Commodity,"$2,434",26.60%,"1,974,016",$33.13
+IWX,iShares Russell Top 200 Value ETF,Equity,"$2,421",-2.18%,"491,724",$77.04
+PVAL,Putnam Focused Large Cap Value ETF,Equity,"$2,418",-4.35%,"744,378",$35.41
+NUGO,Nuveen Growth Opportunities ETF,Equity,"$2,376",-16.89%,"68,979",$28.76
+QTEC,First Trust NASDAQ-100 Technology Sector Index Fund,Equity,"$2,374",-14.36%,"347,663",$161.23
+FTGC,First Trust Global Tactical Commodity Strategy Fund,Commodity,"$2,373",2.82%,"600,781",$24.47
+UITB,VictoryShares Core Intermediate Bond ETF,Bond,"$2,364",2.08%,"193,571",$46.40
+ICVT,iShares Convertible Bond ETF,Bond,"$2,358",-3.40%,"315,194",$81.67
+TDTT,FlexShares iBoxx 3-Year Target Duration TIPS Index Fund,Bond,"$2,348",3.39%,"490,068",$24.15
+EAGL,Eagle Capital Select Equity ETF,Equity,"$2,346",-6.50%,"201,332",$26.04
+IMCG,iShares Morningstar Mid-Cap Growth ETF,Equity,"$2,337",-9.56%,"199,014",$68.20
+FTSL,First Trust Senior Loan Fund,Bond,"$2,336",-0.13%,"343,925",$45.40
+VAW,Vanguard Materials ETF,Equity,"$2,324",-4.79%,"78,071",$178.07
+GSUS,Goldman Sachs MarketBeta U.S. Equity ETF,Equity,"$2,323",-10.12%,"90,052",$72.44
+FLTR,VanEck IG Floating Rate ETF,Bond,"$2,319",0.68%,"1,485,894",$25.32
+IVOO,Vanguard S&P Mid-Cap 400 ETF,Equity,"$2,319",-11.74%,"174,048",$92.80
+AAXJ,iShares MSCI All Country Asia ex-Japan ETF,Equity,"$2,313",-2.18%,"594,506",$70.61
+NFRA,FlexShares STOXX Global Broad Infrastructure Index Fund,Equity,"$2,304",7.99%,"150,890",$58.41
+ITB,iShares U.S. Home Construction ETF,Equity,"$2,303",-13.26%,"2,838,937",$89.07
+DFGR,Dimensional Global Real Estate ETF,Equity,"$2,278",1.24%,"391,551",$25.81
+LVHI,Franklin International Low Volatility High Dividend Index ETF,Equity,"$2,268",1.61%,"785,048",$30.89
+RECS,Columbia Research Enhanced Core ETF,Equity,"$2,261",-10.31%,"811,622",$31.05
+PFFD,Global X U.S. Preferred ETF,Preferred Stock,"$2,245",-4.27%,"1,053,024",$18.39
+AOR,iShares Core 60/40 Balanced Allocation ETF,Multi-Asset,"$2,245",-2.41%,"278,875",$55.70
+PRFZ,Invesco RAFI US 1500 Small-Mid ETF,Equity,"$2,245",-15.12%,"318,524",$35.28
+FMDE,Fidelity Enhanced Mid Cap ETF,Equity,"$2,240",-8.79%,"508,183",$29.86
+FENI,Fidelity Enhanced International ETF,Equity,"$2,224",8.21%,"439,686",$29.58
+SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,Bond,"$2,202",1.73%,"297,513",$50.10
+COPX,Global X Copper Miners ETF,Equity,"$2,178",-4.79%,"1,319,179",$36.35
+BOTZ,Global X Robotics & Artificial Intelligence ETF,Equity,"$2,173",-16.68%,"717,944",$26.62
+IBTF,iShares iBonds Dec 2025 Term Treasury ETF,Bond,"$2,170",1.17%,"672,013",$23.35
+IFRA,iShares U.S. Infrastructure ETF,Equity,"$2,169",-4.16%,"721,629",$44.11
+LRGF,iShares US Equity Factor ETF,Equity,"$2,144",-9.27%,"171,675",$54.60
+MDYV,SPDR S&P 400 Mid Cap Value ETF,Equity,"$2,140",-10.67%,"176,203",$71.42
+ILCG,iShares Morningstar Growth ETF,Equity,"$2,139",-13.99%,"133,254",$76.97
+BITO,ProShares Bitcoin ETF,Currency,"$2,124",-10.54%,"8,486,814",$18.51
+GCOW,Pacer Global Cash Cows Dividend ETF,Equity,"$2,104",5.90%,"355,121",$35.67
+AOA,iShares Core 80/20 Aggressive Allocation ETF,Multi-Asset,"$2,084",-3.41%,"113,125",$73.79
+FELV,Fidelity Enhanced Large Cap Value ETF,Equity,"$2,066",-5.22%,"235,571",$28.75
+IYY,iShares Dow Jones U.S. ETF,Equity,"$2,066",-10.19%,"51,673",$128.18
+USCL,iShares Climate Conscious & Transition MSCI USA ETF,Equity,"$2,033",-9.97%,"9,810",$63.17
+MDYG,SPDR S&P 400 Mid Cap Growth ETF,Equity,"$2,015",-12.64%,"245,597",$75.77
+FNCL,Fidelity MSCI Financials Index ETF,Equity,"$2,011",-5.09%,"168,775",$64.91
+HTRB,Hartford Total Return Bond ETF,Bond,"$1,978",1.45%,"320,395",$33.46
+VRP,Invesco Variable Rate Preferred ETF,Multi-Asset,"$1,975",0.29%,"645,730",$23.94
+FAS,Direxion Daily Financial Bull 3X Shares,Equity,"$1,973",-18.24%,"878,863",$123.10
+PHO,Invesco Water Resources ETF,Equity,"$1,956",-5.26%,"73,843",$62.24
+BITX,2x Bitcoin Strategy ETF,Currency,"$1,953",-27.90%,"8,363,756",$36.71
+FLJP,Franklin FTSE Japan ETF,Equity,"$1,949",2.27%,"846,629",$29.26
+PABU,iShares Paris-Aligned Climate MSCI USA ETF,Equity,"$1,948",-13.01%,"145,325",$56.48
+IEV,iShares Europe ETF,Equity,"$1,948",11.01%,"470,202",$57.79
+GRID,First Trust Nasdaq Clean Edge Smart GRID Infrastructure Index,Equity,"$1,939",-5.68%,"182,567",$112.43
+IPAC,iShares Core MSCI Pacific ETF,Equity,"$1,937",1.47%,"119,010",$62.00
+IVLU,iShares MSCI Intl Value Factor ETF,Equity,"$1,932",9.77%,"496,108",$29.76
+BSCT,Invesco BulletShares 2029 Corporate Bond ETF,Bond,"$1,923",2.04%,"564,079",$18.51
+FMB,First Trust Managed Municipal ETF,Bond,"$1,920",-1.96%,"226,321",$49.60
+EWG,iShares MSCI Germany ETF,Equity,"$1,910",17.54%,"3,146,933",$37.40
+BKAG,BNY Mellon Core Bond ETF,Bond,"$1,886",2.00%,"205,092",$41.63
+FXO,First Trust Financials AlphaDEX Fund,Equity,"$1,886",-9.43%,"294,427",$48.80
+SPYX,SPDR S&P 500 Fossil Fuel Reserves Free ETF,Equity,"$1,884",-10.07%,"120,537",$43.19
+ITM,VanEck Intermediate Muni ETF,Bond,"$1,880",-1.94%,"509,533",$44.88
+KOMP,SPDR S&P Kensho New Economies Composite ETF,Equity,"$1,880",-13.63%,"129,860",$43.80
+HACK,Amplify Cybersecurity ETF,Equity,"$1,879",-5.88%,"175,559",$70.11
+MUNI,PIMCO Intermediate Municipal Bond Active Exchange-Traded Fund,Bond,"$1,878",-1.04%,"303,760",$50.79
+FTLS,First Trust Long/Short Equity ETF,Alternatives,"$1,870",-5.60%,"181,411",$61.98
+ICF,iShares Select U.S. REIT ETF,Real Estate,"$1,867",-0.65%,"128,060",$59.63
+CGBL,Capital Group Core Balanced ETF,Multi-Asset,"$1,867",-3.94%,"672,313",$29.92
+CGDG,Capital Group Dividend Growers ETF,Equity,"$1,860",2.25%,"376,689",$30.18
+ETHE,Grayscale Ethereum Trust ETF,Currency,"$1,857",-53.07%,"4,896,005",$13.15
+HDEF,Xtrackers MSCI EAFE High Dividend Yield Equity ETF,Equity,"$1,856",13.32%,"254,057",$27.35
+GTO,Invesco Total Return Bond ETF,Bond,"$1,855",0.79%,"218,049",$46.24
+EBND,SPDR Bloomberg Emerging Markets Local Bond ETF,Bond,"$1,853",6.02%,"301,189",$20.42
+ETHA,iShares Ethereum Trust ETF,Currency,"$1,847",-52.63%,"11,085,432",$11.98
+IBTG,iShares iBonds Dec 2026 Term Treasury ETF,Bond,"$1,841",1.46%,"446,125",$22.92
+FLIN,Franklin FTSE India ETF,Equity,"$1,830",-1.29%,"403,941",$37.41
+TECL,Direxion Daily Technology Bull 3X Shares,Equity,"$1,827",-51.99%,"2,001,468",$43.34
+PXF,Invesco RAFI Developed Markets ex-U.S. ETF,Equity,"$1,823",8.48%,"132,811",$51.51
+EPP,iShares MSCI Pacific ex Japan ETF,Equity,"$1,789",-0.34%,"472,310",$43.66
+XOP,SPDR S&P Oil & Gas Exploration & Production ETF,Equity,"$1,786",-14.95%,"3,571,148",$111.93
+SH,ProShares Short S&P500,Equity,"$1,783",11.10%,"7,949,561",$46.75
+RWR,SPDR Dow Jones REIT ETF,Real Estate,"$1,776",-3.87%,"244,673",$94.45
+DSTL,Distillate US Fundamental Stability & Value ETF,Equity,"$1,770",-7.25%,"165,095",$50.75
+FALN,iShares Fallen Angels USD Bond ETF,Bond,"$1,755",-1.10%,"1,402,081",$26.01
+MLPA,Global X MLP ETF,Equity,"$1,754",2.75%,"198,294",$49.89
+MAGS,Roundhill Magnificent Seven ETF,Equity,"$1,753",-21.94%,"2,918,602",$42.48
+SECT,Main Sector Rotation ETF,Equity,"$1,727",-12.65%,"141,622",$48.01
+ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,Equity,"$1,724",-3.55%,"11,789,527",$25.53
+EWW,iShares MSCI Mexico ETF,Equity,"$1,720",17.32%,"3,081,849",$54.93
+SMTH,ALPS | Smith Core Plus Bond ETF,Bond,"$1,716",1.30%,"394,513",$25.56
+IBDV,iShares iBonds Dec 2030 Term Corporate ETF,Bond,"$1,710",2.20%,"467,767",$21.58
+PFXF,VanEck Preferred Securities ex Financials ETF,Preferred Stock,"$1,705",-6.21%,"661,865",$15.95
+RDVI,FT Vest Rising Dividend Achievers Target Income ETF,Equity,"$1,704",-6.48%,"621,770",$22.19
+DES,WisdomTree U.S. SmallCap Dividend Fund,Equity,"$1,701",-13.61%,"141,508",$29.55
+FUTY,Fidelity MSCI Utilities Index ETF,Equity,"$1,679",3.92%,"184,365",$50.31
+CWI,SPDR MSCI ACWI ex-US ETF,Equity,"$1,675",4.15%,"295,338",$29.10
+ACIO,Aptus Collared Investment Opportunity ETF,Multi-Asset,"$1,663",-7.84%,"190,590",$37.04
+REGL,ProShares S&P MidCap 400 Dividend Aristocrats ETF,Equity,"$1,661",-3.12%,"83,262",$77.65
+OUNZ,VanEck Merk Gold ETF,Commodity,"$1,660",26.52%,"1,143,986",$32.01
+SPBO,SPDR Portfolio Corporate Bond ETF,Bond,"$1,656",1.02%,"1,317,859",$28.56
+QQEW,First Trust Nasdaq-100 Equal Weighted Index Fund,Equity,"$1,647",-8.20%,"104,379",$114.57
+GUSA,Goldman Sachs MarketBeta U.S. 1000 Equity ETF,Equity,"$1,642",-10.14%,583,$45.52
+TIPX,SPDR Bloomberg 1-10 Year TIPS ETF,Bond,"$1,640",3.30%,"515,368",$19.00
+QLTA,iShares Aaa - A Rated Corporate Bond ETF,Bond,"$1,633",1.39%,"352,038",$46.93
+FIW,First Trust Water ETF,Equity,"$1,630",-4.74%,"48,663",$97.10
+HYLS,First Trust Tactical High Yield ETF,Bond,"$1,617",0.38%,"305,679",$40.85
+QDF,FlexShares Quality Dividend Index Fund,Equity,"$1,615",-9.60%,"38,148",$63.60
+ESML,iShares ESG Aware MSCI USA Small-Cap ETF,Equity,"$1,611",-14.60%,"180,781",$35.82
+HEDJ,WisdomTree Europe Hedged Equity Fund,Equity,"$1,610",3.25%,"231,727",$45.14
+SIVR,abrdn Physical Silver Shares ETF,Commodity,"$1,609",12.37%,"735,189",$30.98
+FXR,First Trust Industrials/Producer Durables AlphaDEX Fund,Equity,"$1,607",-13.46%,"128,262",$64.64
+BBMC,JPMorgan BetaBuilders U.S. Mid Cap Equity ETF,Equity,"$1,607",-11.81%,"109,165",$84.69
+FDIS,Fidelity MSCI Consumer Discretionary Index ETF,Equity,"$1,606",-18.19%,"131,624",$79.54
+XSOE,WisdomTree Emerging Markets ex-State-Owned Enterprises Fund,Equity,"$1,595",-2.40%,"238,898",$29.75
+QLTY,GMO US Quality ETF Shs,Equity,"$1,588",-7.84%,"271,941",$29.42
+IXC,iShares Global Energy ETF,Equity,"$1,586",-2.12%,"617,554",$37.37
+JMEE,JPMorgan Small & Mid Cap Enhanced Equity ETF,Equity,"$1,585",-13.43%,"284,338",$52.35
+SIL,Global X Silver Miners ETF,Equity,"$1,563",30.78%,"1,127,025",$41.55
+HYDB,iShares High Yield Systematic Bond ETF,Bond,"$1,562",-0.95%,"426,825",$45.78
+NULV,Nuveen ESG Large-Cap Value ETF,Equity,"$1,554",-3.28%,"150,314",$38.08
+SNPE,Xtrackers S&P 500 Scored & Screened ETF,Equity,"$1,553",-10.87%,"352,319",$47.36
+FESM,Fidelity Enhanced Small Cap ETF,Equity,"$1,549",-14.58%,"343,346",$27.49
+SHLD,Global X Defense Tech ETF,Equity,"$1,547",35.23%,"630,133",$50.59
+SMLF,iShares U.S. Small‑Cap Equity Factor ETF,Equity,"$1,535",-13.69%,"282,121",$58.11
+APUE,ActivePassive U.S. Equity ETF,Equity,"$1,533",-10.40%,"155,394",$32.04
+IYG,iShares U.S. Financial Services ETF,Equity,"$1,531",-5.19%,"130,627",$73.57
+RING,iShares MSCI Global Gold Miners ETF,Equity,"$1,527",51.65%,"362,224",$42.63
+BSCU,Invesco BulletShares 2030 Corporate Bond ETF,Bond,"$1,511",2.21%,"524,698",$16.55
+KLMN,Invesco MSCI North America Climate ETF,Equity,"$1,509",-9.72%,"1,300,602",$21.65
+DFNM,Dimensional National Municipal Bond ETF,Bond,"$1,508",-0.88%,"143,548",$47.08
+ZROZ,PIMCO 25+ Year Zero Coupon US Treasury Index Exchange-Traded Fund,Bond,"$1,507",-1.98%,"452,843",$66.53
+TILT,FlexShares Morningstar US Market Factor Tilt Index Fund,Equity,"$1,507",-10.62%,"11,117",$192.60
+IYJ,iShares U.S. Industrials ETF,Equity,"$1,494",-7.79%,"74,776",$122.86
+IYK,iShares U.S. Consumer Staples ETF,Equity,"$1,493",9.38%,"287,206",$71.45
+FPEI,First Trust Institutional Preferred Securities & Income ETF,Multi-Asset,"$1,491",-1.05%,"484,217",$18.25
+IBTH,iShares iBonds Dec 2027 Term Treasury ETF,Bond,"$1,486",2.18%,"441,884",$22.46
+EFIV,SPDR S&P 500 ESG ETF,Equity,"$1,486",-10.87%,"76,619",$50.19
+AAAU,Goldman Sachs Physical Gold ETF,Commodity,"$1,480",26.55%,"1,735,427",$32.82
+XME,SPDR S&P Metals & Mining ETF,Equity,"$1,462",-3.45%,"1,691,838",$54.73
+IWL,iShares Russell Top 200 ETF,Equity,"$1,462",-10.35%,"115,938",$129.41
+JBBB,Janus Henderson B-BBB CLO ETF,Bond,"$1,460",-1.44%,"1,164,811",$47.60
+DGS,WisdomTree Emerging Markets SmallCap Dividend Fund,Equity,"$1,458",-2.86%,"218,824",$47.45
+IBDW,iShares iBonds Dec 2031 Term Corporate ETF,Bond,"$1,445",2.25%,"277,417",$20.56
+TNA,Direxion Daily Small Cap Bull 3X Shares,Equity,"$1,443",-46.07%,"15,695,546",$22.52
+AOM,iShares Core 40/60 Moderate Allocation ETF,Multi-Asset,"$1,439",-0.74%,"153,624",$42.88
+BCI,abrdn Bloomberg All Commodity Strategy K-1 Free ETF,Commodity,"$1,437",4.96%,"646,760",$20.73
+EWA,iShares MSCI-Australia ETF,Equity,"$1,432",-1.05%,"2,237,719",$23.61
+KBE,SPDR S&P Bank ETF,Equity,"$1,428",-12.69%,"2,589,159",$48.09
+XHB,SPDR S&P Homebuilders ETF,Equity,"$1,421",-12.78%,"2,305,606",$90.85
+FXU,First Trust Utilities AlphaDEX Fund,Equity,"$1,416",7.94%,"1,013,852",$40.62
+TSPA,T. Rowe Price U.S. Equity Research ETF,Equity,"$1,410",-10.39%,"339,770",$33.13
+FLQM,Franklin U.S. Mid Cap Multifactor Index ETF,Equity,"$1,409",-7.53%,"240,122",$50.12
+IDU,iShares U.S. Utilities ETF,Equity,"$1,395",4.76%,"157,673",$100.23
+INTF,iShares International Equity Factor ETF,Equity,"$1,391",7.31%,"214,252",$30.82
+GLTR,abrdn Physical Precious Metals Basket Shares ETF,Commodity,"$1,388",21.03%,"50,922",$132.89
+DCOR,Dimensional US Core Equity 1 ETF,Equity,"$1,388",-10.04%,"168,835",$57.59
+QUS,SPDR MSCI USA StrategicFactors ETF,Equity,"$1,384",-4.00%,"26,798",$148.66
+PFFA,Virtus InfraCap U.S. Preferred Stock ETF,Preferred Stock,"$1,379",-5.89%,"601,733",$20.14
+BIZD,VanEck BDC Income ETF,Equity,"$1,359",-7.07%,"1,245,492",$15.06
+HYS,PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund,Bond,"$1,347",0.03%,"186,121",$92.07
+BALT,Innovator Defined Wealth Shield ETF,Equity,"$1,346",-1.40%,"437,284",$30.98
+RPG,Invesco S&P 500® Pure Growth ETF,Equity,"$1,344",-11.02%,"511,978",$36.69
+YEAR,AB Ultra Short Income ETF,Bond,"$1,341",1.52%,"226,224",$50.56
+ARKW,ARK Next Generation Internet ETF,Equity,"$1,337",-15.28%,"226,956",$91.48
+CORP,PIMCO Investment Grade Corporate Bond Index ETF,Bond,"$1,336",1.25%,"76,498",$95.17
+MSTU,T-Rex 2X Long MSTR Daily Target ETF,Equity,"$1,326",-22.96%,"71,997,680",$5.86
+AVSC,Avantis U.S Small Cap Equity ETF,Equity,"$1,322",-17.58%,"146,641",$44.68
+FENY,Fidelity MSCI Energy Index ETF,Equity,"$1,321",-5.56%,"1,440,470",$22.35
+NULG,Nuveen ESG Large-Cap Growth ETF,Equity,"$1,318",-12.29%,"80,722",$75.29
+RWJ,Invesco S&P SmallCap 600 Revenue ETF,Equity,"$1,318",-18.83%,"249,640",$37.03
+FSMD,Fidelity Small-Mid Multifactor ETF,Equity,"$1,307",-9.77%,"607,797",$37.01
+RSSL,Global X Russell 2000 ETF,Equity,"$1,306",-15.44%,"13,916",$73.24
+FSTA,Fidelity MSCI Consumer Staples Index ETF,Equity,"$1,301",4.83%,"154,500",$51.53
+XSMO,Invesco S&P SmallCap Momentum ETF,Equity,"$1,300",-10.46%,"335,159",$59.01
+EUSA,iShares MSCI USA Equal Weighted ETF,Equity,"$1,297",-7.11%,"119,994",$88.28
+JTEK,JPMorgan U.S. Tech Leaders ETF,Equity,"$1,289",-16.14%,"294,148",$63.46
+DIVI,Franklin International Core Dividend Tilt Index ETF,Equity,"$1,288",7.91%,"285,663",$32.34
+TAGG,T. Rowe Price QM U.S. Bond ETF,Bond,"$1,284",2.17%,"148,465",$42.37
+HYGV,FlexShares High Yield Value-Scored Bond Index Fund,Bond,"$1,283",-1.16%,"243,329",$39.46
+ILF,iShares Latin America 40 ETF,Equity,"$1,281",12.10%,"1,437,244",$23.44
+FCOM,Fidelity MSCI Communication Services Index ETF,Equity,"$1,277",-10.13%,"170,908",$52.63
+ICLN,iShares Global Clean Energy ETF,Equity,"$1,266",1.23%,"2,359,468",$11.52
+RYLD,Global X Russell 2000 Covered Call ETF,Multi-Asset,"$1,262",-9.63%,"811,125",$14.33
+VRIG,Invesco Variable Rate Investment Grade ETF,Bond,"$1,258",0.88%,"656,914",$25.02
+NVDY,YieldMax NVDA Option Income Strategy ETF,Equity,"$1,252",-25.45%,"2,677,967",$14.11
+JPEF,JPMorgan Equity Focus ETF,Equity,"$1,251",-10.24%,"176,294",$60.24
+JMOM,JPMorgan U.S. Momentum Factor ETF,Equity,"$1,250",-7.15%,"108,979",$54.00
+DFAR,Dimensional US Real Estate ETF,Equity,"$1,247",-1.44%,"258,627",$22.92
+COWG,Pacer US Large Cap Cash Cows Growth Leaders ETF,Equity,"$1,247",-8.39%,"769,403",$29.35
+DTD,WisdomTree U.S. Total Dividend Fund,Equity,"$1,247",-4.08%,"33,152",$72.45
+FLQL,Franklin U.S. Large Cap Multifactor Index ETF,Equity,"$1,245",-8.52%,"97,594",$53.52
+RPV,Invesco S&P 500® Pure Value ETF,Equity,"$1,236",-3.82%,"346,036",$86.13
+FSIG,First Trust Limited Duration Investment Grade Corporate ETF,Bond,"$1,231",1.51%,"472,519",$18.94
+RAVI,FlexShares Ultra-Short Income Fund,Bond,"$1,228",1.12%,"89,537",$75.14
+BUFD,FT Vest Laddered Deep Buffer ETF,Equity,"$1,218",-5.60%,"322,538",$24.09
+DBC,Invesco DB Commodity Index Tracking Fund,Commodity,"$1,214",-0.05%,"1,577,625",$21.37
+IYC,iShares U.S. Consumer Discretionary ETF,Equity,"$1,211",-11.95%,"239,657",$84.51
+QQQI,NEOS Nasdaq 100 High Income ETF,Equity,"$1,208",-10.39%,"664,363",$45.31
+PTNQ,Pacer Trendpilot 100 ETF,Multi-Asset,"$1,206",-9.24%,"70,986",$67.18
+BSVO,EA Bridgeway Omni Small-Cap Value ETF,Equity,"$1,205",-18.06%,"395,989",$17.74
+SMMD,iShares Russell 2500 ETF,Equity,"$1,204",-13.38%,"189,456",$58.73
+DFSU,Dimensional US Sustainability Core 1 ETF,Equity,"$1,198",-11.10%,"147,971",$33.62
+URNM,Sprott Uranium Miners ETF,Equity,"$1,193",-21.41%,"728,324",$31.68
+FTHI,First Trust BuyWrite Income ETF,Equity,"$1,188",-7.93%,"474,440",$20.95
+FIDU,Fidelity MSCI Industrial Index ETF,Equity,"$1,185",-6.28%,"87,592",$65.70
+HODL,VanEck Bitcoin ETF,Currency,"$1,184",-9.03%,"1,115,449",$24.04
+BBAG,JPMorgan BetaBuilders U.S. Aggregate Bond ETF,Bond,"$1,182",2.12%,"235,475",$45.64
+USXF,iShares ESG Advanced MSCI USA ETF,Equity,"$1,182",-11.08%,"96,125",$44.12
+PXH,Invesco RAFI Emerging Markets ETF,Equity,"$1,180",0.80%,"343,190",$20.53
+MSTX,Defiance Daily Target 2x Long MSTR ETF,Equity,"$1,177",-21.12%,"11,521,312",$27.75
+VTC,Vanguard Total Corporate Bond ETF,Bond,"$1,176",0.97%,"81,924",$75.60
+INFL,Horizon Kinetics Inflation Beneficiaries ETF,Equity,"$1,165",6.55%,"158,351",$40.41
+PCY,Invesco Emerging Markets Sovereign Debt ETF,Bond,"$1,165",-0.07%,"357,311",$19.49
+QGRO,American Century U.S. Quality Growth ETF,Equity,"$1,162",-9.68%,"120,371",$89.97
+USTB,VictoryShares Short-Term Bond ETF,Bond,"$1,159",1.66%,"150,221",$50.40
+DHS,WisdomTree US High Dividend Fund,Equity,"$1,159",-1.20%,"47,268",$91.69
+GLOV,Activebeta World Low Vol Plus Equity ETF,Equity,"$1,157",2.08%,"67,024",$50.30
+QQQE,Direxion NASDAQ-100 Equal Weighted Index Shares,Equity,"$1,157",-8.08%,"272,806",$82.46
+PJAN,Innovator U.S. Equity Power Buffer ETF - January,Equity,"$1,157",-5.07%,"128,106",$40.11
+FEX,First Trust Large Cap Core AlphaDEX Fund,Equity,"$1,152",-7.36%,"36,332",$96.34
+SPLB,SPDR Portfolio Long Term Corporate Bond ETF,Bond,"$1,148",-0.43%,"2,599,746",$21.85
+FDLO,Fidelity Low Volatility Factor ETF,Equity,"$1,142",-4.75%,"138,235",$57.48
+EWL,iShares MSCI Switzerland ETF,Equity,"$1,140",13.03%,"478,459",$51.95
+PREF,Principal Spectrum Preferred Secs Active ETF,Preferred Stock,"$1,138",0.06%,"256,059",$18.41
+PDP,Invesco Dorsey Wright Momentum ETF,Equity,"$1,137",-10.86%,"25,962",$95.88
+SILJ,Amplify Junior Silver Miners ETF,Equity,"$1,137",26.79%,"3,394,897",$12.59
+DRSK,Aptus Defined Risk ETF,Multi-Asset,"$1,135",-1.29%,"171,467",$26.88
+DBMF,iMGP DBi Managed Futures Strategy ETF,Alternatives,"$1,132",-3.27%,"815,360",$25.13
+TMFC,Motley Fool 100 Index ETF,Equity,"$1,127",-11.86%,"178,071",$52.99
+IAI,iShares U.S. Broker-Dealers & Securities Exchanges ETF,Equity,"$1,120",-8.01%,"280,344",$132.12
+IYE,iShares U.S. Energy ETF,Equity,"$1,119",-4.55%,"396,103",$43.20
+BAR,GraniteShares Gold Trust,Commodity,"$1,118",26.50%,"934,183",$32.75
+SDOG,ALPS Sector Dividend Dogs ETF,Equity,"$1,116",-4.41%,"49,894",$53.52
+KLMT,Invesco MSCI Global Climate 500 ETF,Equity,"$1,109",-5.19%,"306,908",$24.61
+FXL,First Trust Technology AlphaDEX Fund,Equity,"$1,107",-15.84%,"32,681",$125.02
+SUSC,iShares ESG Aware USD Corporate Bond ETF,Bond,"$1,105",1.01%,"222,378",$22.70
+BNDW,Vanguard Total World Bond ETF,Bond,"$1,102",1.58%,"95,122",$68.72
+BWX,SPDR Bloomberg International Treasury Bond ETF,Bond,"$1,099",7.98%,"546,113",$22.98
+QVML,Invesco S&P 500 QVM Multi-factor ETF,Equity,"$1,093",-8.92%,"6,508",$31.35
+PKW,Invesco BuyBack Achievers™ ETF,Equity,"$1,088",-8.50%,"29,486",$105.06
+VIOV,Vanguard S&P Small-Cap 600 Value ETF,Equity,"$1,087",-18.78%,"92,197",$75.56
+AVIG,Avantis Core Fixed Income ETF,Bond,"$1,087",1.87%,"138,441",$40.90
+EQTY,Kovitz Core Equity ETF,Equity,"$1,085",-8.42%,"62,498",$21.76
+LCTU,BlackRock U.S. Carbon Transition Readiness ETF,Equity,"$1,082",-10.61%,"47,740",$57.11
+SPEU,SPDR Portfolio Europe ETF,Equity,"$1,080",10.46%,"368,635",$43.84
+EQWL,Invesco S&P 100 Equal Weight ETF,Equity,"$1,080",-5.31%,"80,400",$96.36
+YINN,Direxion Daily FTSE China Bull 3X Shares,Equity,"$1,073",2.51%,"8,129,421",$28.57
+XHLF,BondBloxx Bloomberg Six Month Target Duration US Treasury ETF,Bond,"$1,067",1.25%,"249,551",$50.29
+PEY,Invesco High Yield Equity Dividend Achievers™ ETF,Equity,"$1,065",-7.29%,"208,122",$19.51
+XCEM,Columbia EM Core ex-China ETF,Equity,"$1,064",-2.03%,"336,505",$29.00
+GSEW,Goldman Sachs Equal Weight U.S. Large Cap Equity ETF,Equity,"$1,059",-6.98%,"106,575",$71.61
+IGEB,iShares Investment Grade Systematic Bond ETF,Bond,"$1,059",1.10%,"181,776",$44.30
+SPUS,SP Funds S&P 500 Sharia Industry Exclusions ETF,Equity,"$1,059",-15.15%,"411,070",$36.36
+BAFE,Brown Advisory Flexible Equity ETF,Equity,"$1,059",-9.32%,"92,040",$22.63
+NTSX,WisdomTree U.S. Efficient Core Fund,Multi-Asset,"$1,057",-7.82%,"81,946",$42.92
+RWO,SPDR Dow Jones Global Real Estate ETF,Real Estate,"$1,056",0.67%,"88,040",$42.89
+RODM,Hartford Multifactor Developed Markets (ex-US) ETF,Equity,"$1,053",9.50%,"123,665",$31.12
+TCHP,T. Rowe Price Blue Chip Growth ETF,Equity,"$1,040",-14.32%,"200,800",$36.08
+ILOW,AB International Low Volatility Equity ETF,Equity,"$1,032",10.27%,"68,879",$37.58
+FLBL,Franklin Senior Loan ETF Franklin Liberty Senior Loan Fund,Bond,"$1,031",-1.23%,"700,984",$23.60
+CLOI,VanEck CLO ETF,Bond,"$1,029",0.42%,"324,252",$52.26
+IBDX,iShares iBonds Dec 2032 Term Corporate ETF,Bond,"$1,024",1.57%,"191,389",$24.66
+JEMA,JPMorgan ActiveBuilders Emerging Markets Equity ETF,Equity,"$1,024",-2.17%,"83,495",$36.60
+FTA,First Trust Large Cap Value AlphaDEX Fund,Equity,"$1,024",-6.64%,"42,521",$71.02
+ICOW,Pacer Developed Markets International Cash Cows 100 ETF,Equity,"$1,018",6.10%,"286,741",$30.73
+TLTW,iShares 20+ Year Treasury Bond BuyWrite Strategy ETF,Bond,"$1,018",2.48%,"844,536",$23.21
+IGRO,iShares International Dividend Growth ETF,Equity,"$1,016",7.07%,"72,781",$72.50
+PPLT,abrdn Physical Platinum Shares ETF,Commodity,"$1,008",6.54%,"206,779",$88.48
+FREL,Fidelity MSCI Real Estate Index ETF,Real Estate,"$1,005",-1.61%,"228,757",$26.34
+BSJQ,Invesco BulletShares 2026 High Yield Corp Bond ETF,Bond,"$1,004",0.83%,"306,849",$23.11
+NUSC,Nuveen ESG Small-Cap ETF,Equity,"$1,004",-14.59%,"112,738",$35.77
+FLGV,Franklin U.S. Treasury Bond ETF,Bond,$999,2.48%,"214,243",$20.42
+FNX,First Trust Mid Cap Core AlphaDEX Fund,Equity,$999,-12.40%,"37,524",$101.14
+CTA,Simplify Managed Futures Strategy ETF,Alternatives,$995,1.12%,"690,633",$28.09
+FBT,First Trust NYSE Arca Biotechnology Index Fund,Equity,$990,-8.40%,"26,229",$152.24
+USO,United States Oil Fund LP,Commodity,$987,-8.03%,"3,329,825",$69.48
+LGLV,SPDR SSGA US Large Cap Low Volatility Index ETF,Equity,$986,1.70%,"51,090",$167.26
+IBTI,iShares iBonds Dec 2028 Term Treasury ETF,Bond,$985,2.71%,"262,076",$22.28
+SCYB,Schwab High Yield Bond ETF,Bond,$983,-0.31%,"509,375",$25.62
+SPIP,SPDR Portfolio TIPS ETF,Bond,$982,2.86%,"258,063",$25.83
+FTC,First Trust Large Cap Growth AlphaDEX Fund,Equity,$981,-8.55%,"36,684",$126.39
+EWP,iShares MSCI Spain ETF,Equity,$979,26.41%,"481,873",$39.25
+IVOG,Vanguard S&P Mid-Cap 400 Growth ETF,Equity,$976,-12.67%,"38,754",$98.41
+QGRW,WisdomTree U.S. Quality Growth Fund,Equity,$975,-15.51%,"502,549",$41.62
+HFXI,IQ FTSE International Equity Currency Neutral ETF,Equity,$974,2.46%,"260,567",$26.70
+EPS,WisdomTree U.S. LargeCap Fund,Equity,$971,-9.11%,"64,946",$55.43
+MEAR,iShares Short Maturity Municipal Bond Active ETF,Bond,$971,0.72%,"189,322",$49.94
+BSJP,Invesco BulletShares 2025 High Yield Corporate Bond ETF,Bond,$969,1.48%,"281,370",$23.09
+SUSB,iShares ESG Aware 1-5 Year USD Corporate Bond ETF,Bond,$965,1.85%,"215,927",$24.89
+QTUM,Defiance Quantum ETF,Equity,$964,-13.57%,"316,532",$70.00
+FQAL,Fidelity Quality Factor ETF,Equity,$961,-6.91%,"49,244",$60.72
+USPX,Franklin U.S. Equity Index ETF,Equity,$961,-9.94%,"113,784",$46.14
+ARGT,Global X MSCI Argentina ETF,Equity,$959,3.71%,"384,979",$85.74
+PDEC,Innovator U.S. Equity Power Buffer ETF - December,Equity,$959,-5.05%,"94,378",$36.48
+BAB,Invesco Taxable Municipal Bond ETF,Bond,$959,1.42%,"193,265",$26.26
+ILCV,iShares Morningstar Value ETF,Equity,$958,-5.39%,"48,752",$76.26
+SCHQ,Schwab Long-Term U.S. Treasury ETF,Bond,$957,1.63%,"452,284",$31.61
+PWV,Invesco Large Cap Value ETF,Equity,$954,-2.23%,"42,133",$55.23
+NLR,VanEck Uranium and Nuclear ETF,Equity,$949,-8.02%,"302,089",$74.82
+DFEV,Dimensional Emerging Markets Value ETF,Equity,$948,-1.34%,"254,481",$25.81
+SMIG,Bahl & Gaynor Small/Mid Cap Income Growth ETF,Equity,$946,-5.63%,"282,160",$27.35
+ARKG,ARK Genomic Revolution ETF,Equity,$944,-12.21%,"3,638,325",$20.67
+FJAN,FT Vest US Equity Buffer ETF - January,Equity,$939,-7.39%,"130,148",$42.51
+BSCV,Invesco BulletShares 2031 Corporate Bond ETF,Bond,$939,2.25%,"322,625",$16.23
+SCHY,Schwab International Dividend Equity ETF,Equity,$932,11.32%,"351,448",$25.60
+IMCB,iShares Morningstar Mid-Cap ETF,Equity,$931,-7.62%,"30,957",$70.10
+EXI,iShares Global Industrials ETF,Equity,$928,0.42%,"44,656",$141.83
+QQXT,First Trust Nasdaq-100 Ex-Technology Sector Index Fund,Equity,$927,-2.97%,"217,449",$90.17
+FRDM,Freedom 100 Emerging Markets ETF,Equity,$925,6.57%,"159,649",$34.57
+CONY,YieldMax COIN Option Income Strategy ETF,Equity,$924,-27.05%,"5,157,178",$7.31
+GSST,Goldman Sachs Ultra Short Bond ETF,Bond,$924,1.49%,"242,981",$50.40
+FDEC,FT Vest US Equity Buffer ETF - December,Equity,$920,-6.65%,"46,152",$41.61
+SPGM,SPDR Portfolio MSCI Global Stock Market ETF,Equity,$920,-5.62%,"139,957",$59.77
+FJUL,FT Vest U.S. Equity Buffer ETF - July,Equity,$918,-6.64%,"63,824",$45.71
+FFEB,FT Vest U.S. Equity Buffer Fund - February,Equity,$913,-5.99%,"69,843",$46.79
+CQQQ,Invesco China Technology ETF,Equity,$913,1.45%,"815,727",$39.95
+SYLD,Cambria Shareholder Yield ETF,Equity,$911,-13.70%,"140,092",$58.62
+TSLY,YieldMax TSLA Option Income Strategy ETF,Equity,$909,-33.84%,"4,653,465",$7.40
+XSD,SPDR S&P Semiconductor ETF,Equity,$907,-30.39%,"55,398",$172.80
+FTGS,First Trust Growth Strength ETF,Equity,$902,-9.30%,"265,921",$28.46
+PWB,Invesco Large Cap Growth ETF,Equity,$898,-8.89%,"34,089",$92.69
+CCMG,CCM Global Equity ETF,Equity,$895,-2.35%,"40,592",$26.55
+CRBN,iShares MSCI ACWI Low Carbon Target ETF,Equity,$895,-5.27%,"11,165",$183.39
+EIPI,FT Energy Income Partners Enhanced Income ETF,Equity,$895,1.00%,"95,813",$19.33
+VFMO,Vanguard U.S. Momentum Factor ETF,Equity,$893,-12.03%,"63,017",$144.32
+GSG,iShares S&P GSCI Commodity-Indexed Trust,Commodity,$893,-0.83%,"691,400",$21.59
+DLS,WisdomTree International SmallCap Dividend Fund,Equity,$889,5.69%,"29,784",$66.26
+ILCB,iShares Morningstar U.S. Equity ETF,Equity,$887,-10.05%,"73,267",$72.78
+VTES,Vanguard Short-Term Tax Exempt Bond ETF,Bond,$886,0.13%,"88,549",$99.68
+BBEM,JPMorgan BetaBuilders Emerging Markets Equity ETF,Equity,$886,-0.11%,"37,095",$50.79
+IHAK,iShares Cybersecurity & Tech ETF,Equity,$880,-5.27%,"104,667",$46.22
+GOVI,Invesco Equal Weight 0-30 Year Treasury ETF,Bond,$879,1.92%,"299,981",$27.30
+DFIP,Dimensional Inflation-Protected Securities ETF,Bond,$877,3.19%,"67,508",$41.60
+CGW,Invesco S&P Global Water Index ETF,Equity,$877,3.43%,"45,437",$56.06
+BUG,Global X Cybersecurity ETF,Equity,$876,-0.22%,"305,659",$32.02
+FJUN,FT Vest U.S. Equity Buffer ETF - June,Equity,$876,-6.54%,"48,860",$48.02
+GEM,Goldman Sachs ActiveBeta Emerging Markets Equity ETF,Equity,$868,-0.09%,"157,433",$31.89
+OIH,VanEck Oil Services ETF,Equity,$866,-19.32%,"581,406",$218.84
+FXH,First Trust Health Care AlphaDEX Fund,Equity,$866,-7.54%,"37,273",$96.22
+SVOL,Simplify Volatility Premium ETF,Volatility,$862,-22.00%,"1,209,130",$15.59
+BUFQ,FT Vest Laddered Nasdaq Buffer ETF,Equity,$860,N/A,N/A,N/A
+VTWG,Vanguard Russell 2000 Growth ETF,Equity,$859,-16.22%,"34,938",$175.86
+KIE,SPDR S&P Insurance ETF,Equity,$858,0.83%,"1,164,510",$56.71
+BBRE,JPMorgan BetaBuilders MSCI US REIT ETF,Real Estate,$853,-3.60%,"37,078",$89.79
+NYF,iShares New York Muni Bond ETF,Bond,$852,-1.99%,"106,449",$51.79
+LDUR,PIMCO Enhanced Low Duration Active ETF,Bond,$850,1.64%,"54,730",$95.43
+QEFA,SPDR MSCI EAFE StrategicFactors ETF,Equity,$849,9.41%,"87,511",$79.33
+LONZ,PIMCO Senior Loan Active Exchange-Traded Fund,Bond,$849,-1.69%,"189,552",$49.58
+ROBO,ROBO Global Robotics & Automation Index ETF,Equity,$848,-15.41%,"87,470",$47.59
+FXY,Invesco Currencyshares Japanese Yen Trust,Currency,$848,10.54%,"403,681",$64.80
+JHML,John Hancock Multifactor Large Cap ETF,Equity,$845,-8.73%,"38,246",$63.57
+FVAL,Fidelity Value Factor ETF,Equity,$843,-9.29%,"125,271",$55.55
+FLXR,TCW Flexible Income ETF,Bond,$836,1.91%,"207,737",$38.80
+FAUG,FT Vest U.S. Equity Buffer ETF - August,Equity,$835,-6.22%,"36,316",$43.65
+BUFC,AB Conservative Buffer ETF,Equity,$830,-2.58%,"87,532",$38.16
+XNTK,SPDR NYSE Technology ETF,Equity,$830,-11.82%,"30,806",$177.86
+GRNY,Fundstrat Granny Shots US Large Cap ETF,Equity,$826,-12.53%,"1,257,613",$17.46
+AGGY,WisdomTree Yield Enhanced U.S. Aggregate Bond Fund,Bond,$826,1.22%,"128,481",$42.95
+PJUL,Innovator U.S. Equity Power Buffer ETF - July,Equity,$825,-5.47%,"69,189",$38.92
+VCEB,Vanguard ESG U.S. Corporate Bond ETF,Bond,$824,1.19%,"43,110",$62.01
+OUSM,ALPS | O’Shares U.S. Small-Cap Quality Dividend ETF,Equity,$824,-8.67%,"138,111",$39.89
+FNDB,Schwab Fundamental U.S. Broad Market ETF,Equity,$822,-7.32%,"146,076",$21.47
+MMIT,NYLI MacKay Muni Intermediate ETF,Bond,$822,-0.68%,"258,503",$23.64
+CATH,Global X S&P 500 Catholic Values Custom ETF,Equity,$821,-10.12%,"39,011",$63.67
+APIE,ActivePassive International Equity ETF,Equity,$819,4.50%,"78,719",$29.28
+IVOV,Vanguard S&P Mid-Cap 400 Value ETF,Equity,$819,-10.73%,"27,929",$85.31
+ARKF,ARK Fintech Innovation ETF,Equity,$819,-12.12%,"443,298",$32.56
+XFIV,BondBloxx Bloomberg Five Year Target Duration US Treasury ETF,Bond,$815,3.24%,"487,838",$49.00
+PSK,SPDR ICE Preferred Securities ETF,Preferred Stock,$808,-3.13%,"192,341",$31.44
+GSID,Marketbeta INTL Equity ETF,Equity,$805,7.08%,"18,157",$57.73
+QDPL,Pacer Metaurus US Large Cap Dividend Multiplier 400 ETF,Equity,$804,-9.36%,"246,589",$34.30
+LIT,Global X Lithium & Battery Tech ETF,Equity,$802,-14.03%,"240,354",$35.06
+PFEB,Innovator U.S. Equity Power Buffer ETF - February,Equity,$802,-5.90%,"231,189",$34.63
+DBA,Invesco DB Agriculture Fund,Commodity,$800,0.23%,"384,856",$26.65
+REZ,iShares Residential and Multisector Real Estate ETF,Real Estate,$800,1.99%,"83,443",$82.28
+SUSL,iShares ESG MSCI USA Leaders ETF,Equity,$799,-11.37%,"37,278",$91.08
+FMAY,FT Vest U.S. Equity Buffer Fund - May,Equity,$794,-6.94%,"20,533",$44.14
+PID,Invesco International Dividend Achievers™ ETF,Equity,$794,4.88%,"114,129",$19.04
+BSCW,Invesco BulletShares 2032 Corporate Bond ETF,Bond,$793,1.60%,"180,195",$20.19
+FNOV,FT Vest U.S. Equity Buffer ETF - November,Equity,$792,-6.42%,"64,416",$44.75
+ARKQ,ARK Autonomous Technology & Robotics ETF,Equity,$791,-16.26%,"129,419",$64.69
+FMAR,FT Vest US Equity Buffer ETF - March,Equity,$790,-6.45%,"76,806",$40.48
+KXI,iShares Global Consumer Staples ETF,Equity,$789,9.27%,"89,244",$65.88
+USVM,VictoryShares US Small Mid Cap Value Momentum ETF,Equity,$786,-12.08%,"85,211",$73.68
+FLDR,Fidelity Low Duration Bond Factor ETF,Bond,$786,1.17%,"159,556",$49.94
+SMIN,iShares MSCI India Small-Cap ETF,Equity,$783,-8.80%,"344,860",$69.72
+CLOA,iShares AAA CLO Active ETF,Bond,$781,0.73%,"357,657",$51.44
+PGF,Invesco Financial Preferred ETF,Preferred Stock,$779,-2.69%,"265,294",$13.95
+TDTF,FlexShares iBoxx 5-Year Target Duration TIPS Index Fund,Bond,$775,3.49%,"188,654",$23.84
+EMGF,iShares Emerging Markets Equity Factor ETF,Equity,$774,-0.44%,"102,644",$45.03
+XMLV,Invesco S&P MidCap Low Volatility ETF,Equity,$769,-1.58%,"43,960",$59.36
+HAUZ,DBX ETF Trust - Xtrackers International Real Estate ETF,Real Estate,$767,7.03%,"85,876",$21.18
+WTV,WisdomTree U.S. Value Fund,Equity,$766,-7.86%,"135,222",$76.72
+SMMU,PIMCO Short Term Municipal Bond Active ETF,Bond,$765,0.19%,"113,668",$49.60
+POCT,Innovator U.S. Equity Power Buffer ETF - October,Equity,$765,-4.94%,"83,351",$37.61
+FOCT,FT Vest U.S. Equity Buffer ETF - October,Equity,$763,-6.22%,"70,543",$39.98
+BITU,ProShares Ultra Bitcoin ETF,Currency,$762,-27.56%,"2,916,968",$34.29
+OUSA,ALPS O'Shares U.S. Quality Dividend ETF,Equity,$759,-5.07%,"32,878",$50.32
+STRV,Strive 500 ETF,Equity,$755,-10.12%,"118,341",$33.90
+AMJB,"Alerian MLP Index ETNs due January 28, 2044",Equity,$753,1.39%,"67,511",$29.92
+SFLR,Innovator Equity Managed Floor ETF,Equity,$748,-6.30%,"243,589",$30.57
+FSEP,FT Vest U.S. Equity Buffer ETF - September,Equity,$748,-6.32%,"41,511",$42.81
+IBHF,iShares iBonds 2026 Term High Yield and Income ETF,Bond,$746,1.07%,"354,270",$23.02
+TDVG,T. Rowe Price Dividend Growth ETF,Equity,$744,-3.19%,"65,738",$38.22
+ONEY,SPDR Russell 1000 Yield Focus ETF,Equity,$742,-5.92%,"33,790",$101.69
+PAPR,Innovator U.S. Equity Power Buffer ETF - April,Equity,$742,-6.00%,"129,857",$34.50
+FYX,First Trust Small Cap Core AlphaDEX Fund,Equity,$741,-16.93%,"32,038",$83.95
+FMHI,First Trust Municipal High Income ETF,Bond,$737,-2.88%,"102,567",$46.43
+IQDG,WisdomTree International Quality Dividend Growth Fund,Equity,$736,3.29%,"155,257",$35.27
+PCEF,Invesco CEF Income Composite ETF,Multi-Asset,$736,-5.03%,"202,056",$17.82
+VIOG,Vanguard S&P Small-Cap 600 Growth ETF,Equity,$733,-13.66%,"70,497",$100.13
+RSPH,Invesco S&P 500 Equal Weight Health Care ETF,Equity,$730,-6.15%,"97,100",$27.45
+SDIV,Global X SuperDividend ETF,Equity,$729,-2.46%,"345,198",$19.56
+ARTY,iShares Future AI & Tech ETF,Equity,$728,-19.61%,"380,216",$29.80
+DMXF,iShares ESG Advanced MSCI EAFE ETF,Equity,$727,3.10%,"63,781",$66.62
+IAK,iShares U.S. Insurance ETF,Equity,$727,2.92%,"69,241",$129.44
+RWK,Invesco S&P MidCap 400 Revenue ETF,Equity,$727,-12.34%,"32,992",$101.54
+ETH,Grayscale Ethereum Mini Trust ETF,Currency,$725,-52.68%,"1,655,806",$14.90
+PNQI,Invesco NASDAQ Internet ETF,Equity,$725,-10.79%,"119,786",$41.65
+SYFI,AB Short Duration High Yield ETF,Bond,$725,-0.38%,"187,438",$35.02
+PAUG,Innovator U.S. Equity Power Buffer ETF - August,Equity,$724,-4.83%,"81,411",$36.64
+RDIV,Invesco S&P Ultra Dividend Revenue ETF,Equity,$722,-6.85%,"53,483",$44.49
+GIGB,Goldman Sachs Access Investment Grade Corporate Bond ETF,Bond,$719,1.13%,"112,543",$45.06
+ISPY,ProShares S&P 500 High Income ETF,Equity,$719,-10.67%,"261,030",$38.28
+JETS,U.S. Global Jets ETF,Equity,$719,-25.52%,"2,673,927",$18.88
+IWC,iShares Micro-Cap ETF,Equity,$718,-19.61%,"44,578",$104.56
+UYG,ProShares Ultra Financials,Equity,$714,-9.94%,"25,529",$76.74
+FLGB,Franklin FTSE United Kingdom ETF,Equity,$714,8.06%,"159,624",$28.30
+CDC,VictoryShares US EQ Income Enhanced Volatility Wtd ETF,Equity,$707,-1.15%,"31,317",$61.31
+DVYE,iShares Emerging Markets Dividend ETF,Equity,$706,1.37%,"164,371",$26.02
+FPX,First Trust US Equity Opportunities ETF,Equity,$704,-8.84%,"33,902",$108.94
+DIVB,iShares Core Dividend ETF,Equity,$703,-4.50%,"142,063",$44.98
+TPYP,Tortoise North American Pipeline Fund,Equity,$703,4.08%,"67,510",$35.14
+TAFI,AB Tax-Aware Short Duration Municipal ETF,Bond,$700,0.30%,"200,630",$24.83
+BIDD,iShares International Dividend Active ETF,Equity,$700,1.20%,"132,498",$24.96
+FAPR,FT Vest U.S. Equity Buffer ETF - April,Equity,$694,-6.39%,"31,395",$38.65
+LGOV,First Trust Long Duration Opportunities ETF,Bond,$693,3.27%,"290,259",$21.31
+PIEQ,Principal International Equity ETF,Equity,$693,N/A,N/A,N/A
+PICK,iShares MSCI Global Metals & Mining Producers ETF,Equity,$690,-2.83%,"302,779",$34.00
+EZM,WisdomTree U.S. MidCap Fund,Equity,$686,-11.47%,"44,056",$55.18
+KSA,iShares MSCI Saudi Arabia ETF,Equity,$685,-1.59%,"522,133",$40.19
+VTWV,Vanguard Russell 2000 Value ETF,Equity,$685,-14.40%,"29,727",$123.32
+GDXU,MicroSectors Gold Miners 3X Leveraged ETN,Equity,$684,180.10%,"736,325",$76.13
+IHF,iShares U.S. Healthcare Providers ETF,Equity,$683,4.78%,"119,616",$50.18
+EUSB,iShares ESG Advanced Total USD Bond Market ETF,Bond,$683,1.95%,"59,178",$42.90
+LTPZ,PIMCO 15+ Year US TIPS Index Exchange-Traded Fund,Bond,$682,-0.05%,"136,011",$51.59
+JCPI,JPMorgan Inflation Managed Bond ETF,Bond,$682,N/A,N/A,N/A
+WINN,Harbor Long-Term Growers ETF,Equity,$682,-14.22%,"179,259",$23.34
+PSQ,ProShares Short QQQ,Equity,$677,13.39%,"6,138,398",$42.04
+VOTE,TCW Transform 500 ETF,Equity,$677,-9.95%,"37,232",$61.75
+QAI,NYLI Hedge Multi-Strategy Tracker ETF,Alternatives,$673,-2.39%,"79,975",$30.66
+PSC,Principal U.S. Small-Cap ETF,Equity,$672,-10.24%,"70,408",$45.92
+FLIA,Franklin International Aggregate Bond ETF,Bond,$671,0.44%,"119,897",$20.37
+YMAX,YieldMax Universe Fund of Option Income ETFs,Equity,$671,-13.11%,"1,612,389",$12.52
+PWZ,Invesco California AMT-Free Municipal Bond ETF,Bond,$671,-5.02%,"214,462",$23.27
+PSEP,Innovator U.S. Equity Power Buffer ETF - September,Equity,$667,-4.90%,"113,802",$37.17
+VFVA,Vanguard U.S. Value Factor ETF,Equity,$666,-12.24%,"26,663",$103.28
+HNDL,Strategy Shares Nasdaq 7HANDL Index ETF,Multi-Asset,$657,-3.29%,"89,232",$20.15
+RSMC,Rockefeller U.S. Small-Mid Cap ETF,Equity,$657,-11.11%,"20,649",$22.68
+IGOV,iShares International Treasury Bond ETF,Bond,$653,8.72%,"217,841",$41.77
+PFM,Invesco Dividend Achievers™ ETF,Equity,$650,-4.82%,"37,968",$43.48
+JHMD,John Hancock Multifactor Developed International ETF,Equity,$650,8.64%,"125,886",$34.84
+BULZ,MicroSectors Solactive FANG & Innovation 3X Leveraged ETN,Equity,$649,-53.49%,"208,622",$75.40
+SVIX,-1x Short VIX Futures ETF,Volatility,$648,-55.18%,"9,218,467",$11.37
+HEZU,iShares Currency Hedged MSCI Eurozone ETF,Equity,$645,2.99%,"225,702",$36.91
+DFSI,Dimensional International Sustainability Core 1 ETF,Equity,$644,7.37%,"68,054",$35.19
+FFLC,Fidelity Fundamental Large Cap Core ETF,Equity,$644,-10.60%,"164,063",$40.92
+JPIB,JPMorgan International Bond Opportunities ETF,Bond,$643,2.25%,"99,708",$47.75
+IBTJ,iShares iBonds Dec 2029 Term Treasury ETF,Bond,$643,3.13%,"241,294",$21.79
+AGQ,ProShares Ultra Silver,Commodity,$643,17.55%,"2,251,087",$39.58
+AOK,iShares Core 30/70 Conservative Allocation ETF,Multi-Asset,$642,-0.01%,"164,851",$37.05
+INDY,iShares India 50 ETF,Equity,$641,1.73%,"206,543",$51.72
+QDTE,Roundhill Innovation-100 0DTE Covered Call Strategy ETF,Equity,$641,-16.16%,"590,270",$30.35
+PNOV,Innovator U.S. Equity Power Buffer ETF - November,Equity,$640,-5.00%,"74,940",$35.98
+AGZ,iShares Agency Bond ETF,Bond,$638,1.94%,"46,878",$109.02
+CLOZ,Eldridge BBB-B CLO ETF,Bond,$636,-2.19%,"1,078,287",$25.87
+EDIV,SPDR S&P Emerging Markets Dividend ETF,Equity,$635,0.47%,"117,044",$35.17
+XONE,BondBloxx Bloomberg One Year Target Duration US Treasury ETF,Bond,$634,1.36%,"135,295",$49.65
+USD,ProShares Ultra Semiconductors,Equity,$632,-49.63%,"881,744",$32.78
+TMSL,T. Rowe Price Small-Mid Cap ETF,Equity,$632,-12.45%,"290,232",$28.23
+BUYW,Main BuyWrite ETF,Equity,$631,-3.38%,"260,605",$13.27
+TGRT,T. Rowe Price Growth ETF,Equity,$630,-14.02%,"72,919",$32.56
+IQDF,FlexShares International Quality Dividend Index Fund,Equity,$628,5.39%,"72,614",$24.44
+COMT,iShares U.S. ETF Trust iShares GSCI Commodity Dynamic Roll Strategy ETF,Multi-Asset,$628,-0.63%,"269,768",$25.15
+FFSM,Fidelity Fundamental Small-Mid Cap ETF,Equity,$627,-11.73%,"362,668",$23.69
+TAN,Invesco Solar ETF,Equity,$626,-14.98%,"700,056",$28.16
+XLSR,SPDR SSGA US Sector Rotation ETF,Equity,$625,-11.38%,"74,933",$47.28
+ULST,SPDR SSgA Ultra Short Term Bond ETF,Bond,$625,1.49%,"170,402",$40.56
+GWX,SPDR S&P International Small Cap ETF,Equity,$625,5.02%,"58,759",$32.54
+UBND,VictoryShares Core Plus Intermediate Bond ETF,Bond,$625,1.98%,"89,687",$21.53
+SMDV,ProShares Russell 2000 Dividend Growers ETF,Equity,$624,-7.91%,"31,992",$61.95
+BLOK,Amplify Transformational Data Sharing ETF,Equity,$622,-16.23%,"276,681",$36.18
+DUSA,Davis Select U.S. Equity ETF,Equity,$622,-5.34%,"55,606",$39.86
+EWS,iShares MSCI Singapore ETF,Equity,$617,5.72%,"886,449",$23.10
+DFAW,Dimensional World Equity ETF,Equity,$616,-6.56%,"69,667",$58.23
+EWX,SPDR S&P Emerging Markets Small Cap ETF,Equity,$616,-7.25%,"41,470",$54.36
+RGEF,Rockefeller Global Equity ETF,Equity,$615,-2.40%,"23,403",$24.03
+PJUN,Innovator U.S. Equity Power Buffer ETF - June,Equity,$615,-5.12%,"109,508",$35.60
+DBEU,Xtrackers MSCI Europe Hedged Equity ETF,Equity,$611,1.17%,"81,510",$41.69
+AVIV,Avantis International Large Cap Value ETF,Equity,$611,8.61%,"41,922",$56.37
+ABFL,Abacus FCF Leaders ETF,Equity,$611,-7.85%,"26,886",$61.10
+DIV,Global X SuperDividend U.S. ETF,Equity,$611,-1.02%,"182,521",$17.57
+GPIX,S&P 500 Core Premium Income ETF,Equity,$607,-8.98%,"239,241",$43.76
+UGL,ProShares Ultra Gold,Commodity,$605,53.12%,"382,630",$143.14
+IMCV,iShares Morningstar Mid-Cap Value ETF,Equity,$604,-5.77%,"35,878",$69.57
+AVSF,Avantis Short-Term Fixed Income ETF,Bond,$603,2.00%,"41,154",$46.57
+SPXU,ProShares UltraPro Short S&P500,Equity,$601,24.21%,"15,471,106",$27.68
+FLMI,Franklin Dynamic Municipal Bond ETF,Bond,$599,-1.31%,"274,822",$23.89
+PLDR,Putnam Sustainable Leaders ETF,Equity,$599,-13.37%,"55,962",$28.88
+ILTB,iShares Core 10+ Year USD Bond ETF,Bond,$594,0.37%,"72,303",$48.25
+NANR,SPDR S&P North American Natural Resources ETF,Equity,$594,2.16%,"52,694",$52.21
+AIA,iShares Asia 50 ETF,Equity,$593,-2.15%,"83,322",$66.37
+IGE,iShares North American Natural Resources ETF,Equity,$589,-1.77%,"79,016",$41.75
+DWAS,Invesco Dorsey Wright SmallCap Momentum ETF,Equity,$589,-19.01%,"56,419",$73.89
+RSPN,Invesco S&P 500 Equal Weight Industrials ETF,Equity,$587,-7.15%,"77,194",$46.51
+BGDV,Bahl & Gaynor Dividend ETF,Equity,$587,-5.65%,"9,394",$22.94
+UDOW,ProShares UltraPro Dow30,Equity,$587,-27.57%,"2,644,629",$68.25
+FGD,First Trust Dow Jones Global Select Dividend Index Fund,Equity,$585,8.60%,"154,400",$24.05
+NUGT,Direxion Daily Gold Miners Index Bull 2x Shares,Equity,$584,111.62%,"1,569,738",$74.22
+TOUS,T. Rowe Price International Equity ETF,Equity,$583,9.71%,"301,602",$28.74
+PPH,VanEck Pharmaceutical ETF,Equity,$582,-2.10%,"328,356",$83.98
+JSCP,JPMorgan Short Duration Core Plus ETF,Bond,$582,1.93%,"100,529",$46.97
+IAT,iShares U.S. Regional Banks ETF,Equity,$581,-16.81%,"336,284",$41.66
+IBHE,iShares iBonds 2025 Term High Yield & Income ETF,Bond,$578,1.38%,"181,706",$23.20
+FLCO,Franklin Investment Grade Corporate ETF,Bond,$577,1.15%,"79,871",$21.09
+IUS,Invesco RAFI Strategic US ETF,Equity,$577,-6.61%,"92,738",$46.19
+KOKU,Xtrackers MSCI Kokusai Equity ETF,Equity,$576,-5.89%,740,$94.24
+EQAL,Invesco Russell 1000 Equal Weight ETF,Equity,$571,-7.91%,"42,965",$44.27
+ISCG,iShares Morningstar Small-Cap Growth ETF,Equity,$571,-13.73%,"101,810",$42.61
+BKIE,BNY Mellon International Equity ETF,Equity,$571,6.09%,"82,300",$76.44
+DJP,iPath Bloomberg Commodity Index Total Return ETN,Commodity,$571,6.05%,"84,670",$34.03
+AVES,Avantis Emerging Markets Value ETF,Equity,$571,-0.37%,"60,605",$46.03
+PMAR,Innovator U.S. Equity Power Buffer ETF - March,Equity,$570,-4.18%,"86,227",$38.51
+FETH,Fidelity Ethereum Fund ETF,Currency,$569,N/A,N/A,N/A
+TOTR,T. Rowe Price Total Return ETF,Bond,$569,1.32%,"58,016",$40.03
+FLHY,Franklin High Yield Corporate ETF,Bond,$566,-0.39%,"116,437",$23.40
+FTQI,First Trust Nasdaq BuyWrite Income ETF,Equity,$562,-10.45%,"240,510",$18.09
+BUFF,Innovator Laddered Allocation Power Buffer ETF,Equity,$560,-4.94%,"93,930",$42.69
+SVXY,ProShares Short VIX Short-Term Futures ETF,Volatility,$558,-28.77%,"2,495,143",$35.66
+JHEM,John Hancock Multifactor Emerging Markets ETF,Equity,$557,-0.59%,"156,913",$25.70
+ECH,iShares MSCI Chile ETF,Equity,$557,19.61%,"389,252",$29.95
+SEIE,SEI Select International Equity ETF,Equity,$552,9.81%,"49,730",$26.06
+EWH,iShares MSCI Hong Kong ETF,Equity,$552,-1.38%,"4,344,793",$16.43
+IYT,iShares US Transportation ETF,Equity,$552,-11.45%,"417,024",$59.64
+INCM,Franklin Income Focus ETF Income Focus ETF,Multi-Asset,$552,-0.56%,"185,433",$25.64
+SIXH,ETC 6 Meridian Hedged Equity Index Option ETF,Multi-Asset,$551,4.21%,"61,084",$38.02
+KRMA,Global X Conscious Companies ETF,Equity,$550,-10.95%,"7,705",$34.81
+XSVM,Invesco S&P SmallCap Value with Momentum ETF,Equity,$550,-14.29%,"85,510",$46.33
+SDS,ProShares UltraShort S&P500,Equity,$549,18.98%,"15,347,735",$23.14
+ONEV,SPDR Russell 1000 Low Volatility Focus ETF,Equity,$546,-3.44%,"7,165",$120.66
+MOO,VanEck Agribusiness ETF,Equity,$546,2.39%,"68,879",$66.06
+AVRE,Avantis Real Estate ETF,Real Estate,$545,1.91%,"54,554",$42.46
+LVHD,Franklin U.S. Low Volatility High Dividend Index ETF,Equity,$545,3.21%,"86,833",$39.53
+FWD,AB Disruptors ETF,Equity,$544,-14.83%,"203,732",$67.45
+QQQJ,Invesco NASDAQ Next Gen 100 ETF,Equity,$544,-11.24%,"117,184",$27.37
+DOL,WisdomTree International LargeCap Dividend Fund,Equity,$540,11.98%,"24,916",$55.14

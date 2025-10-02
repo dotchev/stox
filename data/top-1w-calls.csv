@@ -1,0 +1,69 @@
+symbol,name,weeks,rcp,gap,mean_profit,median_profit,mean_change,median_change
+MSTY,Yieldmax MSTR Option Income Strategy ETF,66,1.55%,2.23%,197.67%,-72.27%,2.56%,2.66%
+MSTU,T-Rex 2X Long MSTR Daily Target ETF,36,4.00%,6.10%,115.07%,-100.00%,4.95%,0.25%
+EFA,iShares MSCI EAFE ETF,261,0.41%,0.52%,87.80%,-100.00%,0.23%,0.28%
+KWEB,KraneShares CSI China Internet ETF,261,1.18%,0.50%,83.92%,-100.00%,0.07%,-0.69%
+MSTX,Defiance Daily Target 2X Long MSTR ETF,41,6.19%,1.84%,69.20%,-99.87%,4.52%,1.55%
+EEM,iShares MSCI Emerging Markets ETF,261,0.49%,0.58%,61.23%,-100.00%,0.15%,0.24%
+EWZ,iShares MSCI Brazil ETF,261,0.75%,1.27%,54.50%,-100.00%,0.24%,0.34%
+VNQ,Vanguard Real Estate Index Fund ETF Shares,261,0.63%,0.47%,48.27%,-100.00%,0.16%,-0.02%
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,261,0.28%,0.06%,47.18%,-85.60%,0.09%,0.10%
+OIH,VanEck Oil Services ETF,261,1.56%,0.57%,45.69%,-100.00%,0.45%,0.31%
+TAN,Invesco Solar ETF,261,1.41%,0.85%,44.31%,-100.00%,0.15%,0.05%
+ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,261,0.85%,0.11%,40.85%,-100.00%,0.08%,-0.09%
+SILJ,Amplify Junior Silver Miners ETF,261,1.31%,1.25%,40.44%,-100.00%,0.23%,-0.50%
+XOP,SPDR S&P Oil & Gas Exploration & Production ETF,261,1.64%,0.13%,40.32%,-73.10%,0.53%,0.57%
+XLF,The Financial Select Sector SPDR Fund,261,0.61%,0.90%,39.48%,-100.00%,0.37%,0.43%
+BITX,2x Bitcoin Strategy ETF,100,4.26%,0.24%,39.32%,-100.00%,2.34%,-0.55%
+FXI,iShares China Large-Cap ETF,261,1.17%,0.08%,37.86%,-90.96%,0.10%,0.19%
+IBIT,iShares Bitcoin Trust ETF,72,2.35%,0.27%,35.01%,-100.00%,1.50%,0.19%
+BITO,ProShares Bitcoin ETF,188,2.26%,0.48%,32.89%,-100.00%,0.53%,-0.16%
+FBTC,Fidelity Wise Origin Bitcoin Fund,72,2.49%,0.02%,32.65%,-99.94%,1.50%,0.02%
+ARKK,ARK Innovation ETF,261,1.70%,0.77%,30.62%,-100.00%,0.17%,0.07%
+YINN,Direxion Daily FTSE China Bull 3X Shares,261,3.47%,0.45%,29.89%,-100.00%,0.04%,-0.24%
+AGQ,ProShares Ultra Silver,261,2.43%,1.01%,25.68%,-100.00%,0.50%,0.32%
+SCHD,Schwab U.S. Dividend Equity ETF,261,0.58%,0.42%,24.69%,-100.00%,0.22%,0.33%
+XLY,The Consumer Discretionary Select Sector SPDR Fund,261,0.80%,0.88%,23.73%,-100.00%,0.27%,0.32%
+FEZ,SPDR EURO STOXX 50 ETF,261,0.93%,0.34%,18.40%,-93.33%,0.32%,0.40%
+SLV,iShares Silver Trust,261,1.41%,0.16%,18.21%,-87.33%,0.32%,0.34%
+ARKG,ARK Genomic Revolution ETF,261,1.90%,0.38%,17.97%,-100.00%,-0.11%,-0.23%
+JETS,U.S. Global Jets ETF,261,1.45%,0.36%,17.44%,-100.00%,0.26%,-0.11%
+KRE,SPDR S&P Regional Banking ETF,261,1.49%,0.18%,16.37%,-88.70%,0.31%,0.35%
+QQQ,Invesco QQQ Trust,261,1.15%,0.15%,14.95%,-85.33%,0.36%,0.32%
+GDXJ,VanEck Junior Gold Miners ETF,261,1.72%,0.51%,14.39%,-100.00%,0.29%,-0.25%
+NUGT,Direxion Daily Gold Miners Index Bull 2X Shares,261,3.31%,0.35%,11.68%,-100.00%,0.44%,0.17%
+FAS,Direxion Daily Financial Bull 3X Shares,261,3.22%,0.27%,11.51%,-78.60%,0.98%,0.96%
+GDX,VanEck Gold Miners ETF,261,1.37%,0.93%,11.06%,-100.00%,0.28%,0.16%
+TQQQ,ProShares UltraPro QQQ,261,3.22%,1.03%,10.73%,-100.00%,0.88%,0.51%
+IWM,iShares Russell 2000 ETF,261,1.15%,0.22%,10.15%,-100.00%,0.22%,0.17%
+UPRO,ProShares UltraPro S&P500,261,2.83%,0.11%,9.17%,-63.12%,0.75%,1.15%
+TSLL,Direxion Daily TSLA Bull 2X Shares,146,5.52%,0.14%,7.64%,-100.00%,0.75%,-0.37%
+SPY,SPDR S&P 500 ETF,261,0.93%,0.15%,6.55%,-72.54%,0.30%,0.41%
+ITB,iShares U.S. Home Construction ETF,261,1.53%,0.29%,6.34%,-97.90%,0.37%,0.28%
+USO,"United States Oil Fund, LP",261,1.90%,0.01%,5.47%,-69.85%,0.48%,0.59%
+IVV,iShares Core S&P 500 ETF,261,1.03%,0.00%,4.84%,-57.36%,0.31%,0.44%
+MAGS,Roundhill Magnificent Seven ETF,111,1.36%,0.70%,2.37%,-100.00%,0.72%,0.61%
+DIA,SPDR Dow Jones Industrial Average ETF Trust,261,0.86%,0.16%,1.79%,-90.75%,0.25%,0.24%
+VOO,Vanguard S&P 500 ETF,261,1.06%,0.02%,1.31%,-52.16%,0.31%,0.52%
+TNA,Direxion Daily Small Cap Bull 3X Shares,261,3.33%,1.39%,0.94%,-100.00%,0.50%,0.15%
+SOXL,Direxion Daily Semiconductor Bull 3X Shares,261,4.94%,1.72%,-0.36%,-100.00%,1.10%,0.43%
+RSP,Invesco S&P 500 Equal Weight ETF,261,0.87%,0.38%,-0.75%,-100.00%,0.27%,0.22%
+IEF,iShares 7-10 Year Treasury Bond ETF,261,0.26%,0.25%,-1.24%,-100.00%,-0.05%,-0.04%
+SPXL,Direxion Daily S&P500 Bull 3X Shares,261,2.88%,0.59%,-1.84%,-80.21%,0.76%,1.16%
+XLK,The Technology Select Sector SPDR Fund,261,1.37%,0.30%,-2.56%,-98.05%,0.39%,0.33%
+XBI,SPDR S&P Biotech ETF,261,1.45%,0.58%,-5.31%,-100.00%,-0.01%,0.07%
+ETHA,iShares Ethereum Trust ETF,44,3.85%,0.62%,-7.24%,-87.58%,-0.11%,1.10%
+SSO,ProShares Ultra S&P500,261,2.02%,0.43%,-7.42%,-81.99%,0.52%,0.79%
+VTI,Vanguard Total Stock Market Index Fund ETF Shares,261,0.74%,0.86%,-9.19%,-100.00%,0.30%,0.44%
+SVXY,ProShares Short VIX Short-Term Futures ETF,261,1.79%,0.44%,-9.32%,-67.28%,0.42%,1.03%
+SMH,VanEck Semiconductor ETF,261,2.25%,0.03%,-9.70%,-75.22%,0.58%,0.58%
+TMF,Direxion Daily 20+ Year Treasury Bull 3X Shares,261,2.46%,0.03%,-12.99%,-100.00%,-0.70%,-0.52%
+NVDL,GraniteShares 2x Long NVDA Daily ETF,128,7.20%,0.62%,-13.58%,-69.84%,2.96%,2.80%
+IGV,iShares Expanded Tech-Software Sector ETF,261,1.86%,0.07%,-13.75%,-87.18%,0.32%,0.31%
+TLT,iShares 20+ Year Treasury Bond ETF,261,0.61%,0.53%,-16.23%,-100.00%,-0.18%,-0.01%
+SVIX,-1x Short VIX Futures ETF,165,2.59%,2.43%,-21.58%,-100.00%,0.31%,1.49%
+GLD,SPDR Gold Shares,261,1.13%,0.08%,-21.98%,-82.97%,0.27%,0.27%
+XLV,The Health Care Select Sector SPDR Fund,261,0.82%,0.51%,-23.14%,-100.00%,0.14%,0.21%
+IAU,iShares Gold Trust,261,1.10%,0.19%,-25.05%,-92.21%,0.27%,0.28%
+SQQQ,ProShares UltraPro Short QQQ,261,2.54%,3.30%,-28.09%,-100.00%,-1.02%,-1.15%
+SPXU,ProShares UltraPro Short S&P500,261,2.38%,1.84%,-30.79%,-100.00%,-0.75%,-1.35%

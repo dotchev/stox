@@ -1,6 +1,7 @@
 import pickle
 import os
 import json
+import pandas as pd
 
 option_leverage_dir = 'data/option_leverage'
 option_rel_price_dir = 'data/option_rel_price'
@@ -47,3 +48,6 @@ def load_option_rel_price(symbol):
     # Convert keys from strings to numbers
     data = {int(key): value for key, value in data.items()}
 
+def load_history(file):
+    print(f'Loading history from {file}')
+    history = pd.read_csv(file).set_index('Date')

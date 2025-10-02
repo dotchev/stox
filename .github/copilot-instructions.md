@@ -1,0 +1,2 @@
+- Keep changes to the minimum necessary to achieve the task
+- Keep comments concise and relevant

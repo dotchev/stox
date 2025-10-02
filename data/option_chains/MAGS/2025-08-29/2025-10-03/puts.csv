@@ -1,0 +1,2 @@
+,contractSymbol,lastTradeDate,strike,lastPrice,bid,ask,change,percentChange,volume,openInterest,impliedVolatility,inTheMoney,contractSize,currency
+0,MAGS251003P00061500,2025-08-26 14:05:11+00:00,61.5,2.37,2.25,2.7,0.0,0.0,2,1,0.22852333984375,True,REGULAR,USD
