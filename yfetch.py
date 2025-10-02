@@ -133,10 +133,10 @@ def get_option_chains(symbol: str, as_of: str = None, expiry: str = None) -> Opt
         else:
             print(f"Fetching option chain for {symbol} expiring on {expiry}")
             sleep(1)  # Sleep to avoid hitting API rate limits
-            start_time = time.perf_counter()
+            # start_time = time.perf_counter()
             chain = ticker.option_chain(expiry)
-            elapsed = time.perf_counter() - start_time
-            print(f"ticker.option_chain({expiry}) took {elapsed:.3f} seconds")
+            # elapsed = time.perf_counter() - start_time
+            # print(f"ticker.option_chain({expiry}) took {elapsed:.3f} seconds")
             chain.calls.to_csv(calls_file)
             chain.puts.to_csv(puts_file)
             option_chain = OptionChain(calls=chain.calls, puts=chain.puts)
