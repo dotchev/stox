@@ -1,19 +1,24 @@
 import json
 import os
+import random
 import time
-from time import sleep
 from matplotlib import ticker
 import pandas as pd
 import yfinance as yf
 from datetime import date, datetime, timedelta
 from dataclasses import dataclass
 
+
+def delay():
+    # Random delay to avoid hitting yfinance API rate limits
+    time.sleep(random.uniform(1, 2))
+
 history_cache_dir = os.path.join(
     os.path.dirname(__file__), 'data', 'history_cache')
 os.makedirs(history_cache_dir, exist_ok=True)
 
 
-def get_stock_history(symbol, period='5y', interval='1d', cache_days=6):
+def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     """Get stock history with caching
 
     Args:
@@ -33,11 +38,12 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=6):
         file_mod_time = datetime.fromtimestamp(os.path.getmtime(cache_file))
         if datetime.now() - file_mod_time < timedelta(days=cache_days):
             history = pd.read_csv(cache_file, index_col=0, parse_dates=True)
+            history.index = pd.to_datetime(history.index, utc=True)
             # print(f"Loaded cached history for {symbol} ({len(history)} rows)")
             return history
 
     # Fetch fresh data
-    sleep(1)  # Sleep to avoid hitting API rate limits
+    delay()
     ticker_data = yf.Ticker(symbol)
     history = ticker_data.history(interval=interval, period=period)
     print(f"Fetched history for {symbol} ({len(history)} rows)")
@@ -65,6 +71,24 @@ class OptionChain:
         assert not otm.empty, f'No OTM calls for {symbol} on {expiration}'
         assert itm.iloc[-1].strike <= stock_price <= otm.iloc[0].strike, \
             f'Stock price {stock_price} for {symbol} is not between ITM and OTM strikes on {expiration}'
+
+    def get_calls(self) -> list[tuple[float, float]]:
+        """Return a list of all calls as (strike_price, mid_price) tuples."""
+        result = []
+        for _, row in self.calls.iterrows():
+            strike_price = row['strike']
+            mid_price = (row['bid'] + row['ask']) / 2
+            result.append((strike_price, mid_price))
+        return result
+
+    def get_puts(self) -> list[tuple[float, float]]:
+        """Return a list of all puts as (strike_price, mid_price) tuples."""
+        result = []
+        for _, row in self.puts.iterrows():
+            strike_price = row['strike']
+            mid_price = (row['bid'] + row['ask']) / 2
+            result.append((strike_price, mid_price))
+        return result
 
     def get_itm_calls(self) -> list[tuple[float, float]]:
         """Return a list of ITM calls as (strike_price, mid_price) tuples."""
@@ -132,11 +156,8 @@ def get_option_chains(symbol: str, as_of: str = None, expiry: str = None) -> Opt
             option_chain = OptionChain(calls=calls, puts=puts)
         else:
             print(f"Fetching option chain for {symbol} expiring on {expiry}")
-            sleep(1)  # Sleep to avoid hitting API rate limits
-            # start_time = time.perf_counter()
+            delay()
             chain = ticker.option_chain(expiry)
-            # elapsed = time.perf_counter() - start_time
-            # print(f"ticker.option_chain({expiry}) took {elapsed:.3f} seconds")
             chain.calls.to_csv(calls_file)
             chain.puts.to_csv(puts_file)
             option_chain = OptionChain(calls=chain.calls, puts=chain.puts)

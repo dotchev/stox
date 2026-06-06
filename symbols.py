@@ -2,26 +2,13 @@ import pandas as pd
 from datetime import datetime
 
 
-my_picks = [
-    'SPY',
-    'QQQ',
-    'TOPT',
-    'QTOP',
+my_stocks = [
     'BRK-B', 
-    'AJG',   
-    'RSG',   
-    # 'TQQQ',  
-    # 'IGM',   
-    # 'XLKS.MI', 
-    # 'MGK',
-    'SPMO',
-    'MAGS',
-    'FNGS',
-    'UFO',
-    'QTUM',
-    'NUKZ',
-    'SMH',
-    'USD',
+    # 'AJG',   
+    # 'RSG',   
+    # 'AZO',
+    'PL',
+    'RKLB',
     'NVDA',
     'AVGO',
     'TSLA',
@@ -30,25 +17,57 @@ my_picks = [
     'AAPL',
     'AMZN',
     'META',
-    'CRM',
+    # 'CRM',
     'NFLX',
     'SHOP',
     'NET',
     'PLTR',
-    'NOW',
-    'SNOW',
-    'WDAY',
+    # 'NOW',
+    # 'SNOW',
+    # 'WDAY',
     # 'XYZ',
     'BKNG',
     'ISRG',
+]
+
+my_etfs = [
+    'SPY',
+    # 'SPYG',
+    # 'SPYV',
+    'QQQ',
+    # 'TOPT',
+    # 'QTOP',
+    # 'TQQQ',  
+    'IGM',   
+    # 'XLKS.MI', 
+    # 'MGK',
+    'SPMO',
+    'MAGS',
+    'FNGS',
+    'UFO',
+    'ROKT',
+    # 'ARKX',
+    'QTUM',
+    'NUKZ',
+    'SMH',
+    'USD',
     'PPA',
+    'DAPP',
+    'BITQ',
+    # 'LVHI',    # Franklin International Low Volatility High Dividend Index ETF
     'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
     'ESIF.DE', # iShares MSCI Europe Financials Sector UCITS ETF
-    # 'FLXD.DE', # Franklin European Quality Dividend UCITS
-    # 'EXV1.DE', # iShares STOXX Europe 600 Banks UCITS ETF (DE)
+    'VDIV.DE', # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
+    'JEDI.DE', # VanEck Space Innovators UCITS ETF
+    'XLKS.MI', # Invesco Technology S&P US Select Sector UCITS ETF
+    'SMH.MI',  # VanEck Vectors Semiconductor UCITS ETF
+    'CHIP.PA', # Amundi MSCI Semiconductors UCITS ETF Acc
+    'DFEN.DE', # VanEck Defense ETF A USD Acc
     'BTC-USD',
     'GC=F' # Gold
 ]
+
+my_picks = my_stocks + my_etfs
 
 etfs_with_weekly_options = [
 #   'MSTY', 'MSTU', 'MSTX', 

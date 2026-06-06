@@ -1,0 +1,507 @@
+symbol,name
+XEON.DE,Xtrackers II EUR Overnight Rate Swap UCITS ETF 1C
+XEOD.DE,Xtrackers II EUR Overnight Rate Swap UCITS ETF 1D
+LYOR.DE,Multi Units Luxembourg - Amundi Smart Overnight Return UCITS ETF Acc
+EGV2.DE,Multi Units Luxembourg - Amundi Smart Overnight Return UCITS ETF Dist
+L8I3.DE,Amundi EUR Overnight Return UCITS ETF Acc
+PJEU.DE,Invesco EuroMTS Cash 3 Months UCITS ETF
+18M1.DE,Amundi Euro Government Bond 0-6 M UCITS ETF Acc
+JEST.DE,JPM EUR Ultra-Short Income Active UCITS ETF – EUR (acc)
+EUN6.DE,iShares € Govt Bond 0-1yr UCITS ETF EUR (Dist)
+FRNE.DE,Amundi Index Solutions - Amundi EUR Floating Rate Corporate Bond ESG - UCITS ETF DR - EUR (C)
+IS3M.DE,iShares € Ultrashort Bond UCITS ETF
+EL4W.DE,Deka Deutsche Börse EUROGOV Germany Money Market UCITS ETF
+PJSR.DE,PIMCO Euro Short Maturity UCITS ETF EUR Accumulation
+PRAB.DE,Amundi Prime Euro Government Bond 0-1Y UCITS ETF Acc
+PJS1.DE,PIMCO Euro Short Maturity UCITS ETF EUR Income
+FVSH.DE,Franklin Euro Short Maturity UCITS ETF
+XBO2.DE,Xtrackers II Italy Government Bond 0-1 Swap UCITS ETF 1C
+EXVM.DE,iShares eb.rexxGovernment Germany 0-1yr UCITS ETF (DE)
+EFRN.DE,iShares € Floating Rate Bond Advanced UCITS ETF EUR (Dist)
+EUED.DE,iShares € Ultrashort Bond ESG SRI UCITS ETF EUR Inc
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
+SLQX.DE,Expat Slovenia SBI Top UCITS ETF
+AHYS.DE,Amundi EUR Short Term High Yield Corporate Bond ESG UCITS ETF D
+4GLD.DE,Xetra-Gold
+EXV1.DE,iShares STOXX Europe 600 Banks UCITS ETF (DE)
+LYMH.DE,Amundi MSCI Greece UCITS ETF
+GLDA.DE,Amundi Physical Metals PLC    E
+LBNK.DE,Multi Units Luxembourg - Amundi STOXX Europe 600 Banks UCITS ETF Acc
+XGDU.DE,XTrackers ETC PLC             E
+XAD5.DE,Xtrackers Physical Gold ETC (EUR)
+AMEE.DE,Amundi Global Hydrogen UCITS ETF - Acc
+PPFB.DE,iShares Physical Metals PLC   O
+8PSG.DE,Invesco Physical Markets PLC  O
+INDA.DE,Multi Units Luxembourg - Amundi STOXX Europe 600 Banks UCITS ETF Inc
+GZUR.DE,WisdomTree Physical Swiss Gold
+SC0U.DE,Invesco STOXX Europe 600 Optimised Banks UCITS ETF
+IS0Y.DE,iShares € Corp Bond Interest Rate Hedged ESG SRI UCITS ETF EUR (Dist)
+EXX1.DE,iShares EURO STOXX Banks 30-15 UCITS ETF (DE)
+LYBK.DE,Amundi Euro Stoxx Banks UCITS ETF Acc
+ECR3.DE,Amundi Index Solutions - Amundi EUR Corporate Bond 0-3Y ESG UCITS ETF DR (C)
+XESD.DE,Xtrackers Spain UCITS ETF 1D
+XESP.DE,Xtrackers Spain UCITS ETF 1C
+AMES.DE,Amundi IBEX 35 UCITS ETF Acc
+S7XE.DE,Invesco EURO STOXX Optimised Banks UCITS ETF
+LGQI.DE,Amundi Global Equity Quality Income UCITS ETF Dist
+CZX.DE,Expat Czech PX UCITS ETF
+EUIN.DE,Amundi US Inflation Expectations 10Y UCITS ETF Acc
+GBSE.DE,WisdomTree Physical Gold - EUR Daily Hedged
+FLXD.DE,Franklin European Quality Dividend UCITS ETF
+XAD1.DE,Xtrackers Physical Gold EUR Hedged ETC
+ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF
+XGDE.DE,XTrackers ETC PLC             E
+SPYZ.DE,SPDR MSCI Europe Financials UCITS ETF
+8PSE.DE,Invesco Physical Gold ETC EUR Hedged
+ELFF.DE,Deka Euro Corporates 0-3 Liquid UCITS ETF
+XGSD.DE,Xtrackers Stoxx Global Select Dividend 100 Swap UCITS ETF 1D
+WTIF.DE,WisdomTree Japan Equity UCITS ETF - EUR Hedged Acc
+ISPA.DE,iShares STOXX Global Select Dividend 100 UCITS ETF (DE)
+RM8U.DE,Royal Mint Responsibly Sourced Physical Gold ETC
+VGWD.DE,Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Distributing
+XDEV.DE,Xtrackers MSCI World Value UCITS ETF 1C
+XS7R.DE,Xtrackers MSCI Europe Financials Screened UCITS ETF 1C
+IS3S.DE,iShares Edge MSCI World Value Factor UCITS ETF USD (Acc)
+ZPRW.DE,SPDR MSCI Europe Value UCITS ETF EUR Acc
+EHF1.DE,Amundi Index Solutions - Amundi MSCI Europe High Dividend Factor UCITS ETF-C
+PSWD.DE,Invesco FTSE RAFI All World 3000 UCITS ETF
+D5BL.DE,Xtrackers MSCI Europe Value UCITS ETF 1C
+DBXI.DE,Xtrackers FTSE MIB UCITS ETF 1D
+SXRY.DE,iShares VII PLC - iShares FTSE MIB ETF EUR Acc
+CEMS.DE,iShares Edge MSCI Europe Value Factor UCITS ETF EUR (Acc)
+SYBD.DE,SPDR Bloomberg 0-3 Year Euro Corporate Bond UCITS ETF
+6PSC.DE,Invesco FTSE RAFI Europe UCITS ETF
+EHDV.DE,Invesco EURO STOXX High Dividend Low Volatility UCITS ETF
+LYPD.DE,Amundi MSCI World Financials UCITS ETF EUR Acc
+SXR3.DE,iShares VII PLC - iShares MSCI UK ETF GBP Acc
+JMLP.DE,Alerian Midstream Energy Dividend UCITS ETF
+TCRS.DE,Janus Henderson HMT Global IG Credit Curve Steepener Core UCITS ETF Acc
+SMLP.DE,Invesco Morningstar US Energy Infrastructure MLP UCITS ETF
+WTEE.DE,WisdomTree Europe Equity Income UCITS ETF
+SMLD.DE,Invesco Morningstar US Energy Infrastructure MLP UCITS ETF (Dist)
+EUHI.DE,PIMCO Advantage Euro Short-Term High Yield Corporate Bond Index UCITS ETF EUR Income
+VUKE.DE,Vanguard FTSE 100 UCITS ETF
+UBUD.DE,UBS Solactive Global Pure Gold Miners UCITS ETF USD dis
+F702.DE,Amundi Multi-Asset Portfolio Defensive UCITS ETF Dist
+DXSA.DE,Xtrackers Euro Stoxx Quality Dividend UCITS ETF
+SXRW.DE,iShares VII PLC - iShares Core FTSE 100 ETF GBP Acc
+XDWF.DE,Xtrackers MSCI World Financials UCITS ETF 1C
+XML4.DE,L&G UK Equity UCITS ETF
+IUSZ.DE,iShares Core FTSE 100 UCITS ETF GBP (Dist)
+XDUK.DE,Xtrackers FTSE 100 UCITS ETF 1C
+EUHA.DE,PIMCO Advantage Euro Short-Term High Yield Corporate Bond Index UCITS ETF EUR Accumulation
+IQSA.DE,Invesco Global Active ESG Equity UCITS ETF USD Acc
+VUKG.DE,Vanguard FTSE 100 UCITS ETF GBP Accumulation
+XUKX.DE,Xtrackers FTSE 100 Income UCITS ETF 1D
+XB4A.DE,Xtrackers ATX UCITS ETF 1C
+LGWS.DE,Amundi MSCI EMU Value Factor ETF Distribution
+IQQD.DE,iShares UK Dividend UCITS ETF GBP (Dist)
+D100.DE,Amundi FTSE 100 Swap UCITS ETF Dist
+DX2E.DE,Xtrackers S&P Global Infrastructure Swap UCITS ETF
+H4ZB.DE,HSBC FTSE 100 UCITS ETF
+XDWI.DE,Xtrackers MSCI World Industrials UCITS ETF 1C
+UIM3.DE,UBS FTSE 100 UCITS ETF GBP dis
+EXH5.DE,iShares STOXX Europe 600 Insurance UCITS ETF (DE)
+EXW3.DE,iShares STOXX Europe 600 Top 20 UCITS ETF (DE)
+QDVL.DE,iShares € Corp Bond 0-3yr ESG SRI UCITS ETF EUR (Dist)
+EL4Y.DE,Deka STOXX Europe 50 UCITS ETF
+TSWE.DE,VanEck World Equal Weight Screened UCITS ETF
+EXSH.DE,iShares STOXX Europe Select Dividend 30 UCITS ETF (DE)
+EXXX.DE,iShares ATX UCITS ETF (DE)
+ELFB.DE,Deka Euro Prime ESG UCITS ETF
+EGV1.DE,Multi Units Luxembourg - Amundi STOXX Europe 600 Insurance UCITS ETF Inc
+LIRU.DE,Multi Units Luxembourg - Amundi STOXX Europe 600 Insurance UCITS ETF Acc
+WTDX.DE,WisdomTree Japan Equity UCITS ETF - USD Hedged
+UIQ4.DE,UBS Euro Equity Defensive Put Write SF UCITS ETF EUR acc
+18MQ.DE,Amundi ETF MSCI World ex Europe EUR A/I
+NS4E.DE,Invesco JPX-Nikkei 400 UCITS ETF (EUR Hdg)
+AE50.DE,Amundi ETF Stoxx Europe 50 UCITS ETF
+JP4H.DE,Amundi Index Solutions - Amundi JPX-Nikkei 400
+SC0Y.DE,Invesco STOXX Europe 600 Optimised Insurance UCITS ETF
+TTPX.DE,Amundi Index Solutions - Amundi Japan Topix UCITS ETF-C EUR Hedged
+2B7I.DE,ISH EU VALUE EUR-AC
+XDW0.DE,Xtrackers MSCI World Energy UCITS ETF 1C
+SELD.DE,Amundi Stoxx Europe Select Dividend 30 UCITS ETF D
+ETLX.DE,L&G Gold Mining UCITS ETF
+ZPDW.DE,SPDR MSCI Japan EUR Hdg UCITS ETF
+UIM9.DE,UBS MSCI Canada UCITS ETF CAD dis
+FLXX.DE,Franklin Global Quality Dividend UCITS ETF
+GRX.DE,Expat Greece ASE UCITS ETF
+5MVW.DE,iShares MSCI World Energy Sector UCITS ETF USD Inc
+BGX.DE,Expat Bulgaria SOFIX UCITS ETF
+UET5.DE,UBS EURO STOXX 50 ESG UCITS ETF EUR dis
+EJAH.DE,BNP Paribas Easy MSCI Japan Min TE UCITS ETF H EUR Cap
+UFMA.DE,UBS Core MSCI Japan UCITS ETF hEUR acc
+IBCG.DE,iShares MSCI Japan EUR Hedged UCITS ETF (Acc)
+IS0E.DE,iShares Gold Producers UCITS ETF USD (Acc)
+LOGS.DE,Amundi STOXX Europe 600 Energy ESG Screened
+OIGS.DE,Multi Units Luxembourg - Amundi STOXX Europe 600 Energy ESG Screened UCITS ETF Inc
+EXSC.DE,iShares STOXX Europe Large 200 UCITS ETF (DE)
+JPGL.DE,JPM Global Equity Multi-Factor UCITS ETF
+VJPE.DE,Vanguard FTSE Japan UCITS ETF EUR Hedged Accumulation
+EXXW.DE,iShares Dow Jones Asia Pacific Select Dividend 50 UCITS ETF (DE)
+OPEN.DE,iShares Inclusion and Diversity UCITS ETF
+EUN1.DE,iShares II Public Limited Company - iShares STOXX Europe 50 UCITS ETF
+EDEU.DE,BNP Paribas Easy Dividend Europe UCITS ETF Capitalisation
+XMK9.DE,Xtrackers MSCI Japan UCITS ETF 4C EUR Hedged
+IBC0.DE,iShares STOXX Europe Equity Multifactor UCITS ETF EUR (Acc)
+CEBP.DE,iShares VII PLC - iShares MSCI EMU USD Hedged ETF Acc
+JPNH.DE,Amundi Japan TOPIX II UCITS ETF
+LCUK.DE,Amundi UK Equity All Cap UCITS ETF
+ZPDE.DE,SPDR S&P U.S. Energy Select Sector UCITS ETF
+QVMP.DE,Invesco S&P 500 QVM UCITS ETF
+ELFC.DE,Deka EURO iSTOXX ex Fin Dividend+ UCITS ETF
+XUEN.DE,Xtrackers MSCI USA Energy UCITS ETF 1D
+ZPRD.DE,SPDR FTSE UK All Share UCITS ETF GBP (Dist)
+G2X.DE,VanEck Gold Miners UCITS ETF
+SPYF.DE,SPDR FTSE UK All Share UCITS ETF
+QDVF.DE,iShares S&P 500 Energy Sector UCITS ETF USD (Acc)
+UIME.DE,UBS MSCI EMU Value UCITS ETF EUR dis
+D5BH.DE,Xtrackers MSCI Canada Screened UCITS ETF 1C
+LSMC.DE,Amundi MSCI Semiconductors ESG Screened UCITS ETF
+JNHD.DE,Amundi Core MSCI Japan UCITS ETF EUR Hedged Dist
+XDNE.DE,Xtrackers MSCI Japan Screened UCITS ETF 3C EUR Hedged
+ZPDI.DE,SPDR S&P U.S. Industrials Select Sector UCITS ETF
+2B7C.DE,iShares V PLC - iShares S&P 500 Industrials Sector UCITS ETF
+FGEQ.DE,Fidelity Global Quality Income ETF Inc
+V3ET.DE,VanEck European Equal Weight Screened UCITS ETF
+IUSL.DE,iShares Dow Jones Global Leaders Screened UCITS ETF USD (Acc)
+JREE.DE,JPMorgan ETFs (Ireland) ICAV - Europe Research Enhanced Index Equity Active UCITS ETF - EUR (acc)
+LYYA.DE,Amundi MSCI World Swap II UCITS ETF Dist
+IQSE.DE,Invesco Global Active ESG Equity UCITS ETF EUR PfHedged Acc
+SPP2.DE,SPDR MSCI All Country World UCITS ETF USD Acc
+EXI2.DE,iShares Dow Jones Global Titans 50 UCITS ETF (DE)
+SXR2.DE,iShares VII PLC - iShares MSCI Canada ETF USD Acc
+JREG.DE,JPMorgan ETFs (Ireland) ICAV - Global Research Enhanced Index Equity Active UCITS ETF - USD (acc)
+EUNK.DE,iShares Core MSCI Europe UCITS ETF EUR (Acc)
+H4ZR.DE,HSBC MSCI Canada UCITS ETF
+QDVW.DE,iShares MSCI World Quality Dividend Advanced UCITS ETF USD (Dist)
+UBUM.DE,UBS S&P Dividend Aristocrats ESG Elite UCITS ETF USD dis
+SPYQ.DE,SPDR MSCI Europe Industrials UCITS ETF
+PRAE.DE,Amundi Index Solutions - Amundi Prime Europe UCITS ETF DR (C)
+EXH1.DE,iShares STOXX Europe 600 Oil & Gas UCITS ETF (DE)
+VGEU.DE,Vanguard FTSE Developed Europe UCITS ETF
+VWCG.DE,Vanguard FTSE Developed Europe UCITS ETF EUR Accumulation
+VLEU.DE,BNP Paribas Easy Low Vol EuropeUCITS ETF Cap
+VLED.DE,BNP Paribas Easy Low Vol Europe UCITS ETF Dis
+SC0V.DE,Invesco STOXX Europe 600 Optimised Oil & Gas UCITS ETF
+10AI.DE,Amundi Index Solutions - Amundi Core MSCI Europe UCITS ETF DR EUR
+XUIN.DE,Xtrackers MSCI USA Industrials UCITS ETF 1D
+H4ZE.DE,HSBC MSCI Europe UCITS ETF
+IQQX.DE,iShares Asia Pacific Dividend UCITS ETF USD (Dist)
+QDVX.DE,iShares MSCI Europe Quality Dividend Advanced UCITS ETF EUR (Dist)
+SC0E.DE,Invesco MSCI Europe UCITS ETF
+SPYE.DE,SPDR MSCI Europe UCITS ETF
+PR1E.DE,Amundi Index Solutions - Amundi Prime Europe UCITS ETF DR
+EL42.DE,Deka MSCI Europe UCITS ETF
+ELFW.DE,Deka MSCI World UCITS ETF
+EMEC.DE,BNP Paribas Easy ECPI Circular Economy Leaders UCITS ETF Cap
+WTEI.DE,WisdomTree Emerging Markets Equity Income UCITS ETF
+BBCK.DE,Invesco Global Buyback Achievers UCITS ETF
+WTD8.DE,WisdomTree Emerging Markets Equity Income UCITS ETF - Acc
+AMEW.DE,Amundi Index Solutions - Amundi MSCI World Swap UCITS ETF EUR Acc
+OP5H.DE,OSSIAM MSCI JAPAN NR 1C Hedged Index EUR
+D5BI.DE,Xtrackers MSCI Mexico UCITS ETF 1C
+5MVL.DE,iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc)
+LYY0.DE,Amundi MSCI All Country World UCITS ETF EUR Acc
+6PSA.DE,Invesco FTSE RAFI US 1000 UCITS ETF
+LEER.DE,Amundi MSCI Eastern Europe Ex Russia UCITS ETF
+VGVF.DE,Vanguard FTSE Developed World UCITS ETF USD Accumulation
+UIMF.DE,UBS Core MSCI Europe UCITS ETF hEUR acc
+CEBG.DE,iShares VII PLC - iShares MSCI Mexico Capped ETF USD Acc
+XSLR.DE,XTrackers ETC PLC             E
+EXSA.DE,iShares STOXX Europe 600 UCITS ETF (DE) EUR (Dist)
+VGVE.DE,Vanguard FTSE Developed World UCITS ETF USD Distributing
+XSVT.DE,Xtrackers Bloomberg Commodity ex-Agriculture & Livestock Swap UCITS ETF 2C USD
+H41J.DE,HSBC Multi Factor Worldwide Equity UCITS ETF
+XSX6.DE,Xtrackers Stoxx Europe 600 UCITS ETF 1C
+V80A.DE,Vanguard LifeStrategy 80% Equity UCITS ETF (EUR) Accumulating
+WTDH.DE,WisdomTree Europe Equity UCITS ETF - USD Hedged
+ETSA.DE,BNP Paribas Easy Stoxx Europe 600 UCITS ETF EUR C/D
+VGWE.DE,Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulation
+ELFA.DE,Deka EURO STOXX 50 ESG Filtered UCITS ETF
+V80D.DE,Vanguard LifeStrategy 80% Equity UCITS ETF (EUR) Distributing
+H41C.DE,HSBC Developed World Screened Equity UCITS ETF
+SPPW.DE,SPDR MSCI World UCITS ETF
+ETSZ.DE,BNP Paribas Easy Stoxx Europe 600 UCITS ETF EUR C
+WTEU.DE,WisdomTree US Equity Income UCITS ETF
+SC0C.DE,Invesco STOXX Europe 600 UCITS ETF
+UFMB.DE,UBS MSCI United Kingdom UCITS ETF hEUR acc
+S5SD.DE,UBS S&P 500 Scored & Screened UCITS ETF USD dis
+5ESG.DE,Invesco S&P 500 Scored & Screened ETF Acc
+4UBQ.DE,UBS S&P 500 Scored & Screened UCITS ETF USD acc
+EUN0.DE,iShares Edge MSCI Europe Minimum Volatility UCITS ETF EUR (Acc)
+ETL2.DE,L&G Longer Dated All Commodities UCITS ETF
+SLMC.DE,iShares MSCI Europe Screened UCITS ETF EUR (Acc)
+SLMD.DE,iShares MSCI Europe Screened UCITS ETF EUR (Dist)
+IQQY.DE,iShares Core MSCI Europe UCITS ETF EUR (Dist)
+XMAW.DE,Xtrackers MSCI AC World Screened UCITS ETF 1C
+EUNL.DE,iShares Core MSCI World UCITS ETF USD (Acc)
+XDWD.DE,Xtrackers MSCI World UCITS ETF 1C
+SC0J.DE,Invesco MSCI World UCITS ETF
+WTD9.DE,WisdomTree US Equity Income UCITS ETF - Acc
+IS0H.DE,iShares V Public Limited Company - iShares Austria Government Bond UCITS ETF
+VWCE.DE,Vanguard FTSE All-World UCITS ETF USD Accumulation
+OP4E.DE,OSSIAM BLOOMBERG EUROPE ex EUROZONE PAB NR 1C EUR
+VGWL.DE,Vanguard FTSE All-World UCITS ETF
+UBU7.DE,UBS Core MSCI World UCITS ETF USD dis
+UETW.DE,UBS Core MSCI World UCITS ETF USD acc
+LYY5.DE,Amundi MSCI Europe UCITS ETF Acc
+AHYQ.DE,Amundi Index Solutions - Amundi Core MSCI World Swap UCITS ETF Dist
+ETLQ.DE,L&G Global Equity UCITS ETF
+ZPDX.DE,SPDR STOXX Europe 600 SRI UCITS ETF EUR Acc
+WTDM.DE,WisdomTree US Quality Dividend Growth UCITS ETF - USD Acc
+ACM9.DE,Amundi MSCI World ex EMU UCITS ETF Acc
+EEUX.DE,BNP Paribas Easy MSCI Europe Min TE UCITS ETF Cap
+IUSQ.DE,iShares MSCI ACWI UCITS ETF USD Acc
+SPPY.DE,SPDR S&P 500 Leaders UCITS ETF
+C030.DE,Amundi Index Solutions - Amundi DJ Switzerland Titans 30 UCITS ETF CHF Distributing
+CEUG.DE,Amundi MSCI Europe ESG Broad Transition - UCITS ETF DR - EUR (C)
+XSXE.DE,Xtrackers Stoxx Europe 600 UCITS ETF 2C - EUR Hedged
+QDVD.DE,iShares MSCI USA Quality Dividend Advanced UCITS ETF USD (Dist)
+LYTR.DE,Amundi Bloomberg Equal-weight Commodity ex-Agriculture UCITS ETF Acc
+WTED.DE,WisdomTree Emerging Markets SmallCap Dividend UCITS ETF
+DBXW.DE,Xtrackers MSCI World Swap UCITS ETF
+H4ZJ.DE,HSBC MSCI World UCITS ETF
+PRAZ.DE,Amundi Index Solutions - Amundi Prime Eurozone UCITS ETF DR (C)
+MIVA.DE,Amundi Index Solutions - Amundi MSCI Europe Minimum Volatility Factor UCITS ETF-C
+XESC.DE,Xtrackers Euro Stoxx 50 UCITS ETF 1C
+XESX.DE,Xtrackers Euro Stoxx 50 UCITS ETF 1D
+ETBB.DE,BNP Paribas Easy Euro Stoxx 50 UCITS ETF EUR C/D
+UIM1.DE,UBS EURO STOXX 50 UCITS ETF EUR dis
+SXRT.DE,iShares VII PLC - iShares Core EURO STOXX 50 ETF EUR Acc
+EXW1.DE,iShares Core EURO STOXX 50 UCITS ETF (DE)
+EL4G.DE,Deka EURO STOXX Select Dividend 30 UCITS ETF
+ETDD.DE,BNP Paribas Easy Euro Stoxx 50 UCITS ETF EUR C
+SPYY.DE,SPDR MSCI All Country World UCITS ETF
+SPYN.DE,SPDR MSCI Europe Energy UCITS ETF
+EL4B.DE,Deka EURO STOXX 50 UCITS ETF
+S6DW.DE,iShares MSCI World Screened UCITS ETF USD (Dist)
+H4ZA.DE,HSBC EURO STOXX 50 UCITS ETF
+SNAW.DE,iShares MSCI World Screened UCITS ETF USD (Acc)
+V50D.DE,Amundi Core EURO STOXX 50 UCITS ETF EUR Dist
+V50A.DE,Amundi Core EURO STOXX 50 UCITS ETF EUR Acc
+XDJE.DE,Xtrackers Nikkei 225 UCITS ETF 2D EUR Hedged
+LYP6.DE,Amundi Core Stoxx Europe 600 UCITS ETF Acc
+BCFU.DE,UBS BBG Commodity CMCI SF UCITS ETF USD acc
+FTGE.DE,First Trust Eurozone AlphaDEX UCITS ETF Class A Shares
+PR1Z.DE,Amundi Index Solutions - Amundi Prime Eurozone UCITS ETF DR
+LYPS.DE,Amundi Core S&P 500 Swap UCITS ETF EUR Dist
+EXSG.DE,iShares EURO STOXX Select Dividend 30 UCITS ETF (DE)
+XDWL.DE,Xtrackers MSCI World UCITS ETF 1D
+UIM7.DE,UBS MSCI World UCITS ETF USD dis
+IQQW.DE,iShares MSCI World UCITS ETF USD (Dist)
+IQQA.DE,iShares Euro Dividend UCITS ETF EUR Dist
+S6X0.DE,Invesco EURO STOXX 50 UCITS ETF (Dist)
+SC0D.DE,Invesco EURO STOXX 50 UCITS ETF
+ESIE.DE,iShares MSCI Europe Energy Sector UCITS ETF
+ESGW.DE,Invesco MSCI World Universal Screened UCITS ETF
+WDNR.DE,Amundi Global Bioenergy UCITS ETF EUR Acc
+AME6.DE,Amundi Index Solutions - AMUNDI STOXX EUROPE 600 ESG - UCITS ETF DR - EUR (C)
+CD91.DE,Amundi Index Solutions - Amundi NYSE Arca Gold BUGS UCITS ETF USD Distributing
+UEQU.DE,UBS CMCI ex-Agriculture SF UCITS ETF USD acc
+ESEE.DE,BNP Paribas Easy S&P 500 UCITS ETF EUR C
+D6RP.DE,Deka MSCI World Climate Change ESG CTB UCITS ETF
+EXH9.DE,iShares STOXX Europe 600 Utilities UCITS ETF (DE)
+FUSA.DE,Fidelity US Quality Income UCITS ETF Acc
+FUSD.DE,Fidelity US Quality Income UCITS ETF Inc
+ESGE.DE,Invesco MSCI Europe Universal Screened UCITS ETF
+XASX.DE,Xtrackers - Xtrackers MSCI UK ESG UCITS ETF 1D
+SPYU.DE,SPDR MSCI Europe Utilities UCITS ETF
+UIQK.DE,UBS CMCI Composite SF UCITS ETF USD acc
+CEMR.DE,iShares Edge MSCI Europe Momentum Factor UCITS ETF EUR (Acc)
+SPYW.DE,SPDR S&P Euro Dividend Aristocrats UCITS ETF
+AUM5.DE,Amundi Index Solutions - Amundi S&P 500 Swap UCITS ETF EUR Acc
+JRUD.DE,JPMorgan ETFs (Ireland) ICAV - US Research Enhanced Index Equity Active UCITS ETF - USD (dist)
+I500.DE,iShares S&P 500 Swap UCITS ETF
+EUPE.DE,Ossiam Shiller Barclays Cape Europe Sector Value TR UCITS ETF 1C EUR Acc
+EMXC.DE,Amundi MSCI Emerging Ex China UCITS ETF Acc
+EXSI.DE,iShares EURO STOXX UCITS ETF (DE)
+JREU.DE,JPMorgan ETFs (Ireland) ICAV - US Research Enhanced Index Equity Active UCITS ETF - USD (acc)
+MJMT.DE,Amundi Index Solutions - Amundi MSCI Europe Momentum Factor UCITS ETF-C
+SPYI.DE,SPDR MSCI All Country World Investable Market UCITS ETF
+M9SD.DE,Market Access NYSE Arca Gold BUGS Index UCITS ETF
+XMEA.DE,"Xtrackers MSCI EM Europe, Middle East & Africa ESG Swap UCITS ETF 1C"
+MXUK.DE,Invesco MSCI Europe ex-UK UCITS ETF
+SXR7.DE,iShares VII PLC -iShares Core MSCI EMU UCITS ETF EUR (Acc)
+STXH.DE,Amundi Core Stoxx Europe 600 UCITS ETF EUR Hedged Dist
+LUTI.DE,Lyxor Index Fund - Lyxor Stoxx Europe 600 Utilities UCITS ETF Acc
+G2XJ.DE,VanEck Junior Gold Miners UCITS ETF
+MWOP.DE,Amundi MSCI World ESG Selection UCITS ETF ACC
+ESEA.DE,BNP Paribas Easy S&P 500 UCITS ETF
+JPCT.DE,JPMorgan ETFs (Ireland) ICAV - Carbon Transition Global Equity (CTB) UCITS ETF
+LUTL.DE,Multi Units Luxembourg - Amundi STOXX Europe 600 Utilities UCITS ETF Inc
+UIM4.DE,UBS Core MSCI EMU UCITS ETF EUR dis
+XD5E.DE,Xtrackers MSCI EMU UCITS ETF 1D
+SC01.DE,Invesco STOXX Europe 600 Optimised Construction & Materials UCITS ETF
+D5BM.DE,Xtrackers S&P 500 Swap UCITS ETF 1C
+EXV8.DE,iShares STOXX Europe 600 Construction & Materials UCITS ETF (DE)
+XDEQ.DE,Xtrackers MSCI World Quality UCITS ETF 1C
+VERE.DE,Vanguard FTSE Developed Europe ex UK UCITS ETF Accuimulation
+VERX.DE,Vanguard FTSE Developed Europe ex UK UCITS ETF Distributing
+UIQN.DE,UBS MSCI EMU Select Factor Mix UCITS ETF EUR acc
+IS3Q.DE,iShares Edge MSCI World Quality Factor UCITS ETF USD (Acc)
+ZPRE.DE,SPDR MSCI EMU UCITS ETF
+P500.DE,Invesco S&P 500 UCITS ETF
+EUNW.DE,iShares € High Yield Corp Bond UCITS ETF EUR (Dist)
+EDM6.DE,iShares MSCI Europe CTB Enhanced ESG UCITS ETF EUR Acc
+IUSA.DE,iShares Core S&P 500 UCITS ETF USD Dist
+SXR8.DE,iShares Core S&P 500 UCITS ETF USD (Acc)
+FLXU.DE,Franklin U.S. Equity UCITS ETF
+CE8G.DE,Amundi Index Solutions - Amundi MSCI World Ex Europe ETF-C EUR
+XHY1.DE,Xtrackers II Rolling Target Maturity Sept 2027 EUR High Yield UCITS ETF 1D
+SPY5.DE,SPDR S&P 500 UCITS ETF
+XBAS.DE,Xtrackers MSCI Singapore UCITS ETF 1C
+EMNU.DE,iShares MSCI Europe CTB Enhanced ESG UCITS ETF EUR Inc
+FEUR.DE,Fidelity Europe Equity Research Enhanced UCITS ETF EUR Acc
+LYSX.DE,Amundi EURO STOXX 50 II UCITS ETF
+EXV2.DE,iShares STOXX Europe 600 Telecommunications UCITS ETF (DE)
+EUN2.DE,iShares Core EURO STOXX 50 UCITS ETF EUR (Dist)
+H413.DE,HSBC Europe Screened Equity UCITS ETF
+ETLN.DE,L&G Europe ex UK Equity UCITS ETF
+XIEE.DE,Xtrackers MSCI Europe UCITS ETF 1D
+XMEU.DE,Xtrackers MSCI Europe UCITS ETF 1C
+F703.DE,Amundi Multi-Asset Portfolio Offensive UCITS ETF Dist
+6TVM.DE,Amundi Core S&P 500 Swap UCITS ETF USD Dist
+EXXV.DE,iShares Dow Jones Eurozone Sustainability Screened UCITS ETF (DE)
+XSMI.DE,Xtrackers Switzerland UCITS ETF 1D
+LTCM.DE,Lyxor Index Fund - Lyxor Stoxx Europe 600 Telecommunications UCITS ETF Acc
+INDB.DE,MULTI-UNITS LUXEMBOURG - Lyxor STOXX Europe 600 Telecommunications UCITS ETF 2
+VUSA.DE,Vanguard S&P 500 UCITS ETF
+GSDE.DE,BNP Paribas Easy Energy & Metals Enhanced Roll
+H4ZF.DE,HSBC S&P 500 UCITS ETF
+IS3G.DE,iShares MSCI EMU Large Cap UCITS ETF EUR (Acc)
+U1FB.DE,UBS MSCI Japan Socially Responsible UCITS ETF hEUR acc
+ESAP.DE,BNP Paribas Easy S&P 500 UCITS ETF
+IBCZ.DE,iShares STOXX World Equity Multifactor UCITS ETF USD (Acc)
+XZW0.DE,Xtrackers MSCI World ESG UCITS ETF 1C
+XUEK.DE,Xtrackers S&P Europe ex UK UCITS ETF 1D
+XDND.DE,Xtrackers MSCI North America High Dividend Yield UCITS ETF 1C
+VUAA.DE,Vanguard S&P 500 UCITS ETF USD Accumulation
+FGLR.DE,Fidelity Global Equity Research Enhanced UCITS ETF USD Acc
+IBCH.DE,iShares MSCI World EUR Hedged UCITS ETF (Acc)
+IQQU.DE,iShares MSCI Europe ex-UK UCITS ETF EUR (Dist)
+540H.DE,Amundi MSCI Europe Ex EMU ESG Selection UCITS ETF Acc
+XS6R.DE,Xtrackers MSCI Europe Utilities Screened UCITS ETF 1C
+ZPRG.DE,SPDR S&P Global Dividend Aristocrats UCITS ETF
+XUCS.DE,Xtrackers MSCI USA Consumer Staples UCITS ETF 1D
+UIMZ.DE,UBS Factor MSCI EMU Prime Value Screened UCITS ETF EUR dis
+WTEQ.DE,WisdomTree Global Quality Dividend Growth UCITS ETF - USD
+FGEU.DE,Fidelity Global Quality Income UCITS ETF EUR Hedged Inc
+EMUX.DE,BNP Paribas Easy MSCI EMU Min TE UCITS ETF – EUR
+SLMB.DE,iShares MSCI EMU Screened UCITS ETF EUR (Dist)
+DJAM.DE,Amundi Dow Jones Industrial Average UCITS ETF Dist
+WMIN.DE,VanEck S&P Global Mining UCITS ETF
+540J.DE,Amundi Index Solutions - Amundi MSCI Switzerland UCITS ETF-C EUR
+F701.DE,Amundi Multi-Asset Portfolio UCITS ETF Dist
+LMVF.DE,Amundi Core MSCI EMU UCITS ETF Dist
+SC0Q.DE,Invesco STOXX Europe 600 Optimised Telecommunications UCITS ETF
+UBU5.DE,UBS MSCI USA Value UCITS ETF USD dis
+2B7D.DE,iShares V PLC - iShares S&P 500 Consumer Staples Sector UCITS ETF
+SLMA.DE,iShares MSCI EMU Screened UCITS ETF EUR (Acc)
+EXX5.DE,iShares Dow Jones U.S. Select Dividend UCITS ETF (DE)
+QDVE.DE,iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc)
+EDM4.DE,iShares MSCI EMU CTB Enhanced ESG UCITS ETF EUR Acc
+ZPRL.DE,SPDR EURO STOXX Low Volatility UCITS ETF
+V60D.DE,Vanguard LifeStrategy 60% Equity UCITS ETF (EUR) Distributing
+18M2.DE,Amundi MSCI EMU High Dividend UCITS ETF Acc
+DX2Z.DE,Xtrackers S&P Select Frontier Swap UCITS ETF
+XDWU.DE,Xtrackers MSCI World Utilities UCITS ETF 1C
+XHYG.DE,Xtrackers II EUR High Yield Corporate Bond UCITS ETF 1D
+XHYA.DE,Xtrackers II EUR High Yield Corporate Bond UCITS ETF 1C
+V60A.DE,Vanguard LifeStrategy 60% Equity UCITS ETF (EUR) Accumulating
+UIMA.DE,UBS Core MSCI Europe UCITS ETF EUR dis
+SXRU.DE,iShares VII PLC - iShares Dow Jones Indust Avg ETF USD Acc
+VVSM.DE,VanEck Semiconductor UCITS ETF
+EL4I.DE,Deka MSCI USA LC UCITS ETF
+EMNE.DE,iShares MSCI EMU CTB Enhanced ESG UCITS ETF EUR Inc
+FUSR.DE,Fidelity US Equity Research Enhanced UCITS ETF USD Acc
+DXS0.DE,Xtrackers SLI UCITS ETF
+VNRT.DE,Vanguard FTSE North America UCITS ETF
+VNRA.DE,Vanguard FTSE North America UCITS ETF USD Accumulation
+SC0Z.DE,Invesco STOXX Europe 600 Optimised Utilities UCITS ETF
+EDMW.DE,iShares MSCI World CTB Enhanced ESG UCITS ETF USD Acc
+WTEM.DE,WisdomTree Global Quality Dividend Growth UCITS ETF - USD Acc
+XZMU.DE,Xtrackers MSCI USA ESG UCITS ETF 1C
+DBX5.DE,Xtrackers MSCI Taiwan UCITS ETF 1C
+SC0H.DE,Invesco MSCI USA UCITS ETF
+DELF.DE,L&G MSCI Europe Climate Pathway UCITS ETF
+XGLF.DE,Xtrackers MSCI GCC Select Swap UCITS ETF 1C
+USCP.DE,Ossiam Shiller Barclays Cape US Sector Value TR 1C (EUR)
+FVSJ.DE,Franklin FTSE Asia ex China ex Japan UCITS ETF
+18MN.DE,Amundi Index Solutions - Amundi MSCI Switzerland
+EUPC.DE,Ossiam Shiller Barclays Cape US Sector Value TR 1C (USD)
+XMUS.DE,Xtrackers MSCI USA Swap UCITS ETF 1C
+ROX.DE,Expat Romania BET - BK UCITS ETF
+SC0S.DE,Invesco STOXX Europe 600 Optimised Industrial Goods & Services UCITS ETF
+OSX4.DE,Ossiam Europe ESG Machine Learning ETF UCITS 1C (EUR)
+ETLS.DE,L&G US Equity UCITS ETF
+SLUS.DE,iShares MSCI USA Screened UCITS ETF USD (Dist)
+IUSD.DE,iShares MSCI World Islamic UCITS ETF USD (Dist)
+LGQG.DE,Amundi MSCI EMU ESG Broad Transition UCITS ETF ACC
+SGAS.DE,iShares MSCI USA Screened UCITS ETF USD (Acc)
+EMND.DE,iShares MSCI World CTB Enhanced ESG UCITS ETF USD Inc
+EABE.DE,Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+XD9U.DE,Xtrackers MSCI USA UCITS ETF 1C
+4UBB.DE,UBS (Irl) ETF plc - MSCI USA UCITS ETF
+FLX5.DE,Franklin S&P 500 Paris Aligned Climate UCITS ETF
+ZPAB.DE,Amundi S&P Eurozone Climate Paris Aligned UCITS ETF Acc
+SXRI.DE,ISHS MSCI JP USD-AC
+UBU3.DE,UBS Core MSCI USA UCITS ETF USD dis
+IQQN.DE,iShares MSCI North America UCITS ETF USD (Dist)
+SXR4.DE,iShares VII PLC - iShares MSCI USA ETF USD Acc
+8PSB.DE,Invesco Physical Markets PLC  O
+WEBH.DE,Amundi Core MSCI USA UCITS ETF Acc
+IS3F.DE,iShares $ Corp Bond Interest Rate Hedged UCITS ETF USD (Dist)
+EXI1.DE,iShares SLI UCITS ETF (DE)
+EXH4.DE,iShares STOXX Europe 600 Industrial Goods & Services UCITS ETF (DE)
+H412.DE,HSBC USA Screened Equity UCITS ETF
+MKK1.DE,Expat Macedonia Mbi10 Ucits Etf
+DBXD.DE,Xtrackers DAX UCITS ETF 1C
+BBUS.DE,JPMorgan ETFs (Ireland) ICAV - BetaBuilders US Equity UCITS ETF - USD (acc)
+UIMY.DE,UBS Factor MSCI EMU Low Volatility UCITS ETF EUR dis
+SPYX.DE,SPDR MSCI Emerging Markets Small Cap UCITS ETF
+EL4F.DE,Deka DAX (ausschüttend) UCITS ETF
+INDU.DE,Amundi STOXX Europe 600 Industrials UCITS ETF Dist
+LIGS.DE,Amundi STOXX Europe 600 Industrials UCITS ETF Acc
+XQUI.DE,Xtrackers Portfolio UCITS ETF 1C
+EL4A.DE,Deka DAX UCITS ETF
+UIM6.DE,UBS MSCI USA UCITS ETF USD dis
+H4ZU.DE,HSBC MSCI Taiwan Capped UCITS ETF
+C001.DE,Amundi Index - Amundi Dax UCITS
+EXS1.DE,iShares Core DAX UCITS ETF (DE) EUR (Acc)
+CG1G.DE,Amundi ETF DAX UCITS ETF DR
+QDVB.DE,iShares Edge MSCI USA Quality Factor UCITS ETF USD (Acc)
+AYE2.DE,iShares € High Yield Corp Bond ESG SRI UCITS ETF EUR (Acc)
+D6RQ.DE,Deka MSCI USA Climate Change ESG CTB UCITS ETF
+EXI3.DE,iShares Dow Jones Industrial Average UCITS ETF (DE)
+XDWS.DE,Xtrackers MSCI World Consumer Staples UCITS ETF 1C
+6PSK.DE,Invesco FTSE RAFI Emerging Markets UCITS ETF
+FEUQ.DE,Fidelity Europe Quality Income UCITS ETF EUR Acc
+VOOM.DE,Amundi Global Gender Equality ETF Accumulation
+WTIZ.DE,WisdomTree Japan Equity UCITS ETF - USD Acc
+QDVI.DE,iShares Edge MSCI USA Value Factor UCITS ETF USD (Acc)
+IUSF.DE,iShares MSCI USA Islamic UCITS ETF
+GGUE.DE,UBS Global Gender Equality UCITS ETF hEUR acc
+DX2G.DE,Xtrackers CAC 40 UCITS ETF
+EL4Z.DE,Deka MSCI USA UCITS ETF
+XDWY.DE,Xtrackers MSCI World Screened UCITS ETF 1D
+IBCK.DE,iShares Edge S&P 500 Minimum Volatility UCITS ETF USD (Acc)
+SYBJ.DE,SPDR Bloomberg Euro High Yield Bond UCITS ETF
+FEUI.DE,Fidelity Europe Quality Income UCITS ETF EUR Inc
+D500.DE,Invesco S&P 500 UCITS ETF (Dist)
+SPP1.DE,SPDR MSCI All Country World EUR Hdg UCITS ETF (Acc)
+XMVE.DE,Xtrackers MSCI EMU Screened UCITS ETF 1D
+GC40.DE,Amundi Index Solutions - AMUNDI CAC 40 ESG UCITS ETF DR - EUR (C)
+IS38.DE,** SEE<IUSE.DE>
+H4ZD.DE,HSBC MSCI USA QUALITY UCITS ETF
+LDAX.DE,Amundi DAX II UCITS ETF Dist
+ZPRX.DE,SPDR MSCI Europe Small Cap Value Weighted UCITS ETF EUR Acc
+LGQM.DE,Amundi Pan Africa UCITS ETF Acc
+IS3K.DE,iShares $ Short Duration High Yield Corp Bond UCITS ETF
+LYY7.DE,Amundi DAX III UCITS ETF
+ENOA.DE,BNP Paribas Easy MSCI USA Min TE UCITS ETF Cap
+B500.DE,Amundi Index Solutions - Amundi S&P 500 Buyback
+DELG.DE,L&G US ESG Exclusions Paris Aligned UCITS ETF
+WEBI.DE,Amundi Core MSCI USA UCITS ETF Dist
+GACA.DE,Goldman Sachs ActiveBeta Paris-Aligned Sustainable US Large Cap Equity UCITS ETF USD Acc
