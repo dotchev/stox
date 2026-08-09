@@ -17,6 +17,62 @@ history_cache_dir = os.path.join(
     os.path.dirname(__file__), 'data', 'history_cache')
 os.makedirs(history_cache_dir, exist_ok=True)
 
+metadata_cache_dir = os.path.join(
+    os.path.dirname(__file__), 'data', 'metadata_cache')
+os.makedirs(metadata_cache_dir, exist_ok=True)
+
+
+def _metadata_file(symbol):
+    return os.path.join(metadata_cache_dir, f"{symbol}.json")
+
+
+def _jsonable(obj):
+    """Make non-JSON-serializable metadata values (DataFrames, Timestamps)
+    serializable. Called by json.dump via the `default` hook."""
+    if isinstance(obj, pd.DataFrame):
+        return json.loads(obj.reset_index().to_json(orient='records', date_format='iso'))
+    if isinstance(obj, pd.Series):
+        return json.loads(obj.to_json(date_format='iso'))
+    if isinstance(obj, pd.Timestamp):
+        return obj.isoformat()
+    return str(obj)
+
+
+def _save_metadata(symbol, meta):
+    with open(_metadata_file(symbol), 'w', encoding='utf-8') as f:
+        json.dump(meta, f, indent=2, ensure_ascii=False, default=_jsonable)
+
+
+def _load_metadata(symbol):
+    f = _metadata_file(symbol)
+    if os.path.exists(f):
+        with open(f, encoding='utf-8') as fh:
+            return json.load(fh)
+    return None
+
+
+def get_stock_metadata(symbol):
+    """Get the full history metadata for a symbol, cached permanently as
+    data/metadata_cache/<symbol>.json.
+
+    Reuses metadata captured during get_stock_history (no extra request).
+    Only on a true miss does it make a single lightweight chart request.
+    """
+    meta = _load_metadata(symbol)
+    if meta is not None:
+        return meta
+
+    delay()
+    meta = yf.Ticker(symbol).get_history_metadata()
+    _save_metadata(symbol, meta)
+    return _load_metadata(symbol)  # round-trip so callers get plain JSON types
+
+
+def get_stock_name(symbol):
+    """Get the stock/ETF display name from the cached metadata."""
+    meta = get_stock_metadata(symbol)
+    return meta.get('longName') or meta.get('shortName') or symbol
+
 
 def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     """Get stock history with caching
@@ -47,6 +103,12 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     ticker_data = yf.Ticker(symbol)
     history = ticker_data.history(interval=interval, period=period)
     print(f"Fetched history for {symbol} ({len(history)} rows)")
+
+    # Capture the full metadata from the same request (no extra API call)
+    try:
+        _save_metadata(symbol, ticker_data.get_history_metadata())
+    except Exception:
+        pass
 
     # Cache the result
     history.to_csv(cache_file)

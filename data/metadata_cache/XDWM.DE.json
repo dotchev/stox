@@ -1,0 +1,107 @@
+{
+  "currency": "EUR",
+  "symbol": "XDWM.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1460962800,
+  "regularMarketTime": 1785512153,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 65.79,
+  "fiftyTwoWeekHigh": 71.37,
+  "fiftyTwoWeekLow": 51.98,
+  "regularMarketDayHigh": 67.13,
+  "regularMarketDayLow": 65.66,
+  "regularMarketVolume": 5794,
+  "longName": "Xtrackers MSCI World Materials UCITS ETF 1C",
+  "shortName": "Xtr.(IE)-MSCI World Materials R",
+  "chartPreviousClose": 66.71,
+  "previousClose": 66.61,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "end": 1785481200,
+      "start": 1785474000,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "end": 1785511800,
+      "start": 1785481200,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "end": 1785522600,
+      "start": 1785511800,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-07-26T22:00:00.000Z",
+      "pre_start": "2026-07-27T05:00:00.000Z",
+      "pre_end": "2026-07-27T07:00:00.000Z",
+      "start": "2026-07-27T07:00:00.000Z",
+      "end": "2026-07-27T15:30:00.000Z",
+      "post_start": "2026-07-27T15:30:00.000Z",
+      "post_end": "2026-07-27T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-27T22:00:00.000Z",
+      "pre_start": "2026-07-28T05:00:00.000Z",
+      "pre_end": "2026-07-28T07:00:00.000Z",
+      "start": "2026-07-28T07:00:00.000Z",
+      "end": "2026-07-28T15:30:00.000Z",
+      "post_start": "2026-07-28T15:30:00.000Z",
+      "post_end": "2026-07-28T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-28T22:00:00.000Z",
+      "pre_start": "2026-07-29T05:00:00.000Z",
+      "pre_end": "2026-07-29T07:00:00.000Z",
+      "start": "2026-07-29T07:00:00.000Z",
+      "end": "2026-07-29T15:30:00.000Z",
+      "post_start": "2026-07-29T15:30:00.000Z",
+      "post_end": "2026-07-29T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-29T22:00:00.000Z",
+      "pre_start": "2026-07-30T05:00:00.000Z",
+      "pre_end": "2026-07-30T07:00:00.000Z",
+      "start": "2026-07-30T07:00:00.000Z",
+      "end": "2026-07-30T15:30:00.000Z",
+      "post_start": "2026-07-30T15:30:00.000Z",
+      "post_end": "2026-07-30T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-30T22:00:00.000Z",
+      "pre_start": "2026-07-31T05:00:00.000Z",
+      "pre_end": "2026-07-31T07:00:00.000Z",
+      "start": "2026-07-31T07:00:00.000Z",
+      "end": "2026-07-31T15:30:00.000Z",
+      "post_start": "2026-07-31T15:30:00.000Z",
+      "post_end": "2026-07-31T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

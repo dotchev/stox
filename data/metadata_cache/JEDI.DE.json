@@ -1,0 +1,106 @@
+{
+  "currency": "EUR",
+  "symbol": "JEDI.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1656054000,
+  "regularMarketTime": 1786116949,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 77.1,
+  "fiftyTwoWeekHigh": 121.24,
+  "fiftyTwoWeekLow": 39.705,
+  "regularMarketDayHigh": 77.1,
+  "regularMarketDayLow": 75.26,
+  "regularMarketVolume": 59004,
+  "longName": "VanEck Space Innovators UCITS ETF",
+  "shortName": "VanECK Space UCITS ETF        R",
+  "chartPreviousClose": 67.71,
+  "previousClose": 76.54,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "end": 1786086000,
+      "start": 1786078800,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "end": 1786116600,
+      "start": 1786086000,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "end": 1786127400,
+      "start": 1786116600,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-08-02T22:00:00.000Z",
+      "pre_start": "2026-08-03T05:00:00.000Z",
+      "pre_end": "2026-08-03T07:00:00.000Z",
+      "start": "2026-08-03T07:00:00.000Z",
+      "end": "2026-08-03T15:30:00.000Z",
+      "post_start": "2026-08-03T15:30:00.000Z",
+      "post_end": "2026-08-03T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-08-03T22:00:00.000Z",
+      "pre_start": "2026-08-04T05:00:00.000Z",
+      "pre_end": "2026-08-04T07:00:00.000Z",
+      "start": "2026-08-04T07:00:00.000Z",
+      "end": "2026-08-04T15:30:00.000Z",
+      "post_start": "2026-08-04T15:30:00.000Z",
+      "post_end": "2026-08-04T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-08-04T22:00:00.000Z",
+      "pre_start": "2026-08-05T05:00:00.000Z",
+      "pre_end": "2026-08-05T07:00:00.000Z",
+      "start": "2026-08-05T07:00:00.000Z",
+      "end": "2026-08-05T15:30:00.000Z",
+      "post_start": "2026-08-05T15:30:00.000Z",
+      "post_end": "2026-08-05T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-08-05T22:00:00.000Z",
+      "pre_start": "2026-08-06T05:00:00.000Z",
+      "pre_end": "2026-08-06T07:00:00.000Z",
+      "start": "2026-08-06T07:00:00.000Z",
+      "end": "2026-08-06T15:30:00.000Z",
+      "post_start": "2026-08-06T15:30:00.000Z",
+      "post_end": "2026-08-06T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-08-06T22:00:00.000Z",
+      "pre_start": "2026-08-07T05:00:00.000Z",
+      "pre_end": "2026-08-07T07:00:00.000Z",
+      "start": "2026-08-07T07:00:00.000Z",
+      "end": "2026-08-07T15:30:00.000Z",
+      "post_start": "2026-08-07T15:30:00.000Z",
+      "post_end": "2026-08-07T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "ytd",
+    "max"
+  ]
+}

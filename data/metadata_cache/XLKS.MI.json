@@ -1,0 +1,107 @@
+{
+  "currency": "EUR",
+  "symbol": "XLKS.MI",
+  "exchangeName": "MIL",
+  "fullExchangeName": "Milan",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1260950400,
+  "regularMarketTime": 1784907325,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Rome",
+  "regularMarketPrice": 887.18,
+  "fiftyTwoWeekHigh": 958.21,
+  "fiftyTwoWeekLow": 657.02,
+  "regularMarketDayHigh": 890.8,
+  "regularMarketDayLow": 877.86,
+  "regularMarketVolume": 813,
+  "longName": "Invesco Technology S&P US Select Sector UCITS ETF",
+  "shortName": "INVESCO TECHNO S&P US SEL SEC U",
+  "chartPreviousClose": 869.98,
+  "previousClose": 884.38,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "end": 1785135600,
+      "start": 1785132000,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "end": 1785166200,
+      "start": 1785135600,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "end": 1785166200,
+      "start": 1785166200,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-07-19T22:00:00.000Z",
+      "pre_start": "2026-07-20T06:00:00.000Z",
+      "pre_end": "2026-07-20T07:00:00.000Z",
+      "start": "2026-07-20T07:00:00.000Z",
+      "end": "2026-07-20T15:30:00.000Z",
+      "post_start": "2026-07-20T15:30:00.000Z",
+      "post_end": "2026-07-20T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-20T22:00:00.000Z",
+      "pre_start": "2026-07-21T06:00:00.000Z",
+      "pre_end": "2026-07-21T07:00:00.000Z",
+      "start": "2026-07-21T07:00:00.000Z",
+      "end": "2026-07-21T15:30:00.000Z",
+      "post_start": "2026-07-21T15:30:00.000Z",
+      "post_end": "2026-07-21T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-21T22:00:00.000Z",
+      "pre_start": "2026-07-22T06:00:00.000Z",
+      "pre_end": "2026-07-22T07:00:00.000Z",
+      "start": "2026-07-22T07:00:00.000Z",
+      "end": "2026-07-22T15:30:00.000Z",
+      "post_start": "2026-07-22T15:30:00.000Z",
+      "post_end": "2026-07-22T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-22T22:00:00.000Z",
+      "pre_start": "2026-07-23T06:00:00.000Z",
+      "pre_end": "2026-07-23T07:00:00.000Z",
+      "start": "2026-07-23T07:00:00.000Z",
+      "end": "2026-07-23T15:30:00.000Z",
+      "post_start": "2026-07-23T15:30:00.000Z",
+      "post_end": "2026-07-23T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-23T22:00:00.000Z",
+      "pre_start": "2026-07-24T06:00:00.000Z",
+      "pre_end": "2026-07-24T07:00:00.000Z",
+      "start": "2026-07-24T07:00:00.000Z",
+      "end": "2026-07-24T15:30:00.000Z",
+      "post_start": "2026-07-24T15:30:00.000Z",
+      "post_end": "2026-07-24T15:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

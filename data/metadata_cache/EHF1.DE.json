@@ -1,0 +1,107 @@
+{
+  "currency": "EUR",
+  "symbol": "EHF1.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1517558400,
+  "regularMarketTime": 1785512150,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 247.1,
+  "fiftyTwoWeekHigh": 251.25,
+  "fiftyTwoWeekLow": 201.0,
+  "regularMarketDayHigh": 248.95,
+  "regularMarketDayLow": 246.35,
+  "regularMarketVolume": 5866,
+  "longName": "Amundi Index Solutions - Amundi MSCI Europe High Dividend Factor UCITS ETF-C",
+  "shortName": "AIS-Amundi MSCI EUROPE H.D.FA.N",
+  "chartPreviousClose": 245.95,
+  "previousClose": 248.35,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "start": 1785474000,
+      "end": 1785481200,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "start": 1785481200,
+      "end": 1785511800,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "start": 1785511800,
+      "end": 1785522600,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-07-26T22:00:00.000Z",
+      "pre_start": "2026-07-27T05:00:00.000Z",
+      "pre_end": "2026-07-27T07:00:00.000Z",
+      "start": "2026-07-27T07:00:00.000Z",
+      "end": "2026-07-27T15:30:00.000Z",
+      "post_start": "2026-07-27T15:30:00.000Z",
+      "post_end": "2026-07-27T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-27T22:00:00.000Z",
+      "pre_start": "2026-07-28T05:00:00.000Z",
+      "pre_end": "2026-07-28T07:00:00.000Z",
+      "start": "2026-07-28T07:00:00.000Z",
+      "end": "2026-07-28T15:30:00.000Z",
+      "post_start": "2026-07-28T15:30:00.000Z",
+      "post_end": "2026-07-28T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-28T22:00:00.000Z",
+      "pre_start": "2026-07-29T05:00:00.000Z",
+      "pre_end": "2026-07-29T07:00:00.000Z",
+      "start": "2026-07-29T07:00:00.000Z",
+      "end": "2026-07-29T15:30:00.000Z",
+      "post_start": "2026-07-29T15:30:00.000Z",
+      "post_end": "2026-07-29T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-29T22:00:00.000Z",
+      "pre_start": "2026-07-30T05:00:00.000Z",
+      "pre_end": "2026-07-30T07:00:00.000Z",
+      "start": "2026-07-30T07:00:00.000Z",
+      "end": "2026-07-30T15:30:00.000Z",
+      "post_start": "2026-07-30T15:30:00.000Z",
+      "post_end": "2026-07-30T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-30T22:00:00.000Z",
+      "pre_start": "2026-07-31T05:00:00.000Z",
+      "pre_end": "2026-07-31T07:00:00.000Z",
+      "start": "2026-07-31T07:00:00.000Z",
+      "end": "2026-07-31T15:30:00.000Z",
+      "post_start": "2026-07-31T15:30:00.000Z",
+      "post_end": "2026-07-31T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

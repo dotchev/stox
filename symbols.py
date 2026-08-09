@@ -7,32 +7,32 @@ my_stocks = [
     # 'AJG',   
     # 'RSG',   
     # 'AZO',
-    'PL',
-    'RKLB',
+    # 'PL',
+    # 'RKLB',
     'NVDA',
-    'AVGO',
+    # 'AVGO',
     'TSLA',
-    'MSFT',
-    'GOOG',
-    'AAPL',
-    'AMZN',
-    'META',
+    # 'MSFT',
+    # 'GOOG',
+    # 'AAPL',
+    # 'AMZN',
+    # 'META',
     # 'CRM',
-    'NFLX',
-    'SHOP',
-    'NET',
-    'PLTR',
+    # 'NFLX',
+    # 'SHOP',
+    # 'NET',
+    # 'PLTR',
     # 'NOW',
     # 'SNOW',
     # 'WDAY',
     # 'XYZ',
-    'BKNG',
-    'ISRG',
+    # 'BKNG',
+    # 'ISRG',
 ]
 
 my_etfs = [
     'SPY',
-    # 'SPYG',
+    'SPYG',
     # 'SPYV',
     'QQQ',
     # 'TOPT',
@@ -44,8 +44,8 @@ my_etfs = [
     'SPMO',
     'MAGS',
     'FNGS',
-    'UFO',
-    'ROKT',
+    # 'UFO',
+    # 'ROKT',
     # 'ARKX',
     'QTUM',
     'NUKZ',
@@ -55,14 +55,17 @@ my_etfs = [
     'DAPP',
     'BITQ',
     # 'LVHI',    # Franklin International Low Volatility High Dividend Index ETF
-    'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
+    # 'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
     'ESIF.DE', # iShares MSCI Europe Financials Sector UCITS ETF
     'VDIV.DE', # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
     'JEDI.DE', # VanEck Space Innovators UCITS ETF
-    'XLKS.MI', # Invesco Technology S&P US Select Sector UCITS ETF
-    'SMH.MI',  # VanEck Vectors Semiconductor UCITS ETF
-    'CHIP.PA', # Amundi MSCI Semiconductors UCITS ETF Acc
-    'DFEN.DE', # VanEck Defense ETF A USD Acc
+    # 'XLKS.MI', # Invesco Technology S&P US Select Sector UCITS ETF
+    # 'SMH.MI',  # VanEck Vectors Semiconductor UCITS ETF
+    # 'CHIP.PA', # Amundi MSCI Semiconductors UCITS ETF Acc
+    # 'DFEN.DE', # VanEck Defense ETF A USD Acc
+    'IWMO.MI', # iShares Edge MSCI World Momentum Factor UCITS ETF
+    'XDWI.DE', # Xtrackers MSCI World Industrials UCITS ETF 1C
+    '4GLD.DE', # Xetra-Gold
     'BTC-USD',
     'GC=F' # Gold
 ]

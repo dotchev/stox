@@ -1,0 +1,106 @@
+{
+  "currency": "EUR",
+  "symbol": "NUKL.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1675411200,
+  "regularMarketTime": 1785425749,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 43.08,
+  "fiftyTwoWeekHigh": 61.4,
+  "fiftyTwoWeekLow": 38.33,
+  "regularMarketDayHigh": 43.145,
+  "regularMarketDayLow": 41.415,
+  "regularMarketVolume": 71231,
+  "longName": "VanEck Uranium and Nuclear Technologies UCITS ETF",
+  "shortName": "VanEck ETFs-Uran.Nuclear Tech.R",
+  "chartPreviousClose": 43.75,
+  "previousClose": 41.83,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "start": 1785387600,
+      "end": 1785394800,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "start": 1785394800,
+      "end": 1785425400,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "start": 1785425400,
+      "end": 1785436200,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-07-23T22:00:00.000Z",
+      "pre_start": "2026-07-24T05:00:00.000Z",
+      "pre_end": "2026-07-24T07:00:00.000Z",
+      "start": "2026-07-24T07:00:00.000Z",
+      "end": "2026-07-24T15:30:00.000Z",
+      "post_start": "2026-07-24T15:30:00.000Z",
+      "post_end": "2026-07-24T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-26T22:00:00.000Z",
+      "pre_start": "2026-07-27T05:00:00.000Z",
+      "pre_end": "2026-07-27T07:00:00.000Z",
+      "start": "2026-07-27T07:00:00.000Z",
+      "end": "2026-07-27T15:30:00.000Z",
+      "post_start": "2026-07-27T15:30:00.000Z",
+      "post_end": "2026-07-27T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-27T22:00:00.000Z",
+      "pre_start": "2026-07-28T05:00:00.000Z",
+      "pre_end": "2026-07-28T07:00:00.000Z",
+      "start": "2026-07-28T07:00:00.000Z",
+      "end": "2026-07-28T15:30:00.000Z",
+      "post_start": "2026-07-28T15:30:00.000Z",
+      "post_end": "2026-07-28T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-28T22:00:00.000Z",
+      "pre_start": "2026-07-29T05:00:00.000Z",
+      "pre_end": "2026-07-29T07:00:00.000Z",
+      "start": "2026-07-29T07:00:00.000Z",
+      "end": "2026-07-29T15:30:00.000Z",
+      "post_start": "2026-07-29T15:30:00.000Z",
+      "post_end": "2026-07-29T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-29T22:00:00.000Z",
+      "pre_start": "2026-07-30T05:00:00.000Z",
+      "pre_end": "2026-07-30T07:00:00.000Z",
+      "start": "2026-07-30T07:00:00.000Z",
+      "end": "2026-07-30T15:30:00.000Z",
+      "post_start": "2026-07-30T15:30:00.000Z",
+      "post_end": "2026-07-30T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "ytd",
+    "max"
+  ]
+}

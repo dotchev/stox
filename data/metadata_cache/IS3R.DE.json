@@ -1,0 +1,98 @@
+{
+  "currency": "EUR",
+  "symbol": "IS3R.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1412578800,
+  "regularMarketTime": 1784907345,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 101.18,
+  "fiftyTwoWeekHigh": 109.6,
+  "fiftyTwoWeekLow": 76.97,
+  "regularMarketDayHigh": 102.32,
+  "regularMarketDayLow": 100.7,
+  "regularMarketVolume": 66308,
+  "longName": "iShares Edge MSCI World Momentum Factor UCITS ETF",
+  "shortName": "iShsIV-Edge MSCI Wo.Mo.F.U.ETFR",
+  "chartPreviousClose": 99.4,
+  "previousClose": 102.18,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "end": 1785135600,
+      "start": 1785128400,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "end": 1785166200,
+      "start": 1785135600,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "end": 1785177000,
+      "start": 1785166200,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-07-20T22:00:00.000Z",
+      "pre_start": "2026-07-21T05:00:00.000Z",
+      "pre_end": "2026-07-21T07:00:00.000Z",
+      "start": "2026-07-21T07:00:00.000Z",
+      "end": "2026-07-21T15:30:00.000Z",
+      "post_start": "2026-07-21T15:30:00.000Z",
+      "post_end": "2026-07-21T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-21T22:00:00.000Z",
+      "pre_start": "2026-07-22T05:00:00.000Z",
+      "pre_end": "2026-07-22T07:00:00.000Z",
+      "start": "2026-07-22T07:00:00.000Z",
+      "end": "2026-07-22T15:30:00.000Z",
+      "post_start": "2026-07-22T15:30:00.000Z",
+      "post_end": "2026-07-22T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-22T22:00:00.000Z",
+      "pre_start": "2026-07-23T05:00:00.000Z",
+      "pre_end": "2026-07-23T07:00:00.000Z",
+      "start": "2026-07-23T07:00:00.000Z",
+      "end": "2026-07-23T15:30:00.000Z",
+      "post_start": "2026-07-23T15:30:00.000Z",
+      "post_end": "2026-07-23T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-07-23T22:00:00.000Z",
+      "pre_start": "2026-07-24T05:00:00.000Z",
+      "pre_end": "2026-07-24T07:00:00.000Z",
+      "start": "2026-07-24T07:00:00.000Z",
+      "end": "2026-07-24T15:30:00.000Z",
+      "post_start": "2026-07-24T15:30:00.000Z",
+      "post_end": "2026-07-24T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}
