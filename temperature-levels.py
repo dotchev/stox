@@ -38,7 +38,7 @@ def main():
         '|---|---|---|',
     ]
     for symbol, p25, p75 in rows:
-        lines.append(f'| {symbol} | {p25:.2f} | {p75:.2f} |')
+        lines.append(f'| {symbol} | ${p25:,.2f} | ${p75:,.2f} |')
 
     with open('temperature-levels.md', 'w') as f:
         f.write('\n'.join(lines) + '\n')
