@@ -20,6 +20,15 @@ def compute_levels(symbol):
     return price, percentile, p25, p75
 
 
+def format_percentile(percentile):
+    text = f'{percentile:.0%}'
+    if percentile > 0.75:
+        return f'$\\color{{red}}{{{text}}}$'
+    if percentile < 0.25:
+        return f'$\\color{{blue}}{{{text}}}$'
+    return text
+
+
 def main():
     rows = []
     for symbol in symbols:
@@ -41,7 +50,7 @@ def main():
         '|---|---|---|---|---|',
     ]
     for symbol, price, percentile, p25, p75 in rows:
-        lines.append(f'| {symbol} | ${price:,.2f} | {percentile:.0%} | ${p25:,.2f} | ${p75:,.2f} |')
+        lines.append(f'| {symbol} | ${price:,.2f} | {format_percentile(percentile)} | ${p25:,.2f} | ${p75:,.2f} |')
 
     with open('temperature-levels.md', 'w') as f:
         f.write('\n'.join(lines) + '\n')
