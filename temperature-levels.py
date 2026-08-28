@@ -22,11 +22,16 @@ def compute_levels(symbol):
 
 def format_percentile(percentile):
     text = f'{percentile:.0%}'
-    number = text[:-1]  # keep '%' out of the math span: it's a LaTeX comment char
+    number = text[:-1]
+    # \char"25 renders as '%' in KaTeX. A literal '%' can't be used here: it's
+    # a LaTeX comment char, and GitHub's markdown preprocessor strips the
+    # backslash from an escaped \% before KaTeX ever sees it (its usual
+    # backslash-escapes-punctuation rule) -- but not from \char, since that
+    # backslash is followed by a letter, not punctuation.
     if percentile > 0.75:
-        return f'$\\color{{red}}{{{number}}}$%'
+        return f'$\\color{{red}}{{{number}\\char"25}}$'
     if percentile < 0.25:
-        return f'$\\color{{blue}}{{{number}}}$%'
+        return f'$\\color{{blue}}{{{number}\\char"25}}$'
     return text
 
 
