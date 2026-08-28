@@ -14,7 +14,7 @@ def compute_levels(symbol):
     price = history['Close'].iloc[-1]
     current_sma = sma200.iloc[-1]
     current_dist = dist.iloc[-1]
-    percentile = (dist < current_dist).mean() * 100
+    percentile = (dist < current_dist).mean()
     p25 = current_sma * (1 + dist.quantile(0.25))
     p75 = current_sma * (1 + dist.quantile(0.75))
     return price, percentile, p25, p75
@@ -25,7 +25,7 @@ def main():
     for symbol in symbols:
         price, percentile, p25, p75 = compute_levels(symbol)
         rows.append((symbol, price, percentile, p25, p75))
-        print(f'{symbol}: Price={price:.2f} P={percentile:.0f}% P25={p25:.2f} P75={p75:.2f}')
+        print(f'{symbol}: Price={price:.2f} P={percentile:.0%} P25={p25:.2f} P75={p75:.2f}')
 
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
@@ -41,7 +41,7 @@ def main():
         '|---|---|---|---|---|',
     ]
     for symbol, price, percentile, p25, p75 in rows:
-        lines.append(f'| {symbol} | ${price:,.2f} | {percentile:.0f}% | ${p25:,.2f} | ${p75:,.2f} |')
+        lines.append(f'| {symbol} | ${price:,.2f} | {percentile:.0%} | ${p25:,.2f} | ${p75:,.2f} |')
 
     with open('temperature-levels.md', 'w') as f:
         f.write('\n'.join(lines) + '\n')
