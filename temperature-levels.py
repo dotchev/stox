@@ -22,11 +22,11 @@ def compute_levels(symbol):
 
 def format_percentile(percentile):
     text = f'{percentile:.0%}'
-    escaped = text.replace('%', '\\%')
+    number = text[:-1]  # keep '%' out of the math span: it's a LaTeX comment char
     if percentile > 0.75:
-        return f'$\\color{{red}}{{{escaped}}}$'
+        return f'$\\color{{red}}{{{number}}}$%'
     if percentile < 0.25:
-        return f'$\\color{{blue}}{{{escaped}}}$'
+        return f'$\\color{{blue}}{{{number}}}$%'
     return text
 
 
