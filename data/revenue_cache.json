@@ -1,91 +1,91 @@
 {
   "4GLD.DE": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": null,
     "quarter": null
   },
   "AMAT": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.1141,
     "quarter": "2026-04-30"
   },
   "AVGO": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.4787,
     "quarter": "2026-04-30"
   },
   "BRK-B": {
-    "fetched": "2026-08-09",
-    "growth": -0.0926,
-    "quarter": "2026-03-31"
+    "fetched": "2026-09-01",
+    "growth": 0.4154,
+    "quarter": "2026-06-30"
   },
   "COIN": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": -0.1851,
     "quarter": "2026-06-30"
   },
   "ISRG": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.1854,
     "quarter": "2026-06-30"
   },
   "NASA": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-08-23",
     "growth": null,
     "quarter": null
   },
   "NET": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.3587,
     "quarter": "2026-06-30"
   },
   "NFLX": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.1337,
     "quarter": "2026-06-30"
   },
   "NKE": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": -0.0113,
     "quarter": "2026-05-31"
   },
   "NVDA": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.8523,
     "quarter": "2026-04-30"
   },
   "PL": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.4208,
     "quarter": "2026-04-30"
   },
   "PLTR": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.9283,
     "quarter": "2026-06-30"
   },
   "RKLB": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.6346,
     "quarter": "2026-03-31"
   },
   "SHOP": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.3369,
     "quarter": "2026-06-30"
   },
   "SPCX": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": null,
     "quarter": null
   },
   "STLA": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.2141,
     "quarter": "2026-06-30"
   },
   "TSLA": {
-    "fetched": "2026-08-09",
+    "fetched": "2026-09-01",
     "growth": 0.2552,
     "quarter": "2026-06-30"
   }

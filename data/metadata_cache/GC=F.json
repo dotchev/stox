@@ -5,87 +5,87 @@
   "fullExchangeName": "COMEX",
   "instrumentType": "FUTURE",
   "firstTradeDate": 967608000,
-  "regularMarketTime": 1785864003,
+  "regularMarketTime": 1787688080,
   "hasPrePostMarketData": false,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 4155.2,
+  "regularMarketPrice": 4723.0,
   "fiftyTwoWeekHigh": 5586.2,
-  "fiftyTwoWeekLow": 3310.1,
-  "regularMarketDayHigh": 4163.8,
-  "regularMarketDayLow": 4098.2,
-  "regularMarketVolume": 99682,
+  "fiftyTwoWeekLow": 3371.1,
+  "regularMarketDayHigh": 4755.0,
+  "regularMarketDayLow": 4659.5,
+  "regularMarketVolume": 171173,
   "shortName": "Gold Dec 26",
-  "chartPreviousClose": 4100.1,
-  "previousClose": 4090.5,
+  "chartPreviousClose": 4516.3,
+  "previousClose": 4697.8,
   "scale": 3,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
       "timezone": "EDT",
-      "end": 1785816000,
-      "start": 1785816000,
+      "start": 1787630400,
+      "end": 1787630400,
       "gmtoffset": -14400
     },
     "regular": {
       "timezone": "EDT",
-      "end": 1785902340,
-      "start": 1785816000,
+      "start": 1787630400,
+      "end": 1787716740,
       "gmtoffset": -14400
     },
     "post": {
       "timezone": "EDT",
-      "end": 1785902340,
-      "start": 1785902340,
+      "start": 1787716740,
+      "end": 1787716740,
       "gmtoffset": -14400
     }
   },
   "tradingPeriods": [
     {
-      "Date": "2026-07-30T04:00:00.000Z",
-      "pre_start": "2026-07-30T04:00:00.000Z",
-      "pre_end": "2026-07-30T04:00:00.000Z",
-      "start": "2026-07-30T04:00:00.000Z",
-      "end": "2026-07-31T03:59:00.000Z",
-      "post_start": "2026-07-31T03:59:00.000Z",
-      "post_end": "2026-07-31T03:59:00.000Z"
+      "Date": "2026-08-20T04:00:00.000Z",
+      "pre_start": "2026-08-20T04:00:00.000Z",
+      "pre_end": "2026-08-20T04:00:00.000Z",
+      "start": "2026-08-20T04:00:00.000Z",
+      "end": "2026-08-21T03:59:00.000Z",
+      "post_start": "2026-08-21T03:59:00.000Z",
+      "post_end": "2026-08-21T03:59:00.000Z"
     },
     {
-      "Date": "2026-07-31T04:00:00.000Z",
-      "pre_start": "2026-07-31T04:00:00.000Z",
-      "pre_end": "2026-07-31T04:00:00.000Z",
-      "start": "2026-07-31T04:00:00.000Z",
-      "end": "2026-08-01T03:59:00.000Z",
-      "post_start": "2026-08-01T03:59:00.000Z",
-      "post_end": "2026-08-01T03:59:00.000Z"
+      "Date": "2026-08-21T04:00:00.000Z",
+      "pre_start": "2026-08-21T04:00:00.000Z",
+      "pre_end": "2026-08-21T04:00:00.000Z",
+      "start": "2026-08-21T04:00:00.000Z",
+      "end": "2026-08-22T03:59:00.000Z",
+      "post_start": "2026-08-22T03:59:00.000Z",
+      "post_end": "2026-08-22T03:59:00.000Z"
     },
     {
-      "Date": "2026-08-02T04:00:00.000Z",
-      "pre_start": "2026-08-02T04:00:00.000Z",
-      "pre_end": "2026-08-02T04:00:00.000Z",
-      "start": "2026-08-02T04:00:00.000Z",
-      "end": "2026-08-03T03:59:00.000Z",
-      "post_start": "2026-08-03T03:59:00.000Z",
-      "post_end": "2026-08-03T03:59:00.000Z"
+      "Date": "2026-08-23T04:00:00.000Z",
+      "pre_start": "2026-08-23T04:00:00.000Z",
+      "pre_end": "2026-08-23T04:00:00.000Z",
+      "start": "2026-08-23T04:00:00.000Z",
+      "end": "2026-08-24T03:59:00.000Z",
+      "post_start": "2026-08-24T03:59:00.000Z",
+      "post_end": "2026-08-24T03:59:00.000Z"
     },
     {
-      "Date": "2026-08-03T04:00:00.000Z",
-      "pre_start": "2026-08-03T04:00:00.000Z",
-      "pre_end": "2026-08-03T04:00:00.000Z",
-      "start": "2026-08-03T04:00:00.000Z",
-      "end": "2026-08-04T03:59:00.000Z",
-      "post_start": "2026-08-04T03:59:00.000Z",
-      "post_end": "2026-08-04T03:59:00.000Z"
+      "Date": "2026-08-24T04:00:00.000Z",
+      "pre_start": "2026-08-24T04:00:00.000Z",
+      "pre_end": "2026-08-24T04:00:00.000Z",
+      "start": "2026-08-24T04:00:00.000Z",
+      "end": "2026-08-25T03:59:00.000Z",
+      "post_start": "2026-08-25T03:59:00.000Z",
+      "post_end": "2026-08-25T03:59:00.000Z"
     },
     {
-      "Date": "2026-08-04T04:00:00.000Z",
-      "pre_start": "2026-08-04T04:00:00.000Z",
-      "pre_end": "2026-08-04T04:00:00.000Z",
-      "start": "2026-08-04T04:00:00.000Z",
-      "end": "2026-08-05T03:59:00.000Z",
-      "post_start": "2026-08-05T03:59:00.000Z",
-      "post_end": "2026-08-05T03:59:00.000Z"
+      "Date": "2026-08-25T04:00:00.000Z",
+      "pre_start": "2026-08-25T04:00:00.000Z",
+      "pre_end": "2026-08-25T04:00:00.000Z",
+      "start": "2026-08-25T04:00:00.000Z",
+      "end": "2026-08-26T03:59:00.000Z",
+      "post_start": "2026-08-26T03:59:00.000Z",
+      "post_end": "2026-08-26T03:59:00.000Z"
     }
   ],
   "dataGranularity": "1h",
@@ -104,7 +104,7 @@
     "max"
   ],
   "lastTrade": {
-    "Price": 4155.2001953125,
-    "Time": "2026-08-04T13:20:03-04:00"
+    "Price": 4723.0,
+    "Time": "2026-08-25T16:01:20-04:00"
   }
 }

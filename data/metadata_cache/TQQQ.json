@@ -1,0 +1,111 @@
+{
+  "currency": "USD",
+  "symbol": "TQQQ",
+  "exchangeName": "NGM",
+  "fullExchangeName": "NasdaqGM",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1265898600,
+  "regularMarketTime": 1786737600,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 76.79,
+  "fiftyTwoWeekHigh": 88.09,
+  "fiftyTwoWeekLow": 37.32,
+  "regularMarketDayHigh": 77.85,
+  "regularMarketDayLow": 75.94,
+  "regularMarketVolume": 36068304,
+  "longName": "ProShares UltraPro QQQ",
+  "shortName": "ProShares UltraPro QQQ",
+  "chartPreviousClose": 74.47,
+  "previousClose": 77.15,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "end": 1786714200,
+      "start": 1786694400,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "end": 1786737600,
+      "start": 1786714200,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "end": 1786752000,
+      "start": 1786737600,
+      "gmtoffset": -14400
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-08-10T04:00:00.000Z",
+      "pre_start": "2026-08-10T08:00:00.000Z",
+      "pre_end": "2026-08-10T13:30:00.000Z",
+      "start": "2026-08-10T13:30:00.000Z",
+      "end": "2026-08-10T20:00:00.000Z",
+      "post_start": "2026-08-10T20:00:00.000Z",
+      "post_end": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-11T04:00:00.000Z",
+      "pre_start": "2026-08-11T08:00:00.000Z",
+      "pre_end": "2026-08-11T13:30:00.000Z",
+      "start": "2026-08-11T13:30:00.000Z",
+      "end": "2026-08-11T20:00:00.000Z",
+      "post_start": "2026-08-11T20:00:00.000Z",
+      "post_end": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-12T04:00:00.000Z",
+      "pre_start": "2026-08-12T08:00:00.000Z",
+      "pre_end": "2026-08-12T13:30:00.000Z",
+      "start": "2026-08-12T13:30:00.000Z",
+      "end": "2026-08-12T20:00:00.000Z",
+      "post_start": "2026-08-12T20:00:00.000Z",
+      "post_end": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-13T04:00:00.000Z",
+      "pre_start": "2026-08-13T08:00:00.000Z",
+      "pre_end": "2026-08-13T13:30:00.000Z",
+      "start": "2026-08-13T13:30:00.000Z",
+      "end": "2026-08-13T20:00:00.000Z",
+      "post_start": "2026-08-13T20:00:00.000Z",
+      "post_end": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-14T04:00:00.000Z",
+      "pre_start": "2026-08-14T08:00:00.000Z",
+      "pre_end": "2026-08-14T13:30:00.000Z",
+      "start": "2026-08-14T13:30:00.000Z",
+      "end": "2026-08-14T20:00:00.000Z",
+      "post_start": "2026-08-14T20:00:00.000Z",
+      "post_end": "2026-08-15T00:00:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "lastTrade": {
+    "Price": 76.7202,
+    "Time": "2026-08-14T19:59:56-04:00"
+  }
+}

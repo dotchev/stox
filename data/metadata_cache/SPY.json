@@ -5,88 +5,88 @@
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
   "firstTradeDate": 728317800,
-  "regularMarketTime": 1785864566,
+  "regularMarketTime": 1787688000,
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 771.22,
-  "fiftyTwoWeekHigh": 771.605,
-  "fiftyTwoWeekLow": 627.04,
-  "regularMarketDayHigh": 771.605,
-  "regularMarketDayLow": 760.52,
-  "regularMarketVolume": 32942283,
+  "regularMarketPrice": 765.85,
+  "fiftyTwoWeekHigh": 779.37,
+  "fiftyTwoWeekLow": 629.28,
+  "regularMarketDayHigh": 766.78,
+  "regularMarketDayLow": 763.05,
+  "regularMarketVolume": 25442114,
   "longName": "State Street SPDR S&P 500 ETF Trust",
   "shortName": "State Street SPDR S&P 500 ETF T",
-  "chartPreviousClose": 740.86,
-  "previousClose": 757.67,
+  "chartPreviousClose": 767.45,
+  "previousClose": 763.47,
   "scale": 3,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
       "timezone": "EDT",
-      "start": 1785830400,
-      "end": 1785850200,
+      "start": 1787644800,
+      "end": 1787664600,
       "gmtoffset": -14400
     },
     "regular": {
       "timezone": "EDT",
-      "start": 1785850200,
-      "end": 1785873600,
+      "start": 1787664600,
+      "end": 1787688000,
       "gmtoffset": -14400
     },
     "post": {
       "timezone": "EDT",
-      "start": 1785873600,
-      "end": 1785888000,
+      "start": 1787688000,
+      "end": 1787702400,
       "gmtoffset": -14400
     }
   },
   "tradingPeriods": [
     {
-      "Date": "2026-07-29T04:00:00.000Z",
-      "pre_start": "2026-07-29T08:00:00.000Z",
-      "pre_end": "2026-07-29T13:30:00.000Z",
-      "start": "2026-07-29T13:30:00.000Z",
-      "end": "2026-07-29T20:00:00.000Z",
-      "post_start": "2026-07-29T20:00:00.000Z",
-      "post_end": "2026-07-30T00:00:00.000Z"
+      "Date": "2026-08-19T04:00:00.000Z",
+      "pre_start": "2026-08-19T08:00:00.000Z",
+      "pre_end": "2026-08-19T13:30:00.000Z",
+      "start": "2026-08-19T13:30:00.000Z",
+      "end": "2026-08-19T20:00:00.000Z",
+      "post_start": "2026-08-19T20:00:00.000Z",
+      "post_end": "2026-08-20T00:00:00.000Z"
     },
     {
-      "Date": "2026-07-30T04:00:00.000Z",
-      "pre_start": "2026-07-30T08:00:00.000Z",
-      "pre_end": "2026-07-30T13:30:00.000Z",
-      "start": "2026-07-30T13:30:00.000Z",
-      "end": "2026-07-30T20:00:00.000Z",
-      "post_start": "2026-07-30T20:00:00.000Z",
-      "post_end": "2026-07-31T00:00:00.000Z"
+      "Date": "2026-08-20T04:00:00.000Z",
+      "pre_start": "2026-08-20T08:00:00.000Z",
+      "pre_end": "2026-08-20T13:30:00.000Z",
+      "start": "2026-08-20T13:30:00.000Z",
+      "end": "2026-08-20T20:00:00.000Z",
+      "post_start": "2026-08-20T20:00:00.000Z",
+      "post_end": "2026-08-21T00:00:00.000Z"
     },
     {
-      "Date": "2026-07-31T04:00:00.000Z",
-      "pre_start": "2026-07-31T08:00:00.000Z",
-      "pre_end": "2026-07-31T13:30:00.000Z",
-      "start": "2026-07-31T13:30:00.000Z",
-      "end": "2026-07-31T20:00:00.000Z",
-      "post_start": "2026-07-31T20:00:00.000Z",
-      "post_end": "2026-08-01T00:00:00.000Z"
+      "Date": "2026-08-21T04:00:00.000Z",
+      "pre_start": "2026-08-21T08:00:00.000Z",
+      "pre_end": "2026-08-21T13:30:00.000Z",
+      "start": "2026-08-21T13:30:00.000Z",
+      "end": "2026-08-21T20:00:00.000Z",
+      "post_start": "2026-08-21T20:00:00.000Z",
+      "post_end": "2026-08-22T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-03T04:00:00.000Z",
-      "pre_start": "2026-08-03T08:00:00.000Z",
-      "pre_end": "2026-08-03T13:30:00.000Z",
-      "start": "2026-08-03T13:30:00.000Z",
-      "end": "2026-08-03T20:00:00.000Z",
-      "post_start": "2026-08-03T20:00:00.000Z",
-      "post_end": "2026-08-04T00:00:00.000Z"
+      "Date": "2026-08-24T04:00:00.000Z",
+      "pre_start": "2026-08-24T08:00:00.000Z",
+      "pre_end": "2026-08-24T13:30:00.000Z",
+      "start": "2026-08-24T13:30:00.000Z",
+      "end": "2026-08-24T20:00:00.000Z",
+      "post_start": "2026-08-24T20:00:00.000Z",
+      "post_end": "2026-08-25T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-04T04:00:00.000Z",
-      "pre_start": "2026-08-04T08:00:00.000Z",
-      "pre_end": "2026-08-04T13:30:00.000Z",
-      "start": "2026-08-04T13:30:00.000Z",
-      "end": "2026-08-04T20:00:00.000Z",
-      "post_start": "2026-08-04T20:00:00.000Z",
-      "post_end": "2026-08-05T00:00:00.000Z"
+      "Date": "2026-08-25T04:00:00.000Z",
+      "pre_start": "2026-08-25T08:00:00.000Z",
+      "pre_end": "2026-08-25T13:30:00.000Z",
+      "start": "2026-08-25T13:30:00.000Z",
+      "end": "2026-08-25T20:00:00.000Z",
+      "post_start": "2026-08-25T20:00:00.000Z",
+      "post_end": "2026-08-26T00:00:00.000Z"
     }
   ],
   "dataGranularity": "1h",
@@ -105,7 +105,7 @@
     "max"
   ],
   "lastTrade": {
-    "Price": 771.219970703125,
-    "Time": "2026-08-04T13:29:26-04:00"
+    "Price": 765.7057,
+    "Time": "2026-08-25T16:02:03-04:00"
   }
 }

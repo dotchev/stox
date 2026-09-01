@@ -1,0 +1,107 @@
+{
+  "currency": "USD",
+  "symbol": "EFAS",
+  "exchangeName": "NGM",
+  "fullExchangeName": "NasdaqGM",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1481812200,
+  "regularMarketTime": 1787685223,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 23.35,
+  "fiftyTwoWeekHigh": 23.496,
+  "fiftyTwoWeekLow": 18.27,
+  "regularMarketDayHigh": 23.48,
+  "regularMarketDayLow": 23.35,
+  "regularMarketVolume": 14149,
+  "longName": "Global X MSCI SuperDividend EAFE ETF",
+  "shortName": "Global X MSCI SuperDividend EAF",
+  "chartPreviousClose": 23.095,
+  "previousClose": 23.445,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "start": 1787644800,
+      "end": 1787664600,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "start": 1787664600,
+      "end": 1787688000,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "start": 1787688000,
+      "end": 1787702400,
+      "gmtoffset": -14400
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-08-19T04:00:00.000Z",
+      "pre_start": "2026-08-19T08:00:00.000Z",
+      "pre_end": "2026-08-19T13:30:00.000Z",
+      "start": "2026-08-19T13:30:00.000Z",
+      "end": "2026-08-19T20:00:00.000Z",
+      "post_start": "2026-08-19T20:00:00.000Z",
+      "post_end": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-20T04:00:00.000Z",
+      "pre_start": "2026-08-20T08:00:00.000Z",
+      "pre_end": "2026-08-20T13:30:00.000Z",
+      "start": "2026-08-20T13:30:00.000Z",
+      "end": "2026-08-20T20:00:00.000Z",
+      "post_start": "2026-08-20T20:00:00.000Z",
+      "post_end": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-21T04:00:00.000Z",
+      "pre_start": "2026-08-21T08:00:00.000Z",
+      "pre_end": "2026-08-21T13:30:00.000Z",
+      "start": "2026-08-21T13:30:00.000Z",
+      "end": "2026-08-21T20:00:00.000Z",
+      "post_start": "2026-08-21T20:00:00.000Z",
+      "post_end": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-24T04:00:00.000Z",
+      "pre_start": "2026-08-24T08:00:00.000Z",
+      "pre_end": "2026-08-24T13:30:00.000Z",
+      "start": "2026-08-24T13:30:00.000Z",
+      "end": "2026-08-24T20:00:00.000Z",
+      "post_start": "2026-08-24T20:00:00.000Z",
+      "post_end": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-08-25T04:00:00.000Z",
+      "pre_start": "2026-08-25T08:00:00.000Z",
+      "pre_end": "2026-08-25T13:30:00.000Z",
+      "start": "2026-08-25T13:30:00.000Z",
+      "end": "2026-08-25T20:00:00.000Z",
+      "post_start": "2026-08-25T20:00:00.000Z",
+      "post_end": "2026-08-26T00:00:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

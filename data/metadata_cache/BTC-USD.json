@@ -5,88 +5,88 @@
   "fullExchangeName": "CCC",
   "instrumentType": "CRYPTOCURRENCY",
   "firstTradeDate": 1410912000,
-  "regularMarketTime": 1785864602,
+  "regularMarketTime": 1787255678,
   "hasPrePostMarketData": false,
   "gmtoffset": 0,
   "timezone": "UTC",
   "exchangeTimezoneName": "UTC",
-  "regularMarketPrice": 64111.82,
+  "regularMarketPrice": 72660.2,
   "fiftyTwoWeekHigh": 126198.07,
   "fiftyTwoWeekLow": 57747.766,
-  "regularMarketDayHigh": 64126.387,
-  "regularMarketDayLow": 63292.66,
-  "regularMarketVolume": 23427225600,
+  "regularMarketDayHigh": 72872.26,
+  "regularMarketDayLow": 68932.98,
+  "regularMarketVolume": 60898787328,
   "longName": "Bitcoin USD",
   "shortName": "Bitcoin USD",
-  "chartPreviousClose": 62813.746,
-  "previousClose": 63463.723,
+  "chartPreviousClose": 62818.652,
+  "previousClose": 69289.44,
   "scale": 3,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
       "timezone": "UTC",
-      "end": 1785801600,
-      "start": 1785801600,
+      "start": 1787184000,
+      "end": 1787184000,
       "gmtoffset": 0
     },
     "regular": {
       "timezone": "UTC",
-      "end": 1785887940,
-      "start": 1785801600,
+      "start": 1787184000,
+      "end": 1787270340,
       "gmtoffset": 0
     },
     "post": {
       "timezone": "UTC",
-      "end": 1785887940,
-      "start": 1785887940,
+      "start": 1787270340,
+      "end": 1787270340,
       "gmtoffset": 0
     }
   },
   "tradingPeriods": [
     {
-      "Date": "2026-07-31T00:00:00.000Z",
-      "pre_start": "2026-07-31T00:00:00.000Z",
-      "pre_end": "2026-07-31T00:00:00.000Z",
-      "start": "2026-07-31T00:00:00.000Z",
-      "end": "2026-07-31T23:59:00.000Z",
-      "post_start": "2026-07-31T23:59:00.000Z",
-      "post_end": "2026-07-31T23:59:00.000Z"
+      "Date": "2026-08-16T00:00:00.000Z",
+      "pre_start": "2026-08-16T00:00:00.000Z",
+      "pre_end": "2026-08-16T00:00:00.000Z",
+      "start": "2026-08-16T00:00:00.000Z",
+      "end": "2026-08-16T23:59:00.000Z",
+      "post_start": "2026-08-16T23:59:00.000Z",
+      "post_end": "2026-08-16T23:59:00.000Z"
     },
     {
-      "Date": "2026-08-01T00:00:00.000Z",
-      "pre_start": "2026-08-01T00:00:00.000Z",
-      "pre_end": "2026-08-01T00:00:00.000Z",
-      "start": "2026-08-01T00:00:00.000Z",
-      "end": "2026-08-01T23:59:00.000Z",
-      "post_start": "2026-08-01T23:59:00.000Z",
-      "post_end": "2026-08-01T23:59:00.000Z"
+      "Date": "2026-08-17T00:00:00.000Z",
+      "pre_start": "2026-08-17T00:00:00.000Z",
+      "pre_end": "2026-08-17T00:00:00.000Z",
+      "start": "2026-08-17T00:00:00.000Z",
+      "end": "2026-08-17T23:59:00.000Z",
+      "post_start": "2026-08-17T23:59:00.000Z",
+      "post_end": "2026-08-17T23:59:00.000Z"
     },
     {
-      "Date": "2026-08-02T00:00:00.000Z",
-      "pre_start": "2026-08-02T00:00:00.000Z",
-      "pre_end": "2026-08-02T00:00:00.000Z",
-      "start": "2026-08-02T00:00:00.000Z",
-      "end": "2026-08-02T23:59:00.000Z",
-      "post_start": "2026-08-02T23:59:00.000Z",
-      "post_end": "2026-08-02T23:59:00.000Z"
+      "Date": "2026-08-18T00:00:00.000Z",
+      "pre_start": "2026-08-18T00:00:00.000Z",
+      "pre_end": "2026-08-18T00:00:00.000Z",
+      "start": "2026-08-18T00:00:00.000Z",
+      "end": "2026-08-18T23:59:00.000Z",
+      "post_start": "2026-08-18T23:59:00.000Z",
+      "post_end": "2026-08-18T23:59:00.000Z"
     },
     {
-      "Date": "2026-08-03T00:00:00.000Z",
-      "pre_start": "2026-08-03T00:00:00.000Z",
-      "pre_end": "2026-08-03T00:00:00.000Z",
-      "start": "2026-08-03T00:00:00.000Z",
-      "end": "2026-08-03T23:59:00.000Z",
-      "post_start": "2026-08-03T23:59:00.000Z",
-      "post_end": "2026-08-03T23:59:00.000Z"
+      "Date": "2026-08-19T00:00:00.000Z",
+      "pre_start": "2026-08-19T00:00:00.000Z",
+      "pre_end": "2026-08-19T00:00:00.000Z",
+      "start": "2026-08-19T00:00:00.000Z",
+      "end": "2026-08-19T23:59:00.000Z",
+      "post_start": "2026-08-19T23:59:00.000Z",
+      "post_end": "2026-08-19T23:59:00.000Z"
     },
     {
-      "Date": "2026-08-04T00:00:00.000Z",
-      "pre_start": "2026-08-04T00:00:00.000Z",
-      "pre_end": "2026-08-04T00:00:00.000Z",
-      "start": "2026-08-04T00:00:00.000Z",
-      "end": "2026-08-04T23:59:00.000Z",
-      "post_start": "2026-08-04T23:59:00.000Z",
-      "post_end": "2026-08-04T23:59:00.000Z"
+      "Date": "2026-08-20T00:00:00.000Z",
+      "pre_start": "2026-08-20T00:00:00.000Z",
+      "pre_end": "2026-08-20T00:00:00.000Z",
+      "start": "2026-08-20T00:00:00.000Z",
+      "end": "2026-08-20T23:59:00.000Z",
+      "post_start": "2026-08-20T23:59:00.000Z",
+      "post_end": "2026-08-20T23:59:00.000Z"
     }
   ],
   "dataGranularity": "1h",
@@ -105,7 +105,7 @@
     "max"
   ],
   "lastTrade": {
-    "Price": 64111.8203125,
-    "Time": "2026-08-04T17:30:02+00:00"
+    "Price": 72660.203125,
+    "Time": "2026-08-20T19:54:38+00:00"
   }
 }

@@ -74,6 +74,20 @@ def get_stock_name(symbol):
     return meta.get('longName') or meta.get('shortName') or symbol
 
 
+_interval_units = {
+    'm': 'minutes',
+    'h': 'hours',
+    'd': 'days',
+    'wk': 'weeks',
+    'mo': 'months',
+}
+
+
+def _interval_unit(interval):
+    """Name the time unit of an interval (e.g. '1d' -> 'days')."""
+    return _interval_units.get(interval.lstrip('0123456789'), 'rows')
+
+
 def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     """Get stock history with caching
 
@@ -96,13 +110,14 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
             history = pd.read_csv(cache_file, index_col=0, parse_dates=True)
             history.index = pd.to_datetime(history.index, utc=True)
             # print(f"Loaded cached history for {symbol} ({len(history)} rows)")
-            return history
+            if not history.empty:  # an empty cache file is a stale failed fetch
+                return history
 
     # Fetch fresh data
     delay()
     ticker_data = yf.Ticker(symbol)
     history = ticker_data.history(interval=interval, period=period)
-    print(f"Fetched history for {symbol} ({len(history)} rows)")
+    print(f"Fetched history for {symbol} ({len(history)} {_interval_unit(interval)})")
 
     # Capture the full metadata from the same request (no extra API call)
     try:
@@ -110,10 +125,67 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     except Exception:
         pass
 
-    # Cache the result
-    history.to_csv(cache_file)
+    # Cache the result, but never an empty fetch: Yahoo returns no rows on
+    # transient failures, and caching that would hide good data for cache_days.
+    if history.empty:
+        print(f"No history for {symbol}, not caching")
+    else:
+        history.to_csv(cache_file)
 
     return history
+
+
+_weekly_agg = {
+    'Open': 'first',
+    'High': 'max',
+    'Low': 'min',
+    'Close': 'last',
+    'Volume': 'sum',
+    'Dividends': 'sum',
+    'Stock Splits': 'sum',
+    'Capital Gains': 'sum',
+}
+
+
+def to_weekly(daily, symbol=None):
+    """Aggregate daily bars into Monday-anchored weekly bars, matching Yahoo's
+    1wk data.
+
+    Weeks are binned in the exchange timezone (taken from the cached metadata
+    when a symbol is given), so that a Monday bar of a non-US exchange does not
+    fall into the previous week.
+
+    Args:
+        daily (pandas.DataFrame): Daily history, as returned by get_stock_history
+        symbol (str): Symbol the history belongs to, to look up its exchange timezone
+
+    Returns:
+        pandas.DataFrame: Weekly history, indexed by the Monday of each week
+    """
+    if daily.empty:
+        return daily
+
+    index_tz = daily.index.tz
+    exchange_tz = get_stock_metadata(symbol).get(
+        'exchangeTimezoneName') if symbol else None
+    if exchange_tz and index_tz is not None:
+        daily = daily.tz_convert(exchange_tz)
+
+    agg = {c: a for c, a in _weekly_agg.items() if c in daily.columns}
+    weekly = daily.resample('W-MON', label='left', closed='left').agg(agg)
+    weekly = weekly.dropna(subset=['Open'])  # weeks without trading days
+
+    if exchange_tz and index_tz is not None:
+        weekly = weekly.tz_convert(index_tz)
+    return weekly
+
+
+def get_weekly_history(symbol, period='5y', cache_days=2):
+    """Get weekly stock history, derived from the daily history rather than
+    fetched separately - see get_stock_history and to_weekly."""
+    daily = get_stock_history(symbol, period=period,
+                              interval='1d', cache_days=cache_days)
+    return to_weekly(daily, symbol)
 
 
 option_chains_dir = os.path.join(
