@@ -29,11 +29,8 @@ def compute_levels(symbol):
 
 def format_percentile(percentile):
     text = f'{percentile:.0%}'
-    number = text[:-1]  # keep '%' out of the math span: it's a LaTeX comment char
-    if percentile > 0.75:
-        return f'$\\color{{red}}{{{number}}}$%'
-    if percentile < 0.25:
-        return f'$\\color{{blue}}{{{number}}}$%'
+    if percentile > 0.75 or percentile < 0.25:
+        return f'**{text}**'
     return text
 
 
