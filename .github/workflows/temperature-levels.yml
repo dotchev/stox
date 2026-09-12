@@ -2,7 +2,10 @@ name: Update Temperature Levels
 
 on:
   schedule:
-    - cron: '0 6 * * 6'  # Every Saturday at 06:00 UTC
+    # Every Saturday at 06:37 UTC. Off the top of the hour on purpose:
+    # GitHub deprioritizes scheduled runs under load, and :00 is the most
+    # congested slot -- earlier runs at 06:00 landed 4-6 hours late.
+    - cron: '37 6 * * 6'
   workflow_dispatch: {}
 
 permissions:
