@@ -2,7 +2,7 @@
 
 Price levels corresponding to the P25 and P75 of the % distance of Close from the 200-day SMA, over the last 5 years.
 
-_Last updated: 2026-09-05 18:52 UTC_
+_Last updated: 2026-09-12 19:57 UTC_
 
 | Symbol | Price | P | P25 | P75 |
 |---|---|---|---|---|
