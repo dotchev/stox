@@ -5,88 +5,92 @@
   "fullExchangeName": "NasdaqGM",
   "instrumentType": "ETF",
   "firstTradeDate": 1729776600,
-  "regularMarketTime": 1787687998,
+  "regularMarketTime": 1789156800,
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 36.695,
+  "regularMarketPrice": 37.614,
+  "regularMarketChangePercent": 1.045,
+  "fulldayPrice": 37.57,
+  "fulldayChange": 0.389,
+  "fulldayChangePercent": 1.045,
   "fiftyTwoWeekHigh": 39.415,
   "fiftyTwoWeekLow": 28.71,
-  "regularMarketDayHigh": 36.875,
-  "regularMarketDayLow": 36.515,
-  "regularMarketVolume": 67170,
+  "regularMarketDayHigh": 37.769,
+  "regularMarketDayLow": 37.54,
+  "regularMarketVolume": 73344,
   "longName": "iShares Nasdaq Top 30 Stocks ETF",
   "shortName": "iShares Nasdaq Top 30 Stocks ET",
-  "chartPreviousClose": 37.27,
-  "previousClose": 36.49,
+  "chartPreviousClose": 37.44,
+  "previousClose": 37.225,
   "scale": 3,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
       "timezone": "EDT",
-      "end": 1787664600,
-      "start": 1787644800,
+      "start": 1789113600,
+      "end": 1789133400,
       "gmtoffset": -14400
     },
     "regular": {
       "timezone": "EDT",
-      "end": 1787688000,
-      "start": 1787664600,
+      "start": 1789133400,
+      "end": 1789156800,
       "gmtoffset": -14400
     },
     "post": {
       "timezone": "EDT",
-      "end": 1787702400,
-      "start": 1787688000,
+      "start": 1789156800,
+      "end": 1789171200,
       "gmtoffset": -14400
     }
   },
   "tradingPeriods": [
     {
-      "Date": "2026-08-19T04:00:00.000Z",
-      "pre_start": "2026-08-19T08:00:00.000Z",
-      "pre_end": "2026-08-19T13:30:00.000Z",
-      "start": "2026-08-19T13:30:00.000Z",
-      "end": "2026-08-19T20:00:00.000Z",
-      "post_start": "2026-08-19T20:00:00.000Z",
-      "post_end": "2026-08-20T00:00:00.000Z"
+      "Date": "2026-09-04T04:00:00.000Z",
+      "pre_start": "2026-09-04T08:00:00.000Z",
+      "pre_end": "2026-09-04T13:30:00.000Z",
+      "start": "2026-09-04T13:30:00.000Z",
+      "end": "2026-09-04T20:00:00.000Z",
+      "post_start": "2026-09-04T20:00:00.000Z",
+      "post_end": "2026-09-05T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-20T04:00:00.000Z",
-      "pre_start": "2026-08-20T08:00:00.000Z",
-      "pre_end": "2026-08-20T13:30:00.000Z",
-      "start": "2026-08-20T13:30:00.000Z",
-      "end": "2026-08-20T20:00:00.000Z",
-      "post_start": "2026-08-20T20:00:00.000Z",
-      "post_end": "2026-08-21T00:00:00.000Z"
+      "Date": "2026-09-08T04:00:00.000Z",
+      "pre_start": "2026-09-08T08:00:00.000Z",
+      "pre_end": "2026-09-08T13:30:00.000Z",
+      "start": "2026-09-08T13:30:00.000Z",
+      "end": "2026-09-08T20:00:00.000Z",
+      "post_start": "2026-09-08T20:00:00.000Z",
+      "post_end": "2026-09-09T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-21T04:00:00.000Z",
-      "pre_start": "2026-08-21T08:00:00.000Z",
-      "pre_end": "2026-08-21T13:30:00.000Z",
-      "start": "2026-08-21T13:30:00.000Z",
-      "end": "2026-08-21T20:00:00.000Z",
-      "post_start": "2026-08-21T20:00:00.000Z",
-      "post_end": "2026-08-22T00:00:00.000Z"
+      "Date": "2026-09-09T04:00:00.000Z",
+      "pre_start": "2026-09-09T08:00:00.000Z",
+      "pre_end": "2026-09-09T13:30:00.000Z",
+      "start": "2026-09-09T13:30:00.000Z",
+      "end": "2026-09-09T20:00:00.000Z",
+      "post_start": "2026-09-09T20:00:00.000Z",
+      "post_end": "2026-09-10T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-24T04:00:00.000Z",
-      "pre_start": "2026-08-24T08:00:00.000Z",
-      "pre_end": "2026-08-24T13:30:00.000Z",
-      "start": "2026-08-24T13:30:00.000Z",
-      "end": "2026-08-24T20:00:00.000Z",
-      "post_start": "2026-08-24T20:00:00.000Z",
-      "post_end": "2026-08-25T00:00:00.000Z"
+      "Date": "2026-09-10T04:00:00.000Z",
+      "pre_start": "2026-09-10T08:00:00.000Z",
+      "pre_end": "2026-09-10T13:30:00.000Z",
+      "start": "2026-09-10T13:30:00.000Z",
+      "end": "2026-09-10T20:00:00.000Z",
+      "post_start": "2026-09-10T20:00:00.000Z",
+      "post_end": "2026-09-11T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-25T04:00:00.000Z",
-      "pre_start": "2026-08-25T08:00:00.000Z",
-      "pre_end": "2026-08-25T13:30:00.000Z",
-      "start": "2026-08-25T13:30:00.000Z",
-      "end": "2026-08-25T20:00:00.000Z",
-      "post_start": "2026-08-25T20:00:00.000Z",
-      "post_end": "2026-08-26T00:00:00.000Z"
+      "Date": "2026-09-11T04:00:00.000Z",
+      "pre_start": "2026-09-11T08:00:00.000Z",
+      "pre_end": "2026-09-11T13:30:00.000Z",
+      "start": "2026-09-11T13:30:00.000Z",
+      "end": "2026-09-11T20:00:00.000Z",
+      "post_start": "2026-09-11T20:00:00.000Z",
+      "post_end": "2026-09-12T00:00:00.000Z"
     }
   ],
   "dataGranularity": "1h",
@@ -101,5 +105,9 @@
     "2y",
     "ytd",
     "max"
-  ]
+  ],
+  "lastTrade": {
+    "Price": 37.57,
+    "Time": "2026-09-11T19:30:07-04:00"
+  }
 }

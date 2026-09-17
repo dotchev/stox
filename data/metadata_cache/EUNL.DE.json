@@ -1,0 +1,111 @@
+{
+  "currency": "EUR",
+  "symbol": "EUNL.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1253862000,
+  "regularMarketTime": 1789659346,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 127.4,
+  "regularMarketChangePercent": 0.771,
+  "fulldayPrice": 127.4,
+  "fulldayChange": 0.975,
+  "fulldayChangePercent": 0.771,
+  "fiftyTwoWeekHigh": 129.845,
+  "fiftyTwoWeekLow": 106.15,
+  "regularMarketDayHigh": 127.64,
+  "regularMarketDayLow": 126.94,
+  "regularMarketVolume": 286088,
+  "longName": "iShares Core MSCI World UCITS ETF USD (Acc)",
+  "shortName": "iShsIII-Core MSCI World U.ETF R",
+  "chartPreviousClose": 125.45,
+  "previousClose": 126.425,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "start": 1789621200,
+      "end": 1789628400,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "start": 1789628400,
+      "end": 1789659000,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "start": 1789659000,
+      "end": 1789669800,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-10T22:00:00.000Z",
+      "pre_start": "2026-09-11T05:00:00.000Z",
+      "pre_end": "2026-09-11T07:00:00.000Z",
+      "start": "2026-09-11T07:00:00.000Z",
+      "end": "2026-09-11T15:30:00.000Z",
+      "post_start": "2026-09-11T15:30:00.000Z",
+      "post_end": "2026-09-11T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-13T22:00:00.000Z",
+      "pre_start": "2026-09-14T05:00:00.000Z",
+      "pre_end": "2026-09-14T07:00:00.000Z",
+      "start": "2026-09-14T07:00:00.000Z",
+      "end": "2026-09-14T15:30:00.000Z",
+      "post_start": "2026-09-14T15:30:00.000Z",
+      "post_end": "2026-09-14T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T05:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

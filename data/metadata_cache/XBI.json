@@ -1,0 +1,115 @@
+{
+  "currency": "USD",
+  "symbol": "XBI",
+  "exchangeName": "PCX",
+  "fullExchangeName": "NYSEArca",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1139236200,
+  "regularMarketTime": 1789156800,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 156.2,
+  "regularMarketChangePercent": -0.395,
+  "fulldayPrice": 156.43,
+  "fulldayChange": -0.62,
+  "fulldayChangePercent": -0.395,
+  "fiftyTwoWeekHigh": 169.89,
+  "fiftyTwoWeekLow": 92.64,
+  "regularMarketDayHigh": 159.661,
+  "regularMarketDayLow": 156.13,
+  "regularMarketVolume": 8411294,
+  "longName": "State Street SPDR S&P Biotech ETF",
+  "shortName": "State Street SPDR S&P Biotech E",
+  "chartPreviousClose": 164.38,
+  "previousClose": 156.82,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "end": 1789133400,
+      "start": 1789113600,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "end": 1789156800,
+      "start": 1789133400,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "end": 1789171200,
+      "start": 1789156800,
+      "gmtoffset": -14400
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-04T04:00:00.000Z",
+      "pre_start": "2026-09-04T08:00:00.000Z",
+      "pre_end": "2026-09-04T13:30:00.000Z",
+      "start": "2026-09-04T13:30:00.000Z",
+      "end": "2026-09-04T20:00:00.000Z",
+      "post_start": "2026-09-04T20:00:00.000Z",
+      "post_end": "2026-09-05T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-08T04:00:00.000Z",
+      "pre_start": "2026-09-08T08:00:00.000Z",
+      "pre_end": "2026-09-08T13:30:00.000Z",
+      "start": "2026-09-08T13:30:00.000Z",
+      "end": "2026-09-08T20:00:00.000Z",
+      "post_start": "2026-09-08T20:00:00.000Z",
+      "post_end": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-09T04:00:00.000Z",
+      "pre_start": "2026-09-09T08:00:00.000Z",
+      "pre_end": "2026-09-09T13:30:00.000Z",
+      "start": "2026-09-09T13:30:00.000Z",
+      "end": "2026-09-09T20:00:00.000Z",
+      "post_start": "2026-09-09T20:00:00.000Z",
+      "post_end": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-10T04:00:00.000Z",
+      "pre_start": "2026-09-10T08:00:00.000Z",
+      "pre_end": "2026-09-10T13:30:00.000Z",
+      "start": "2026-09-10T13:30:00.000Z",
+      "end": "2026-09-10T20:00:00.000Z",
+      "post_start": "2026-09-10T20:00:00.000Z",
+      "post_end": "2026-09-11T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-11T04:00:00.000Z",
+      "pre_start": "2026-09-11T08:00:00.000Z",
+      "pre_end": "2026-09-11T13:30:00.000Z",
+      "start": "2026-09-11T13:30:00.000Z",
+      "end": "2026-09-11T20:00:00.000Z",
+      "post_start": "2026-09-11T20:00:00.000Z",
+      "post_end": "2026-09-12T00:00:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "lastTrade": {
+    "Price": 156.43,
+    "Time": "2026-09-11T19:02:45-04:00"
+  }
+}

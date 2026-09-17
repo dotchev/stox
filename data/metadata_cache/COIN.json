@@ -5,89 +5,92 @@
   "fullExchangeName": "NasdaqGS",
   "instrumentType": "EQUITY",
   "firstTradeDate": 1618407000,
-  "regularMarketTime": 1788282357,
+  "regularMarketTime": 1789156801,
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 178.48,
-  "regularMarketChangePercent": -5.128,
+  "regularMarketPrice": 175.26,
+  "regularMarketChangePercent": 1.73,
+  "fulldayPrice": 175.0,
+  "fulldayChange": 2.98,
+  "fulldayChangePercent": 1.73,
   "fiftyTwoWeekHigh": 402.16,
   "fiftyTwoWeekLow": 139.11,
-  "regularMarketDayHigh": 183.99,
-  "regularMarketDayLow": 177.2,
-  "regularMarketVolume": 4353891,
+  "regularMarketDayHigh": 182.077,
+  "regularMarketDayLow": 172.8,
+  "regularMarketVolume": 7789255,
   "longName": "Coinbase Global, Inc.",
   "shortName": "Coinbase Global, Inc.",
-  "chartPreviousClose": 187.16,
-  "previousClose": 188.12,
+  "chartPreviousClose": 192.7,
+  "previousClose": 172.28,
   "scale": 3,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
       "timezone": "EDT",
-      "end": 1788269400,
-      "start": 1788249600,
+      "start": 1789113600,
+      "end": 1789133400,
       "gmtoffset": -14400
     },
     "regular": {
       "timezone": "EDT",
-      "end": 1788292800,
-      "start": 1788269400,
+      "start": 1789133400,
+      "end": 1789156800,
       "gmtoffset": -14400
     },
     "post": {
       "timezone": "EDT",
-      "end": 1788307200,
-      "start": 1788292800,
+      "start": 1789156800,
+      "end": 1789171200,
       "gmtoffset": -14400
     }
   },
   "tradingPeriods": [
     {
-      "Date": "2026-08-26T04:00:00.000Z",
-      "pre_start": "2026-08-26T08:00:00.000Z",
-      "pre_end": "2026-08-26T13:30:00.000Z",
-      "start": "2026-08-26T13:30:00.000Z",
-      "end": "2026-08-26T20:00:00.000Z",
-      "post_start": "2026-08-26T20:00:00.000Z",
-      "post_end": "2026-08-27T00:00:00.000Z"
+      "Date": "2026-09-04T04:00:00.000Z",
+      "pre_start": "2026-09-04T08:00:00.000Z",
+      "pre_end": "2026-09-04T13:30:00.000Z",
+      "start": "2026-09-04T13:30:00.000Z",
+      "end": "2026-09-04T20:00:00.000Z",
+      "post_start": "2026-09-04T20:00:00.000Z",
+      "post_end": "2026-09-05T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-27T04:00:00.000Z",
-      "pre_start": "2026-08-27T08:00:00.000Z",
-      "pre_end": "2026-08-27T13:30:00.000Z",
-      "start": "2026-08-27T13:30:00.000Z",
-      "end": "2026-08-27T20:00:00.000Z",
-      "post_start": "2026-08-27T20:00:00.000Z",
-      "post_end": "2026-08-28T00:00:00.000Z"
+      "Date": "2026-09-08T04:00:00.000Z",
+      "pre_start": "2026-09-08T08:00:00.000Z",
+      "pre_end": "2026-09-08T13:30:00.000Z",
+      "start": "2026-09-08T13:30:00.000Z",
+      "end": "2026-09-08T20:00:00.000Z",
+      "post_start": "2026-09-08T20:00:00.000Z",
+      "post_end": "2026-09-09T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-28T04:00:00.000Z",
-      "pre_start": "2026-08-28T08:00:00.000Z",
-      "pre_end": "2026-08-28T13:30:00.000Z",
-      "start": "2026-08-28T13:30:00.000Z",
-      "end": "2026-08-28T20:00:00.000Z",
-      "post_start": "2026-08-28T20:00:00.000Z",
-      "post_end": "2026-08-29T00:00:00.000Z"
+      "Date": "2026-09-09T04:00:00.000Z",
+      "pre_start": "2026-09-09T08:00:00.000Z",
+      "pre_end": "2026-09-09T13:30:00.000Z",
+      "start": "2026-09-09T13:30:00.000Z",
+      "end": "2026-09-09T20:00:00.000Z",
+      "post_start": "2026-09-09T20:00:00.000Z",
+      "post_end": "2026-09-10T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-31T04:00:00.000Z",
-      "pre_start": "2026-08-31T08:00:00.000Z",
-      "pre_end": "2026-08-31T13:30:00.000Z",
-      "start": "2026-08-31T13:30:00.000Z",
-      "end": "2026-08-31T20:00:00.000Z",
-      "post_start": "2026-08-31T20:00:00.000Z",
-      "post_end": "2026-09-01T00:00:00.000Z"
+      "Date": "2026-09-10T04:00:00.000Z",
+      "pre_start": "2026-09-10T08:00:00.000Z",
+      "pre_end": "2026-09-10T13:30:00.000Z",
+      "start": "2026-09-10T13:30:00.000Z",
+      "end": "2026-09-10T20:00:00.000Z",
+      "post_start": "2026-09-10T20:00:00.000Z",
+      "post_end": "2026-09-11T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-01T04:00:00.000Z",
-      "pre_start": "2026-09-01T08:00:00.000Z",
-      "pre_end": "2026-09-01T13:30:00.000Z",
-      "start": "2026-09-01T13:30:00.000Z",
-      "end": "2026-09-01T20:00:00.000Z",
-      "post_start": "2026-09-01T20:00:00.000Z",
-      "post_end": "2026-09-02T00:00:00.000Z"
+      "Date": "2026-09-11T04:00:00.000Z",
+      "pre_start": "2026-09-11T08:00:00.000Z",
+      "pre_end": "2026-09-11T13:30:00.000Z",
+      "start": "2026-09-11T13:30:00.000Z",
+      "end": "2026-09-11T20:00:00.000Z",
+      "post_start": "2026-09-11T20:00:00.000Z",
+      "post_end": "2026-09-12T00:00:00.000Z"
     }
   ],
   "dataGranularity": "1h",
@@ -106,7 +109,7 @@
     "max"
   ],
   "lastTrade": {
-    "Price": 178.4799041748047,
-    "Time": "2026-09-01T13:05:57-04:00"
+    "Price": 175.0,
+    "Time": "2026-09-11T19:59:59-04:00"
   }
 }

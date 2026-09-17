@@ -180,11 +180,127 @@ def to_weekly(daily, symbol=None):
     return weekly
 
 
-def get_weekly_history(symbol, period='5y', cache_days=2):
+# Yahoo quotes a few listings in minor units (e.g. London ETFs in pence):
+# currency code -> (major currency, minor units per major unit)
+_minor_currencies = {
+    'GBp': ('GBP', 100),
+    'ZAc': ('ZAR', 100),
+    'ILA': ('ILS', 100),
+}
+
+# One step longer than the requested period: the rate cache and the history
+# cache are filled on different days, and rates must cover the older of the two
+_longer_period = {
+    '1mo': '3mo', '3mo': '6mo', '6mo': '1y',
+    '1y': '2y', '2y': '5y', '5y': '10y', '10y': 'max',
+}
+
+# Columns holding a price, i.e. the ones an FX conversion applies to
+_price_columns = ['Open', 'High', 'Low', 'Close', 'Dividends', 'Capital Gains']
+
+
+def get_stock_currency(symbol):
+    """Get the currency a symbol is quoted in, from the cached metadata."""
+    return get_stock_metadata(symbol).get('currency')
+
+
+def get_fx_history(from_currency, to_currency='USD', period='5y', cache_days=2):
+    """Get the daily exchange rate history of a currency pair, cached like any
+    other symbol (e.g. EURUSD=X -> data/history_cache/EURUSD=X_5y_1d.csv)."""
+    return get_stock_history(f'{from_currency}{to_currency}=X',
+                             period=period, interval='1d', cache_days=cache_days)
+
+
+def _exchange_tz(symbol):
+    """Timezone a symbol trades in, from the cached metadata."""
+    return get_stock_metadata(symbol).get('exchangeTimezoneName')
+
+
+def _local_dates(index, tz=None):
+    """Reduce a daily index to plain calendar dates in the exchange timezone,
+    so that histories of different exchanges can be aligned day by day. The
+    cached index is in UTC, where a European midnight bar still belongs to the
+    previous day."""
+    if tz and index.tz is not None:
+        index = index.tz_convert(tz)
+    index = index.normalize()
+    return index.tz_localize(None) if index.tz is not None else index
+
+
+def get_fx_rates(from_currency, to_currency='USD', period='5y', cache_days=2):
+    """Get daily closing exchange rates as a Series of `to_currency` per one
+    `from_currency`, indexed by date (no time, no timezone).
+
+    Minor units (GBp and friends) are scaled to their major currency, so the
+    rates are per unit of the quoted price.
+    """
+    from_currency, factor = _minor_currencies.get(
+        from_currency, (from_currency, 1))
+    if from_currency == to_currency:
+        return None  # nothing to convert
+
+    pair = f'{from_currency}{to_currency}=X'
+    rates = get_stock_history(pair, period=_longer_period.get(period, period),
+                              interval='1d', cache_days=cache_days).Close / factor
+    rates.index = _local_dates(rates.index, _exchange_tz(pair))
+    return rates[~rates.index.duplicated()]
+
+
+def to_currency(history, symbol, currency='USD', period='5y', cache_days=2):
+    """Convert the prices of a history to `currency`.
+
+    Yahoo quotes each listing in its own currency (EUR for the Frankfurt, Milan
+    and Amsterdam ones, GBp for London), which makes returns of symbols in
+    different currencies not comparable. Each bar is converted at the exchange
+    rate of its own day, so that currency moves show up in the returns the way
+    a USD investor experiences them.
+
+    Args:
+        history (pandas.DataFrame): History as returned by get_stock_history
+        symbol (str): Symbol the history belongs to, to look up its currency
+        currency (str): Currency to convert to
+        period (str): Period of the history, so the rates cover the same span
+        cache_days (int): Freshness of the cached rates, as in get_stock_history
+
+    Returns:
+        pandas.DataFrame: History with its price columns in `currency`
+    """
+    if history.empty:
+        return history
+
+    rates = get_fx_rates(get_stock_currency(symbol), currency,
+                         period=period, cache_days=cache_days)
+    if rates is None:
+        return history  # already in the target currency
+
+    dates = _local_dates(history.index, _exchange_tz(symbol))
+    aligned = rates.reindex(dates, method='ffill')
+    if aligned.isna().any():  # history reaching back before the rate history
+        print(f'Missing {currency} rates for {symbol} before {rates.index[0].date()}')
+        aligned = aligned.bfill()
+
+    history = history.copy()
+    for col in _price_columns:
+        if col in history.columns:
+            history[col] = history[col].values * aligned.values
+    return history
+
+
+def get_daily_history(symbol, period='5y', cache_days=2, currency=None):
+    """Get daily stock history, optionally converted to `currency` - see
+    to_currency."""
+    history = get_stock_history(symbol, period=period,
+                                interval='1d', cache_days=cache_days)
+    if currency:
+        history = to_currency(history, symbol, currency, period, cache_days)
+    return history
+
+
+def get_weekly_history(symbol, period='5y', cache_days=2, currency=None):
     """Get weekly stock history, derived from the daily history rather than
-    fetched separately - see get_stock_history and to_weekly."""
-    daily = get_stock_history(symbol, period=period,
-                              interval='1d', cache_days=cache_days)
+    fetched separately - see get_daily_history and to_weekly."""
+    daily = get_daily_history(symbol, period=period,
+                              cache_days=cache_days, currency=currency)
     return to_weekly(daily, symbol)
 
 

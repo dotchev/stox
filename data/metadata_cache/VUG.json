@@ -1,0 +1,115 @@
+{
+  "currency": "USD",
+  "symbol": "VUG",
+  "exchangeName": "PCX",
+  "fullExchangeName": "NYSEArca",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1075473000,
+  "regularMarketTime": 1789673742,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 88.44,
+  "regularMarketChangePercent": 1.585,
+  "fulldayPrice": 88.44,
+  "fulldayChange": 1.35,
+  "fulldayChangePercent": 1.551,
+  "fiftyTwoWeekHigh": 90.6,
+  "fiftyTwoWeekLow": 69.633,
+  "regularMarketDayHigh": 88.45,
+  "regularMarketDayLow": 87.995,
+  "regularMarketVolume": 3926327,
+  "longName": "Vanguard Morningstar Growth ETF",
+  "shortName": "Vanguard Morningstar Growth ETF",
+  "chartPreviousClose": 87.21,
+  "previousClose": 87.06,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "start": 1789632000,
+      "end": 1789651800,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "start": 1789651800,
+      "end": 1789675200,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "start": 1789675200,
+      "end": 1789689600,
+      "gmtoffset": -14400
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-11T04:00:00.000Z",
+      "pre_start": "2026-09-11T08:00:00.000Z",
+      "pre_end": "2026-09-11T13:30:00.000Z",
+      "start": "2026-09-11T13:30:00.000Z",
+      "end": "2026-09-11T20:00:00.000Z",
+      "post_start": "2026-09-11T20:00:00.000Z",
+      "post_end": "2026-09-12T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T04:00:00.000Z",
+      "pre_start": "2026-09-14T08:00:00.000Z",
+      "pre_end": "2026-09-14T13:30:00.000Z",
+      "start": "2026-09-14T13:30:00.000Z",
+      "end": "2026-09-14T20:00:00.000Z",
+      "post_start": "2026-09-14T20:00:00.000Z",
+      "post_end": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T04:00:00.000Z",
+      "pre_start": "2026-09-15T08:00:00.000Z",
+      "pre_end": "2026-09-15T13:30:00.000Z",
+      "start": "2026-09-15T13:30:00.000Z",
+      "end": "2026-09-15T20:00:00.000Z",
+      "post_start": "2026-09-15T20:00:00.000Z",
+      "post_end": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T04:00:00.000Z",
+      "pre_start": "2026-09-16T08:00:00.000Z",
+      "pre_end": "2026-09-16T13:30:00.000Z",
+      "start": "2026-09-16T13:30:00.000Z",
+      "end": "2026-09-16T20:00:00.000Z",
+      "post_start": "2026-09-16T20:00:00.000Z",
+      "post_end": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T04:00:00.000Z",
+      "pre_start": "2026-09-17T08:00:00.000Z",
+      "pre_end": "2026-09-17T13:30:00.000Z",
+      "start": "2026-09-17T13:30:00.000Z",
+      "end": "2026-09-17T20:00:00.000Z",
+      "post_start": "2026-09-17T20:00:00.000Z",
+      "post_end": "2026-09-18T00:00:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "lastTrade": {
+    "Price": 88.44000244140625,
+    "Time": "2026-09-17T15:35:42-04:00"
+  }
+}

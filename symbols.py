@@ -39,11 +39,13 @@ my_etfs = [
     # 'QTOP',
     # 'TQQQ',  
     'IGM',   
-    # 'XLKS.MI', 
+    'XLKS.MI', 
     # 'MGK',
     'SPMO',
+    'IDMO',
     'MAGS',
     'FNGS',
+    'EXI',
     # 'UFO',
     # 'ROKT',
     # 'ARKX',
@@ -54,6 +56,7 @@ my_etfs = [
     'PPA',
     'DAPP',
     'BITQ',
+    'IWDA.AS', # iShares Core MSCI World UCITS ETF
     # 'LVHI',    # Franklin International Low Volatility High Dividend Index ETF
     # 'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
     'ESIF.DE', # iShares MSCI Europe Financials Sector UCITS ETF

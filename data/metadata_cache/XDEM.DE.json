@@ -1,0 +1,111 @@
+{
+  "currency": "EUR",
+  "symbol": "XDEM.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1409900400,
+  "regularMarketTime": 1789659363,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 84.94,
+  "regularMarketChangePercent": 1.252,
+  "fulldayPrice": 84.94,
+  "fulldayChange": 1.05,
+  "fulldayChangePercent": 1.252,
+  "fiftyTwoWeekHigh": 92.23,
+  "fiftyTwoWeekLow": 66.15,
+  "regularMarketDayHigh": 85.0,
+  "regularMarketDayLow": 84.09,
+  "regularMarketVolume": 15536,
+  "longName": "Xtrackers MSCI World Momentum UCITS ETF 1C",
+  "shortName": "Xtr.(IE) - MSCI World MomentumR",
+  "chartPreviousClose": 83.98,
+  "previousClose": 83.89,
+  "scale": 3,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "CEST",
+      "end": 1789628400,
+      "start": 1789621200,
+      "gmtoffset": 7200
+    },
+    "regular": {
+      "timezone": "CEST",
+      "end": 1789659000,
+      "start": 1789628400,
+      "gmtoffset": 7200
+    },
+    "post": {
+      "timezone": "CEST",
+      "end": 1789669800,
+      "start": 1789659000,
+      "gmtoffset": 7200
+    }
+  },
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-10T22:00:00.000Z",
+      "pre_start": "2026-09-11T05:00:00.000Z",
+      "pre_end": "2026-09-11T07:00:00.000Z",
+      "start": "2026-09-11T07:00:00.000Z",
+      "end": "2026-09-11T15:30:00.000Z",
+      "post_start": "2026-09-11T15:30:00.000Z",
+      "post_end": "2026-09-11T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-13T22:00:00.000Z",
+      "pre_start": "2026-09-14T05:00:00.000Z",
+      "pre_end": "2026-09-14T07:00:00.000Z",
+      "start": "2026-09-14T07:00:00.000Z",
+      "end": "2026-09-14T15:30:00.000Z",
+      "post_start": "2026-09-14T15:30:00.000Z",
+      "post_end": "2026-09-14T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T05:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    }
+  ],
+  "dataGranularity": "1h",
+  "range": "5d",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

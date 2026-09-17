@@ -5,88 +5,92 @@
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
   "firstTradeDate": 1317303000,
-  "regularMarketTime": 1786737600,
+  "regularMarketTime": 1789156800,
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 296.73,
+  "regularMarketPrice": 245.96,
+  "regularMarketChangePercent": 0.531,
+  "fulldayPrice": 245.96,
+  "fulldayChange": 1.3,
+  "fulldayChangePercent": 0.531,
   "fiftyTwoWeekHigh": 297.79,
-  "fiftyTwoWeekLow": 208.77,
-  "regularMarketDayHigh": 297.77,
-  "regularMarketDayLow": 293.415,
-  "regularMarketVolume": 398950,
+  "fiftyTwoWeekLow": 215.02,
+  "regularMarketDayHigh": 247.92,
+  "regularMarketDayLow": 244.24,
+  "regularMarketVolume": 154555,
   "longName": "State Street SPDR S&P Aerospace & Defense ETF",
   "shortName": "State Street SPDR S&P Aerospace",
-  "chartPreviousClose": 286.83,
-  "previousClose": 292.1,
+  "chartPreviousClose": 253.93,
+  "previousClose": 244.66,
   "scale": 3,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
       "timezone": "EDT",
-      "end": 1786714200,
-      "start": 1786694400,
+      "start": 1789113600,
+      "end": 1789133400,
       "gmtoffset": -14400
     },
     "regular": {
       "timezone": "EDT",
-      "end": 1786737600,
-      "start": 1786714200,
+      "start": 1789133400,
+      "end": 1789156800,
       "gmtoffset": -14400
     },
     "post": {
       "timezone": "EDT",
-      "end": 1786752000,
-      "start": 1786737600,
+      "start": 1789156800,
+      "end": 1789171200,
       "gmtoffset": -14400
     }
   },
   "tradingPeriods": [
     {
-      "Date": "2026-08-10T04:00:00.000Z",
-      "pre_start": "2026-08-10T08:00:00.000Z",
-      "pre_end": "2026-08-10T13:30:00.000Z",
-      "start": "2026-08-10T13:30:00.000Z",
-      "end": "2026-08-10T20:00:00.000Z",
-      "post_start": "2026-08-10T20:00:00.000Z",
-      "post_end": "2026-08-11T00:00:00.000Z"
+      "Date": "2026-09-04T04:00:00.000Z",
+      "pre_start": "2026-09-04T08:00:00.000Z",
+      "pre_end": "2026-09-04T13:30:00.000Z",
+      "start": "2026-09-04T13:30:00.000Z",
+      "end": "2026-09-04T20:00:00.000Z",
+      "post_start": "2026-09-04T20:00:00.000Z",
+      "post_end": "2026-09-05T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-11T04:00:00.000Z",
-      "pre_start": "2026-08-11T08:00:00.000Z",
-      "pre_end": "2026-08-11T13:30:00.000Z",
-      "start": "2026-08-11T13:30:00.000Z",
-      "end": "2026-08-11T20:00:00.000Z",
-      "post_start": "2026-08-11T20:00:00.000Z",
-      "post_end": "2026-08-12T00:00:00.000Z"
+      "Date": "2026-09-08T04:00:00.000Z",
+      "pre_start": "2026-09-08T08:00:00.000Z",
+      "pre_end": "2026-09-08T13:30:00.000Z",
+      "start": "2026-09-08T13:30:00.000Z",
+      "end": "2026-09-08T20:00:00.000Z",
+      "post_start": "2026-09-08T20:00:00.000Z",
+      "post_end": "2026-09-09T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-12T04:00:00.000Z",
-      "pre_start": "2026-08-12T08:00:00.000Z",
-      "pre_end": "2026-08-12T13:30:00.000Z",
-      "start": "2026-08-12T13:30:00.000Z",
-      "end": "2026-08-12T20:00:00.000Z",
-      "post_start": "2026-08-12T20:00:00.000Z",
-      "post_end": "2026-08-13T00:00:00.000Z"
+      "Date": "2026-09-09T04:00:00.000Z",
+      "pre_start": "2026-09-09T08:00:00.000Z",
+      "pre_end": "2026-09-09T13:30:00.000Z",
+      "start": "2026-09-09T13:30:00.000Z",
+      "end": "2026-09-09T20:00:00.000Z",
+      "post_start": "2026-09-09T20:00:00.000Z",
+      "post_end": "2026-09-10T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-13T04:00:00.000Z",
-      "pre_start": "2026-08-13T08:00:00.000Z",
-      "pre_end": "2026-08-13T13:30:00.000Z",
-      "start": "2026-08-13T13:30:00.000Z",
-      "end": "2026-08-13T20:00:00.000Z",
-      "post_start": "2026-08-13T20:00:00.000Z",
-      "post_end": "2026-08-14T00:00:00.000Z"
+      "Date": "2026-09-10T04:00:00.000Z",
+      "pre_start": "2026-09-10T08:00:00.000Z",
+      "pre_end": "2026-09-10T13:30:00.000Z",
+      "start": "2026-09-10T13:30:00.000Z",
+      "end": "2026-09-10T20:00:00.000Z",
+      "post_start": "2026-09-10T20:00:00.000Z",
+      "post_end": "2026-09-11T00:00:00.000Z"
     },
     {
-      "Date": "2026-08-14T04:00:00.000Z",
-      "pre_start": "2026-08-14T08:00:00.000Z",
-      "pre_end": "2026-08-14T13:30:00.000Z",
-      "start": "2026-08-14T13:30:00.000Z",
-      "end": "2026-08-14T20:00:00.000Z",
-      "post_start": "2026-08-14T20:00:00.000Z",
-      "post_end": "2026-08-15T00:00:00.000Z"
+      "Date": "2026-09-11T04:00:00.000Z",
+      "pre_start": "2026-09-11T08:00:00.000Z",
+      "pre_end": "2026-09-11T13:30:00.000Z",
+      "start": "2026-09-11T13:30:00.000Z",
+      "end": "2026-09-11T20:00:00.000Z",
+      "post_start": "2026-09-11T20:00:00.000Z",
+      "post_end": "2026-09-12T00:00:00.000Z"
     }
   ],
   "dataGranularity": "1h",
@@ -103,9 +107,5 @@
     "10y",
     "ytd",
     "max"
-  ],
-  "lastTrade": {
-    "Price": 297.2,
-    "Time": "2026-08-14T19:59:32-04:00"
-  }
+  ]
 }
