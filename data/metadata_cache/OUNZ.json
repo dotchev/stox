@@ -4,97 +4,42 @@
   "exchangeName": "PCX",
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
-  "firstTradeDate": 1400247000,
-  "regularMarketTime": 1789156800,
+  "firstTradeDate": "2014-05-16T09:30:00-04:00",
+  "regularMarketTime": "2026-09-18T16:00:00-04:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 41.78,
-  "regularMarketChangePercent": 0.554,
-  "fulldayPrice": 41.8,
-  "fulldayChange": 0.23,
-  "fulldayChangePercent": 0.554,
+  "regularMarketPrice": 42.02,
+  "regularMarketChangePercent": 0.647,
+  "fulldayPrice": 42.02,
+  "fulldayChange": 0.27,
+  "fulldayChangePercent": 0.647,
   "fiftyTwoWeekHigh": 53.35,
-  "fiftyTwoWeekLow": 34.935,
-  "regularMarketDayHigh": 42.27,
-  "regularMarketDayLow": 41.725,
-  "regularMarketVolume": 681705,
+  "fiftyTwoWeekLow": 35.19,
+  "regularMarketDayHigh": 42.23,
+  "regularMarketDayLow": 41.735,
+  "regularMarketVolume": 402792,
   "longName": "VanEck Merk Gold Trust",
   "shortName": "VanEck Merk Gold ETF",
-  "chartPreviousClose": 43.01,
-  "previousClose": 41.55,
-  "scale": 3,
+  "chartPreviousClose": 17.05,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "EDT",
-      "start": 1789113600,
-      "end": 1789133400,
-      "gmtoffset": -14400
+      "end": "2026-09-18T09:30:00-04:00",
+      "start": "2026-09-18T04:00:00-04:00"
     },
     "regular": {
-      "timezone": "EDT",
-      "start": 1789133400,
-      "end": 1789156800,
-      "gmtoffset": -14400
+      "end": "2026-09-18T16:00:00-04:00",
+      "start": "2026-09-18T09:30:00-04:00"
     },
     "post": {
-      "timezone": "EDT",
-      "start": 1789156800,
-      "end": 1789171200,
-      "gmtoffset": -14400
+      "end": "2026-09-18T20:00:00-04:00",
+      "start": "2026-09-18T16:00:00-04:00"
     }
   },
-  "tradingPeriods": [
-    {
-      "Date": "2026-09-04T04:00:00.000Z",
-      "pre_start": "2026-09-04T08:00:00.000Z",
-      "pre_end": "2026-09-04T13:30:00.000Z",
-      "start": "2026-09-04T13:30:00.000Z",
-      "end": "2026-09-04T20:00:00.000Z",
-      "post_start": "2026-09-04T20:00:00.000Z",
-      "post_end": "2026-09-05T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-08T04:00:00.000Z",
-      "pre_start": "2026-09-08T08:00:00.000Z",
-      "pre_end": "2026-09-08T13:30:00.000Z",
-      "start": "2026-09-08T13:30:00.000Z",
-      "end": "2026-09-08T20:00:00.000Z",
-      "post_start": "2026-09-08T20:00:00.000Z",
-      "post_end": "2026-09-09T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-09T04:00:00.000Z",
-      "pre_start": "2026-09-09T08:00:00.000Z",
-      "pre_end": "2026-09-09T13:30:00.000Z",
-      "start": "2026-09-09T13:30:00.000Z",
-      "end": "2026-09-09T20:00:00.000Z",
-      "post_start": "2026-09-09T20:00:00.000Z",
-      "post_end": "2026-09-10T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-10T04:00:00.000Z",
-      "pre_start": "2026-09-10T08:00:00.000Z",
-      "pre_end": "2026-09-10T13:30:00.000Z",
-      "start": "2026-09-10T13:30:00.000Z",
-      "end": "2026-09-10T20:00:00.000Z",
-      "post_start": "2026-09-10T20:00:00.000Z",
-      "post_end": "2026-09-11T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-11T04:00:00.000Z",
-      "pre_start": "2026-09-11T08:00:00.000Z",
-      "pre_end": "2026-09-11T13:30:00.000Z",
-      "start": "2026-09-11T13:30:00.000Z",
-      "end": "2026-09-11T20:00:00.000Z",
-      "post_start": "2026-09-11T20:00:00.000Z",
-      "post_end": "2026-09-12T00:00:00.000Z"
-    }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
+  "dataGranularity": "1d",
+  "range": "5y",
   "validRanges": [
     "1d",
     "5d",
@@ -108,8 +53,52 @@
     "ytd",
     "max"
   ],
-  "lastTrade": {
-    "Price": 41.8,
-    "Time": "2026-09-11T16:07:32-04:00"
-  }
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-14T04:00:00.000Z",
+      "pre_start": "2026-09-14T08:00:00.000Z",
+      "pre_end": "2026-09-14T13:30:00.000Z",
+      "start": "2026-09-14T13:30:00.000Z",
+      "end": "2026-09-14T20:00:00.000Z",
+      "post_start": "2026-09-14T20:00:00.000Z",
+      "post_end": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T04:00:00.000Z",
+      "pre_start": "2026-09-15T08:00:00.000Z",
+      "pre_end": "2026-09-15T13:30:00.000Z",
+      "start": "2026-09-15T13:30:00.000Z",
+      "end": "2026-09-15T20:00:00.000Z",
+      "post_start": "2026-09-15T20:00:00.000Z",
+      "post_end": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T04:00:00.000Z",
+      "pre_start": "2026-09-16T08:00:00.000Z",
+      "pre_end": "2026-09-16T13:30:00.000Z",
+      "start": "2026-09-16T13:30:00.000Z",
+      "end": "2026-09-16T20:00:00.000Z",
+      "post_start": "2026-09-16T20:00:00.000Z",
+      "post_end": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T04:00:00.000Z",
+      "pre_start": "2026-09-17T08:00:00.000Z",
+      "pre_end": "2026-09-17T13:30:00.000Z",
+      "start": "2026-09-17T13:30:00.000Z",
+      "end": "2026-09-17T20:00:00.000Z",
+      "post_start": "2026-09-17T20:00:00.000Z",
+      "post_end": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-18T04:00:00.000Z",
+      "pre_start": "2026-09-18T08:00:00.000Z",
+      "pre_end": "2026-09-18T13:30:00.000Z",
+      "start": "2026-09-18T13:30:00.000Z",
+      "end": "2026-09-18T20:00:00.000Z",
+      "post_start": "2026-09-18T20:00:00.000Z",
+      "post_end": "2026-09-19T00:00:00.000Z"
+    }
+  ]
 }

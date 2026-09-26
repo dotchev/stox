@@ -1,0 +1,104 @@
+{
+  "currency": "USD",
+  "symbol": "WQDA.AS",
+  "exchangeName": "AMS",
+  "fullExchangeName": "Amsterdam",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2020-05-14T09:00:00+02:00",
+  "regularMarketTime": "2026-09-21T17:35:24+02:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Amsterdam",
+  "regularMarketPrice": 12.514,
+  "regularMarketChangePercent": 0.708,
+  "fulldayPrice": 12.514,
+  "fulldayChange": 0.088,
+  "fulldayChangePercent": 0.708,
+  "fiftyTwoWeekHigh": 12.796,
+  "fiftyTwoWeekLow": 9.756,
+  "regularMarketDayHigh": 12.528,
+  "regularMarketDayLow": 12.47,
+  "regularMarketVolume": 47627,
+  "longName": "iShares MSCI World Quality Dividend Advanced UCITS ETF USD Acc",
+  "shortName": "iShares MSCI World Quality Divi",
+  "chartPreviousClose": 6.702,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:00:00+02:00"
+    },
+    "regular": {
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T17:30:00+02:00"
+    },
+    "post": {
+      "start": "2026-09-21T17:30:00+02:00",
+      "end": "2026-09-21T17:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T07:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T07:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T07:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T07:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T22:00:00.000Z",
+      "pre_start": "2026-09-21T07:00:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T15:30:00.000Z"
+    }
+  ]
+}

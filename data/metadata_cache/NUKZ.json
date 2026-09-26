@@ -4,97 +4,42 @@
   "exchangeName": "PCX",
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
-  "firstTradeDate": 1706106600,
-  "regularMarketTime": 1789156692,
+  "firstTradeDate": "2024-01-24T09:30:00-05:00",
+  "regularMarketTime": "2026-09-22T13:39:34-04:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 64.461,
-  "regularMarketChangePercent": -0.4,
-  "fulldayPrice": 64.55,
-  "fulldayChange": -0.259,
-  "fulldayChangePercent": -0.4,
+  "regularMarketPrice": 63.31,
+  "regularMarketChangePercent": 0.0,
+  "fulldayPrice": 63.31,
+  "fulldayChange": 0.0,
+  "fulldayChangePercent": 0.0,
   "fiftyTwoWeekHigh": 77.34,
   "fiftyTwoWeekLow": 60.72,
-  "regularMarketDayHigh": 65.63,
-  "regularMarketDayLow": 64.37,
-  "regularMarketVolume": 91611,
+  "regularMarketDayHigh": 63.58,
+  "regularMarketDayLow": 62.843,
+  "regularMarketVolume": 90975,
   "longName": "Range Nuclear Renaissance ETF",
   "shortName": "Range Nuclear Renaissance Index",
-  "chartPreviousClose": 64.92,
-  "previousClose": 64.72,
-  "scale": 3,
+  "chartPreviousClose": 25.58,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "EDT",
-      "start": 1789113600,
-      "end": 1789133400,
-      "gmtoffset": -14400
+      "end": "2026-09-22T09:30:00-04:00",
+      "start": "2026-09-22T04:00:00-04:00"
     },
     "regular": {
-      "timezone": "EDT",
-      "start": 1789133400,
-      "end": 1789156800,
-      "gmtoffset": -14400
+      "end": "2026-09-22T16:00:00-04:00",
+      "start": "2026-09-22T09:30:00-04:00"
     },
     "post": {
-      "timezone": "EDT",
-      "start": 1789156800,
-      "end": 1789171200,
-      "gmtoffset": -14400
+      "end": "2026-09-22T20:00:00-04:00",
+      "start": "2026-09-22T16:00:00-04:00"
     }
   },
-  "tradingPeriods": [
-    {
-      "Date": "2026-09-04T04:00:00.000Z",
-      "pre_start": "2026-09-04T08:00:00.000Z",
-      "pre_end": "2026-09-04T13:30:00.000Z",
-      "start": "2026-09-04T13:30:00.000Z",
-      "end": "2026-09-04T20:00:00.000Z",
-      "post_start": "2026-09-04T20:00:00.000Z",
-      "post_end": "2026-09-05T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-08T04:00:00.000Z",
-      "pre_start": "2026-09-08T08:00:00.000Z",
-      "pre_end": "2026-09-08T13:30:00.000Z",
-      "start": "2026-09-08T13:30:00.000Z",
-      "end": "2026-09-08T20:00:00.000Z",
-      "post_start": "2026-09-08T20:00:00.000Z",
-      "post_end": "2026-09-09T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-09T04:00:00.000Z",
-      "pre_start": "2026-09-09T08:00:00.000Z",
-      "pre_end": "2026-09-09T13:30:00.000Z",
-      "start": "2026-09-09T13:30:00.000Z",
-      "end": "2026-09-09T20:00:00.000Z",
-      "post_start": "2026-09-09T20:00:00.000Z",
-      "post_end": "2026-09-10T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-10T04:00:00.000Z",
-      "pre_start": "2026-09-10T08:00:00.000Z",
-      "pre_end": "2026-09-10T13:30:00.000Z",
-      "start": "2026-09-10T13:30:00.000Z",
-      "end": "2026-09-10T20:00:00.000Z",
-      "post_start": "2026-09-10T20:00:00.000Z",
-      "post_end": "2026-09-11T00:00:00.000Z"
-    },
-    {
-      "Date": "2026-09-11T04:00:00.000Z",
-      "pre_start": "2026-09-11T08:00:00.000Z",
-      "pre_end": "2026-09-11T13:30:00.000Z",
-      "start": "2026-09-11T13:30:00.000Z",
-      "end": "2026-09-11T20:00:00.000Z",
-      "post_start": "2026-09-11T20:00:00.000Z",
-      "post_end": "2026-09-12T00:00:00.000Z"
-    }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
+  "dataGranularity": "1d",
+  "range": "5y",
   "validRanges": [
     "1d",
     "5d",
@@ -107,8 +52,52 @@
     "ytd",
     "max"
   ],
-  "lastTrade": {
-    "Price": 64.55,
-    "Time": "2026-09-11T19:00:01-04:00"
-  }
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-16T04:00:00.000Z",
+      "pre_start": "2026-09-16T08:00:00.000Z",
+      "pre_end": "2026-09-16T13:30:00.000Z",
+      "start": "2026-09-16T13:30:00.000Z",
+      "end": "2026-09-16T20:00:00.000Z",
+      "post_start": "2026-09-16T20:00:00.000Z",
+      "post_end": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T04:00:00.000Z",
+      "pre_start": "2026-09-17T08:00:00.000Z",
+      "pre_end": "2026-09-17T13:30:00.000Z",
+      "start": "2026-09-17T13:30:00.000Z",
+      "end": "2026-09-17T20:00:00.000Z",
+      "post_start": "2026-09-17T20:00:00.000Z",
+      "post_end": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-18T04:00:00.000Z",
+      "pre_start": "2026-09-18T08:00:00.000Z",
+      "pre_end": "2026-09-18T13:30:00.000Z",
+      "start": "2026-09-18T13:30:00.000Z",
+      "end": "2026-09-18T20:00:00.000Z",
+      "post_start": "2026-09-18T20:00:00.000Z",
+      "post_end": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-21T04:00:00.000Z",
+      "pre_start": "2026-09-21T08:00:00.000Z",
+      "pre_end": "2026-09-21T13:30:00.000Z",
+      "start": "2026-09-21T13:30:00.000Z",
+      "end": "2026-09-21T20:00:00.000Z",
+      "post_start": "2026-09-21T20:00:00.000Z",
+      "post_end": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "Date": "2026-09-22T04:00:00.000Z",
+      "pre_start": "2026-09-22T08:00:00.000Z",
+      "pre_end": "2026-09-22T13:30:00.000Z",
+      "start": "2026-09-22T13:30:00.000Z",
+      "end": "2026-09-22T20:00:00.000Z",
+      "post_start": "2026-09-22T20:00:00.000Z",
+      "post_end": "2026-09-23T00:00:00.000Z"
+    }
+  ]
 }

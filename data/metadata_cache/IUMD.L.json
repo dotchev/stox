@@ -1,0 +1,104 @@
+{
+  "currency": "USD",
+  "symbol": "IUMD.L",
+  "exchangeName": "LSE",
+  "fullExchangeName": "LSE",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2018-02-23T08:00:00+00:00",
+  "regularMarketTime": "2026-09-21T16:29:56+01:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 3600,
+  "timezone": "BST",
+  "exchangeTimezoneName": "Europe/London",
+  "regularMarketPrice": 14.114,
+  "regularMarketChangePercent": 3.218,
+  "fulldayPrice": 14.114,
+  "fulldayChange": 0.44,
+  "fulldayChangePercent": 3.218,
+  "fiftyTwoWeekHigh": 15.418,
+  "fiftyTwoWeekLow": 10.246,
+  "regularMarketDayHigh": 14.118,
+  "regularMarketDayLow": 13.932,
+  "regularMarketVolume": 8651,
+  "longName": "iShares Edge MSCI USA Momentum Factor UCITS ETF USD (Dist)",
+  "shortName": "ISHARES IV PLC ISH USA MOMENTUM",
+  "chartPreviousClose": 8.068,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "end": "2026-09-21T08:00:00+01:00",
+      "start": "2026-09-21T07:15:00+01:00"
+    },
+    "regular": {
+      "end": "2026-09-21T16:30:00+01:00",
+      "start": "2026-09-21T08:00:00+01:00"
+    },
+    "post": {
+      "end": "2026-09-21T17:15:00+01:00",
+      "start": "2026-09-21T16:30:00+01:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-14T23:00:00.000Z",
+      "pre_start": "2026-09-15T06:15:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T23:00:00.000Z",
+      "pre_start": "2026-09-16T06:15:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T23:00:00.000Z",
+      "pre_start": "2026-09-17T06:15:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T23:00:00.000Z",
+      "pre_start": "2026-09-18T06:15:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T23:00:00.000Z",
+      "pre_start": "2026-09-21T06:15:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T16:15:00.000Z"
+    }
+  ]
+}

@@ -4,58 +4,57 @@
   "exchangeName": "GER",
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
-  "firstTradeDate": 1253862000,
-  "regularMarketTime": 1789659346,
+  "firstTradeDate": "2009-09-25T09:00:00+02:00",
+  "regularMarketTime": "2026-09-18T17:35:49+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 127.4,
-  "regularMarketChangePercent": 0.771,
-  "fulldayPrice": 127.4,
-  "fulldayChange": 0.975,
-  "fulldayChangePercent": 0.771,
+  "regularMarketPrice": 127.04,
+  "regularMarketChangePercent": -0.283,
+  "fulldayPrice": 127.04,
+  "fulldayChange": -0.36,
+  "fulldayChangePercent": -0.283,
   "fiftyTwoWeekHigh": 129.845,
   "fiftyTwoWeekLow": 106.15,
-  "regularMarketDayHigh": 127.64,
-  "regularMarketDayLow": 126.94,
-  "regularMarketVolume": 286088,
+  "regularMarketDayHigh": 127.785,
+  "regularMarketDayLow": 126.9,
+  "regularMarketVolume": 212350,
   "longName": "iShares Core MSCI World UCITS ETF USD (Acc)",
   "shortName": "iShsIII-Core MSCI World U.ETF R",
-  "chartPreviousClose": 125.45,
-  "previousClose": 126.425,
-  "scale": 3,
+  "chartPreviousClose": 72.734,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "CEST",
-      "start": 1789621200,
-      "end": 1789628400,
-      "gmtoffset": 7200
+      "start": "2026-09-18T07:00:00+02:00",
+      "end": "2026-09-18T09:00:00+02:00"
     },
     "regular": {
-      "timezone": "CEST",
-      "start": 1789628400,
-      "end": 1789659000,
-      "gmtoffset": 7200
+      "start": "2026-09-18T09:00:00+02:00",
+      "end": "2026-09-18T17:30:00+02:00"
     },
     "post": {
-      "timezone": "CEST",
-      "start": 1789659000,
-      "end": 1789669800,
-      "gmtoffset": 7200
+      "start": "2026-09-18T17:30:00+02:00",
+      "end": "2026-09-18T20:30:00+02:00"
     }
   },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
   "tradingPeriods": [
-    {
-      "Date": "2026-09-10T22:00:00.000Z",
-      "pre_start": "2026-09-11T05:00:00.000Z",
-      "pre_end": "2026-09-11T07:00:00.000Z",
-      "start": "2026-09-11T07:00:00.000Z",
-      "end": "2026-09-11T15:30:00.000Z",
-      "post_start": "2026-09-11T15:30:00.000Z",
-      "post_end": "2026-09-11T18:30:00.000Z"
-    },
     {
       "Date": "2026-09-13T22:00:00.000Z",
       "pre_start": "2026-09-14T05:00:00.000Z",
@@ -91,21 +90,15 @@
       "end": "2026-09-17T15:30:00.000Z",
       "post_start": "2026-09-17T15:30:00.000Z",
       "post_end": "2026-09-17T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T05:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T18:30:00.000Z"
     }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
-  "validRanges": [
-    "1d",
-    "5d",
-    "1mo",
-    "3mo",
-    "6mo",
-    "1y",
-    "2y",
-    "5y",
-    "10y",
-    "ytd",
-    "max"
   ]
 }

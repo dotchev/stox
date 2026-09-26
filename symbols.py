@@ -10,7 +10,7 @@ my_stocks = [
     # 'PL',
     # 'RKLB',
     'NVDA',
-    # 'AVGO',
+    'AVGO',
     'TSLA',
     # 'MSFT',
     # 'GOOG',
@@ -33,40 +33,50 @@ my_stocks = [
 my_etfs = [
     'SPY',
     'SPYG',
-    # 'SPYV',
+    'SPYV',
     'QQQ',
-    # 'TOPT',
-    # 'QTOP',
-    # 'TQQQ',  
+    'TOPT',
+    'QTOP',
+    'QTOP.AS',
+    'TQQQ',  
     'IGM',   
-    'XLKS.MI', 
-    # 'MGK',
+    'MGK',
     'SPMO',
     'IDMO',
     'MAGS',
     'FNGS',
     'EXI',
-    # 'UFO',
-    # 'ROKT',
-    # 'ARKX',
+    'UFO',
+    'ROKT',
     'QTUM',
+    'WQTM.DE', # WisdomTree Quantum Computing UCITS ETF - USD Acc
     'NUKZ',
     'SMH',
     'USD',
     'PPA',
+    'IVDF.DE',
     'DAPP',
     'BITQ',
-    'IWDA.AS', # iShares Core MSCI World UCITS ETF
-    # 'LVHI',    # Franklin International Low Volatility High Dividend Index ETF
-    # 'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
+    'FBT.MI', # First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation
+    'A1P0.DE', # Defiance AI & Power Infrastructure ETF USD Acc
+    'LVHI',    # Franklin International Low Volatility High Dividend Index ETF
+    'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
     'ESIF.DE', # iShares MSCI Europe Financials Sector UCITS ETF
+    'EXV1.DE', # iShares STOXX Europe 600 Banks UCITS ETF (DE)
     'VDIV.DE', # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
     'JEDI.DE', # VanEck Space Innovators UCITS ETF
-    # 'XLKS.MI', # Invesco Technology S&P US Select Sector UCITS ETF
-    # 'SMH.MI',  # VanEck Vectors Semiconductor UCITS ETF
-    # 'CHIP.PA', # Amundi MSCI Semiconductors UCITS ETF Acc
-    # 'DFEN.DE', # VanEck Defense ETF A USD Acc
+    'XLKS.MI', # Invesco Technology S&P US Select Sector UCITS ETF
+    'XAIX.DE', # Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C
+    'SMH.MI',  # VanEck Vectors Semiconductor UCITS ETF
+    'CHIP.PA', # Amundi MSCI Semiconductors UCITS ETF Acc
+    'DFEN.DE', # VanEck Defense ETF A USD Acc
+    'ASWC.DE', # HANetf ICAV - Future of Defence UCITS ETF - Accumulating
+    'EUNL.DE', # iShares Core MSCI World UCITS ETF USD (Acc)
+    'IS3S.DE', # iShares Edge MSCI World Value Factor UCITS ETF
     'IWMO.MI', # iShares Edge MSCI World Momentum Factor UCITS ETF
+    '5MVL.DE', # iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc)
+    'WMSE.DE', # Amundi MSCI World Momentum Advanced UCITS ETF Acc
+    'XWEM.DE', # Xtrackers MSCI World Momentum ESG UCITS ETF 1C
     'XDWI.DE', # Xtrackers MSCI World Industrials UCITS ETF 1C
     '4GLD.DE', # Xetra-Gold
     'BTC-USD',

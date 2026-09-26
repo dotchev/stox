@@ -4,97 +4,42 @@
   "exchangeName": "MIL",
   "fullExchangeName": "Milan",
   "instrumentType": "ETF",
-  "firstTradeDate": 1424160000,
-  "regularMarketTime": 1789140924,
+  "firstTradeDate": "2015-02-17T09:00:00+01:00",
+  "regularMarketTime": "2026-09-22T17:35:11+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Rome",
-  "regularMarketPrice": 100.69,
-  "regularMarketChangePercent": 0.932,
-  "fulldayPrice": 100.69,
-  "fulldayChange": 0.93,
-  "fulldayChangePercent": 0.932,
+  "regularMarketPrice": 104.06,
+  "regularMarketChangePercent": 0.502,
+  "fulldayPrice": 104.06,
+  "fulldayChange": 0.52,
+  "fulldayChangePercent": 0.502,
   "fiftyTwoWeekHigh": 109.51,
   "fiftyTwoWeekLow": 78.57,
-  "regularMarketDayHigh": 100.79,
-  "regularMarketDayLow": 99.78,
-  "regularMarketVolume": 7481,
+  "regularMarketDayHigh": 104.38,
+  "regularMarketDayLow": 103.12,
+  "regularMarketVolume": 26312,
   "longName": "iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc)",
   "shortName": "ISHARES EDG MSCI WL MO FAC UCIT",
-  "chartPreviousClose": 99.9,
-  "previousClose": 99.76,
-  "scale": 3,
+  "chartPreviousClose": 55.46,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "CEST",
-      "start": 1789106400,
-      "end": 1789110000,
-      "gmtoffset": 7200
+      "start": "2026-09-22T08:00:00+02:00",
+      "end": "2026-09-22T09:00:00+02:00"
     },
     "regular": {
-      "timezone": "CEST",
-      "start": 1789110000,
-      "end": 1789140600,
-      "gmtoffset": 7200
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T17:30:00+02:00"
     },
     "post": {
-      "timezone": "CEST",
-      "start": 1789140600,
-      "end": 1789140600,
-      "gmtoffset": 7200
+      "start": "2026-09-22T17:30:00+02:00",
+      "end": "2026-09-22T17:30:00+02:00"
     }
   },
-  "tradingPeriods": [
-    {
-      "Date": "2026-09-06T22:00:00.000Z",
-      "pre_start": "2026-09-07T06:00:00.000Z",
-      "pre_end": "2026-09-07T07:00:00.000Z",
-      "start": "2026-09-07T07:00:00.000Z",
-      "end": "2026-09-07T15:30:00.000Z",
-      "post_start": "2026-09-07T15:30:00.000Z",
-      "post_end": "2026-09-07T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-07T22:00:00.000Z",
-      "pre_start": "2026-09-08T06:00:00.000Z",
-      "pre_end": "2026-09-08T07:00:00.000Z",
-      "start": "2026-09-08T07:00:00.000Z",
-      "end": "2026-09-08T15:30:00.000Z",
-      "post_start": "2026-09-08T15:30:00.000Z",
-      "post_end": "2026-09-08T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-08T22:00:00.000Z",
-      "pre_start": "2026-09-09T06:00:00.000Z",
-      "pre_end": "2026-09-09T07:00:00.000Z",
-      "start": "2026-09-09T07:00:00.000Z",
-      "end": "2026-09-09T15:30:00.000Z",
-      "post_start": "2026-09-09T15:30:00.000Z",
-      "post_end": "2026-09-09T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-09T22:00:00.000Z",
-      "pre_start": "2026-09-10T06:00:00.000Z",
-      "pre_end": "2026-09-10T07:00:00.000Z",
-      "start": "2026-09-10T07:00:00.000Z",
-      "end": "2026-09-10T15:30:00.000Z",
-      "post_start": "2026-09-10T15:30:00.000Z",
-      "post_end": "2026-09-10T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-10T22:00:00.000Z",
-      "pre_start": "2026-09-11T06:00:00.000Z",
-      "pre_end": "2026-09-11T07:00:00.000Z",
-      "start": "2026-09-11T07:00:00.000Z",
-      "end": "2026-09-11T15:30:00.000Z",
-      "post_start": "2026-09-11T15:30:00.000Z",
-      "post_end": "2026-09-11T15:30:00.000Z"
-    }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
+  "dataGranularity": "1d",
+  "range": "5y",
   "validRanges": [
     "1d",
     "5d",
@@ -107,5 +52,53 @@
     "10y",
     "ytd",
     "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T06:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T06:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T06:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T22:00:00.000Z",
+      "pre_start": "2026-09-21T06:00:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-21T22:00:00.000Z",
+      "pre_start": "2026-09-22T06:00:00.000Z",
+      "pre_end": "2026-09-22T07:00:00.000Z",
+      "start": "2026-09-22T07:00:00.000Z",
+      "end": "2026-09-22T15:30:00.000Z",
+      "post_start": "2026-09-22T15:30:00.000Z",
+      "post_end": "2026-09-22T15:30:00.000Z"
+    }
   ]
 }

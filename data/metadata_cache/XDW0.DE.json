@@ -1,0 +1,104 @@
+{
+  "currency": "EUR",
+  "symbol": "XDW0.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2016-04-18T09:00:00+02:00",
+  "regularMarketTime": "2026-09-21T17:36:09+02:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 66.09,
+  "regularMarketChangePercent": -2.421,
+  "fulldayPrice": 66.09,
+  "fulldayChange": -1.64,
+  "fulldayChangePercent": -2.421,
+  "fiftyTwoWeekHigh": 68.85,
+  "fiftyTwoWeekLow": 43.63,
+  "regularMarketDayHigh": 67.18,
+  "regularMarketDayLow": 66.09,
+  "regularMarketVolume": 28133,
+  "longName": "Xtrackers MSCI World Energy UCITS ETF 1C",
+  "shortName": "Xtr.(IE) - MSCI World Energy  R",
+  "chartPreviousClose": 23.335,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-09-21T07:00:00+02:00",
+      "end": "2026-09-21T09:00:00+02:00"
+    },
+    "regular": {
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T17:30:00+02:00"
+    },
+    "post": {
+      "start": "2026-09-21T17:30:00+02:00",
+      "end": "2026-09-21T20:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T05:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T05:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T22:00:00.000Z",
+      "pre_start": "2026-09-21T05:00:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T18:30:00.000Z"
+    }
+  ]
+}

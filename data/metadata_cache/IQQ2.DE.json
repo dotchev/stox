@@ -1,0 +1,103 @@
+{
+  "currency": "EUR",
+  "symbol": "IQQ2.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2015-03-26T09:00:00+01:00",
+  "regularMarketTime": "1970-01-01T01:00:00+01:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 0.0,
+  "regularMarketChangePercent": 0.0,
+  "fulldayPrice": 0.0,
+  "fulldayChange": 0.0,
+  "fulldayChangePercent": 0.0,
+  "fiftyTwoWeekHigh": 28.17,
+  "fiftyTwoWeekLow": 0.0,
+  "regularMarketDayHigh": 0.0,
+  "regularMarketDayLow": 0.0,
+  "regularMarketVolume": 0,
+  "shortName": "ISHS-MSCI EM UC.ETF DIS",
+  "chartPreviousClose": 0.0,
+  "priceHint": 4,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-09-21T07:00:00+02:00",
+      "end": "2026-09-21T09:00:00+02:00"
+    },
+    "regular": {
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T17:30:00+02:00"
+    },
+    "post": {
+      "start": "2026-09-21T17:30:00+02:00",
+      "end": "2026-09-21T20:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T05:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T05:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T22:00:00.000Z",
+      "pre_start": "2026-09-21T05:00:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T18:30:00.000Z"
+    }
+  ]
+}

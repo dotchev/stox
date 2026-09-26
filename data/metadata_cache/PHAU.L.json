@@ -4,97 +4,42 @@
   "exchangeName": "LSE",
   "fullExchangeName": "LSE",
   "instrumentType": "EQUITY",
-  "firstTradeDate": 1199174400,
-  "regularMarketTime": 1789140913,
+  "firstTradeDate": "2008-01-01T08:00:00+00:00",
+  "regularMarketTime": "2026-09-18T16:35:27+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "BST",
   "exchangeTimezoneName": "Europe/London",
-  "regularMarketPrice": 405.49,
-  "regularMarketChangePercent": 0.106,
-  "fulldayPrice": 405.49,
-  "fulldayChange": 0.43,
-  "fulldayChangePercent": 0.106,
+  "regularMarketPrice": 403.82,
+  "regularMarketChangePercent": -0.042,
+  "fulldayPrice": 403.82,
+  "fulldayChange": -0.17,
+  "fulldayChangePercent": -0.042,
   "fiftyTwoWeekHigh": 519.99,
   "fiftyTwoWeekLow": 304.362,
-  "regularMarketDayHigh": 407.88,
-  "regularMarketDayLow": 398.37,
-  "regularMarketVolume": 14442,
+  "regularMarketDayHigh": 407.68,
+  "regularMarketDayLow": 402.73,
+  "regularMarketVolume": 5286,
   "longName": "WisdomTree Physical Gold",
   "shortName": "WISDOMTREE METAL SECURITIES LIM",
-  "chartPreviousClose": 411.67,
-  "previousClose": 405.06,
-  "scale": 3,
+  "chartPreviousClose": 165.695,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "BST",
-      "start": 1789107300,
-      "end": 1789110000,
-      "gmtoffset": 3600
+      "start": "2026-09-18T07:15:00+01:00",
+      "end": "2026-09-18T08:00:00+01:00"
     },
     "regular": {
-      "timezone": "BST",
-      "start": 1789110000,
-      "end": 1789140600,
-      "gmtoffset": 3600
+      "start": "2026-09-18T08:00:00+01:00",
+      "end": "2026-09-18T16:30:00+01:00"
     },
     "post": {
-      "timezone": "BST",
-      "start": 1789140600,
-      "end": 1789143300,
-      "gmtoffset": 3600
+      "start": "2026-09-18T16:30:00+01:00",
+      "end": "2026-09-18T17:15:00+01:00"
     }
   },
-  "tradingPeriods": [
-    {
-      "Date": "2026-09-06T23:00:00.000Z",
-      "pre_start": "2026-09-07T06:15:00.000Z",
-      "pre_end": "2026-09-07T07:00:00.000Z",
-      "start": "2026-09-07T07:00:00.000Z",
-      "end": "2026-09-07T15:30:00.000Z",
-      "post_start": "2026-09-07T15:30:00.000Z",
-      "post_end": "2026-09-07T16:15:00.000Z"
-    },
-    {
-      "Date": "2026-09-07T23:00:00.000Z",
-      "pre_start": "2026-09-08T06:15:00.000Z",
-      "pre_end": "2026-09-08T07:00:00.000Z",
-      "start": "2026-09-08T07:00:00.000Z",
-      "end": "2026-09-08T15:30:00.000Z",
-      "post_start": "2026-09-08T15:30:00.000Z",
-      "post_end": "2026-09-08T16:15:00.000Z"
-    },
-    {
-      "Date": "2026-09-08T23:00:00.000Z",
-      "pre_start": "2026-09-09T06:15:00.000Z",
-      "pre_end": "2026-09-09T07:00:00.000Z",
-      "start": "2026-09-09T07:00:00.000Z",
-      "end": "2026-09-09T15:30:00.000Z",
-      "post_start": "2026-09-09T15:30:00.000Z",
-      "post_end": "2026-09-09T16:15:00.000Z"
-    },
-    {
-      "Date": "2026-09-09T23:00:00.000Z",
-      "pre_start": "2026-09-10T06:15:00.000Z",
-      "pre_end": "2026-09-10T07:00:00.000Z",
-      "start": "2026-09-10T07:00:00.000Z",
-      "end": "2026-09-10T15:30:00.000Z",
-      "post_start": "2026-09-10T15:30:00.000Z",
-      "post_end": "2026-09-10T16:15:00.000Z"
-    },
-    {
-      "Date": "2026-09-10T23:00:00.000Z",
-      "pre_start": "2026-09-11T06:15:00.000Z",
-      "pre_end": "2026-09-11T07:00:00.000Z",
-      "start": "2026-09-11T07:00:00.000Z",
-      "end": "2026-09-11T15:30:00.000Z",
-      "post_start": "2026-09-11T15:30:00.000Z",
-      "post_end": "2026-09-11T16:15:00.000Z"
-    }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
+  "dataGranularity": "1d",
+  "range": "5y",
   "validRanges": [
     "1d",
     "5d",
@@ -107,5 +52,53 @@
     "10y",
     "ytd",
     "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-13T23:00:00.000Z",
+      "pre_start": "2026-09-14T06:15:00.000Z",
+      "pre_end": "2026-09-14T07:00:00.000Z",
+      "start": "2026-09-14T07:00:00.000Z",
+      "end": "2026-09-14T15:30:00.000Z",
+      "post_start": "2026-09-14T15:30:00.000Z",
+      "post_end": "2026-09-14T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T23:00:00.000Z",
+      "pre_start": "2026-09-15T06:15:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T23:00:00.000Z",
+      "pre_start": "2026-09-16T06:15:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T23:00:00.000Z",
+      "pre_start": "2026-09-17T06:15:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T16:15:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T23:00:00.000Z",
+      "pre_start": "2026-09-18T06:15:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T16:15:00.000Z"
+    }
   ]
 }

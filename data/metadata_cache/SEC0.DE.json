@@ -4,97 +4,42 @@
   "exchangeName": "GER",
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
-  "firstTradeDate": 1628233200,
-  "regularMarketTime": 1789140967,
+  "firstTradeDate": "2021-08-06T09:00:00+02:00",
+  "regularMarketTime": "2026-09-18T17:36:02+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 17.386,
-  "regularMarketChangePercent": 1.53,
-  "fulldayPrice": 17.386,
-  "fulldayChange": 0.262,
-  "fulldayChangePercent": 1.53,
+  "regularMarketPrice": 17.432,
+  "regularMarketChangePercent": 1.325,
+  "fulldayPrice": 17.432,
+  "fulldayChange": 0.228,
+  "fulldayChangePercent": 1.325,
   "fiftyTwoWeekHigh": 21.525,
-  "fiftyTwoWeekLow": 7.61,
-  "regularMarketDayHigh": 17.386,
-  "regularMarketDayLow": 17.082,
-  "regularMarketVolume": 213197,
+  "fiftyTwoWeekLow": 8.017,
+  "regularMarketDayHigh": 17.518,
+  "regularMarketDayLow": 17.306,
+  "regularMarketVolume": 445018,
   "longName": "iShares MSCI Global Semiconductors UCITS ETF USD Acc",
   "shortName": "iShsIV-iS.MSCI Gl Semicon.    R",
-  "chartPreviousClose": 16.95,
-  "previousClose": 17.124,
-  "scale": 3,
+  "chartPreviousClose": 4.44,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "CEST",
-      "start": 1789102800,
-      "end": 1789110000,
-      "gmtoffset": 7200
+      "end": "2026-09-18T09:00:00+02:00",
+      "start": "2026-09-18T07:00:00+02:00"
     },
     "regular": {
-      "timezone": "CEST",
-      "start": 1789110000,
-      "end": 1789140600,
-      "gmtoffset": 7200
+      "end": "2026-09-18T17:30:00+02:00",
+      "start": "2026-09-18T09:00:00+02:00"
     },
     "post": {
-      "timezone": "CEST",
-      "start": 1789140600,
-      "end": 1789151400,
-      "gmtoffset": 7200
+      "end": "2026-09-18T20:30:00+02:00",
+      "start": "2026-09-18T17:30:00+02:00"
     }
   },
-  "tradingPeriods": [
-    {
-      "Date": "2026-09-06T22:00:00.000Z",
-      "pre_start": "2026-09-07T05:00:00.000Z",
-      "pre_end": "2026-09-07T07:00:00.000Z",
-      "start": "2026-09-07T07:00:00.000Z",
-      "end": "2026-09-07T15:30:00.000Z",
-      "post_start": "2026-09-07T15:30:00.000Z",
-      "post_end": "2026-09-07T18:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-07T22:00:00.000Z",
-      "pre_start": "2026-09-08T05:00:00.000Z",
-      "pre_end": "2026-09-08T07:00:00.000Z",
-      "start": "2026-09-08T07:00:00.000Z",
-      "end": "2026-09-08T15:30:00.000Z",
-      "post_start": "2026-09-08T15:30:00.000Z",
-      "post_end": "2026-09-08T18:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-08T22:00:00.000Z",
-      "pre_start": "2026-09-09T05:00:00.000Z",
-      "pre_end": "2026-09-09T07:00:00.000Z",
-      "start": "2026-09-09T07:00:00.000Z",
-      "end": "2026-09-09T15:30:00.000Z",
-      "post_start": "2026-09-09T15:30:00.000Z",
-      "post_end": "2026-09-09T18:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-09T22:00:00.000Z",
-      "pre_start": "2026-09-10T05:00:00.000Z",
-      "pre_end": "2026-09-10T07:00:00.000Z",
-      "start": "2026-09-10T07:00:00.000Z",
-      "end": "2026-09-10T15:30:00.000Z",
-      "post_start": "2026-09-10T15:30:00.000Z",
-      "post_end": "2026-09-10T18:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-10T22:00:00.000Z",
-      "pre_start": "2026-09-11T05:00:00.000Z",
-      "pre_end": "2026-09-11T07:00:00.000Z",
-      "start": "2026-09-11T07:00:00.000Z",
-      "end": "2026-09-11T15:30:00.000Z",
-      "post_start": "2026-09-11T15:30:00.000Z",
-      "post_end": "2026-09-11T18:30:00.000Z"
-    }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
+  "dataGranularity": "1d",
+  "range": "5y",
   "validRanges": [
     "1d",
     "5d",
@@ -107,5 +52,53 @@
     "10y",
     "ytd",
     "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-13T22:00:00.000Z",
+      "pre_start": "2026-09-14T05:00:00.000Z",
+      "pre_end": "2026-09-14T07:00:00.000Z",
+      "start": "2026-09-14T07:00:00.000Z",
+      "end": "2026-09-14T15:30:00.000Z",
+      "post_start": "2026-09-14T15:30:00.000Z",
+      "post_end": "2026-09-14T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T05:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T05:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T18:30:00.000Z"
+    }
   ]
 }

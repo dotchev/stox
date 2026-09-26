@@ -4,97 +4,42 @@
   "exchangeName": "MIL",
   "fullExchangeName": "Milan",
   "instrumentType": "ETF",
-  "firstTradeDate": 1607673600,
-  "regularMarketTime": 1789140917,
+  "firstTradeDate": "2020-12-11T09:00:00+01:00",
+  "regularMarketTime": "2026-09-18T17:36:05+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Rome",
-  "regularMarketPrice": 92.66,
-  "regularMarketChangePercent": 1.356,
-  "fulldayPrice": 92.66,
-  "fulldayChange": 1.24,
-  "fulldayChangePercent": 1.356,
+  "regularMarketPrice": 92.97,
+  "regularMarketChangePercent": 1.263,
+  "fulldayPrice": 92.97,
+  "fulldayChange": 1.16,
+  "fulldayChangePercent": 1.263,
   "fiftyTwoWeekHigh": 110.9,
-  "fiftyTwoWeekLow": 43.075,
-  "regularMarketDayHigh": 92.57,
-  "regularMarketDayLow": 91.18,
-  "regularMarketVolume": 58505,
+  "fiftyTwoWeekLow": 44.905,
+  "regularMarketDayHigh": 93.25,
+  "regularMarketDayLow": 92.0,
+  "regularMarketVolume": 32314,
   "longName": "VanEck Semiconductor UCITS ETF",
   "shortName": "VANECK SEMICONDUCTOR  UCITS ETF",
-  "chartPreviousClose": 90.38,
-  "previousClose": 91.42,
-  "scale": 3,
+  "chartPreviousClose": 22.08,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "timezone": "CEST",
-      "start": 1789106400,
-      "end": 1789110000,
-      "gmtoffset": 7200
+      "end": "2026-09-18T09:00:00+02:00",
+      "start": "2026-09-18T08:00:00+02:00"
     },
     "regular": {
-      "timezone": "CEST",
-      "start": 1789110000,
-      "end": 1789140600,
-      "gmtoffset": 7200
+      "end": "2026-09-18T17:30:00+02:00",
+      "start": "2026-09-18T09:00:00+02:00"
     },
     "post": {
-      "timezone": "CEST",
-      "start": 1789140600,
-      "end": 1789140600,
-      "gmtoffset": 7200
+      "end": "2026-09-18T17:30:00+02:00",
+      "start": "2026-09-18T17:30:00+02:00"
     }
   },
-  "tradingPeriods": [
-    {
-      "Date": "2026-09-06T22:00:00.000Z",
-      "pre_start": "2026-09-07T06:00:00.000Z",
-      "pre_end": "2026-09-07T07:00:00.000Z",
-      "start": "2026-09-07T07:00:00.000Z",
-      "end": "2026-09-07T15:30:00.000Z",
-      "post_start": "2026-09-07T15:30:00.000Z",
-      "post_end": "2026-09-07T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-07T22:00:00.000Z",
-      "pre_start": "2026-09-08T06:00:00.000Z",
-      "pre_end": "2026-09-08T07:00:00.000Z",
-      "start": "2026-09-08T07:00:00.000Z",
-      "end": "2026-09-08T15:30:00.000Z",
-      "post_start": "2026-09-08T15:30:00.000Z",
-      "post_end": "2026-09-08T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-08T22:00:00.000Z",
-      "pre_start": "2026-09-09T06:00:00.000Z",
-      "pre_end": "2026-09-09T07:00:00.000Z",
-      "start": "2026-09-09T07:00:00.000Z",
-      "end": "2026-09-09T15:30:00.000Z",
-      "post_start": "2026-09-09T15:30:00.000Z",
-      "post_end": "2026-09-09T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-09T22:00:00.000Z",
-      "pre_start": "2026-09-10T06:00:00.000Z",
-      "pre_end": "2026-09-10T07:00:00.000Z",
-      "start": "2026-09-10T07:00:00.000Z",
-      "end": "2026-09-10T15:30:00.000Z",
-      "post_start": "2026-09-10T15:30:00.000Z",
-      "post_end": "2026-09-10T15:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-10T22:00:00.000Z",
-      "pre_start": "2026-09-11T06:00:00.000Z",
-      "pre_end": "2026-09-11T07:00:00.000Z",
-      "start": "2026-09-11T07:00:00.000Z",
-      "end": "2026-09-11T15:30:00.000Z",
-      "post_start": "2026-09-11T15:30:00.000Z",
-      "post_end": "2026-09-11T15:30:00.000Z"
-    }
-  ],
-  "dataGranularity": "1h",
-  "range": "5d",
+  "dataGranularity": "1d",
+  "range": "5y",
   "validRanges": [
     "1d",
     "5d",
@@ -107,5 +52,53 @@
     "10y",
     "ytd",
     "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-13T22:00:00.000Z",
+      "pre_start": "2026-09-14T06:00:00.000Z",
+      "pre_end": "2026-09-14T07:00:00.000Z",
+      "start": "2026-09-14T07:00:00.000Z",
+      "end": "2026-09-14T15:30:00.000Z",
+      "post_start": "2026-09-14T15:30:00.000Z",
+      "post_end": "2026-09-14T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T06:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T06:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T06:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T06:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T15:30:00.000Z"
+    }
   ]
 }

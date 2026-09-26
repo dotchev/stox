@@ -39,16 +39,40 @@ def _jsonable(obj):
 
 
 def _save_metadata(symbol, meta):
-    with open(_metadata_file(symbol), 'w', encoding='utf-8') as f:
-        json.dump(meta, f, indent=2, ensure_ascii=False, default=_jsonable)
+    # yfinance >= 1.7 returns a HistoryMetadata Mapping, not a plain dict
+    meta = dict(meta)
+    if not meta:
+        return  # a delisted or unknown symbol yields nothing worth caching
+    # Serialize first, then write: a failure here must not leave a truncated
+    # file behind, and a concurrent reader must never see a half-written one.
+    text = json.dumps(meta, indent=2, ensure_ascii=False, default=_jsonable)
+    f = _metadata_file(symbol)
+    tmp = f'{f}.tmp'
+    with open(tmp, 'w', encoding='utf-8') as fh:
+        fh.write(text)
+    os.replace(tmp, f)
 
 
 def _load_metadata(symbol):
     f = _metadata_file(symbol)
     if os.path.exists(f):
-        with open(f, encoding='utf-8') as fh:
-            return json.load(fh)
+        try:
+            with open(f, encoding='utf-8') as fh:
+                return json.load(fh)
+        except (json.JSONDecodeError, OSError) as e:
+            # Empty or corrupt cache entry (e.g. written by an older, non-atomic
+            # save): drop it so the next call can fetch it again.
+            print(f'Discarding corrupt metadata cache for {symbol}: {e}')
+            try:
+                os.remove(f)
+            except OSError:
+                pass
     return None
+
+
+# Symbols whose metadata could not be fetched in this session. Kept in memory
+# only, so that a later run retries a symbol that was merely temporarily down.
+_metadata_misses = set()
 
 
 def get_stock_metadata(symbol):
@@ -57,15 +81,30 @@ def get_stock_metadata(symbol):
 
     Reuses metadata captured during get_stock_history (no extra request).
     Only on a true miss does it make a single lightweight chart request.
+
+    Returns an empty dict when the symbol has no metadata (delisted, unknown,
+    or a failed request), so that callers degrade to their fallbacks instead of
+    failing the whole run.
     """
     meta = _load_metadata(symbol)
     if meta is not None:
         return meta
+    if symbol in _metadata_misses:
+        return {}
 
     delay()
-    meta = yf.Ticker(symbol).get_history_metadata()
-    _save_metadata(symbol, meta)
-    return _load_metadata(symbol)  # round-trip so callers get plain JSON types
+    try:
+        meta = yf.Ticker(symbol).get_history_metadata()
+        _save_metadata(symbol, meta)
+    except Exception as e:
+        print(f'No metadata for {symbol}: {e}')
+        _metadata_misses.add(symbol)
+        return {}
+    # round-trip so callers get plain JSON types
+    meta = _load_metadata(symbol)
+    if not meta:
+        _metadata_misses.add(symbol)
+    return meta or {}
 
 
 def get_stock_name(symbol):
@@ -122,8 +161,9 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     # Capture the full metadata from the same request (no extra API call)
     try:
         _save_metadata(symbol, ticker_data.get_history_metadata())
-    except Exception:
-        pass
+    except Exception as e:
+        print(f'No metadata for {symbol}: {e}')
+        _metadata_misses.add(symbol)
 
     # Cache the result, but never an empty fetch: Yahoo returns no rows on
     # transient failures, and caching that would hide good data for cache_days.
@@ -268,7 +308,12 @@ def to_currency(history, symbol, currency='USD', period='5y', cache_days=2):
     if history.empty:
         return history
 
-    rates = get_fx_rates(get_stock_currency(symbol), currency,
+    from_currency = get_stock_currency(symbol)
+    if not from_currency:
+        print(f'Unknown currency for {symbol}, leaving prices unconverted')
+        return history
+
+    rates = get_fx_rates(from_currency, currency,
                          period=period, cache_days=cache_days)
     if rates is None:
         return history  # already in the target currency

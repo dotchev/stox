@@ -1,0 +1,101 @@
+{
+  "currency": "EUR",
+  "symbol": "C8PX.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2026-01-05T09:00:00+01:00",
+  "regularMarketTime": "2026-09-18T17:36:11+02:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 25.78,
+  "regularMarketChangePercent": 0.429,
+  "fulldayPrice": 25.78,
+  "fulldayChange": 0.11,
+  "fulldayChangePercent": 0.429,
+  "fiftyTwoWeekHigh": 30.8,
+  "fiftyTwoWeekLow": 14.404,
+  "regularMarketDayHigh": 26.26,
+  "regularMarketDayLow": 25.78,
+  "regularMarketVolume": 14313,
+  "longName": "Global X AI Semiconductor & Quantum UCITS ETF USD Acc",
+  "shortName": "GL X ETF-GLX AI SEMI.QUANT.ETFR",
+  "chartPreviousClose": 14.722,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-09-18T07:00:00+02:00",
+      "end": "2026-09-18T09:00:00+02:00"
+    },
+    "regular": {
+      "start": "2026-09-18T09:00:00+02:00",
+      "end": "2026-09-18T17:30:00+02:00"
+    },
+    "post": {
+      "start": "2026-09-18T17:30:00+02:00",
+      "end": "2026-09-18T20:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-13T22:00:00.000Z",
+      "pre_start": "2026-09-14T05:00:00.000Z",
+      "pre_end": "2026-09-14T07:00:00.000Z",
+      "start": "2026-09-14T07:00:00.000Z",
+      "end": "2026-09-14T15:30:00.000Z",
+      "post_start": "2026-09-14T15:30:00.000Z",
+      "post_end": "2026-09-14T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-14T22:00:00.000Z",
+      "pre_start": "2026-09-15T05:00:00.000Z",
+      "pre_end": "2026-09-15T07:00:00.000Z",
+      "start": "2026-09-15T07:00:00.000Z",
+      "end": "2026-09-15T15:30:00.000Z",
+      "post_start": "2026-09-15T15:30:00.000Z",
+      "post_end": "2026-09-15T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T05:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T18:30:00.000Z"
+    }
+  ]
+}

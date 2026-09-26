@@ -1,0 +1,90 @@
+{
+  "currency": "EUR",
+  "symbol": "FTAI.MI",
+  "exchangeName": "MIL",
+  "fullExchangeName": "Milan",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2026-08-03T09:00:00+02:00",
+  "regularMarketTime": "2026-09-21T10:45:36+02:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Rome",
+  "regularMarketPrice": 28.63,
+  "regularMarketChangePercent": 1.561,
+  "fulldayPrice": 28.63,
+  "fulldayChange": 0.44,
+  "fulldayChangePercent": 1.561,
+  "fiftyTwoWeekHigh": 27.97,
+  "fiftyTwoWeekLow": 25.405,
+  "regularMarketDayHigh": 27.97,
+  "regularMarketDayLow": 27.725,
+  "regularMarketVolume": 501,
+  "longName": "First Trust Bloomberg Artificial Intelligence UCITS ETF Class A Acc",
+  "shortName": "First Trust Bloomberg Artificia",
+  "chartPreviousClose": 25.43,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-09-22T08:00:00+02:00",
+      "end": "2026-09-22T09:00:00+02:00"
+    },
+    "regular": {
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T17:30:00+02:00"
+    },
+    "post": {
+      "start": "2026-09-22T17:30:00+02:00",
+      "end": "2026-09-22T17:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-16T06:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-17T06:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T22:00:00.000Z",
+      "pre_start": "2026-09-18T06:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T15:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-21T22:00:00.000Z",
+      "pre_start": "2026-09-21T06:00:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-22T07:00:00.000Z",
+      "end": "2026-09-22T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T15:30:00.000Z"
+    }
+  ]
+}

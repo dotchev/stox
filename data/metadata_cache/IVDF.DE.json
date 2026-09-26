@@ -1,0 +1,102 @@
+{
+  "currency": "EUR",
+  "symbol": "IVDF.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2024-10-29T09:00:00+01:00",
+  "regularMarketTime": "2026-09-22T17:35:58+02:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 8.559,
+  "regularMarketChangePercent": -0.673,
+  "fulldayPrice": 8.559,
+  "fulldayChange": -0.058,
+  "fulldayChangePercent": -0.673,
+  "fiftyTwoWeekHigh": 10.238,
+  "fiftyTwoWeekLow": 6.516,
+  "regularMarketDayHigh": 8.684,
+  "regularMarketDayLow": 8.504,
+  "regularMarketVolume": 21505,
+  "longName": "Invesco Markets II plc - Invesco Defence Innovation UCITS ETF",
+  "shortName": "I.M.II-Inv.Def.Inno.ETF Acc   R",
+  "chartPreviousClose": 5.067,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "end": "2026-09-22T09:00:00+02:00",
+      "start": "2026-09-22T07:00:00+02:00"
+    },
+    "regular": {
+      "end": "2026-09-22T17:30:00+02:00",
+      "start": "2026-09-22T09:00:00+02:00"
+    },
+    "post": {
+      "end": "2026-09-22T20:30:00+02:00",
+      "start": "2026-09-22T17:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-15T22:00:00.000Z",
+      "pre_start": "2026-09-16T05:00:00.000Z",
+      "pre_end": "2026-09-16T07:00:00.000Z",
+      "start": "2026-09-16T07:00:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "post_start": "2026-09-16T15:30:00.000Z",
+      "post_end": "2026-09-16T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-16T22:00:00.000Z",
+      "pre_start": "2026-09-17T05:00:00.000Z",
+      "pre_end": "2026-09-17T07:00:00.000Z",
+      "start": "2026-09-17T07:00:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "post_start": "2026-09-17T15:30:00.000Z",
+      "post_end": "2026-09-17T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-17T22:00:00.000Z",
+      "pre_start": "2026-09-18T05:00:00.000Z",
+      "pre_end": "2026-09-18T07:00:00.000Z",
+      "start": "2026-09-18T07:00:00.000Z",
+      "end": "2026-09-18T15:30:00.000Z",
+      "post_start": "2026-09-18T15:30:00.000Z",
+      "post_end": "2026-09-18T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-20T22:00:00.000Z",
+      "pre_start": "2026-09-21T05:00:00.000Z",
+      "pre_end": "2026-09-21T07:00:00.000Z",
+      "start": "2026-09-21T07:00:00.000Z",
+      "end": "2026-09-21T15:30:00.000Z",
+      "post_start": "2026-09-21T15:30:00.000Z",
+      "post_end": "2026-09-21T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-21T22:00:00.000Z",
+      "pre_start": "2026-09-22T05:00:00.000Z",
+      "pre_end": "2026-09-22T07:00:00.000Z",
+      "start": "2026-09-22T07:00:00.000Z",
+      "end": "2026-09-22T15:30:00.000Z",
+      "post_start": "2026-09-22T15:30:00.000Z",
+      "post_end": "2026-09-22T18:30:00.000Z"
+    }
+  ]
+}
