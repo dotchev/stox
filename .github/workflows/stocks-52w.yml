@@ -36,5 +36,7 @@ jobs:
           git add stocks-52w.md
           git diff --cached --quiet && exit 0
           git commit -m "Update 52-week returns"
+          # Discard the refreshed caches, pull refuses to rebase a dirty tree
+          git checkout -- .
           git pull --rebase
           git push
