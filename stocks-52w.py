@@ -4,7 +4,7 @@ over the weekly history common to all symbols (max 5 years).
 from datetime import datetime, timezone
 import pandas as pd
 from scipy.stats import gmean
-from yfetch import get_weekly_history, get_stock_name, get_stock_currency, get_stock_metadata
+from yfetch import get_weekly_history, get_stock_name, get_stock_currency
 
 symbols = ['SPY', 'QQQ', 'SPMO', 'WMSE.DE', 'QTOP', 'IWDA.AS', 'SPYG']
 
@@ -16,32 +16,20 @@ risk_free_return = 0.04  # 4%
 cache_days = 0
 
 
-def week_dates(history, symbol):
-    """Monday dates of weekly bars in the exchange timezone, comparable across
-    exchanges."""
-    index = history.index
-    tz = get_stock_metadata(symbol).get('exchangeTimezoneName')
-    if tz and index.tz is not None:
-        index = index.tz_convert(tz)
-    index = index.normalize()
-    return index.tz_localize(None) if index.tz is not None else index
-
-
 def load_histories():
     histories = {}
     for symbol in symbols:
         history = get_weekly_history(symbol, period='5y', cache_days=cache_days, currency='USD')
         if history.empty:
             raise RuntimeError(f'No history for {symbol}')
-        history.index = week_dates(history, symbol)
         histories[symbol] = history
     return histories
 
 
-def crunch(histories, start, end):
+def crunch(histories, history_weeks):
     rows = []
     for symbol, history in histories.items():
-        history = history[(history.index >= start) & (history.index <= end)]
+        history = history.tail(history_weeks)
         changes = history.Close.pct_change(periods=weeks, fill_method=None).dropna()
         gmean_change = gmean(1 + changes) - 1 if len(changes) else float('nan')
         std = changes.std()
@@ -63,14 +51,13 @@ def fmt(x, spec):
 
 def main():
     histories = load_histories()
-    # Common period: the weeks covered by all symbols
-    start = max(h.index[0] for h in histories.values())
-    end = min(h.index[-1] for h in histories.values())
-    df = crunch(histories, start, end)
+    # Common period: all symbols trade to the present, so the shortest
+    # history sets how many recent weeks they share
+    history_weeks = min(len(h) for h in histories.values())
+    df = crunch(histories, history_weeks)
     print(df.to_string())
 
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-    period_weeks = df['weeks'].max()
 
     lines = [
         '# 52-Week Returns',
@@ -79,15 +66,15 @@ def main():
         f'over the weekly history common to all symbols (max 5 years). '
         f'Sharpe = (gmean - {risk_free_return:.0%}) / std.',
         '',
-        f'Period: weeks of {start:%Y-%m-%d} to {end:%Y-%m-%d} ({period_weeks} weeks)',
+        f'Period: last {history_weeks} weeks',
         '',
         f'_Last updated: {timestamp}_',
         '',
-        '| Symbol | Name | Currency | Weeks | Gmean | Std | Sharpe |',
-        '|---|---|---|---|---|---|---|',
+        '| Symbol | Name | Currency | Gmean | Std | Sharpe |',
+        '|---|---|---|---|---|---|',
     ]
     for r in df.itertuples():
-        lines.append(f'| {r.symbol} | {r.name} | {r.currency} | {r.weeks} | '
+        lines.append(f'| {r.symbol} | {r.name} | {r.currency} | '
                      f'{fmt(r.gmean, ".2%")} | {fmt(r.std, ".2%")} | {fmt(r.sharpe, ".2f")} |')
 
     with open('stocks-52w.md', 'w') as f:
