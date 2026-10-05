@@ -1,0 +1,40 @@
+name: Update 52-Week Returns
+
+on:
+  schedule:
+    # Every Saturday at 02:22 UTC
+    - cron: '22 2 * * 6'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update 52-week returns
+        run: python stocks-52w.py
+
+      # Commit only the report: the fetched caches would conflict with other
+      # jobs updating the same symbols
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stocks-52w.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Update 52-week returns"
+          git pull --rebase
+          git push
