@@ -5,37 +5,37 @@
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
   "firstTradeDate": "2009-09-09T09:30:00-04:00",
-  "regularMarketTime": "2026-09-18T16:00:00-04:00",
+  "regularMarketTime": "2026-10-02T16:00:00-04:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 41.64,
-  "regularMarketChangePercent": 0.677,
-  "fulldayPrice": 41.822,
-  "fulldayChange": 0.28,
-  "fulldayChangePercent": 0.677,
+  "regularMarketPrice": 39.46,
+  "regularMarketChangePercent": -0.705,
+  "fulldayPrice": 39.35,
+  "fulldayChange": -0.39,
+  "fulldayChangePercent": -0.981,
   "fiftyTwoWeekHigh": 52.84,
-  "fiftyTwoWeekLow": 34.84,
-  "regularMarketDayHigh": 41.85,
-  "regularMarketDayLow": 41.345,
-  "regularMarketVolume": 1910848,
+  "fiftyTwoWeekLow": 37.31,
+  "regularMarketDayHigh": 39.97,
+  "regularMarketDayLow": 39.265,
+  "regularMarketVolume": 2503569,
   "longName": "abrdn Physical Gold Shares ETF",
   "shortName": "abrdn Physical Gold Shares ETF",
-  "chartPreviousClose": 16.81,
+  "chartPreviousClose": 16.89,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-09-18T04:00:00-04:00",
-      "end": "2026-09-18T09:30:00-04:00"
+      "end": "2026-10-05T09:30:00-04:00",
+      "start": "2026-10-05T04:00:00-04:00"
     },
     "regular": {
-      "start": "2026-09-18T09:30:00-04:00",
-      "end": "2026-09-18T16:00:00-04:00"
+      "end": "2026-10-05T16:00:00-04:00",
+      "start": "2026-10-05T09:30:00-04:00"
     },
     "post": {
-      "start": "2026-09-18T16:00:00-04:00",
-      "end": "2026-09-18T20:00:00-04:00"
+      "end": "2026-10-05T20:00:00-04:00",
+      "start": "2026-10-05T16:00:00-04:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-09-14T04:00:00.000Z",
-      "pre_start": "2026-09-14T08:00:00.000Z",
-      "pre_end": "2026-09-14T13:30:00.000Z",
-      "start": "2026-09-14T13:30:00.000Z",
-      "end": "2026-09-14T20:00:00.000Z",
-      "post_start": "2026-09-14T20:00:00.000Z",
-      "post_end": "2026-09-15T00:00:00.000Z"
+      "Date": "2026-09-28T04:00:00.000Z",
+      "pre_start": "2026-09-28T08:00:00.000Z",
+      "pre_end": "2026-09-28T13:30:00.000Z",
+      "start": "2026-09-28T13:30:00.000Z",
+      "end": "2026-09-28T20:00:00.000Z",
+      "post_start": "2026-09-28T20:00:00.000Z",
+      "post_end": "2026-09-29T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-15T04:00:00.000Z",
-      "pre_start": "2026-09-15T08:00:00.000Z",
-      "pre_end": "2026-09-15T13:30:00.000Z",
-      "start": "2026-09-15T13:30:00.000Z",
-      "end": "2026-09-15T20:00:00.000Z",
-      "post_start": "2026-09-15T20:00:00.000Z",
-      "post_end": "2026-09-16T00:00:00.000Z"
+      "Date": "2026-09-29T04:00:00.000Z",
+      "pre_start": "2026-09-29T08:00:00.000Z",
+      "pre_end": "2026-09-29T13:30:00.000Z",
+      "start": "2026-09-29T13:30:00.000Z",
+      "end": "2026-09-29T20:00:00.000Z",
+      "post_start": "2026-09-29T20:00:00.000Z",
+      "post_end": "2026-09-30T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-16T04:00:00.000Z",
-      "pre_start": "2026-09-16T08:00:00.000Z",
-      "pre_end": "2026-09-16T13:30:00.000Z",
-      "start": "2026-09-16T13:30:00.000Z",
-      "end": "2026-09-16T20:00:00.000Z",
-      "post_start": "2026-09-16T20:00:00.000Z",
-      "post_end": "2026-09-17T00:00:00.000Z"
+      "Date": "2026-09-30T04:00:00.000Z",
+      "pre_start": "2026-09-30T08:00:00.000Z",
+      "pre_end": "2026-09-30T13:30:00.000Z",
+      "start": "2026-09-30T13:30:00.000Z",
+      "end": "2026-09-30T20:00:00.000Z",
+      "post_start": "2026-09-30T20:00:00.000Z",
+      "post_end": "2026-10-01T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-17T04:00:00.000Z",
-      "pre_start": "2026-09-17T08:00:00.000Z",
-      "pre_end": "2026-09-17T13:30:00.000Z",
-      "start": "2026-09-17T13:30:00.000Z",
-      "end": "2026-09-17T20:00:00.000Z",
-      "post_start": "2026-09-17T20:00:00.000Z",
-      "post_end": "2026-09-18T00:00:00.000Z"
+      "Date": "2026-10-01T04:00:00.000Z",
+      "pre_start": "2026-10-01T08:00:00.000Z",
+      "pre_end": "2026-10-01T13:30:00.000Z",
+      "start": "2026-10-01T13:30:00.000Z",
+      "end": "2026-10-01T20:00:00.000Z",
+      "post_start": "2026-10-01T20:00:00.000Z",
+      "post_end": "2026-10-02T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-18T04:00:00.000Z",
-      "pre_start": "2026-09-18T08:00:00.000Z",
-      "pre_end": "2026-09-18T13:30:00.000Z",
-      "start": "2026-09-18T13:30:00.000Z",
-      "end": "2026-09-18T20:00:00.000Z",
-      "post_start": "2026-09-18T20:00:00.000Z",
-      "post_end": "2026-09-19T00:00:00.000Z"
+      "Date": "2026-10-02T04:00:00.000Z",
+      "pre_start": "2026-10-02T08:00:00.000Z",
+      "pre_end": "2026-10-02T13:30:00.000Z",
+      "start": "2026-10-02T13:30:00.000Z",
+      "end": "2026-10-02T20:00:00.000Z",
+      "post_start": "2026-10-02T20:00:00.000Z",
+      "post_end": "2026-10-03T00:00:00.000Z"
     }
   ]
 }

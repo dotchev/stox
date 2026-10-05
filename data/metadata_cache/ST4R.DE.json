@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2026-06-08T09:00:00+02:00",
-  "regularMarketTime": "2026-09-21T17:35:47+02:00",
+  "regularMarketTime": "2026-10-02T17:35:49+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 3.7515,
-  "regularMarketChangePercent": 3.2191,
-  "fulldayPrice": 3.7515,
-  "fulldayChange": 0.117,
-  "fulldayChangePercent": 3.2191,
-  "fiftyTwoWeekHigh": 4.8522,
+  "regularMarketPrice": 3.763,
+  "regularMarketChangePercent": 2.255,
+  "fulldayPrice": 3.763,
+  "fulldayChange": 0.083,
+  "fulldayChangePercent": 2.255,
+  "fiftyTwoWeekHigh": 4.852,
   "fiftyTwoWeekLow": 3.521,
-  "regularMarketDayHigh": 3.7515,
-  "regularMarketDayLow": 3.6945,
-  "regularMarketVolume": 5485,
+  "regularMarketDayHigh": 3.779,
+  "regularMarketDayLow": 3.711,
+  "regularMarketVolume": 18054,
   "longName": "iShares Space Technologies UCITS ETF USD Acc",
   "shortName": "iShs IV-iShs Space Te.ETF     R",
-  "chartPreviousClose": 4.8522,
+  "chartPreviousClose": 4.852,
   "priceHint": 4,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-09-21T09:00:00+02:00",
-      "start": "2026-09-21T07:00:00+02:00"
+      "end": "2026-10-05T09:00:00+02:00",
+      "start": "2026-10-05T07:00:00+02:00"
     },
     "regular": {
-      "end": "2026-09-21T17:30:00+02:00",
-      "start": "2026-09-21T09:00:00+02:00"
+      "end": "2026-10-05T17:30:00+02:00",
+      "start": "2026-10-05T09:00:00+02:00"
     },
     "post": {
-      "end": "2026-09-21T20:30:00+02:00",
-      "start": "2026-09-21T17:30:00+02:00"
+      "end": "2026-10-05T20:30:00+02:00",
+      "start": "2026-10-05T17:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -52,49 +52,40 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-09-14T22:00:00.000Z",
-      "pre_start": "2026-09-15T05:00:00.000Z",
-      "pre_end": "2026-09-15T07:00:00.000Z",
-      "start": "2026-09-15T07:00:00.000Z",
-      "end": "2026-09-15T15:30:00.000Z",
-      "post_start": "2026-09-15T15:30:00.000Z",
-      "post_end": "2026-09-15T18:30:00.000Z"
+      "Date": "2026-09-28T22:00:00.000Z",
+      "pre_start": "2026-09-29T05:00:00.000Z",
+      "pre_end": "2026-09-29T07:00:00.000Z",
+      "start": "2026-09-29T07:00:00.000Z",
+      "end": "2026-09-29T15:30:00.000Z",
+      "post_start": "2026-09-29T15:30:00.000Z",
+      "post_end": "2026-09-29T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-15T22:00:00.000Z",
-      "pre_start": "2026-09-16T05:00:00.000Z",
-      "pre_end": "2026-09-16T07:00:00.000Z",
-      "start": "2026-09-16T07:00:00.000Z",
-      "end": "2026-09-16T15:30:00.000Z",
-      "post_start": "2026-09-16T15:30:00.000Z",
-      "post_end": "2026-09-16T18:30:00.000Z"
+      "Date": "2026-09-29T22:00:00.000Z",
+      "pre_start": "2026-09-30T05:00:00.000Z",
+      "pre_end": "2026-09-30T07:00:00.000Z",
+      "start": "2026-09-30T07:00:00.000Z",
+      "end": "2026-09-30T15:30:00.000Z",
+      "post_start": "2026-09-30T15:30:00.000Z",
+      "post_end": "2026-09-30T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-16T22:00:00.000Z",
-      "pre_start": "2026-09-17T05:00:00.000Z",
-      "pre_end": "2026-09-17T07:00:00.000Z",
-      "start": "2026-09-17T07:00:00.000Z",
-      "end": "2026-09-17T15:30:00.000Z",
-      "post_start": "2026-09-17T15:30:00.000Z",
-      "post_end": "2026-09-17T18:30:00.000Z"
+      "Date": "2026-09-30T22:00:00.000Z",
+      "pre_start": "2026-10-01T05:00:00.000Z",
+      "pre_end": "2026-10-01T07:00:00.000Z",
+      "start": "2026-10-01T07:00:00.000Z",
+      "end": "2026-10-01T15:30:00.000Z",
+      "post_start": "2026-10-01T15:30:00.000Z",
+      "post_end": "2026-10-01T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-17T22:00:00.000Z",
-      "pre_start": "2026-09-18T05:00:00.000Z",
-      "pre_end": "2026-09-18T07:00:00.000Z",
-      "start": "2026-09-18T07:00:00.000Z",
-      "end": "2026-09-18T15:30:00.000Z",
-      "post_start": "2026-09-18T15:30:00.000Z",
-      "post_end": "2026-09-18T18:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-20T22:00:00.000Z",
-      "pre_start": "2026-09-21T05:00:00.000Z",
-      "pre_end": "2026-09-21T07:00:00.000Z",
-      "start": "2026-09-21T07:00:00.000Z",
-      "end": "2026-09-21T15:30:00.000Z",
-      "post_start": "2026-09-21T15:30:00.000Z",
-      "post_end": "2026-09-21T18:30:00.000Z"
+      "Date": "2026-10-01T22:00:00.000Z",
+      "pre_start": "2026-10-02T05:00:00.000Z",
+      "pre_end": "2026-10-02T07:00:00.000Z",
+      "start": "2026-10-02T07:00:00.000Z",
+      "end": "2026-10-02T15:30:00.000Z",
+      "post_start": "2026-10-02T15:30:00.000Z",
+      "post_end": "2026-10-02T18:30:00.000Z"
     }
   ]
 }

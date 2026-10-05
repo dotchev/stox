@@ -1,0 +1,104 @@
+{
+  "currency": "EUR",
+  "symbol": "LYY0.DE",
+  "exchangeName": "GER",
+  "fullExchangeName": "XETRA",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2018-11-08T09:00:00+01:00",
+  "regularMarketTime": "2026-10-02T17:35:54+02:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 7200,
+  "timezone": "CEST",
+  "exchangeTimezoneName": "Europe/Berlin",
+  "regularMarketPrice": 623.2,
+  "regularMarketChangePercent": 1.054,
+  "fulldayPrice": 623.2,
+  "fulldayChange": 6.5,
+  "fulldayChangePercent": 1.054,
+  "fiftyTwoWeekHigh": 625.1,
+  "fiftyTwoWeekLow": 504.1,
+  "regularMarketDayHigh": 625.1,
+  "regularMarketDayLow": 621.2,
+  "regularMarketVolume": 1526,
+  "longName": "Amundi MSCI All Country World Swap UCITS ETF EUR Acc",
+  "shortName": "MUL Amundi MSCI AC World      U",
+  "chartPreviousClose": 350.65,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-10-02T07:00:00+02:00",
+      "end": "2026-10-02T09:00:00+02:00"
+    },
+    "regular": {
+      "start": "2026-10-02T09:00:00+02:00",
+      "end": "2026-10-02T17:30:00+02:00"
+    },
+    "post": {
+      "start": "2026-10-02T17:30:00+02:00",
+      "end": "2026-10-02T20:30:00+02:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-09-27T22:00:00.000Z",
+      "pre_start": "2026-09-28T05:00:00.000Z",
+      "pre_end": "2026-09-28T07:00:00.000Z",
+      "start": "2026-09-28T07:00:00.000Z",
+      "end": "2026-09-28T15:30:00.000Z",
+      "post_start": "2026-09-28T15:30:00.000Z",
+      "post_end": "2026-09-28T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-28T22:00:00.000Z",
+      "pre_start": "2026-09-29T05:00:00.000Z",
+      "pre_end": "2026-09-29T07:00:00.000Z",
+      "start": "2026-09-29T07:00:00.000Z",
+      "end": "2026-09-29T15:30:00.000Z",
+      "post_start": "2026-09-29T15:30:00.000Z",
+      "post_end": "2026-09-29T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-29T22:00:00.000Z",
+      "pre_start": "2026-09-30T05:00:00.000Z",
+      "pre_end": "2026-09-30T07:00:00.000Z",
+      "start": "2026-09-30T07:00:00.000Z",
+      "end": "2026-09-30T15:30:00.000Z",
+      "post_start": "2026-09-30T15:30:00.000Z",
+      "post_end": "2026-09-30T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-09-30T22:00:00.000Z",
+      "pre_start": "2026-10-01T05:00:00.000Z",
+      "pre_end": "2026-10-01T07:00:00.000Z",
+      "start": "2026-10-01T07:00:00.000Z",
+      "end": "2026-10-01T15:30:00.000Z",
+      "post_start": "2026-10-01T15:30:00.000Z",
+      "post_end": "2026-10-01T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-10-01T22:00:00.000Z",
+      "pre_start": "2026-10-02T05:00:00.000Z",
+      "pre_end": "2026-10-02T07:00:00.000Z",
+      "start": "2026-10-02T07:00:00.000Z",
+      "end": "2026-10-02T15:30:00.000Z",
+      "post_start": "2026-10-02T15:30:00.000Z",
+      "post_end": "2026-10-02T18:30:00.000Z"
+    }
+  ]
+}

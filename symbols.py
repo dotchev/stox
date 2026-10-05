@@ -59,6 +59,7 @@ my_etfs = [
     'BITQ',
     'FBT.MI', # First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation
     'A1P0.DE', # Defiance AI & Power Infrastructure ETF USD Acc
+    'AIFS.DE', # iShares AI Infrastructure UCITS ETF USD (Acc) 
     'LVHI',    # Franklin International Low Volatility High Dividend Index ETF
     'EHF1.DE', # Amundi MSCI Europe High Dividend Factor UCITS
     'ESIF.DE', # iShares MSCI Europe Financials Sector UCITS ETF
@@ -71,7 +72,7 @@ my_etfs = [
     'CHIP.PA', # Amundi MSCI Semiconductors UCITS ETF Acc
     'DFEN.DE', # VanEck Defense ETF A USD Acc
     'ASWC.DE', # HANetf ICAV - Future of Defence UCITS ETF - Accumulating
-    'EUNL.DE', # iShares Core MSCI World UCITS ETF USD (Acc)
+    'IWDA.AS', # iShares Core MSCI World UCITS ETF USD (Acc)
     'IS3S.DE', # iShares Edge MSCI World Value Factor UCITS ETF
     'IWMO.MI', # iShares Edge MSCI World Momentum Factor UCITS ETF
     '5MVL.DE', # iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc)

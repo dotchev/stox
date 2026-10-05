@@ -5,37 +5,37 @@
   "fullExchangeName": "CCY",
   "instrumentType": "CURRENCY",
   "firstTradeDate": "2003-12-01T00:00:00+00:00",
-  "regularMarketTime": "2026-09-18T22:29:10+01:00",
+  "regularMarketTime": "2026-10-02T22:29:47+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "BST",
   "exchangeTimezoneName": "Europe/London",
-  "regularMarketPrice": 1.149,
-  "regularMarketChangePercent": 0.0919,
-  "fulldayPrice": 1.149,
-  "fulldayChange": 0.0011,
-  "fulldayChangePercent": 0.0919,
+  "regularMarketPrice": 1.1257,
+  "regularMarketChangePercent": 0.1126,
+  "fulldayPrice": 1.1257,
+  "fulldayChange": 0.0013,
+  "fulldayChangePercent": 0.1126,
   "fiftyTwoWeekHigh": 1.2024,
-  "fiftyTwoWeekLow": 1.1325,
-  "regularMarketDayHigh": 1.1496,
-  "regularMarketDayLow": 1.1459,
+  "fiftyTwoWeekLow": 1.1219,
+  "regularMarketDayHigh": 1.1288,
+  "regularMarketDayLow": 1.1225,
   "regularMarketVolume": 0,
   "longName": "EUR/USD",
   "shortName": "EUR/USD",
-  "chartPreviousClose": 1.1246,
+  "chartPreviousClose": 1.122,
   "priceHint": 4,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-09-18T00:00:00+01:00",
-      "start": "2026-09-18T00:00:00+01:00"
+      "end": "2026-10-02T00:00:00+01:00",
+      "start": "2026-10-02T00:00:00+01:00"
     },
     "regular": {
-      "end": "2026-09-18T23:59:00+01:00",
-      "start": "2026-09-18T00:00:00+01:00"
+      "end": "2026-10-02T23:59:00+01:00",
+      "start": "2026-10-02T00:00:00+01:00"
     },
     "post": {
-      "end": "2026-09-18T23:59:00+01:00",
-      "start": "2026-09-18T23:59:00+01:00"
+      "end": "2026-10-02T23:59:00+01:00",
+      "start": "2026-10-02T23:59:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,54 +55,54 @@
   ],
   "YF repair?": false,
   "lastTrade": {
-    "Price": 1.1476049423217773,
-    "Time": "2026-09-18T00:00:00+01:00"
+    "Price": 1.124985933303833,
+    "Time": "2026-10-02T00:00:00+01:00"
   },
   "tradingPeriods": [
     {
-      "Date": "2026-09-13T23:00:00.000Z",
-      "pre_start": "2026-09-13T23:00:00.000Z",
-      "pre_end": "2026-09-13T23:00:00.000Z",
-      "start": "2026-09-13T23:00:00.000Z",
-      "end": "2026-09-14T22:59:00.000Z",
-      "post_start": "2026-09-14T22:59:00.000Z",
-      "post_end": "2026-09-14T22:59:00.000Z"
+      "Date": "2026-09-27T23:00:00.000Z",
+      "pre_start": "2026-09-27T23:00:00.000Z",
+      "pre_end": "2026-09-27T23:00:00.000Z",
+      "start": "2026-09-27T23:00:00.000Z",
+      "end": "2026-09-28T22:59:00.000Z",
+      "post_start": "2026-09-28T22:59:00.000Z",
+      "post_end": "2026-09-28T22:59:00.000Z"
     },
     {
-      "Date": "2026-09-14T23:00:00.000Z",
-      "pre_start": "2026-09-14T23:00:00.000Z",
-      "pre_end": "2026-09-14T23:00:00.000Z",
-      "start": "2026-09-14T23:00:00.000Z",
-      "end": "2026-09-15T22:59:00.000Z",
-      "post_start": "2026-09-15T22:59:00.000Z",
-      "post_end": "2026-09-15T22:59:00.000Z"
+      "Date": "2026-09-28T23:00:00.000Z",
+      "pre_start": "2026-09-28T23:00:00.000Z",
+      "pre_end": "2026-09-28T23:00:00.000Z",
+      "start": "2026-09-28T23:00:00.000Z",
+      "end": "2026-09-29T22:59:00.000Z",
+      "post_start": "2026-09-29T22:59:00.000Z",
+      "post_end": "2026-09-29T22:59:00.000Z"
     },
     {
-      "Date": "2026-09-15T23:00:00.000Z",
-      "pre_start": "2026-09-15T23:00:00.000Z",
-      "pre_end": "2026-09-15T23:00:00.000Z",
-      "start": "2026-09-15T23:00:00.000Z",
-      "end": "2026-09-16T22:59:00.000Z",
-      "post_start": "2026-09-16T22:59:00.000Z",
-      "post_end": "2026-09-16T22:59:00.000Z"
+      "Date": "2026-09-29T23:00:00.000Z",
+      "pre_start": "2026-09-29T23:00:00.000Z",
+      "pre_end": "2026-09-29T23:00:00.000Z",
+      "start": "2026-09-29T23:00:00.000Z",
+      "end": "2026-09-30T22:59:00.000Z",
+      "post_start": "2026-09-30T22:59:00.000Z",
+      "post_end": "2026-09-30T22:59:00.000Z"
     },
     {
-      "Date": "2026-09-16T23:00:00.000Z",
-      "pre_start": "2026-09-16T23:00:00.000Z",
-      "pre_end": "2026-09-16T23:00:00.000Z",
-      "start": "2026-09-16T23:00:00.000Z",
-      "end": "2026-09-17T22:59:00.000Z",
-      "post_start": "2026-09-17T22:59:00.000Z",
-      "post_end": "2026-09-17T22:59:00.000Z"
+      "Date": "2026-09-30T23:00:00.000Z",
+      "pre_start": "2026-09-30T23:00:00.000Z",
+      "pre_end": "2026-09-30T23:00:00.000Z",
+      "start": "2026-09-30T23:00:00.000Z",
+      "end": "2026-10-01T22:59:00.000Z",
+      "post_start": "2026-10-01T22:59:00.000Z",
+      "post_end": "2026-10-01T22:59:00.000Z"
     },
     {
-      "Date": "2026-09-17T23:00:00.000Z",
-      "pre_start": "2026-09-17T23:00:00.000Z",
-      "pre_end": "2026-09-17T23:00:00.000Z",
-      "start": "2026-09-17T23:00:00.000Z",
-      "end": "2026-09-18T22:59:00.000Z",
-      "post_start": "2026-09-18T22:59:00.000Z",
-      "post_end": "2026-09-18T22:59:00.000Z"
+      "Date": "2026-10-01T23:00:00.000Z",
+      "pre_start": "2026-10-01T23:00:00.000Z",
+      "pre_end": "2026-10-01T23:00:00.000Z",
+      "start": "2026-10-01T23:00:00.000Z",
+      "end": "2026-10-02T22:59:00.000Z",
+      "post_start": "2026-10-02T22:59:00.000Z",
+      "post_end": "2026-10-02T22:59:00.000Z"
     }
   ]
 }

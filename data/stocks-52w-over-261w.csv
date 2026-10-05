@@ -1,51 +1,52 @@
 symbol,name,currency,weeks,gmean,std,sharpe
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,97,29.52%,7.51%,3.40
-IVDF.DE,Invesco Markets II plc - Invesco Defence Innovation UCITS ETF,EUR,99,58.30%,17.69%,3.07
-QTOP.AS,iShares VII PLC - iShares Nasdaq 100 Top 30 UCITS ETF USD (Acc),USD,85,32.41%,10.91%,2.60
-TOPT,iShares Top 20 U.S. Stocks ETF,USD,100,21.94%,6.96%,2.58
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,100,29.24%,10.09%,2.50
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,168,24.96%,9.59%,2.19
-ASWC.DE,HANetf ICAV - Future of Defence UCITS ETF - Accumulating,EUR,169,42.07%,17.80%,2.14
-WQTM.DE,WisdomTree Quantum Computing UCITS ETF - USD Acc,EUR,54,31.74%,13.22%,2.10
-MAGS,Roundhill Magnificent Seven ETF,USD,180,35.27%,16.73%,1.87
-DFEN.DE,VanEck Defense ETF A USD Acc,EUR,183,47.82%,23.56%,1.86
-NUKZ,Range Nuclear Renaissance ETF,USD,139,50.39%,26.24%,1.77
-LVHI,Franklin International Low Volatility High Dividend Index ETF,USD,261,17.63%,8.88%,1.53
-PPA,Invesco Aerospace & Defense ETF,USD,261,23.87%,13.55%,1.47
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,18.71%,10.43%,1.41
-EXV1.DE,iShares STOXX Europe 600 Banks UCITS ETF (DE),EUR,261,36.26%,25.68%,1.26
-ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,25.65%,18.60%,1.16
-GC=F,Gold Dec 26,USD,261,24.79%,20.22%,1.03
-4GLD.DE,Xetra-Gold,EUR,261,24.70%,20.50%,1.01
-IDMO,Invesco S&P International Developed Momentum ETF,USD,261,18.21%,14.45%,0.98
-EHF1.DE,Amundi Index Solutions - Amundi MSCI Europe High Dividend Factor UCITS ETF-C,EUR,261,13.93%,10.66%,0.93
-EXI,iShares Global Industrials ETF,USD,261,15.70%,12.75%,0.92
-SPMO,Invesco S&P 500 Momentum ETF,USD,261,23.59%,21.37%,0.92
-XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,25.37%,23.54%,0.91
-XDWI.DE,Xtrackers MSCI World Industrials UCITS ETF 1C,EUR,261,15.78%,13.11%,0.90
-SPYV,State Street SPDR Portfolio S&P 500 Value ETF,USD,261,12.41%,9.41%,0.89
-QTUM,Defiance Quantum ETF,USD,261,28.57%,27.85%,0.88
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,40.45%,42.98%,0.85
-SMH,VanEck Semiconductor ETF,USD,261,37.82%,41.91%,0.81
-SPY,State Street SPDR S&P 500 ETF Trust,USD,261,14.76%,13.69%,0.79
-JEDI.DE,VanEck Space Innovators UCITS ETF A USD Acc,EUR,222,48.80%,57.17%,0.78
-ROKT,State Street SPDR S&P Kensho Final Frontiers ETF,USD,261,27.40%,31.05%,0.75
-IGM,iShares Expanded Tech Sector ETF,USD,261,23.23%,25.58%,0.75
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,23.49%,25.97%,0.75
-EUNL.DE,iShares Core MSCI World UCITS ETF USD (Acc),EUR,261,13.69%,13.07%,0.74
-FNGS,MicroSectors FANG+ ETN,USD,261,27.03%,31.07%,0.74
-QQQ,Invesco QQQ Trust,USD,261,18.32%,20.21%,0.71
-IS3S.DE,iShares Edge MSCI World Value Factor UCITS ETF USD (Acc),EUR,261,17.10%,19.21%,0.68
-MGK,Vanguard Morningstar Mega Cap Growth ETF,USD,261,17.65%,20.56%,0.66
-SPYG,State Street SPDR Portfolio S&P 500 Growth ETF,USD,261,16.28%,18.80%,0.65
-SMH.MI,VanEck Semiconductor UCITS ETF,EUR,261,34.64%,47.18%,0.65
-IWMO.MI,iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc),EUR,261,15.30%,17.49%,0.65
-USD,ProShares Ultra Semiconductors,USD,261,69.47%,105.36%,0.62
-5MVL.DE,iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc),EUR,261,16.87%,26.83%,0.48
-FBT.MI,First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation,EUR,261,10.11%,15.71%,0.39
-TQQQ,ProShares UltraPro QQQ,USD,261,27.34%,64.77%,0.36
-UFO,Procure Space ETF,USD,261,18.04%,48.33%,0.29
-BTC-USD,Bitcoin USD,USD,261,21.70%,72.88%,0.24
-BITQ,Bitwise Crypto Industry Innovators ETF,USD,261,15.13%,65.85%,0.17
-DAPP,VanEck Digital Transformation ETF,USD,261,13.62%,72.42%,0.13
-A1P0.DE,Defiance AI & Power Infrastructure ETF USD Acc,EUR,25,,,
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,98,29.22%,7.67%,3.29
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,95,73.98%,23.23%,3.01
+IVDF.DE,Invesco Markets II plc - Invesco Defence Innovation UCITS ETF,EUR,101,56.30%,19.38%,2.70
+QTOP.AS,iShares VII PLC - iShares Nasdaq 100 Top 30 UCITS ETF USD (Acc),USD,86,32.28%,10.77%,2.63
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,102,21.72%,6.91%,2.56
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,102,29.21%,9.88%,2.55
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,170,24.93%,9.51%,2.20
+ASWC.DE,HANetf ICAV - Future of Defence UCITS ETF - Accumulating,EUR,170,41.69%,18.09%,2.08
+WQTM.DE,WisdomTree Quantum Computing UCITS ETF - USD Acc,EUR,56,25.31%,11.30%,1.89
+MAGS,Roundhill Magnificent Seven ETF,USD,182,34.92%,16.82%,1.84
+DFEN.DE,VanEck Defense ETF A USD Acc,EUR,184,47.21%,24.13%,1.79
+NUKZ,Range Nuclear Renaissance ETF,USD,141,48.77%,27.42%,1.63
+LVHI,Franklin International Low Volatility High Dividend Index ETF,USD,261,17.90%,8.72%,1.59
+PPA,Invesco Aerospace & Defense ETF,USD,261,23.93%,13.44%,1.48
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,18.95%,10.23%,1.46
+EXV1.DE,iShares STOXX Europe 600 Banks UCITS ETF (DE),EUR,261,36.93%,25.01%,1.32
+ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,26.18%,17.98%,1.23
+GC=F,Gold Dec 26,USD,261,25.01%,20.01%,1.05
+4GLD.DE,Xetra-Gold,EUR,261,24.87%,20.33%,1.03
+IDMO,Invesco S&P International Developed Momentum ETF,USD,261,18.44%,14.18%,1.02
+EHF1.DE,Amundi Index Solutions - Amundi MSCI Europe High Dividend Factor UCITS ETF-C,EUR,261,14.23%,10.25%,1.00
+EXI,iShares Global Industrials ETF,USD,261,16.12%,12.15%,1.00
+XDWI.DE,Xtrackers MSCI World Industrials UCITS ETF 1C,EUR,261,16.16%,12.57%,0.97
+XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,25.98%,23.06%,0.95
+SPYV,State Street SPDR Portfolio S&P 500 Value ETF,USD,261,12.66%,9.14%,0.95
+SPMO,Invesco S&P 500 Momentum ETF,USD,261,23.85%,21.17%,0.94
+QTUM,Defiance Quantum ETF,USD,261,29.44%,27.25%,0.93
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,41.92%,42.23%,0.90
+SMH,VanEck Semiconductor ETF,USD,261,39.10%,41.52%,0.85
+SPY,State Street SPDR S&P 500 ETF Trust,USD,261,15.13%,13.33%,0.84
+IGM,iShares Expanded Tech Sector ETF,USD,261,24.06%,24.93%,0.80
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,24.38%,25.36%,0.80
+IWDA.AS,iShares Core MSCI World UCITS ETF USD (Acc),EUR,261,14.08%,12.65%,0.80
+JEDI.DE,VanEck Space Innovators UCITS ETF A USD Acc,EUR,224,48.63%,56.90%,0.78
+ROKT,State Street SPDR S&P Kensho Final Frontiers ETF,USD,261,28.01%,30.72%,0.78
+FNGS,MicroSectors FANG+ ETN,USD,261,27.75%,30.43%,0.78
+QQQ,Invesco QQQ Trust,USD,261,18.91%,19.71%,0.76
+IS3S.DE,iShares Edge MSCI World Value Factor UCITS ETF USD (Acc),EUR,261,17.75%,19.09%,0.72
+MGK,Vanguard Morningstar Mega Cap Growth ETF,USD,261,18.17%,20.06%,0.71
+SPYG,State Street SPDR Portfolio S&P 500 Growth ETF,USD,261,16.76%,18.38%,0.69
+SMH.MI,VanEck Semiconductor UCITS ETF,EUR,261,36.05%,47.12%,0.68
+IWMO.MI,iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc),EUR,261,15.56%,17.29%,0.67
+USD,ProShares Ultra Semiconductors,USD,261,72.05%,104.14%,0.65
+5MVL.DE,iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc),EUR,261,17.91%,26.50%,0.52
+FBT.MI,First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation,EUR,261,10.75%,15.86%,0.43
+TQQQ,ProShares UltraPro QQQ,USD,261,29.36%,63.74%,0.40
+UFO,Procure Space ETF,USD,261,18.80%,47.90%,0.31
+BTC-USD,Bitcoin USD,USD,261,22.77%,72.31%,0.26
+BITQ,Bitwise Crypto Industry Innovators ETF,USD,261,16.56%,65.06%,0.19
+DAPP,VanEck Digital Transformation ETF,USD,261,15.15%,71.66%,0.16
+A1P0.DE,Defiance AI & Power Infrastructure ETF USD Acc,EUR,27,,,

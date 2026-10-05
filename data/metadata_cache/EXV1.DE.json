@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2008-01-02T09:00:00+01:00",
-  "regularMarketTime": "2026-09-18T17:36:04+02:00",
+  "regularMarketTime": "2026-10-02T17:36:00+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 42.055,
-  "regularMarketChangePercent": -1.935,
-  "fulldayPrice": 42.055,
-  "fulldayChange": -0.83,
-  "fulldayChangePercent": -1.935,
+  "regularMarketPrice": 40.305,
+  "regularMarketChangePercent": 0.074,
+  "fulldayPrice": 40.305,
+  "fulldayChange": 0.03,
+  "fulldayChangePercent": 0.074,
   "fiftyTwoWeekHigh": 43.435,
   "fiftyTwoWeekLow": 29.35,
-  "regularMarketDayHigh": 42.895,
-  "regularMarketDayLow": 41.945,
-  "regularMarketVolume": 120244,
+  "regularMarketDayHigh": 40.525,
+  "regularMarketDayLow": 39.675,
+  "regularMarketVolume": 451301,
   "longName": "iShares STOXX Europe 600 Banks UCITS ETF (DE)",
   "shortName": "iSh.ST.Euro.600 Banks U.ETF DEI",
-  "chartPreviousClose": 13.582,
+  "chartPreviousClose": 13.898,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-09-18T09:00:00+02:00",
-      "start": "2026-09-18T07:00:00+02:00"
+      "end": "2026-10-05T09:00:00+02:00",
+      "start": "2026-10-05T07:00:00+02:00"
     },
     "regular": {
-      "end": "2026-09-18T17:30:00+02:00",
-      "start": "2026-09-18T09:00:00+02:00"
+      "end": "2026-10-05T17:30:00+02:00",
+      "start": "2026-10-05T09:00:00+02:00"
     },
     "post": {
-      "end": "2026-09-18T20:30:00+02:00",
-      "start": "2026-09-18T17:30:00+02:00"
+      "end": "2026-10-05T20:30:00+02:00",
+      "start": "2026-10-05T17:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,40 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-09-13T22:00:00.000Z",
-      "pre_start": "2026-09-14T05:00:00.000Z",
-      "pre_end": "2026-09-14T07:00:00.000Z",
-      "start": "2026-09-14T07:00:00.000Z",
-      "end": "2026-09-14T15:30:00.000Z",
-      "post_start": "2026-09-14T15:30:00.000Z",
-      "post_end": "2026-09-14T18:30:00.000Z"
+      "Date": "2026-09-28T22:00:00.000Z",
+      "pre_start": "2026-09-29T05:00:00.000Z",
+      "pre_end": "2026-09-29T07:00:00.000Z",
+      "start": "2026-09-29T07:00:00.000Z",
+      "end": "2026-09-29T15:30:00.000Z",
+      "post_start": "2026-09-29T15:30:00.000Z",
+      "post_end": "2026-09-29T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-14T22:00:00.000Z",
-      "pre_start": "2026-09-15T05:00:00.000Z",
-      "pre_end": "2026-09-15T07:00:00.000Z",
-      "start": "2026-09-15T07:00:00.000Z",
-      "end": "2026-09-15T15:30:00.000Z",
-      "post_start": "2026-09-15T15:30:00.000Z",
-      "post_end": "2026-09-15T18:30:00.000Z"
+      "Date": "2026-09-29T22:00:00.000Z",
+      "pre_start": "2026-09-30T05:00:00.000Z",
+      "pre_end": "2026-09-30T07:00:00.000Z",
+      "start": "2026-09-30T07:00:00.000Z",
+      "end": "2026-09-30T15:30:00.000Z",
+      "post_start": "2026-09-30T15:30:00.000Z",
+      "post_end": "2026-09-30T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-15T22:00:00.000Z",
-      "pre_start": "2026-09-16T05:00:00.000Z",
-      "pre_end": "2026-09-16T07:00:00.000Z",
-      "start": "2026-09-16T07:00:00.000Z",
-      "end": "2026-09-16T15:30:00.000Z",
-      "post_start": "2026-09-16T15:30:00.000Z",
-      "post_end": "2026-09-16T18:30:00.000Z"
+      "Date": "2026-09-30T22:00:00.000Z",
+      "pre_start": "2026-10-01T05:00:00.000Z",
+      "pre_end": "2026-10-01T07:00:00.000Z",
+      "start": "2026-10-01T07:00:00.000Z",
+      "end": "2026-10-01T15:30:00.000Z",
+      "post_start": "2026-10-01T15:30:00.000Z",
+      "post_end": "2026-10-01T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-16T22:00:00.000Z",
-      "pre_start": "2026-09-17T05:00:00.000Z",
-      "pre_end": "2026-09-17T07:00:00.000Z",
-      "start": "2026-09-17T07:00:00.000Z",
-      "end": "2026-09-17T15:30:00.000Z",
-      "post_start": "2026-09-17T15:30:00.000Z",
-      "post_end": "2026-09-17T18:30:00.000Z"
-    },
-    {
-      "Date": "2026-09-17T22:00:00.000Z",
-      "pre_start": "2026-09-18T05:00:00.000Z",
-      "pre_end": "2026-09-18T07:00:00.000Z",
-      "start": "2026-09-18T07:00:00.000Z",
-      "end": "2026-09-18T15:30:00.000Z",
-      "post_start": "2026-09-18T15:30:00.000Z",
-      "post_end": "2026-09-18T18:30:00.000Z"
+      "Date": "2026-10-01T22:00:00.000Z",
+      "pre_start": "2026-10-02T05:00:00.000Z",
+      "pre_end": "2026-10-02T07:00:00.000Z",
+      "start": "2026-10-02T07:00:00.000Z",
+      "end": "2026-10-02T15:30:00.000Z",
+      "post_start": "2026-10-02T15:30:00.000Z",
+      "post_end": "2026-10-02T18:30:00.000Z"
     }
   ]
 }
