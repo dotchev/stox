@@ -52,8 +52,9 @@ def fmt(x, spec):
 def main():
     histories = load_histories()
     # Common period: all symbols trade to the present, so the shortest
-    # history sets how many recent weeks they share
-    history_weeks = min(len(h) for h in histories.values())
+    # history sets how many recent weeks they share. Histories too short for
+    # a single 52-week change are left out and get empty values.
+    history_weeks = min((len(h) for h in histories.values() if len(h) > weeks), default=0)
     df = crunch(histories, history_weeks)
     print(df.to_string())
 
