@@ -1,41 +1,41 @@
 {
   "currency": "EUR",
-  "symbol": "WMIN.DE",
+  "symbol": "VWCE.DE",
   "exchangeName": "GER",
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
-  "firstTradeDate": "2018-05-09T09:00:00+02:00",
-  "regularMarketTime": "2026-10-02T17:36:11+02:00",
+  "firstTradeDate": "2019-07-29T09:00:00+02:00",
+  "regularMarketTime": "2026-10-05T17:35:55+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 55.68,
-  "regularMarketChangePercent": 1.236,
-  "fulldayPrice": 55.68,
-  "fulldayChange": 0.68,
-  "fulldayChangePercent": 1.236,
-  "fiftyTwoWeekHigh": 65.25,
-  "fiftyTwoWeekLow": 39.88,
-  "regularMarketDayHigh": 56.46,
-  "regularMarketDayLow": 55.44,
-  "regularMarketVolume": 28671,
-  "longName": "VanEck S&P Global Mining UCITS ETF",
-  "shortName": "VanEck Gl.Mining UC.ETF       R",
-  "chartPreviousClose": 23.795,
+  "regularMarketPrice": 172.9,
+  "regularMarketChangePercent": 1.028,
+  "fulldayPrice": 172.9,
+  "fulldayChange": 1.76,
+  "fulldayChangePercent": 1.028,
+  "fiftyTwoWeekHigh": 173.22,
+  "fiftyTwoWeekLow": 138.24,
+  "regularMarketDayHigh": 173.22,
+  "regularMarketDayLow": 171.98,
+  "regularMarketVolume": 309226,
+  "longName": "Vanguard FTSE All-World UCITS ETF USD Accumulation",
+  "shortName": "Vanguard FTSE All-World U.ETF R",
+  "chartPreviousClose": 96.21,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-05T07:00:00+02:00",
-      "end": "2026-10-05T09:00:00+02:00"
+      "end": "2026-10-05T09:00:00+02:00",
+      "start": "2026-10-05T07:00:00+02:00"
     },
     "regular": {
-      "start": "2026-10-05T09:00:00+02:00",
-      "end": "2026-10-05T17:30:00+02:00"
+      "end": "2026-10-05T17:30:00+02:00",
+      "start": "2026-10-05T09:00:00+02:00"
     },
     "post": {
-      "start": "2026-10-05T17:30:00+02:00",
-      "end": "2026-10-05T20:30:00+02:00"
+      "end": "2026-10-05T20:30:00+02:00",
+      "start": "2026-10-05T17:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -90,6 +90,15 @@
       "end": "2026-10-02T15:30:00.000Z",
       "post_start": "2026-10-02T15:30:00.000Z",
       "post_end": "2026-10-02T18:30:00.000Z"
+    },
+    {
+      "Date": "2026-10-04T22:00:00.000Z",
+      "pre_start": "2026-10-05T05:00:00.000Z",
+      "pre_end": "2026-10-05T07:00:00.000Z",
+      "start": "2026-10-05T07:00:00.000Z",
+      "end": "2026-10-05T15:30:00.000Z",
+      "post_start": "2026-10-05T15:30:00.000Z",
+      "post_end": "2026-10-05T18:30:00.000Z"
     }
   ]
 }
