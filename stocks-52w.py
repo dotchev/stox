@@ -6,7 +6,8 @@ import pandas as pd
 from scipy.stats import gmean
 from yfetch import get_weekly_history, get_stock_name, get_stock_currency
 
-symbols = ['SPY', 'QQQ', 'SPMO', 'WMSE.DE', 'QTOP', 'IWDA.AS', 'SPYG']
+symbols = ['SPY', 'QQQ', 'SPMO', 'WMSE.DE', 'QTOP', 'IWDA.AS', 'SPYG',
+           'BAI', 'AIFS.DE', 'XAIX.DE', 'XLKS.MI', 'CHIP.PA']
 
 weeks = 52
 risk_free_return = 0.04  # 4%
