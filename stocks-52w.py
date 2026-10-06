@@ -30,6 +30,7 @@ def load_histories():
 def crunch(histories, history_weeks):
     rows = []
     for symbol, history in histories.items():
+        available_weeks = len(history)
         history = history.tail(history_weeks)
         changes = history.Close.pct_change(periods=weeks, fill_method=None).dropna()
         gmean_change = gmean(1 + changes) - 1 if len(changes) else float('nan')
@@ -38,7 +39,7 @@ def crunch(histories, history_weeks):
             'symbol': symbol,
             'name': get_stock_name(symbol),
             'currency': get_stock_currency(symbol),
-            'weeks': len(history),
+            'weeks': available_weeks,
             'gmean': gmean_change,
             'std': std,
             'sharpe': (gmean_change - risk_free_return) / std,
@@ -72,11 +73,11 @@ def main():
         '',
         f'_Last updated: {timestamp}_',
         '',
-        '| Symbol | Name | Currency | Gmean | Std | Sharpe |',
-        '|---|---|---|---|---|---|',
+        '| Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe |',
+        '|---|---|---|---|---|---|---|',
     ]
     for r in df.itertuples():
-        lines.append(f'| {r.symbol} | {r.name} | {r.currency} | '
+        lines.append(f'| {r.symbol} | {r.name} | {r.currency} | {r.weeks} | '
                      f'{fmt(r.gmean, ".2%")} | {fmt(r.std, ".2%")} | {fmt(r.sharpe, ".2f")} |')
 
     with open('stocks-52w.md', 'w') as f:
