@@ -5,37 +5,37 @@
   "fullExchangeName": "LSE",
   "instrumentType": "ETF",
   "firstTradeDate": "2018-02-23T08:00:00+00:00",
-  "regularMarketTime": "2026-09-28T16:20:10+01:00",
+  "regularMarketTime": "2026-10-09T16:35:06+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "BST",
   "exchangeTimezoneName": "Europe/London",
-  "regularMarketPrice": 13.964,
-  "regularMarketChangePercent": -1.676,
-  "fulldayPrice": 13.964,
-  "fulldayChange": -0.238,
-  "fulldayChangePercent": -1.676,
+  "regularMarketPrice": 14.192,
+  "regularMarketChangePercent": -0.533,
+  "fulldayPrice": 14.192,
+  "fulldayChange": -0.076,
+  "fulldayChangePercent": -0.533,
   "fiftyTwoWeekHigh": 15.418,
   "fiftyTwoWeekLow": 10.246,
-  "regularMarketDayHigh": 14.116,
-  "regularMarketDayLow": 13.93,
-  "regularMarketVolume": 32078,
+  "regularMarketDayHigh": 14.296,
+  "regularMarketDayLow": 14.142,
+  "regularMarketVolume": 26699,
   "longName": "iShares Edge MSCI USA Momentum Factor UCITS ETF USD (Dist)",
   "shortName": "ISHARES IV PLC ISH USA MOMENTUM",
-  "chartPreviousClose": 8.21,
+  "chartPreviousClose": 8.241,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-09-28T07:15:00+01:00",
-      "end": "2026-09-28T08:00:00+01:00"
+      "end": "2026-10-09T08:00:00+01:00",
+      "start": "2026-10-09T07:15:00+01:00"
     },
     "regular": {
-      "start": "2026-09-28T08:00:00+01:00",
-      "end": "2026-09-28T16:30:00+01:00"
+      "end": "2026-10-09T16:30:00+01:00",
+      "start": "2026-10-09T08:00:00+01:00"
     },
     "post": {
-      "start": "2026-09-28T16:30:00+01:00",
-      "end": "2026-09-28T17:15:00+01:00"
+      "end": "2026-10-09T17:15:00+01:00",
+      "start": "2026-10-09T16:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-09-21T23:00:00.000Z",
-      "pre_start": "2026-09-22T06:15:00.000Z",
-      "pre_end": "2026-09-22T07:00:00.000Z",
-      "start": "2026-09-22T07:00:00.000Z",
-      "end": "2026-09-22T15:30:00.000Z",
-      "post_start": "2026-09-22T15:30:00.000Z",
-      "post_end": "2026-09-22T16:15:00.000Z"
+      "Date": "2026-10-04T23:00:00.000Z",
+      "pre_start": "2026-10-05T06:15:00.000Z",
+      "pre_end": "2026-10-05T07:00:00.000Z",
+      "start": "2026-10-05T07:00:00.000Z",
+      "end": "2026-10-05T15:30:00.000Z",
+      "post_start": "2026-10-05T15:30:00.000Z",
+      "post_end": "2026-10-05T16:15:00.000Z"
     },
     {
-      "Date": "2026-09-22T23:00:00.000Z",
-      "pre_start": "2026-09-23T06:15:00.000Z",
-      "pre_end": "2026-09-23T07:00:00.000Z",
-      "start": "2026-09-23T07:00:00.000Z",
-      "end": "2026-09-23T15:30:00.000Z",
-      "post_start": "2026-09-23T15:30:00.000Z",
-      "post_end": "2026-09-23T16:15:00.000Z"
+      "Date": "2026-10-05T23:00:00.000Z",
+      "pre_start": "2026-10-06T06:15:00.000Z",
+      "pre_end": "2026-10-06T07:00:00.000Z",
+      "start": "2026-10-06T07:00:00.000Z",
+      "end": "2026-10-06T15:30:00.000Z",
+      "post_start": "2026-10-06T15:30:00.000Z",
+      "post_end": "2026-10-06T16:15:00.000Z"
     },
     {
-      "Date": "2026-09-23T23:00:00.000Z",
-      "pre_start": "2026-09-24T06:15:00.000Z",
-      "pre_end": "2026-09-24T07:00:00.000Z",
-      "start": "2026-09-24T07:00:00.000Z",
-      "end": "2026-09-24T15:30:00.000Z",
-      "post_start": "2026-09-24T15:30:00.000Z",
-      "post_end": "2026-09-24T16:15:00.000Z"
+      "Date": "2026-10-06T23:00:00.000Z",
+      "pre_start": "2026-10-07T06:15:00.000Z",
+      "pre_end": "2026-10-07T07:00:00.000Z",
+      "start": "2026-10-07T07:00:00.000Z",
+      "end": "2026-10-07T15:30:00.000Z",
+      "post_start": "2026-10-07T15:30:00.000Z",
+      "post_end": "2026-10-07T16:15:00.000Z"
     },
     {
-      "Date": "2026-09-24T23:00:00.000Z",
-      "pre_start": "2026-09-25T06:15:00.000Z",
-      "pre_end": "2026-09-25T07:00:00.000Z",
-      "start": "2026-09-25T07:00:00.000Z",
-      "end": "2026-09-25T15:30:00.000Z",
-      "post_start": "2026-09-25T15:30:00.000Z",
-      "post_end": "2026-09-25T16:15:00.000Z"
+      "Date": "2026-10-07T23:00:00.000Z",
+      "pre_start": "2026-10-08T06:15:00.000Z",
+      "pre_end": "2026-10-08T07:00:00.000Z",
+      "start": "2026-10-08T07:00:00.000Z",
+      "end": "2026-10-08T15:30:00.000Z",
+      "post_start": "2026-10-08T15:30:00.000Z",
+      "post_end": "2026-10-08T16:15:00.000Z"
     },
     {
-      "Date": "2026-09-27T23:00:00.000Z",
-      "pre_start": "2026-09-28T06:15:00.000Z",
-      "pre_end": "2026-09-28T07:00:00.000Z",
-      "start": "2026-09-28T07:00:00.000Z",
-      "end": "2026-09-28T15:30:00.000Z",
-      "post_start": "2026-09-28T15:30:00.000Z",
-      "post_end": "2026-09-28T16:15:00.000Z"
+      "Date": "2026-10-08T23:00:00.000Z",
+      "pre_start": "2026-10-09T06:15:00.000Z",
+      "pre_end": "2026-10-09T07:00:00.000Z",
+      "start": "2026-10-09T07:00:00.000Z",
+      "end": "2026-10-09T15:30:00.000Z",
+      "post_start": "2026-10-09T15:30:00.000Z",
+      "post_end": "2026-10-09T16:15:00.000Z"
     }
   ]
 }

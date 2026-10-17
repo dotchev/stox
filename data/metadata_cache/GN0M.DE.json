@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2021-11-11T09:00:00+01:00",
-  "regularMarketTime": "2026-09-18T17:36:06+02:00",
+  "regularMarketTime": "2026-10-09T17:35:45+02:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 7200,
   "timezone": "CEST",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 10.314,
-  "regularMarketChangePercent": -0.808,
-  "fulldayPrice": 10.314,
-  "fulldayChange": -0.084,
-  "fulldayChangePercent": -0.808,
-  "fiftyTwoWeekHigh": 10.486,
-  "fiftyTwoWeekLow": 5.598,
-  "regularMarketDayHigh": 10.486,
-  "regularMarketDayLow": 10.314,
-  "regularMarketVolume": 27652,
+  "regularMarketPrice": 10.806,
+  "regularMarketChangePercent": 4.406,
+  "fulldayPrice": 10.806,
+  "fulldayChange": 0.456,
+  "fulldayChangePercent": 4.406,
+  "fiftyTwoWeekHigh": 11.742,
+  "fiftyTwoWeekLow": 6.14,
+  "regularMarketDayHigh": 10.956,
+  "regularMarketDayLow": 10.518,
+  "regularMarketVolume": 29990,
   "longName": "Global X Genomics & Biotechnology UCITS ETF USD Acc",
   "shortName": "Gl X ETF-GL X GEN+BIOTECH     R",
   "chartPreviousClose": 13.256,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-09-18T07:00:00+02:00",
-      "end": "2026-09-18T09:00:00+02:00"
+      "start": "2026-10-09T07:00:00+02:00",
+      "end": "2026-10-09T09:00:00+02:00"
     },
     "regular": {
-      "start": "2026-09-18T09:00:00+02:00",
-      "end": "2026-09-18T17:30:00+02:00"
+      "start": "2026-10-09T09:00:00+02:00",
+      "end": "2026-10-09T17:30:00+02:00"
     },
     "post": {
-      "start": "2026-09-18T17:30:00+02:00",
-      "end": "2026-09-18T20:30:00+02:00"
+      "start": "2026-10-09T17:30:00+02:00",
+      "end": "2026-10-09T20:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,49 +55,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-09-13T22:00:00.000Z",
-      "pre_start": "2026-09-14T05:00:00.000Z",
-      "pre_end": "2026-09-14T07:00:00.000Z",
-      "start": "2026-09-14T07:00:00.000Z",
-      "end": "2026-09-14T15:30:00.000Z",
-      "post_start": "2026-09-14T15:30:00.000Z",
-      "post_end": "2026-09-14T18:30:00.000Z"
+      "Date": "2026-10-04T22:00:00.000Z",
+      "pre_start": "2026-10-05T05:00:00.000Z",
+      "pre_end": "2026-10-05T07:00:00.000Z",
+      "start": "2026-10-05T07:00:00.000Z",
+      "end": "2026-10-05T15:30:00.000Z",
+      "post_start": "2026-10-05T15:30:00.000Z",
+      "post_end": "2026-10-05T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-14T22:00:00.000Z",
-      "pre_start": "2026-09-15T05:00:00.000Z",
-      "pre_end": "2026-09-15T07:00:00.000Z",
-      "start": "2026-09-15T07:00:00.000Z",
-      "end": "2026-09-15T15:30:00.000Z",
-      "post_start": "2026-09-15T15:30:00.000Z",
-      "post_end": "2026-09-15T18:30:00.000Z"
+      "Date": "2026-10-05T22:00:00.000Z",
+      "pre_start": "2026-10-06T05:00:00.000Z",
+      "pre_end": "2026-10-06T07:00:00.000Z",
+      "start": "2026-10-06T07:00:00.000Z",
+      "end": "2026-10-06T15:30:00.000Z",
+      "post_start": "2026-10-06T15:30:00.000Z",
+      "post_end": "2026-10-06T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-15T22:00:00.000Z",
-      "pre_start": "2026-09-16T05:00:00.000Z",
-      "pre_end": "2026-09-16T07:00:00.000Z",
-      "start": "2026-09-16T07:00:00.000Z",
-      "end": "2026-09-16T15:30:00.000Z",
-      "post_start": "2026-09-16T15:30:00.000Z",
-      "post_end": "2026-09-16T18:30:00.000Z"
+      "Date": "2026-10-06T22:00:00.000Z",
+      "pre_start": "2026-10-07T05:00:00.000Z",
+      "pre_end": "2026-10-07T07:00:00.000Z",
+      "start": "2026-10-07T07:00:00.000Z",
+      "end": "2026-10-07T15:30:00.000Z",
+      "post_start": "2026-10-07T15:30:00.000Z",
+      "post_end": "2026-10-07T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-16T22:00:00.000Z",
-      "pre_start": "2026-09-17T05:00:00.000Z",
-      "pre_end": "2026-09-17T07:00:00.000Z",
-      "start": "2026-09-17T07:00:00.000Z",
-      "end": "2026-09-17T15:30:00.000Z",
-      "post_start": "2026-09-17T15:30:00.000Z",
-      "post_end": "2026-09-17T18:30:00.000Z"
+      "Date": "2026-10-07T22:00:00.000Z",
+      "pre_start": "2026-10-08T05:00:00.000Z",
+      "pre_end": "2026-10-08T07:00:00.000Z",
+      "start": "2026-10-08T07:00:00.000Z",
+      "end": "2026-10-08T15:30:00.000Z",
+      "post_start": "2026-10-08T15:30:00.000Z",
+      "post_end": "2026-10-08T18:30:00.000Z"
     },
     {
-      "Date": "2026-09-17T22:00:00.000Z",
-      "pre_start": "2026-09-18T05:00:00.000Z",
-      "pre_end": "2026-09-18T07:00:00.000Z",
-      "start": "2026-09-18T07:00:00.000Z",
-      "end": "2026-09-18T15:30:00.000Z",
-      "post_start": "2026-09-18T15:30:00.000Z",
-      "post_end": "2026-09-18T18:30:00.000Z"
+      "Date": "2026-10-08T22:00:00.000Z",
+      "pre_start": "2026-10-09T05:00:00.000Z",
+      "pre_end": "2026-10-09T07:00:00.000Z",
+      "start": "2026-10-09T07:00:00.000Z",
+      "end": "2026-10-09T15:30:00.000Z",
+      "post_start": "2026-10-09T15:30:00.000Z",
+      "post_end": "2026-10-09T18:30:00.000Z"
     }
   ]
 }

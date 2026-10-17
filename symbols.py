@@ -31,7 +31,7 @@ my_stocks = [
 ]
 
 my_etfs = [
-    'SPY',
+    'SPYM',
     'SPYG',
     'SPYV',
     'QQQ',

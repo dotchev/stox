@@ -5,37 +5,37 @@
   "fullExchangeName": "NasdaqGS",
   "instrumentType": "EQUITY",
   "firstTradeDate": "2009-08-06T09:30:00-04:00",
-  "regularMarketTime": "2026-10-02T16:00:01-04:00",
+  "regularMarketTime": "2026-10-16T16:00:01-04:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -14400,
   "timezone": "EDT",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 355.14,
-  "regularMarketChangePercent": 3.347,
-  "fulldayPrice": 355.089,
-  "fulldayChange": 11.5,
-  "fulldayChangePercent": 3.347,
+  "regularMarketPrice": 328.75,
+  "regularMarketChangePercent": -4.525,
+  "fulldayPrice": 328.75,
+  "fulldayChange": -14.03,
+  "fulldayChangePercent": -4.075,
   "fiftyTwoWeekHigh": 495.0,
   "fiftyTwoWeekLow": 289.96,
-  "regularMarketDayHigh": 357.354,
-  "regularMarketDayLow": 347.416,
-  "regularMarketVolume": 24509128,
+  "regularMarketDayHigh": 339.549,
+  "regularMarketDayLow": 328.58,
+  "regularMarketVolume": 29604273,
   "longName": "Broadcom Inc.",
   "shortName": "Broadcom Inc.",
-  "chartPreviousClose": 48.735,
+  "chartPreviousClose": 50.325,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-02T04:00:00-04:00",
-      "end": "2026-10-02T09:30:00-04:00"
+      "end": "2026-10-16T09:30:00-04:00",
+      "start": "2026-10-16T04:00:00-04:00"
     },
     "regular": {
-      "start": "2026-10-02T09:30:00-04:00",
-      "end": "2026-10-02T16:00:00-04:00"
+      "end": "2026-10-16T16:00:00-04:00",
+      "start": "2026-10-16T09:30:00-04:00"
     },
     "post": {
-      "start": "2026-10-02T16:00:00-04:00",
-      "end": "2026-10-02T20:00:00-04:00"
+      "end": "2026-10-16T20:00:00-04:00",
+      "start": "2026-10-16T16:00:00-04:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-09-28T04:00:00.000Z",
-      "pre_start": "2026-09-28T08:00:00.000Z",
-      "pre_end": "2026-09-28T13:30:00.000Z",
-      "start": "2026-09-28T13:30:00.000Z",
-      "end": "2026-09-28T20:00:00.000Z",
-      "post_start": "2026-09-28T20:00:00.000Z",
-      "post_end": "2026-09-29T00:00:00.000Z"
+      "Date": "2026-10-12T04:00:00.000Z",
+      "pre_start": "2026-10-12T08:00:00.000Z",
+      "pre_end": "2026-10-12T13:30:00.000Z",
+      "start": "2026-10-12T13:30:00.000Z",
+      "end": "2026-10-12T20:00:00.000Z",
+      "post_start": "2026-10-12T20:00:00.000Z",
+      "post_end": "2026-10-13T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-29T04:00:00.000Z",
-      "pre_start": "2026-09-29T08:00:00.000Z",
-      "pre_end": "2026-09-29T13:30:00.000Z",
-      "start": "2026-09-29T13:30:00.000Z",
-      "end": "2026-09-29T20:00:00.000Z",
-      "post_start": "2026-09-29T20:00:00.000Z",
-      "post_end": "2026-09-30T00:00:00.000Z"
+      "Date": "2026-10-13T04:00:00.000Z",
+      "pre_start": "2026-10-13T08:00:00.000Z",
+      "pre_end": "2026-10-13T13:30:00.000Z",
+      "start": "2026-10-13T13:30:00.000Z",
+      "end": "2026-10-13T20:00:00.000Z",
+      "post_start": "2026-10-13T20:00:00.000Z",
+      "post_end": "2026-10-14T00:00:00.000Z"
     },
     {
-      "Date": "2026-09-30T04:00:00.000Z",
-      "pre_start": "2026-09-30T08:00:00.000Z",
-      "pre_end": "2026-09-30T13:30:00.000Z",
-      "start": "2026-09-30T13:30:00.000Z",
-      "end": "2026-09-30T20:00:00.000Z",
-      "post_start": "2026-09-30T20:00:00.000Z",
-      "post_end": "2026-10-01T00:00:00.000Z"
+      "Date": "2026-10-14T04:00:00.000Z",
+      "pre_start": "2026-10-14T08:00:00.000Z",
+      "pre_end": "2026-10-14T13:30:00.000Z",
+      "start": "2026-10-14T13:30:00.000Z",
+      "end": "2026-10-14T20:00:00.000Z",
+      "post_start": "2026-10-14T20:00:00.000Z",
+      "post_end": "2026-10-15T00:00:00.000Z"
     },
     {
-      "Date": "2026-10-01T04:00:00.000Z",
-      "pre_start": "2026-10-01T08:00:00.000Z",
-      "pre_end": "2026-10-01T13:30:00.000Z",
-      "start": "2026-10-01T13:30:00.000Z",
-      "end": "2026-10-01T20:00:00.000Z",
-      "post_start": "2026-10-01T20:00:00.000Z",
-      "post_end": "2026-10-02T00:00:00.000Z"
+      "Date": "2026-10-15T04:00:00.000Z",
+      "pre_start": "2026-10-15T08:00:00.000Z",
+      "pre_end": "2026-10-15T13:30:00.000Z",
+      "start": "2026-10-15T13:30:00.000Z",
+      "end": "2026-10-15T20:00:00.000Z",
+      "post_start": "2026-10-15T20:00:00.000Z",
+      "post_end": "2026-10-16T00:00:00.000Z"
     },
     {
-      "Date": "2026-10-02T04:00:00.000Z",
-      "pre_start": "2026-10-02T08:00:00.000Z",
-      "pre_end": "2026-10-02T13:30:00.000Z",
-      "start": "2026-10-02T13:30:00.000Z",
-      "end": "2026-10-02T20:00:00.000Z",
-      "post_start": "2026-10-02T20:00:00.000Z",
-      "post_end": "2026-10-03T00:00:00.000Z"
+      "Date": "2026-10-16T04:00:00.000Z",
+      "pre_start": "2026-10-16T08:00:00.000Z",
+      "pre_end": "2026-10-16T13:30:00.000Z",
+      "start": "2026-10-16T13:30:00.000Z",
+      "end": "2026-10-16T20:00:00.000Z",
+      "post_start": "2026-10-16T20:00:00.000Z",
+      "post_end": "2026-10-17T00:00:00.000Z"
     }
   ]
 }
