@@ -12,9 +12,17 @@ currency_symbols = {
     'GBP': '£',
 }
 
+# Always fetch fresh data: checkout gives committed cache files a fresh mtime,
+# so any cache_days > 0 would reuse stale history in CI
+cache_days = 0
+
 
 def compute_levels(symbol):
-    history = get_stock_history(symbol, period='5y', interval='1d')
+    history = get_stock_history(symbol, period='5y', interval='1d', cache_days=cache_days)
+    # Yahoo sometimes returns a last row with volume but no prices
+    history = history.dropna(subset=['Close'])
+    if history.empty:
+        raise RuntimeError(f'No history for {symbol}')
     currency = get_stock_metadata(symbol).get('currency', '')
     sma200 = history['Close'].rolling(window=200).mean()
     dist = (history['Close'] / sma200 - 1).dropna()
