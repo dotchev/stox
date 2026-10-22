@@ -8,7 +8,7 @@ from yfetch import (get_stock_history, get_stock_name, get_stock_currency,
                     to_currency, to_weekly)
 
 symbols = ['SPYM', 'QQQ', 'SPMO', 'WMSE.DE', 'QTOP', 'VGVF.DE', 'SPYG',
-           'AIFS.DE', 'XAIX.DE', 'XLKS.MI', 'CHIP.PA', 'XWEM.DE']
+           'AIFS.DE', 'XAIX.DE', 'XLKS.MI', 'CHIP.PA', 'XWEM.DE', 'VDIV.DE']
 
 weeks = 52
 risk_free_return = 0.04  # 4%
