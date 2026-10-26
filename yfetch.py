@@ -5,7 +5,7 @@ import time
 from matplotlib import ticker
 import pandas as pd
 import yfinance as yf
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from dataclasses import dataclass
 
 
@@ -127,6 +127,38 @@ def _interval_unit(interval):
     return _interval_units.get(interval.lstrip('0123456789'), 'rows')
 
 
+# The fetch time is stamped into the first line of each history cache file.
+# The file mtime cannot be used: the caches are committed to git, and a fresh
+# checkout (e.g. in a GitHub Actions job) sets every mtime to the checkout time,
+# which made stale caches look freshly fetched.
+_fetched_prefix = '# fetched '
+
+
+def _write_history_cache(cache_file, history):
+    with open(cache_file, 'w', encoding='utf-8', newline='') as fh:
+        fh.write(f'{_fetched_prefix}{datetime.now(timezone.utc).isoformat()}\n')
+        history.to_csv(fh)
+
+
+def _read_history_cache(cache_file, max_age):
+    """Read a cached history if it was fetched less than max_age ago, else
+    return None. Caches without a fetch stamp (written before it was added)
+    count as stale."""
+    with open(cache_file, encoding='utf-8') as fh:
+        first = fh.readline()
+        if not first.startswith(_fetched_prefix):
+            return None
+        try:
+            fetched = datetime.fromisoformat(first[len(_fetched_prefix):].strip())
+        except ValueError:
+            return None
+        if datetime.now(timezone.utc) - fetched >= max_age:
+            return None
+        history = pd.read_csv(fh, index_col=0, parse_dates=True)
+    history.index = pd.to_datetime(history.index, utc=True)
+    return history
+
+
 def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     """Get stock history with caching
 
@@ -144,10 +176,8 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
 
     # Check if cache exists and is recent enough
     if os.path.exists(cache_file):
-        file_mod_time = datetime.fromtimestamp(os.path.getmtime(cache_file))
-        if datetime.now() - file_mod_time < timedelta(days=cache_days):
-            history = pd.read_csv(cache_file, index_col=0, parse_dates=True)
-            history.index = pd.to_datetime(history.index, utc=True)
+        history = _read_history_cache(cache_file, timedelta(days=cache_days))
+        if history is not None:
             # print(f"Loaded cached history for {symbol} ({len(history)} rows)")
             if not history.empty:  # an empty cache file is a stale failed fetch
                 return history
@@ -170,7 +200,7 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     if history.empty:
         print(f"No history for {symbol}, not caching")
     else:
-        history.to_csv(cache_file)
+        _write_history_cache(cache_file, history)
 
     return history
 
