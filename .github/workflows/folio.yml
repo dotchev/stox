@@ -35,16 +35,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Checkout gives the committed caches a fresh mtime, so the notebook
+      # Checkout gives the committed caches a fresh mtime, so the script
       # would treat last week's prices as current. Age them to force live data.
       - name: Expire price caches
         run: touch -d '10 days ago' data/history_cache/*_5y_1d.csv
 
-      - name: Run folio notebook
-        run: >
-          jupyter nbconvert --to notebook --execute folio.ipynb
-          --output /tmp/folio_run.ipynb
-          --ExecutePreprocessor.timeout=1800
+      - name: Run folio
+        run: python folio.py
 
       - name: Sanity-check folio.csv
         run: |
