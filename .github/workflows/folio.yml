@@ -1,0 +1,79 @@
+name: Update Folio
+
+on:
+  schedule:
+    # Friday 21:41 UTC, after the US close (20:00 UTC in summer, 21:00 UTC in
+    # winter). Scheduled runs can land 4-6 hours late, so this still finishes
+    # well before the Saturday 06:53 UTC sheet update that reads data/folio.csv.
+    - cron: '41 21 * * 5'
+    # Backup run in case the first one is dropped or fails. It is harmless if
+    # both run: the second commits only if folio.csv changed.
+    - cron: '13 1 * * 6'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Never run two folio updates at once (e.g. a late first run overlapping the backup)
+concurrency:
+  group: folio
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Checkout gives the committed caches a fresh mtime, so the notebook
+      # would treat last week's prices as current. Age them to force live data.
+      - name: Expire price caches
+        run: touch -d '10 days ago' data/history_cache/*_5y_1d.csv
+
+      - name: Run folio notebook
+        run: >
+          jupyter nbconvert --to notebook --execute folio.ipynb
+          --output /tmp/folio_run.ipynb
+          --ExecutePreprocessor.timeout=1800
+
+      - name: Sanity-check folio.csv
+        run: |
+          python - <<'EOF'
+          import csv, sys
+          rows = list(csv.reader(open('data/folio.csv')))
+          header = ['symbol', 'name', 'price', 'weeks', 'gmean', 'std', 'sharpe', 'range', 'revenue', 'T200']
+          if rows[0] != header:
+              sys.exit(f'unexpected header: {rows[0]}')
+          data = rows[1:]
+          if len(data) < 50:
+              sys.exit(f'only {len(data)} rows')
+          bad = [r[0] for r in data if not r[2] or float(r[2]) <= 0]
+          if bad:
+              sys.exit(f'missing or non-positive prices: {bad}')
+          print(f'folio.csv OK: {len(data)} rows')
+          EOF
+
+      # Commit only folio.csv: the refreshed caches would conflict with the other
+      # jobs that update the same symbols. The sheet update checks this commit's
+      # time for freshness.
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/folio.csv
+          git diff --cached --quiet && exit 0
+          git commit -m "Update folio"
+          # Discard the refreshed caches, pull refuses to rebase a dirty tree
+          git checkout -- .
+          git pull --rebase
+          git push
