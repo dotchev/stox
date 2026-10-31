@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "EQUITY",
   "firstTradeDate": "2009-11-13T09:00:00+01:00",
-  "regularMarketTime": "2026-10-23T17:35:56+02:00",
+  "regularMarketTime": "2026-10-30T17:36:05+01:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 114.81,
-  "regularMarketChangePercent": -1.341,
-  "fulldayPrice": 114.81,
-  "fulldayChange": -1.56,
-  "fulldayChangePercent": -1.341,
+  "regularMarketPrice": 112.37,
+  "regularMarketChangePercent": -2.794,
+  "fulldayPrice": 112.37,
+  "fulldayChange": -3.23,
+  "fulldayChangePercent": -2.794,
   "fiftyTwoWeekHigh": 149.11,
-  "fiftyTwoWeekLow": 107.25,
-  "regularMarketDayHigh": 115.86,
-  "regularMarketDayLow": 114.2,
-  "regularMarketVolume": 244281,
+  "fiftyTwoWeekLow": 110.12,
+  "regularMarketDayHigh": 114.85,
+  "regularMarketDayLow": 112.11,
+  "regularMarketVolume": 307203,
   "longName": "Xetra-Gold",
   "shortName": "DT.BOERSE COM. XETRA-GOLD",
-  "chartPreviousClose": 49.566,
+  "chartPreviousClose": 49.464,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-23T07:00:00+02:00",
-      "end": "2026-10-23T09:00:00+02:00"
+      "start": "2026-10-30T07:00:00+01:00",
+      "end": "2026-10-30T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-10-23T09:00:00+02:00",
-      "end": "2026-10-23T17:30:00+02:00"
+      "start": "2026-10-30T09:00:00+01:00",
+      "end": "2026-10-30T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-10-23T17:30:00+02:00",
-      "end": "2026-10-23T20:30:00+02:00"
+      "start": "2026-10-30T17:30:00+01:00",
+      "end": "2026-10-30T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,29 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-18T22:00:00.000Z",
-      "start": "2026-10-19T07:00:00.000Z",
-      "end": "2026-10-19T15:30:00.000Z"
+      "Date": "2026-10-25T23:00:00.000Z",
+      "end": "2026-10-26T16:30:00.000Z",
+      "start": "2026-10-26T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-19T22:00:00.000Z",
-      "start": "2026-10-20T07:00:00.000Z",
-      "end": "2026-10-20T15:30:00.000Z"
+      "Date": "2026-10-26T23:00:00.000Z",
+      "end": "2026-10-27T16:30:00.000Z",
+      "start": "2026-10-27T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-20T22:00:00.000Z",
-      "start": "2026-10-21T07:00:00.000Z",
-      "end": "2026-10-21T15:30:00.000Z"
+      "Date": "2026-10-27T23:00:00.000Z",
+      "end": "2026-10-28T16:30:00.000Z",
+      "start": "2026-10-28T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-21T22:00:00.000Z",
-      "start": "2026-10-22T07:00:00.000Z",
-      "end": "2026-10-22T15:30:00.000Z"
+      "Date": "2026-10-28T23:00:00.000Z",
+      "end": "2026-10-29T16:30:00.000Z",
+      "start": "2026-10-29T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-22T22:00:00.000Z",
-      "start": "2026-10-23T07:00:00.000Z",
-      "end": "2026-10-23T15:30:00.000Z"
+      "Date": "2026-10-29T23:00:00.000Z",
+      "end": "2026-10-30T16:30:00.000Z",
+      "start": "2026-10-30T08:00:00.000Z"
     }
   ]
 }
