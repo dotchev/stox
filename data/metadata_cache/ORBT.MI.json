@@ -5,37 +5,37 @@
   "fullExchangeName": "Milan",
   "instrumentType": "ETF",
   "firstTradeDate": "2026-08-03T09:00:00+02:00",
-  "regularMarketTime": "2026-10-09T12:04:13+02:00",
+  "regularMarketTime": "2026-10-19T16:01:14+02:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Rome",
-  "regularMarketPrice": 17.324,
-  "regularMarketChangePercent": 0.185,
-  "fulldayPrice": 17.324,
-  "fulldayChange": 0.032,
-  "fulldayChangePercent": 0.185,
+  "regularMarketPrice": 16.852,
+  "regularMarketChangePercent": 1.165,
+  "fulldayPrice": 16.852,
+  "fulldayChange": 0.194,
+  "fulldayChangePercent": 1.165,
   "fiftyTwoWeekHigh": 19.894,
-  "fiftyTwoWeekLow": 17.128,
-  "regularMarketDayHigh": 17.462,
-  "regularMarketDayLow": 17.462,
-  "regularMarketVolume": 600,
+  "fiftyTwoWeekLow": 16.826,
+  "regularMarketDayHigh": 16.852,
+  "regularMarketDayLow": 16.852,
+  "regularMarketVolume": 9,
   "longName": "First Trust Bloomberg Space Economy UCITS ETF Class A USD ACC",
   "shortName": "First Trust Bloomberg Space Eco",
   "chartPreviousClose": 17.218,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-09T08:00:00+02:00",
-      "end": "2026-10-09T09:00:00+02:00"
+      "start": "2026-10-23T08:00:00+02:00",
+      "end": "2026-10-23T09:00:00+02:00"
     },
     "regular": {
-      "start": "2026-10-09T09:00:00+02:00",
-      "end": "2026-10-09T17:30:00+02:00"
+      "start": "2026-10-23T09:00:00+02:00",
+      "end": "2026-10-23T17:30:00+02:00"
     },
     "post": {
-      "start": "2026-10-09T17:30:00+02:00",
-      "end": "2026-10-09T17:30:00+02:00"
+      "start": "2026-10-23T17:30:00+02:00",
+      "end": "2026-10-23T17:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -51,40 +51,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-05T22:00:00.000Z",
-      "pre_start": "2026-10-05T06:00:00.000Z",
-      "pre_end": "2026-10-05T07:00:00.000Z",
-      "start": "2026-10-06T07:00:00.000Z",
-      "end": "2026-10-06T15:30:00.000Z",
-      "post_start": "2026-10-05T15:30:00.000Z",
-      "post_end": "2026-10-05T15:30:00.000Z"
+      "Date": "2026-10-18T22:00:00.000Z",
+      "end": "2026-10-19T15:30:00.000Z",
+      "start": "2026-10-19T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-06T22:00:00.000Z",
-      "pre_start": "2026-10-06T06:00:00.000Z",
-      "pre_end": "2026-10-06T07:00:00.000Z",
-      "start": "2026-10-07T07:00:00.000Z",
-      "end": "2026-10-07T15:30:00.000Z",
-      "post_start": "2026-10-06T15:30:00.000Z",
-      "post_end": "2026-10-06T15:30:00.000Z"
+      "Date": "2026-10-19T22:00:00.000Z",
+      "end": "2026-10-20T15:30:00.000Z",
+      "start": "2026-10-20T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-07T22:00:00.000Z",
-      "pre_start": "2026-10-07T06:00:00.000Z",
-      "pre_end": "2026-10-07T07:00:00.000Z",
-      "start": "2026-10-08T07:00:00.000Z",
-      "end": "2026-10-08T15:30:00.000Z",
-      "post_start": "2026-10-07T15:30:00.000Z",
-      "post_end": "2026-10-07T15:30:00.000Z"
+      "Date": "2026-10-20T22:00:00.000Z",
+      "end": "2026-10-21T15:30:00.000Z",
+      "start": "2026-10-21T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-08T22:00:00.000Z",
-      "pre_start": "2026-10-08T06:00:00.000Z",
-      "pre_end": "2026-10-08T07:00:00.000Z",
-      "start": "2026-10-09T07:00:00.000Z",
-      "end": "2026-10-09T15:30:00.000Z",
-      "post_start": "2026-10-08T15:30:00.000Z",
-      "post_end": "2026-10-08T15:30:00.000Z"
+      "Date": "2026-10-21T22:00:00.000Z",
+      "end": "2026-10-22T15:30:00.000Z",
+      "start": "2026-10-22T07:00:00.000Z"
+    },
+    {
+      "Date": "2026-10-22T22:00:00.000Z",
+      "end": "2026-10-23T15:30:00.000Z",
+      "start": "2026-10-23T07:00:00.000Z"
     }
   ]
 }

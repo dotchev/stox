@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2014-09-05T09:00:00+02:00",
-  "regularMarketTime": "2026-10-09T17:36:07+02:00",
+  "regularMarketTime": "2026-10-23T17:36:01+02:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 88.95,
-  "regularMarketChangePercent": -0.213,
-  "fulldayPrice": 88.95,
-  "fulldayChange": -0.19,
-  "fulldayChangePercent": -0.213,
+  "regularMarketPrice": 82.6,
+  "regularMarketChangePercent": 0.487,
+  "fulldayPrice": 82.6,
+  "fulldayChange": 0.4,
+  "fulldayChangePercent": 0.487,
   "fiftyTwoWeekHigh": 92.23,
   "fiftyTwoWeekLow": 66.15,
-  "regularMarketDayHigh": 89.39,
-  "regularMarketDayLow": 88.79,
-  "regularMarketVolume": 32957,
+  "regularMarketDayHigh": 82.67,
+  "regularMarketDayLow": 81.59,
+  "regularMarketVolume": 14128,
   "longName": "Xtrackers MSCI World Momentum UCITS ETF 1C",
   "shortName": "Xtr.(IE) - MSCI World MomentumR",
-  "chartPreviousClose": 46.975,
+  "chartPreviousClose": 48.555,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-10-09T09:00:00+02:00",
-      "start": "2026-10-09T07:00:00+02:00"
+      "start": "2026-10-23T07:00:00+02:00",
+      "end": "2026-10-23T09:00:00+02:00"
     },
     "regular": {
-      "end": "2026-10-09T17:30:00+02:00",
-      "start": "2026-10-09T09:00:00+02:00"
+      "start": "2026-10-23T09:00:00+02:00",
+      "end": "2026-10-23T17:30:00+02:00"
     },
     "post": {
-      "end": "2026-10-09T20:30:00+02:00",
-      "start": "2026-10-09T17:30:00+02:00"
+      "start": "2026-10-23T17:30:00+02:00",
+      "end": "2026-10-23T20:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-04T22:00:00.000Z",
-      "pre_start": "2026-10-05T05:00:00.000Z",
-      "pre_end": "2026-10-05T07:00:00.000Z",
-      "start": "2026-10-05T07:00:00.000Z",
-      "end": "2026-10-05T15:30:00.000Z",
-      "post_start": "2026-10-05T15:30:00.000Z",
-      "post_end": "2026-10-05T18:30:00.000Z"
+      "Date": "2026-10-18T22:00:00.000Z",
+      "end": "2026-10-19T15:30:00.000Z",
+      "start": "2026-10-19T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-05T22:00:00.000Z",
-      "pre_start": "2026-10-06T05:00:00.000Z",
-      "pre_end": "2026-10-06T07:00:00.000Z",
-      "start": "2026-10-06T07:00:00.000Z",
-      "end": "2026-10-06T15:30:00.000Z",
-      "post_start": "2026-10-06T15:30:00.000Z",
-      "post_end": "2026-10-06T18:30:00.000Z"
+      "Date": "2026-10-19T22:00:00.000Z",
+      "end": "2026-10-20T15:30:00.000Z",
+      "start": "2026-10-20T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-06T22:00:00.000Z",
-      "pre_start": "2026-10-07T05:00:00.000Z",
-      "pre_end": "2026-10-07T07:00:00.000Z",
-      "start": "2026-10-07T07:00:00.000Z",
-      "end": "2026-10-07T15:30:00.000Z",
-      "post_start": "2026-10-07T15:30:00.000Z",
-      "post_end": "2026-10-07T18:30:00.000Z"
+      "Date": "2026-10-20T22:00:00.000Z",
+      "end": "2026-10-21T15:30:00.000Z",
+      "start": "2026-10-21T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-07T22:00:00.000Z",
-      "pre_start": "2026-10-08T05:00:00.000Z",
-      "pre_end": "2026-10-08T07:00:00.000Z",
-      "start": "2026-10-08T07:00:00.000Z",
-      "end": "2026-10-08T15:30:00.000Z",
-      "post_start": "2026-10-08T15:30:00.000Z",
-      "post_end": "2026-10-08T18:30:00.000Z"
+      "Date": "2026-10-21T22:00:00.000Z",
+      "end": "2026-10-22T15:30:00.000Z",
+      "start": "2026-10-22T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-08T22:00:00.000Z",
-      "pre_start": "2026-10-09T05:00:00.000Z",
-      "pre_end": "2026-10-09T07:00:00.000Z",
-      "start": "2026-10-09T07:00:00.000Z",
-      "end": "2026-10-09T15:30:00.000Z",
-      "post_start": "2026-10-09T15:30:00.000Z",
-      "post_end": "2026-10-09T18:30:00.000Z"
+      "Date": "2026-10-22T22:00:00.000Z",
+      "end": "2026-10-23T15:30:00.000Z",
+      "start": "2026-10-23T07:00:00.000Z"
     }
   ]
 }

@@ -5,37 +5,37 @@
   "fullExchangeName": "Milan",
   "instrumentType": "ETF",
   "firstTradeDate": "2015-02-17T09:00:00+01:00",
-  "regularMarketTime": "2026-10-16T17:35:08+02:00",
+  "regularMarketTime": "2026-10-23T17:35:20+02:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Rome",
-  "regularMarketPrice": 100.15,
-  "regularMarketChangePercent": -0.467,
-  "fulldayPrice": 100.15,
-  "fulldayChange": -0.47,
-  "fulldayChangePercent": -0.467,
+  "regularMarketPrice": 98.13,
+  "regularMarketChangePercent": 0.656,
+  "fulldayPrice": 98.13,
+  "fulldayChange": 0.64,
+  "fulldayChangePercent": 0.656,
   "fiftyTwoWeekHigh": 109.51,
   "fiftyTwoWeekLow": 78.57,
-  "regularMarketDayHigh": 101.18,
-  "regularMarketDayLow": 99.9,
-  "regularMarketVolume": 13275,
+  "regularMarketDayHigh": 98.27,
+  "regularMarketDayLow": 96.97,
+  "regularMarketVolume": 29246,
   "longName": "iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc)",
   "shortName": "ISHARES EDG MSCI WL MO FAC UCIT",
-  "chartPreviousClose": 57.21,
+  "chartPreviousClose": 57.83,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-16T08:00:00+02:00",
-      "end": "2026-10-16T09:00:00+02:00"
+      "start": "2026-10-23T08:00:00+02:00",
+      "end": "2026-10-23T09:00:00+02:00"
     },
     "regular": {
-      "start": "2026-10-16T09:00:00+02:00",
-      "end": "2026-10-16T17:30:00+02:00"
+      "start": "2026-10-23T09:00:00+02:00",
+      "end": "2026-10-23T17:30:00+02:00"
     },
     "post": {
-      "start": "2026-10-16T17:30:00+02:00",
-      "end": "2026-10-16T17:30:00+02:00"
+      "start": "2026-10-23T17:30:00+02:00",
+      "end": "2026-10-23T17:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-11T22:00:00.000Z",
-      "pre_start": "2026-10-12T06:00:00.000Z",
-      "pre_end": "2026-10-12T07:00:00.000Z",
-      "start": "2026-10-12T07:00:00.000Z",
-      "end": "2026-10-12T15:30:00.000Z",
-      "post_start": "2026-10-12T15:30:00.000Z",
-      "post_end": "2026-10-12T15:30:00.000Z"
+      "Date": "2026-10-18T22:00:00.000Z",
+      "end": "2026-10-19T15:30:00.000Z",
+      "start": "2026-10-19T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-12T22:00:00.000Z",
-      "pre_start": "2026-10-13T06:00:00.000Z",
-      "pre_end": "2026-10-13T07:00:00.000Z",
-      "start": "2026-10-13T07:00:00.000Z",
-      "end": "2026-10-13T15:30:00.000Z",
-      "post_start": "2026-10-13T15:30:00.000Z",
-      "post_end": "2026-10-13T15:30:00.000Z"
+      "Date": "2026-10-19T22:00:00.000Z",
+      "end": "2026-10-20T15:30:00.000Z",
+      "start": "2026-10-20T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-13T22:00:00.000Z",
-      "pre_start": "2026-10-14T06:00:00.000Z",
-      "pre_end": "2026-10-14T07:00:00.000Z",
-      "start": "2026-10-14T07:00:00.000Z",
-      "end": "2026-10-14T15:30:00.000Z",
-      "post_start": "2026-10-14T15:30:00.000Z",
-      "post_end": "2026-10-14T15:30:00.000Z"
+      "Date": "2026-10-20T22:00:00.000Z",
+      "end": "2026-10-21T15:30:00.000Z",
+      "start": "2026-10-21T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-14T22:00:00.000Z",
-      "pre_start": "2026-10-15T06:00:00.000Z",
-      "pre_end": "2026-10-15T07:00:00.000Z",
-      "start": "2026-10-15T07:00:00.000Z",
-      "end": "2026-10-15T15:30:00.000Z",
-      "post_start": "2026-10-15T15:30:00.000Z",
-      "post_end": "2026-10-15T15:30:00.000Z"
+      "Date": "2026-10-21T22:00:00.000Z",
+      "end": "2026-10-22T15:30:00.000Z",
+      "start": "2026-10-22T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-15T22:00:00.000Z",
-      "pre_start": "2026-10-16T06:00:00.000Z",
-      "pre_end": "2026-10-16T07:00:00.000Z",
-      "start": "2026-10-16T07:00:00.000Z",
-      "end": "2026-10-16T15:30:00.000Z",
-      "post_start": "2026-10-16T15:30:00.000Z",
-      "post_end": "2026-10-16T15:30:00.000Z"
+      "Date": "2026-10-22T22:00:00.000Z",
+      "end": "2026-10-23T15:30:00.000Z",
+      "start": "2026-10-23T07:00:00.000Z"
     }
   ]
 }

@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2024-12-09T09:00:00+01:00",
-  "regularMarketTime": "2026-10-16T17:35:47+02:00",
+  "regularMarketTime": "2026-10-23T17:35:52+02:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 9.647,
-  "regularMarketChangePercent": -1.852,
-  "fulldayPrice": 9.647,
-  "fulldayChange": -0.182,
-  "fulldayChangePercent": -1.852,
+  "regularMarketPrice": 9.541,
+  "regularMarketChangePercent": 1.049,
+  "fulldayPrice": 9.541,
+  "fulldayChange": 0.099,
+  "fulldayChangePercent": 1.049,
   "fiftyTwoWeekHigh": 10.854,
   "fiftyTwoWeekLow": 5.75,
-  "regularMarketDayHigh": 9.915,
-  "regularMarketDayLow": 9.612,
-  "regularMarketVolume": 104584,
+  "regularMarketDayHigh": 9.543,
+  "regularMarketDayLow": 9.372,
+  "regularMarketVolume": 221709,
   "longName": "iShares AI Infrastructure UCITS ETF USD (Acc)",
   "shortName": "iShs III-iShs AI Infrastr.ETF R",
   "chartPreviousClose": 4.914,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-16T07:00:00+02:00",
-      "end": "2026-10-16T09:00:00+02:00"
+      "end": "2026-10-23T09:00:00+02:00",
+      "start": "2026-10-23T07:00:00+02:00"
     },
     "regular": {
-      "start": "2026-10-16T09:00:00+02:00",
-      "end": "2026-10-16T17:30:00+02:00"
+      "end": "2026-10-23T17:30:00+02:00",
+      "start": "2026-10-23T09:00:00+02:00"
     },
     "post": {
-      "start": "2026-10-16T17:30:00+02:00",
-      "end": "2026-10-16T20:30:00+02:00"
+      "end": "2026-10-23T20:30:00+02:00",
+      "start": "2026-10-23T17:30:00+02:00"
     }
   },
   "dataGranularity": "1d",
@@ -54,49 +54,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-11T22:00:00.000Z",
-      "pre_start": "2026-10-12T05:00:00.000Z",
-      "pre_end": "2026-10-12T07:00:00.000Z",
-      "start": "2026-10-12T07:00:00.000Z",
-      "end": "2026-10-12T15:30:00.000Z",
-      "post_start": "2026-10-12T15:30:00.000Z",
-      "post_end": "2026-10-12T18:30:00.000Z"
+      "Date": "2026-10-18T22:00:00.000Z",
+      "end": "2026-10-19T15:30:00.000Z",
+      "start": "2026-10-19T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-12T22:00:00.000Z",
-      "pre_start": "2026-10-13T05:00:00.000Z",
-      "pre_end": "2026-10-13T07:00:00.000Z",
-      "start": "2026-10-13T07:00:00.000Z",
-      "end": "2026-10-13T15:30:00.000Z",
-      "post_start": "2026-10-13T15:30:00.000Z",
-      "post_end": "2026-10-13T18:30:00.000Z"
+      "Date": "2026-10-19T22:00:00.000Z",
+      "end": "2026-10-20T15:30:00.000Z",
+      "start": "2026-10-20T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-13T22:00:00.000Z",
-      "pre_start": "2026-10-14T05:00:00.000Z",
-      "pre_end": "2026-10-14T07:00:00.000Z",
-      "start": "2026-10-14T07:00:00.000Z",
-      "end": "2026-10-14T15:30:00.000Z",
-      "post_start": "2026-10-14T15:30:00.000Z",
-      "post_end": "2026-10-14T18:30:00.000Z"
+      "Date": "2026-10-20T22:00:00.000Z",
+      "end": "2026-10-21T15:30:00.000Z",
+      "start": "2026-10-21T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-14T22:00:00.000Z",
-      "pre_start": "2026-10-15T05:00:00.000Z",
-      "pre_end": "2026-10-15T07:00:00.000Z",
-      "start": "2026-10-15T07:00:00.000Z",
-      "end": "2026-10-15T15:30:00.000Z",
-      "post_start": "2026-10-15T15:30:00.000Z",
-      "post_end": "2026-10-15T18:30:00.000Z"
+      "Date": "2026-10-21T22:00:00.000Z",
+      "end": "2026-10-22T15:30:00.000Z",
+      "start": "2026-10-22T07:00:00.000Z"
     },
     {
-      "Date": "2026-10-15T22:00:00.000Z",
-      "pre_start": "2026-10-16T05:00:00.000Z",
-      "pre_end": "2026-10-16T07:00:00.000Z",
-      "start": "2026-10-16T07:00:00.000Z",
-      "end": "2026-10-16T15:30:00.000Z",
-      "post_start": "2026-10-16T15:30:00.000Z",
-      "post_end": "2026-10-16T18:30:00.000Z"
+      "Date": "2026-10-22T22:00:00.000Z",
+      "end": "2026-10-23T15:30:00.000Z",
+      "start": "2026-10-23T07:00:00.000Z"
     }
   ]
 }

@@ -1,36 +1,37 @@
 symbol,name,currency,weeks,gmean,std,sharpe
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,98,29.22%,7.67%,3.29
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,95,73.98%,23.23%,3.01
-TDIV.AS,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,156,26.00%,8.27%,2.66
-QTOP.AS,iShares VII PLC - iShares Nasdaq 100 Top 30 UCITS ETF USD (Acc),USD,86,32.28%,10.77%,2.63
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,102,29.21%,9.88%,2.55
-IBCZ.DE,iShares STOXX World Equity Multifactor UCITS ETF USD (Acc),EUR,156,21.53%,6.94%,2.53
-4GLD.DE,Xetra-Gold,EUR,156,41.15%,15.21%,2.44
-LVHI,Franklin International Low Volatility High Dividend Index ETF,USD,156,23.08%,7.92%,2.41
-TSWE.DE,VanEck World Equal Weight Screened UCITS ETF,EUR,156,20.10%,6.96%,2.31
-SPMO,Invesco S&P 500 Momentum ETF,USD,156,32.58%,12.46%,2.29
-IWDA.AS,iShares Core MSCI World UCITS ETF USD (Acc),EUR,156,19.44%,6.77%,2.28
-LYY0.DE,Amundi MSCI All Country World Swap UCITS ETF EUR Acc,EUR,156,19.86%,7.00%,2.27
-SPYG,State Street SPDR Portfolio S&P 500 Growth ETF,USD,156,25.17%,9.42%,2.25
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,156,24.12%,9.52%,2.11
-FTGM.DE,First Trust US Momentum UCITS ETF Class A USD Acc,EUR,113,24.70%,9.93%,2.09
-PSWD.DE,Invesco RAFI All-World Fundamental Value UCITS ETF,EUR,156,21.96%,8.80%,2.04
-QQQ,Invesco QQQ Trust,USD,156,23.45%,9.63%,2.02
-SPY,State Street SPDR S&P 500 ETF Trust,USD,156,19.75%,7.91%,1.99
-IWMO.MI,iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc),EUR,156,23.27%,9.92%,1.94
-XDEM.DE,Xtrackers MSCI World Momentum UCITS ETF 1C,EUR,156,23.44%,10.05%,1.94
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,156,30.75%,13.99%,1.91
-JEDI.DE,VanEck Space Innovators UCITS ETF A USD Acc,EUR,156,88.52%,45.84%,1.84
-FNGS,MicroSectors FANG+ ETN,USD,156,29.38%,14.58%,1.74
-QDVA.DE,iShares Edge MSCI USA Momentum Factor UCITS ETF USD (Acc),EUR,156,23.57%,11.75%,1.67
-XWEV.DE,Xtrackers MSCI World Value ESG UCITS ETF 1C,EUR,156,25.31%,13.00%,1.64
-MAGS,Roundhill Magnificent Seven ETF,USD,156,31.63%,17.00%,1.62
-CBUI.DE,iShares MSCI World Value Factor Advaced UCITS ETF USD (Acc),EUR,156,24.68%,13.15%,1.57
-5MVL.DE,iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc),EUR,156,36.19%,22.86%,1.41
-IS3Q.DE,iShares Edge MSCI World Quality Factor UCITS ETF USD (Acc),EUR,156,14.94%,8.08%,1.35
-CBUH.DE,iShares MSCI World Momentum Factor Advanced UCITS ETF USD (Acc),EUR,156,22.34%,14.10%,1.30
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,156,54.31%,38.87%,1.29
-XDEV.DE,Xtrackers MSCI World Value UCITS ETF 1C,EUR,156,28.88%,19.36%,1.29
-IS3S.DE,iShares Edge MSCI World Value Factor UCITS ETF USD (Acc),EUR,156,28.65%,19.23%,1.28
-SMH,VanEck Semiconductor ETF,USD,156,49.12%,43.41%,1.04
-QDVI.DE,iShares Edge MSCI USA Value Factor UCITS ETF USD (Acc),EUR,156,29.35%,26.54%,0.96
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,98,73.01%,22.94%,3.01
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,101,28.34%,8.18%,2.97
+TDIV.AS,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,156,25.85%,8.29%,2.64
+QTOP.AS,iShares VII PLC - iShares Nasdaq 100 Top 30 UCITS ETF USD (Acc),USD,89,31.37%,10.86%,2.52
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,105,28.75%,9.89%,2.50
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,105,21.34%,6.93%,2.50
+IBCZ.DE,iShares STOXX World Equity Multifactor UCITS ETF USD (Acc),EUR,156,21.09%,7.00%,2.44
+SPMO,Invesco S&P 500 Momentum ETF,USD,156,31.37%,11.32%,2.42
+LVHI,Franklin International Low Volatility High Dividend Index ETF,USD,156,23.12%,7.93%,2.41
+IWDA.AS,iShares Core MSCI World UCITS ETF USD (Acc),EUR,156,18.91%,6.21%,2.40
+VWCE.DE,Vanguard FTSE All-World UCITS ETF USD Accumulation,EUR,156,19.56%,6.51%,2.39
+VGVF.DE,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,156,19.63%,6.61%,2.36
+IUSQ.DE,iShares MSCI All Country World UCITS ETF USD Acc,EUR,156,19.54%,6.63%,2.34
+LYY0.DE,Amundi MSCI All Country World Swap UCITS ETF EUR Acc,EUR,156,19.38%,6.57%,2.34
+TSWE.DE,VanEck World Equal Weight Screened UCITS ETF,EUR,156,19.75%,6.75%,2.33
+SPYG,State Street SPDR Portfolio S&P 500 Growth ETF,USD,156,24.41%,8.93%,2.29
+SPYI.DE,State Street SPDR MSCI All Country World Investable Market UCITS ETF,EUR,156,19.33%,7.17%,2.14
+4GLD.DE,Xetra-Gold,EUR,156,39.84%,16.78%,2.14
+FTGM.DE,First Trust US Momentum UCITS ETF Class A USD Acc,EUR,116,24.67%,9.70%,2.13
+SPYM,State Street SPDR Portfolio S&P 500 ETF,USD,156,19.22%,7.15%,2.13
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,156,23.24%,9.12%,2.11
+IWMO.MI,iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc),EUR,156,22.51%,8.98%,2.06
+QQQ,Invesco QQQ Trust,USD,156,22.90%,9.25%,2.04
+MGK,Vanguard Morningstar Mega Cap Growth ETF,USD,156,21.56%,8.82%,1.99
+XDEM.DE,Xtrackers MSCI World Momentum UCITS ETF 1C,EUR,156,22.50%,9.39%,1.97
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,156,30.28%,13.90%,1.89
+XLG,Invesco S&P 500 Top 50 ETF,USD,156,20.27%,8.80%,1.85
+JEDI.DE,VanEck Space Innovators UCITS ETF A USD Acc,EUR,156,87.45%,46.90%,1.78
+FNGS,MicroSectors FANG+ ETN,USD,156,28.17%,13.80%,1.75
+QDVA.DE,iShares Edge MSCI USA Momentum Factor UCITS ETF USD (Acc),EUR,156,22.78%,10.83%,1.73
+MAGS,Roundhill Magnificent Seven ETF,USD,156,30.25%,16.44%,1.60
+IS3Q.DE,iShares Edge MSCI World Quality Factor UCITS ETF USD (Acc),EUR,156,14.46%,7.27%,1.44
+CBUH.DE,iShares MSCI World Momentum Factor Advanced UCITS ETF USD (Acc),EUR,156,22.17%,14.04%,1.29
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,156,53.40%,38.41%,1.29
+SMH,VanEck Semiconductor ETF,USD,156,48.76%,43.32%,1.03
+USD,ProShares Ultra Semiconductors,USD,156,77.92%,84.42%,0.88
