@@ -51,7 +51,7 @@ symbols = [
     'UFO', # Procure Space ETF
     'ROKT', # State Street SPDR S&P Kensho Final Frontiers ETF
     'JEDI.DE', # VanEck Space Innovators UCITS ETF A USD Acc
-    'WSPC.PA', # WisdomTree Space Economy UCITS ETF USD Acc
+    'WSPC.DE', # WisdomTree Space Economy UCITS ETF USD Acc
     'SPCX', # Space Exploration Technologies Corp.
     'RKLB', # Rocket Lab Corporation
     'PL', # Planet Labs PBC
@@ -145,6 +145,11 @@ def main():
     for symbol in symbols:
         # one daily fetch per symbol - the weekly bars are aggregated from it
         daily = get_stock_history(symbol, period='5y', interval='1d', cache_days=cache_days)
+        if daily.empty:
+            # Yahoo returns no rows for unknown tickers and transient failures;
+            # skip the symbol rather than failing the whole run
+            print(f'WARNING: skipping {symbol}, no history')
+            continue
         weekly = to_weekly(daily, symbol).tail(history_weeks)
 
         if len(weekly) < history_weeks:
