@@ -13,7 +13,8 @@ risk_free_return = 4/100
 history_weeks = 3 * 52 # 3Y
 change_weeks = 52 # 1Y
 range_window = 4 # ~ month
-cache_days = 5 # how long to cache stock data
+cache_days = 1 # how long to cache price history
+revenue_cache_days = 5 # revenue changes once a quarter
 revenue_cache_file = 'data/revenue_cache.json'
 
 symbols = [
@@ -110,7 +111,7 @@ def get_revenue_growth(symbol):
 
     today = date.today()
     cached = revenue_cache.get(symbol)
-    if cached and (today - date.fromisoformat(cached['fetched'])).days < cache_days:
+    if cached and (today - date.fromisoformat(cached['fetched'])).days < revenue_cache_days:
         return cached['growth']
 
     growth, quarter = fetch_revenue_growth(symbol)
