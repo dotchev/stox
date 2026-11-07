@@ -2,13 +2,8 @@ name: Update Folio
 
 on:
   schedule:
-    # Friday 21:41 UTC, after the US close (20:00 UTC in summer, 21:00 UTC in
-    # winter). Scheduled runs can land 4-6 hours late, so this still finishes
-    # well before the Saturday 06:53 UTC sheet update that reads data/folio.csv.
-    - cron: '41 21 * * 5'
-    # Backup run in case the first one is dropped or fails. It is harmless if
-    # both run: the second commits only if folio.csv changed.
-    - cron: '13 1 * * 6'
+    # Saturday 05:13 UTC
+    - cron: '13 5 * * 6'
   workflow_dispatch: {}
 
 permissions:
