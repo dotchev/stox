@@ -9,9 +9,9 @@ on:
 permissions:
   contents: write
 
-# Never run two folio updates at once (e.g. a late first run overlapping the backup)
+# Jobs committing data/ run one at a time, so their cache commits never conflict
 concurrency:
-  group: folio
+  group: data
   cancel-in-progress: false
 
 jobs:
@@ -19,8 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # The tip of main, not the triggering commit: a run queued behind another
+      # job picks up the caches that job just committed
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -29,11 +33,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      # Checkout gives the committed caches a fresh mtime, so the script
-      # would treat last week's prices as current. Age them to force live data.
-      - name: Expire price caches
-        run: touch -d '10 days ago' data/history_cache/*_5y_1d.csv
 
       - name: Run folio
         run: python folio.py
@@ -55,17 +54,14 @@ jobs:
           print(f'folio.csv OK: {len(data)} rows')
           EOF
 
-      # Commit only folio.csv: the refreshed caches would conflict with the other
-      # jobs that update the same symbols. The sheet update checks this commit's
-      # time for freshness.
+      # folio.csv together with the refreshed caches. The sheet update checks
+      # this commit's time for freshness.
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/folio.csv
+          git add data/
           git diff --cached --quiet && exit 0
           git commit -m "Update folio"
-          # Discard the refreshed caches, pull refuses to rebase a dirty tree
-          git checkout -- .
           git pull --rebase
           git push

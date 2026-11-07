@@ -9,12 +9,21 @@ on:
 permissions:
   contents: write
 
+# Jobs committing data/ run one at a time, so their cache commits never conflict
+concurrency:
+  group: data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # The tip of main, not the triggering commit: a run queued behind another
+      # job picks up the caches that job just committed
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -27,16 +36,13 @@ jobs:
       - name: Update 52-week returns
         run: python stocks-52w.py
 
-      # Commit only the report: the fetched caches would conflict with other
-      # jobs updating the same symbols
+      # The report together with the refreshed caches
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stocks-52w.md
+          git add stocks-52w.md data/
           git diff --cached --quiet && exit 0
           git commit -m "Update 52-week returns"
-          # Discard the refreshed caches, pull refuses to rebase a dirty tree
-          git checkout -- .
           git pull --rebase
           git push
