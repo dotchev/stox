@@ -83,7 +83,7 @@ def fmt(x, spec):
 
 def fmt_t200(t200):
     text = fmt(t200, '.0%')
-    if text and (t200 > 0.75 or t200 < 0.25):
+    if text and (t200 > 0.9 or t200 < 0.1):
         return f'**{text}**'
     return text
 
