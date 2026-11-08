@@ -1,14 +1,14 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,19.58%,9.72%,1.60,51%
-XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,27.34%,21.63%,1.08,25%
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,45.05%,39.91%,1.03,9%
-VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,15.34%,11.55%,0.98,36%
-SPY,State Street SPDR S&P 500 ETF Trust,USD,261,16.01%,12.32%,0.97,17%
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,26.45%,23.38%,0.96,21%
-QQQ,Invesco QQQ Trust,USD,261,20.27%,18.21%,0.89,12%
-TOPT,iShares Top 20 U.S. Stocks ETF,USD,107,,,,7%
-MAGS,Roundhill Magnificent Seven ETF,USD,187,,,,14%
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,107,,,,1%
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,103,,,,0%
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,100,,,,0%
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,175,,,,4%
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.1958,0.0972,1.60,0.51
+XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.2734,0.2163,1.08,0.25
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.4505,0.3991,1.03,0.09
+VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1534,0.1155,0.98,0.36
+SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.1601,0.1232,0.97,0.17
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.2645,0.2338,0.96,0.21
+QQQ,Invesco QQQ Trust,USD,261,0.2027,0.1821,0.89,0.12
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,107,,,,0.07
+MAGS,Roundhill Magnificent Seven ETF,USD,187,,,,0.14
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,107,,,,0.01
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,103,,,,0.00
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,100,,,,0.00
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,175,,,,0.04

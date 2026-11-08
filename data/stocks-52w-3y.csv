@@ -1,14 +1,14 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,25.82%,8.31%,2.63,51%
-VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,19.30%,6.43%,2.38,36%
-SPY,State Street SPDR S&P 500 ETF Trust,USD,261,18.68%,6.85%,2.14,17%
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,175,22.70%,8.84%,2.11,4%
-QQQ,Invesco QQQ Trust,USD,261,22.40%,9.29%,1.98,12%
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,29.94%,13.84%,1.87,21%
-XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,27.81%,13.19%,1.80,25%
-MAGS,Roundhill Magnificent Seven ETF,USD,187,29.14%,16.33%,1.54,14%
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,52.49%,38.38%,1.26,9%
-TOPT,iShares Top 20 U.S. Stocks ETF,USD,107,,,,7%
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,107,,,,1%
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,103,,,,0%
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,100,,,,0%
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.2582,0.0831,2.63,0.51
+VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1930,0.0643,2.38,0.36
+SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.1868,0.0685,2.14,0.17
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,175,0.2270,0.0884,2.11,0.04
+QQQ,Invesco QQQ Trust,USD,261,0.2240,0.0929,1.98,0.12
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.2994,0.1384,1.87,0.21
+XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.2781,0.1319,1.80,0.25
+MAGS,Roundhill Magnificent Seven ETF,USD,187,0.2914,0.1633,1.54,0.14
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.5249,0.3838,1.26,0.09
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,107,,,,0.07
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,107,,,,0.01
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,103,,,,0.00
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,100,,,,0.00
