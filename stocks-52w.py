@@ -95,12 +95,12 @@ def fmt_t200(t200):
 
 
 def formatted(df):
-    """The stats as display strings, as in the report table."""
+    """The stats for the CSVs: fractions (0.1958 = 19.58%), at the report's precision."""
     return df.assign(
-        gmean=df.gmean.map(lambda x: fmt(x, '.2%')),
-        std=df['std'].map(lambda x: fmt(x, '.2%')),
+        gmean=df.gmean.map(lambda x: fmt(x, '.4f')),
+        std=df['std'].map(lambda x: fmt(x, '.4f')),
         sharpe=df.sharpe.map(lambda x: fmt(x, '.2f')),
-        t200=df.t200.map(lambda x: fmt(x, '.0%')),
+        t200=df.t200.map(lambda x: fmt(x, '.2f')),
     )
 
 
