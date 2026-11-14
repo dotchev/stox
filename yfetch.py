@@ -140,23 +140,47 @@ def _write_history_cache(cache_file, history):
         history.to_csv(fh)
 
 
+# Yahoo sometimes returns the latest bar with volume but no prices, and fills
+# it in hours later. A cache ending in such a bar is retried after this long
+# instead of waiting the full cache_days. The refetch rewrites the fetch stamp,
+# so a bar that stays empty is retried at most once per this interval.
+_incomplete_max_age = timedelta(hours=2)
+
+
+def _incomplete_tail(history):
+    """Whether the latest bar has no closing price yet."""
+    return not history.empty and pd.isna(history['Close'].iloc[-1])
+
+
+def _complete(history):
+    """Drop the trailing bars Yahoo has not filled in yet, so that callers never
+    see a NaN latest price. The cache file keeps them, to trigger the retry."""
+    n = len(history)
+    while n and pd.isna(history['Close'].iloc[n - 1]):
+        n -= 1
+    return history.iloc[:n]
+
+
 def _read_history_cache(cache_file, max_age):
-    """Read a cached history if it was fetched less than max_age ago, else
-    return None. Caches without a fetch stamp (written before it was added)
-    count as stale."""
+    """Read a cached history and tell whether it is still fresh.
+
+    Returns (history, fresh). history is None when the file is unusable, e.g. a
+    cache without a fetch stamp (written before it was added). A cache is fresh
+    if it was fetched less than max_age ago, or less than _incomplete_max_age
+    ago when its latest bar is incomplete."""
     with open(cache_file, encoding='utf-8') as fh:
         first = fh.readline()
         if not first.startswith(_fetched_prefix):
-            return None
+            return None, False
         try:
             fetched = datetime.fromisoformat(first[len(_fetched_prefix):].strip())
         except ValueError:
-            return None
-        if datetime.now(timezone.utc) - fetched >= max_age:
-            return None
+            return None, False
         history = pd.read_csv(fh, index_col=0, parse_dates=True)
     history.index = pd.to_datetime(history.index, utc=True)
-    return history
+    if _incomplete_tail(history):
+        max_age = min(max_age, _incomplete_max_age)
+    return history, datetime.now(timezone.utc) - fetched < max_age
 
 
 def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
@@ -175,18 +199,20 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
         history_cache_dir, f"{symbol}_{period}_{interval}.csv")
 
     # Check if cache exists and is recent enough
+    cached = None
     if os.path.exists(cache_file):
-        history = _read_history_cache(cache_file, timedelta(days=cache_days))
-        if history is not None:
-            # print(f"Loaded cached history for {symbol} ({len(history)} rows)")
-            if not history.empty:  # an empty cache file is a stale failed fetch
-                return history
+        cached, fresh = _read_history_cache(cache_file, timedelta(days=cache_days))
+        if cached is not None and cached.empty:
+            cached = None  # an empty cache file is a stale failed fetch
+        if cached is not None and fresh:
+            return _complete(cached)
 
     # Fetch fresh data
     delay()
     ticker_data = yf.Ticker(symbol)
     history = ticker_data.history(interval=interval, period=period)
-    print(f"Fetched history for {symbol} ({len(history)} {_interval_unit(interval)})")
+    print(f"Fetched history for {symbol} ({len(history)} {_interval_unit(interval)})"
+          + (", latest bar incomplete" if _incomplete_tail(history) else ""))
 
     # Capture the full metadata from the same request (no extra API call)
     try:
@@ -198,11 +224,15 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     # Cache the result, but never an empty fetch: Yahoo returns no rows on
     # transient failures, and caching that would hide good data for cache_days.
     if history.empty:
+        if cached is not None:
+            # A failed refetch must not discard a cache that is merely stale
+            print(f"No history for {symbol}, using the stale cache")
+            return _complete(cached)
         print(f"No history for {symbol}, not caching")
     else:
         _write_history_cache(cache_file, history)
 
-    return history
+    return _complete(history)
 
 
 _weekly_agg = {

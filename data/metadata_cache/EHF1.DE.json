@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2018-02-02T09:00:00+01:00",
-  "regularMarketTime": "2026-10-09T17:36:06+02:00",
+  "regularMarketTime": "2026-11-13T17:36:10+01:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 241.05,
-  "regularMarketChangePercent": 0.985,
-  "fulldayPrice": 241.05,
-  "fulldayChange": 2.35,
-  "fulldayChangePercent": 0.985,
-  "fiftyTwoWeekHigh": 251.25,
-  "fiftyTwoWeekLow": 205.0,
-  "regularMarketDayHigh": 241.75,
-  "regularMarketDayLow": 239.95,
-  "regularMarketVolume": 13469,
+  "regularMarketPrice": 266.35,
+  "regularMarketChangePercent": 0.718,
+  "fulldayPrice": 266.35,
+  "fulldayChange": 1.9,
+  "fulldayChangePercent": 0.718,
+  "fiftyTwoWeekHigh": 266.85,
+  "fiftyTwoWeekLow": 209.55,
+  "regularMarketDayHigh": 266.85,
+  "regularMarketDayLow": 264.7,
+  "regularMarketVolume": 696,
   "longName": "Amundi Index Solutions - Amundi MSCI Europe High Dividend Factor UCITS ETF-C",
   "shortName": "AIS-Amundi MSCI EUROPE H.D.FA.N",
-  "chartPreviousClose": 133.32,
+  "chartPreviousClose": 139.44,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-10-09T09:00:00+02:00",
-      "start": "2026-10-09T07:00:00+02:00"
+      "start": "2026-11-13T07:00:00+01:00",
+      "end": "2026-11-13T09:00:00+01:00"
     },
     "regular": {
-      "end": "2026-10-09T17:30:00+02:00",
-      "start": "2026-10-09T09:00:00+02:00"
+      "start": "2026-11-13T09:00:00+01:00",
+      "end": "2026-11-13T17:30:00+01:00"
     },
     "post": {
-      "end": "2026-10-09T20:30:00+02:00",
-      "start": "2026-10-09T17:30:00+02:00"
+      "start": "2026-11-13T17:30:00+01:00",
+      "end": "2026-11-13T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-04T22:00:00.000Z",
-      "pre_start": "2026-10-05T05:00:00.000Z",
-      "pre_end": "2026-10-05T07:00:00.000Z",
-      "start": "2026-10-05T07:00:00.000Z",
-      "end": "2026-10-05T15:30:00.000Z",
-      "post_start": "2026-10-05T15:30:00.000Z",
-      "post_end": "2026-10-05T18:30:00.000Z"
+      "Date": "2026-11-08T23:00:00.000Z",
+      "end": "2026-11-09T16:30:00.000Z",
+      "start": "2026-11-09T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-05T22:00:00.000Z",
-      "pre_start": "2026-10-06T05:00:00.000Z",
-      "pre_end": "2026-10-06T07:00:00.000Z",
-      "start": "2026-10-06T07:00:00.000Z",
-      "end": "2026-10-06T15:30:00.000Z",
-      "post_start": "2026-10-06T15:30:00.000Z",
-      "post_end": "2026-10-06T18:30:00.000Z"
+      "Date": "2026-11-09T23:00:00.000Z",
+      "end": "2026-11-10T16:30:00.000Z",
+      "start": "2026-11-10T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-06T22:00:00.000Z",
-      "pre_start": "2026-10-07T05:00:00.000Z",
-      "pre_end": "2026-10-07T07:00:00.000Z",
-      "start": "2026-10-07T07:00:00.000Z",
-      "end": "2026-10-07T15:30:00.000Z",
-      "post_start": "2026-10-07T15:30:00.000Z",
-      "post_end": "2026-10-07T18:30:00.000Z"
+      "Date": "2026-11-10T23:00:00.000Z",
+      "end": "2026-11-11T16:30:00.000Z",
+      "start": "2026-11-11T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-07T22:00:00.000Z",
-      "pre_start": "2026-10-08T05:00:00.000Z",
-      "pre_end": "2026-10-08T07:00:00.000Z",
-      "start": "2026-10-08T07:00:00.000Z",
-      "end": "2026-10-08T15:30:00.000Z",
-      "post_start": "2026-10-08T15:30:00.000Z",
-      "post_end": "2026-10-08T18:30:00.000Z"
+      "Date": "2026-11-11T23:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "start": "2026-11-12T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-08T22:00:00.000Z",
-      "pre_start": "2026-10-09T05:00:00.000Z",
-      "pre_end": "2026-10-09T07:00:00.000Z",
-      "start": "2026-10-09T07:00:00.000Z",
-      "end": "2026-10-09T15:30:00.000Z",
-      "post_start": "2026-10-09T15:30:00.000Z",
-      "post_end": "2026-10-09T18:30:00.000Z"
+      "Date": "2026-11-12T23:00:00.000Z",
+      "end": "2026-11-13T16:30:00.000Z",
+      "start": "2026-11-13T08:00:00.000Z"
     }
   ]
 }

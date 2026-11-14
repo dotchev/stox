@@ -5,37 +5,37 @@
   "fullExchangeName": "NasdaqGM",
   "instrumentType": "ETF",
   "firstTradeDate": "2001-07-13T09:30:00-04:00",
-  "regularMarketTime": "2026-10-09T16:00:00-04:00",
+  "regularMarketTime": "2026-11-13T16:00:00-05:00",
   "hasPrePostMarketData": true,
-  "gmtoffset": -14400,
-  "timezone": "EDT",
+  "gmtoffset": -18000,
+  "timezone": "EST",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 559.4,
-  "regularMarketChangePercent": -0.689,
-  "fulldayPrice": 559.4,
-  "fulldayChange": -3.48,
-  "fulldayChangePercent": -0.618,
-  "fiftyTwoWeekHigh": 655.95,
-  "fiftyTwoWeekLow": 260.44,
-  "regularMarketDayHigh": 571.34,
-  "regularMarketDayLow": 557.265,
-  "regularMarketVolume": 4897190,
+  "regularMarketPrice": 149.3,
+  "regularMarketChangePercent": -3.671,
+  "fulldayPrice": 149.3,
+  "fulldayChange": -8.33,
+  "fulldayChangePercent": -5.375,
+  "fiftyTwoWeekHigh": 218.65,
+  "fiftyTwoWeekLow": 86.813,
+  "regularMarketDayHigh": 154.37,
+  "regularMarketDayLow": 144.64,
+  "regularMarketVolume": 45999077,
   "longName": "iShares Semiconductor ETF",
   "shortName": "iShares PHLX SOX Semiconductor ",
-  "chartPreviousClose": 147.853,
+  "chartPreviousClose": 58.183,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-10-09T09:30:00-04:00",
-      "start": "2026-10-09T04:00:00-04:00"
+      "start": "2026-11-13T04:00:00-05:00",
+      "end": "2026-11-13T09:30:00-05:00"
     },
     "regular": {
-      "end": "2026-10-09T16:00:00-04:00",
-      "start": "2026-10-09T09:30:00-04:00"
+      "start": "2026-11-13T09:30:00-05:00",
+      "end": "2026-11-13T16:00:00-05:00"
     },
     "post": {
-      "end": "2026-10-09T20:00:00-04:00",
-      "start": "2026-10-09T16:00:00-04:00"
+      "start": "2026-11-13T16:00:00-05:00",
+      "end": "2026-11-13T20:00:00-05:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-05T04:00:00.000Z",
-      "pre_start": "2026-10-05T08:00:00.000Z",
-      "pre_end": "2026-10-05T13:30:00.000Z",
-      "start": "2026-10-05T13:30:00.000Z",
-      "end": "2026-10-05T20:00:00.000Z",
-      "post_start": "2026-10-05T20:00:00.000Z",
-      "post_end": "2026-10-06T00:00:00.000Z"
+      "Date": "2026-11-09T05:00:00.000Z",
+      "pre_start": "2026-11-09T09:00:00.000Z",
+      "pre_end": "2026-11-09T14:30:00.000Z",
+      "start": "2026-11-09T14:30:00.000Z",
+      "end": "2026-11-09T21:00:00.000Z",
+      "post_start": "2026-11-09T21:00:00.000Z",
+      "post_end": "2026-11-10T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-06T04:00:00.000Z",
-      "pre_start": "2026-10-06T08:00:00.000Z",
-      "pre_end": "2026-10-06T13:30:00.000Z",
-      "start": "2026-10-06T13:30:00.000Z",
-      "end": "2026-10-06T20:00:00.000Z",
-      "post_start": "2026-10-06T20:00:00.000Z",
-      "post_end": "2026-10-07T00:00:00.000Z"
+      "Date": "2026-11-10T05:00:00.000Z",
+      "pre_start": "2026-11-10T09:00:00.000Z",
+      "pre_end": "2026-11-10T14:30:00.000Z",
+      "start": "2026-11-10T14:30:00.000Z",
+      "end": "2026-11-10T21:00:00.000Z",
+      "post_start": "2026-11-10T21:00:00.000Z",
+      "post_end": "2026-11-11T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-07T04:00:00.000Z",
-      "pre_start": "2026-10-07T08:00:00.000Z",
-      "pre_end": "2026-10-07T13:30:00.000Z",
-      "start": "2026-10-07T13:30:00.000Z",
-      "end": "2026-10-07T20:00:00.000Z",
-      "post_start": "2026-10-07T20:00:00.000Z",
-      "post_end": "2026-10-08T00:00:00.000Z"
+      "Date": "2026-11-11T05:00:00.000Z",
+      "pre_start": "2026-11-11T09:00:00.000Z",
+      "pre_end": "2026-11-11T14:30:00.000Z",
+      "start": "2026-11-11T14:30:00.000Z",
+      "end": "2026-11-11T21:00:00.000Z",
+      "post_start": "2026-11-11T21:00:00.000Z",
+      "post_end": "2026-11-12T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-08T04:00:00.000Z",
-      "pre_start": "2026-10-08T08:00:00.000Z",
-      "pre_end": "2026-10-08T13:30:00.000Z",
-      "start": "2026-10-08T13:30:00.000Z",
-      "end": "2026-10-08T20:00:00.000Z",
-      "post_start": "2026-10-08T20:00:00.000Z",
-      "post_end": "2026-10-09T00:00:00.000Z"
+      "Date": "2026-11-12T05:00:00.000Z",
+      "pre_start": "2026-11-12T09:00:00.000Z",
+      "pre_end": "2026-11-12T14:30:00.000Z",
+      "start": "2026-11-12T14:30:00.000Z",
+      "end": "2026-11-12T21:00:00.000Z",
+      "post_start": "2026-11-12T21:00:00.000Z",
+      "post_end": "2026-11-13T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-09T04:00:00.000Z",
-      "pre_start": "2026-10-09T08:00:00.000Z",
-      "pre_end": "2026-10-09T13:30:00.000Z",
-      "start": "2026-10-09T13:30:00.000Z",
-      "end": "2026-10-09T20:00:00.000Z",
-      "post_start": "2026-10-09T20:00:00.000Z",
-      "post_end": "2026-10-10T00:00:00.000Z"
+      "Date": "2026-11-13T05:00:00.000Z",
+      "pre_start": "2026-11-13T09:00:00.000Z",
+      "pre_end": "2026-11-13T14:30:00.000Z",
+      "start": "2026-11-13T14:30:00.000Z",
+      "end": "2026-11-13T21:00:00.000Z",
+      "post_start": "2026-11-13T21:00:00.000Z",
+      "post_end": "2026-11-14T01:00:00.000Z"
     }
   ]
 }

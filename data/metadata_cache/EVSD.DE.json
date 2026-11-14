@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2025-09-08T09:00:00+02:00",
-  "regularMarketTime": "2026-10-09T17:36:14+02:00",
+  "regularMarketTime": "2026-11-13T17:36:04+01:00",
   "hasPrePostMarketData": false,
-  "gmtoffset": 7200,
-  "timezone": "CEST",
+  "gmtoffset": 3600,
+  "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 20.44,
-  "regularMarketChangePercent": 0.938,
-  "fulldayPrice": 20.44,
-  "fulldayChange": 0.19,
-  "fulldayChangePercent": 0.938,
-  "fiftyTwoWeekHigh": 21.205,
-  "fiftyTwoWeekLow": 14.824,
-  "regularMarketDayHigh": 20.505,
-  "regularMarketDayLow": 20.24,
-  "regularMarketVolume": 17211,
+  "regularMarketPrice": 20.56,
+  "regularMarketChangePercent": 0.342,
+  "fulldayPrice": 20.56,
+  "fulldayChange": 0.07,
+  "fulldayChangePercent": 0.342,
+  "fiftyTwoWeekHigh": 21.845,
+  "fiftyTwoWeekLow": 15.17,
+  "regularMarketDayHigh": 20.605,
+  "regularMarketDayLow": 20.495,
+  "regularMarketVolume": 20359,
   "longName": "Global X European Superdividend UCITS ETF EUR Distribution",
   "shortName": "Gl X Eur.SUPERDIVIDEND ETF    R",
   "chartPreviousClose": 15.284,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-10-09T09:00:00+02:00",
-      "start": "2026-10-09T07:00:00+02:00"
+      "start": "2026-11-13T07:00:00+01:00",
+      "end": "2026-11-13T09:00:00+01:00"
     },
     "regular": {
-      "end": "2026-10-09T17:30:00+02:00",
-      "start": "2026-10-09T09:00:00+02:00"
+      "start": "2026-11-13T09:00:00+01:00",
+      "end": "2026-11-13T17:30:00+01:00"
     },
     "post": {
-      "end": "2026-10-09T20:30:00+02:00",
-      "start": "2026-10-09T17:30:00+02:00"
+      "start": "2026-11-13T17:30:00+01:00",
+      "end": "2026-11-13T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -54,49 +54,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-04T22:00:00.000Z",
-      "pre_start": "2026-10-05T05:00:00.000Z",
-      "pre_end": "2026-10-05T07:00:00.000Z",
-      "start": "2026-10-05T07:00:00.000Z",
-      "end": "2026-10-05T15:30:00.000Z",
-      "post_start": "2026-10-05T15:30:00.000Z",
-      "post_end": "2026-10-05T18:30:00.000Z"
+      "Date": "2026-11-08T23:00:00.000Z",
+      "end": "2026-11-09T16:30:00.000Z",
+      "start": "2026-11-09T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-05T22:00:00.000Z",
-      "pre_start": "2026-10-06T05:00:00.000Z",
-      "pre_end": "2026-10-06T07:00:00.000Z",
-      "start": "2026-10-06T07:00:00.000Z",
-      "end": "2026-10-06T15:30:00.000Z",
-      "post_start": "2026-10-06T15:30:00.000Z",
-      "post_end": "2026-10-06T18:30:00.000Z"
+      "Date": "2026-11-09T23:00:00.000Z",
+      "end": "2026-11-10T16:30:00.000Z",
+      "start": "2026-11-10T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-06T22:00:00.000Z",
-      "pre_start": "2026-10-07T05:00:00.000Z",
-      "pre_end": "2026-10-07T07:00:00.000Z",
-      "start": "2026-10-07T07:00:00.000Z",
-      "end": "2026-10-07T15:30:00.000Z",
-      "post_start": "2026-10-07T15:30:00.000Z",
-      "post_end": "2026-10-07T18:30:00.000Z"
+      "Date": "2026-11-10T23:00:00.000Z",
+      "end": "2026-11-11T16:30:00.000Z",
+      "start": "2026-11-11T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-07T22:00:00.000Z",
-      "pre_start": "2026-10-08T05:00:00.000Z",
-      "pre_end": "2026-10-08T07:00:00.000Z",
-      "start": "2026-10-08T07:00:00.000Z",
-      "end": "2026-10-08T15:30:00.000Z",
-      "post_start": "2026-10-08T15:30:00.000Z",
-      "post_end": "2026-10-08T18:30:00.000Z"
+      "Date": "2026-11-11T23:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "start": "2026-11-12T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-08T22:00:00.000Z",
-      "pre_start": "2026-10-09T05:00:00.000Z",
-      "pre_end": "2026-10-09T07:00:00.000Z",
-      "start": "2026-10-09T07:00:00.000Z",
-      "end": "2026-10-09T15:30:00.000Z",
-      "post_start": "2026-10-09T15:30:00.000Z",
-      "post_end": "2026-10-09T18:30:00.000Z"
+      "Date": "2026-11-12T23:00:00.000Z",
+      "end": "2026-11-13T16:30:00.000Z",
+      "start": "2026-11-13T08:00:00.000Z"
     }
   ]
 }
