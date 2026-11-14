@@ -10,19 +10,19 @@ within its 5-year history. Empty if history < 200 days.
 
 Return Period: last 101 weeks (limited by AIFS.DE)
 
-_Last updated: 2026-11-14 12:20 UTC_
+_Last updated: 2026-11-14 15:08 UTC_
 
 | Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe | T200 |
 |---|---|---|---|---|---|---|---|
-| VDIV.DE | VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF | EUR | 261 | 31.42% | 6.91% | 3.97 | 72% |
-| VHVE.MI | Vanguard FTSE Developed World UCITS ETF USD Accumulation | EUR | 261 | 22.90% | 5.34% | 3.54 | 58% |
-| AIFS.DE | iShares AI Infrastructure UCITS ETF USD (Acc) | EUR | 101 | 70.60% | 23.95% | 2.78 | **3%** |
+| VDIV.DE | VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF | EUR | 261 | 31.42% | 6.91% | 3.97 | 74% |
+| VHVE.MI | Vanguard FTSE Developed World UCITS ETF USD Accumulation | EUR | 261 | 22.87% | 5.39% | 3.50 | 47% |
+| AIFS.DE | iShares AI Infrastructure UCITS ETF USD (Acc) | EUR | 101 | 70.48% | 24.10% | 2.76 | **1%** |
 | SPY | State Street SPDR S&P 500 ETF Trust | USD | 261 | 20.22% | 5.97% | 2.72 | 24% |
-| XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 176 | 25.71% | 8.04% | 2.70 | 17% |
-| XAIX.DE | Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C | EUR | 261 | 37.93% | 12.94% | 2.62 | 39% |
-| WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 104 | 27.61% | 9.18% | 2.57 | **3%** |
-| CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 82.98% | 31.94% | 2.47 | 13% |
-| XLKS.MI | Invesco Technology S&P US Select Sector UCITS ETF | EUR | 261 | 32.12% | 12.26% | 2.29 | 34% |
+| XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 176 | 25.65% | 8.13% | 2.66 | **9%** |
+| XAIX.DE | Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C | EUR | 261 | 37.86% | 13.00% | 2.60 | 30% |
+| WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 104 | 27.57% | 9.23% | 2.55 | **2%** |
+| CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 82.81% | 32.15% | 2.45 | 11% |
+| XLKS.MI | Invesco Technology S&P US Select Sector UCITS ETF | EUR | 261 | 32.04% | 12.37% | 2.27 | 27% |
 | QQQ | Invesco QQQ Trust | USD | 261 | 25.54% | 9.63% | 2.24 | 15% |
 | QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 108 | 27.87% | 11.25% | 2.12 | **3%** |
 | TOPT | iShares Top 20 U.S. Stocks ETF | USD | 108 | 20.24% | 7.75% | 2.09 | 14% |

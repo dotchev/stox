@@ -1,14 +1,14 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.1965,0.0968,1.62,0.72
-XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.2759,0.2135,1.11,0.34
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.4554,0.3950,1.05,0.13
-VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1553,0.1132,1.02,0.58
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.1965,0.0968,1.62,0.74
+XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.2758,0.2136,1.10,0.27
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.4550,0.3951,1.05,0.11
+VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1552,0.1132,1.02,0.47
 SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.1616,0.1214,1.00,0.24
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.2685,0.2297,0.99,0.39
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.2683,0.2297,0.99,0.30
 QQQ,Invesco QQQ Trust,USD,261,0.2051,0.1791,0.92,0.15
 TOPT,iShares Top 20 U.S. Stocks ETF,USD,108,,,,0.14
 MAGS,Roundhill Magnificent Seven ETF,USD,188,,,,0.17
 QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,108,,,,0.03
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,104,,,,0.03
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,101,,,,0.03
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,176,,,,0.17
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,104,,,,0.02
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,101,,,,0.01
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,176,,,,0.09
