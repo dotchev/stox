@@ -10,7 +10,7 @@ within its 5-year history. Empty if history < 200 days.
 
 Return Period: last 101 weeks (limited by AIFS.DE)
 
-_Last updated: 2026-11-14 15:08 UTC_
+_Last updated: 2026-11-14 15:26 UTC_
 
 | Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe | T200 |
 |---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@ _Last updated: 2026-11-14 15:08 UTC_
 | XLKS.MI | Invesco Technology S&P US Select Sector UCITS ETF | EUR | 261 | 32.04% | 12.37% | 2.27 | 27% |
 | QQQ | Invesco QQQ Trust | USD | 261 | 25.54% | 9.63% | 2.24 | 15% |
 | QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 108 | 27.87% | 11.25% | 2.12 | **3%** |
+| ESIF.DE | iShares MSCI Europe Financials Sector UCITS ETF | EUR | 261 | 34.75% | 14.56% | 2.11 | 41% |
 | TOPT | iShares Top 20 U.S. Stocks ETF | USD | 108 | 20.24% | 7.75% | 2.09 | 14% |
 | MAGS | Roundhill Magnificent Seven ETF | USD | 188 | 21.46% | 11.73% | 1.49 | 17% |
 

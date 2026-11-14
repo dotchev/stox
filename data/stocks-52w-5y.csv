@@ -1,5 +1,6 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
 VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.1965,0.0968,1.62,0.74
+ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,0.2780,0.1578,1.51,0.41
 XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.2758,0.2136,1.10,0.27
 CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.4550,0.3951,1.05,0.11
 VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1552,0.1132,1.02,0.47

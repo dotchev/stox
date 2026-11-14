@@ -19,10 +19,10 @@ symbols = [
     'VHVE.MI',  # Vanguard FTSE Developed World UCITS ETF USD Accumulation
     'AIFS.DE',  # iShares AI Infrastructure UCITS ETF USD (Acc)
     'XAIX.DE',  # Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C
-    'XLKS.MI',  # Invesco Technology S&P US Select Sector UCITS ETF
     'CHIP.PA',  # Amundi MSCI Semiconductors UCITS ETF Acc
     'XWEM.DE',  # Xtrackers MSCI World Momentum ESG UCITS ETF 1C
     'VDIV.DE',  # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
+    'ESIF.DE',  # iShares MSCI Europe Financials Sector UCITS ETF
 ]
 
 weeks = 52
