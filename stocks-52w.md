@@ -10,7 +10,7 @@ within its 5-year history. Empty if history < 200 days.
 
 Return Period: last 101 weeks (limited by AIFS.DE)
 
-_Last updated: 2026-11-14 07:40 UTC_
+_Last updated: 2026-11-14 12:20 UTC_
 
 | Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe | T200 |
 |---|---|---|---|---|---|---|---|
