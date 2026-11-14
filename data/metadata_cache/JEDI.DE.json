@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2022-06-24T09:00:00+02:00",
-  "regularMarketTime": "2026-11-06T17:36:05+01:00",
+  "regularMarketTime": "2026-11-13T17:36:08+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 58.86,
-  "regularMarketChangePercent": 3.956,
-  "fulldayPrice": 58.86,
-  "fulldayChange": 2.24,
-  "fulldayChangePercent": 3.956,
+  "regularMarketPrice": 63.39,
+  "regularMarketChangePercent": -4.806,
+  "fulldayPrice": 63.39,
+  "fulldayChange": -3.2,
+  "fulldayChangePercent": -4.806,
   "fiftyTwoWeekHigh": 121.24,
   "fiftyTwoWeekLow": 44.41,
-  "regularMarketDayHigh": 58.86,
-  "regularMarketDayLow": 55.88,
-  "regularMarketVolume": 101629,
+  "regularMarketDayHigh": 65.52,
+  "regularMarketDayLow": 62.76,
+  "regularMarketVolume": 31109,
   "longName": "VanEck Space Innovators UCITS ETF A USD Acc",
   "shortName": "VanECK Space UCITS ETF        R",
   "chartPreviousClose": 20.304,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-06T07:00:00+01:00",
-      "end": "2026-11-06T09:00:00+01:00"
+      "start": "2026-11-13T07:00:00+01:00",
+      "end": "2026-11-13T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-11-06T09:00:00+01:00",
-      "end": "2026-11-06T17:30:00+01:00"
+      "start": "2026-11-13T09:00:00+01:00",
+      "end": "2026-11-13T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-11-06T17:30:00+01:00",
-      "end": "2026-11-06T20:30:00+01:00"
+      "start": "2026-11-13T17:30:00+01:00",
+      "end": "2026-11-13T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,29 +55,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-01T23:00:00.000Z",
-      "start": "2026-11-02T08:00:00.000Z",
-      "end": "2026-11-02T16:30:00.000Z"
+      "Date": "2026-11-08T23:00:00.000Z",
+      "start": "2026-11-09T08:00:00.000Z",
+      "end": "2026-11-09T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-02T23:00:00.000Z",
-      "start": "2026-11-03T08:00:00.000Z",
-      "end": "2026-11-03T16:30:00.000Z"
+      "Date": "2026-11-09T23:00:00.000Z",
+      "start": "2026-11-10T08:00:00.000Z",
+      "end": "2026-11-10T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-03T23:00:00.000Z",
-      "start": "2026-11-04T08:00:00.000Z",
-      "end": "2026-11-04T16:30:00.000Z"
+      "Date": "2026-11-10T23:00:00.000Z",
+      "start": "2026-11-11T08:00:00.000Z",
+      "end": "2026-11-11T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-04T23:00:00.000Z",
-      "start": "2026-11-05T08:00:00.000Z",
-      "end": "2026-11-05T16:30:00.000Z"
+      "Date": "2026-11-11T23:00:00.000Z",
+      "start": "2026-11-12T08:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-05T23:00:00.000Z",
-      "start": "2026-11-06T08:00:00.000Z",
-      "end": "2026-11-06T16:30:00.000Z"
+      "Date": "2026-11-12T23:00:00.000Z",
+      "start": "2026-11-13T08:00:00.000Z",
+      "end": "2026-11-13T16:30:00.000Z"
     }
   ]
 }

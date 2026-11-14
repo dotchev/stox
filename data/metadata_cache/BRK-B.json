@@ -5,37 +5,37 @@
   "fullExchangeName": "NYSE",
   "instrumentType": "EQUITY",
   "firstTradeDate": "1996-05-09T09:30:00-04:00",
-  "regularMarketTime": "2026-10-16T16:04:11-04:00",
+  "regularMarketTime": "2026-11-13T16:00:03-05:00",
   "hasPrePostMarketData": true,
-  "gmtoffset": -14400,
-  "timezone": "EDT",
+  "gmtoffset": -18000,
+  "timezone": "EST",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 532.02,
-  "regularMarketChangePercent": 1.206,
-  "fulldayPrice": 532.02,
-  "fulldayChange": 7.32,
-  "fulldayChangePercent": 1.392,
-  "fiftyTwoWeekHigh": 537.74,
+  "regularMarketPrice": 592.94,
+  "regularMarketChangePercent": 0.527,
+  "fulldayPrice": 592.94,
+  "fulldayChange": 2.75,
+  "fulldayChangePercent": 0.466,
+  "fiftyTwoWeekHigh": 596.92,
   "fiftyTwoWeekLow": 464.01,
-  "regularMarketDayHigh": 532.642,
-  "regularMarketDayLow": 528.0,
-  "regularMarketVolume": 4017494,
+  "regularMarketDayHigh": 595.15,
+  "regularMarketDayLow": 590.19,
+  "regularMarketVolume": 4760552,
   "longName": "Berkshire Hathaway Inc.",
   "shortName": "Berkshire Hathaway Inc. New",
-  "chartPreviousClose": 284.21,
+  "chartPreviousClose": 285.99,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-16T04:00:00-04:00",
-      "end": "2026-10-16T09:30:00-04:00"
+      "end": "2026-11-13T09:30:00-05:00",
+      "start": "2026-11-13T04:00:00-05:00"
     },
     "regular": {
-      "start": "2026-10-16T09:30:00-04:00",
-      "end": "2026-10-16T16:00:00-04:00"
+      "end": "2026-11-13T16:00:00-05:00",
+      "start": "2026-11-13T09:30:00-05:00"
     },
     "post": {
-      "start": "2026-10-16T16:00:00-04:00",
-      "end": "2026-10-16T20:00:00-04:00"
+      "end": "2026-11-13T20:00:00-05:00",
+      "start": "2026-11-13T16:00:00-05:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-12T04:00:00.000Z",
-      "pre_start": "2026-10-12T08:00:00.000Z",
-      "pre_end": "2026-10-12T13:30:00.000Z",
-      "start": "2026-10-12T13:30:00.000Z",
-      "end": "2026-10-12T20:00:00.000Z",
-      "post_start": "2026-10-12T20:00:00.000Z",
-      "post_end": "2026-10-13T00:00:00.000Z"
+      "Date": "2026-11-09T05:00:00.000Z",
+      "pre_start": "2026-11-09T09:00:00.000Z",
+      "pre_end": "2026-11-09T14:30:00.000Z",
+      "start": "2026-11-09T14:30:00.000Z",
+      "end": "2026-11-09T21:00:00.000Z",
+      "post_start": "2026-11-09T21:00:00.000Z",
+      "post_end": "2026-11-10T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-13T04:00:00.000Z",
-      "pre_start": "2026-10-13T08:00:00.000Z",
-      "pre_end": "2026-10-13T13:30:00.000Z",
-      "start": "2026-10-13T13:30:00.000Z",
-      "end": "2026-10-13T20:00:00.000Z",
-      "post_start": "2026-10-13T20:00:00.000Z",
-      "post_end": "2026-10-14T00:00:00.000Z"
+      "Date": "2026-11-10T05:00:00.000Z",
+      "pre_start": "2026-11-10T09:00:00.000Z",
+      "pre_end": "2026-11-10T14:30:00.000Z",
+      "start": "2026-11-10T14:30:00.000Z",
+      "end": "2026-11-10T21:00:00.000Z",
+      "post_start": "2026-11-10T21:00:00.000Z",
+      "post_end": "2026-11-11T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-14T04:00:00.000Z",
-      "pre_start": "2026-10-14T08:00:00.000Z",
-      "pre_end": "2026-10-14T13:30:00.000Z",
-      "start": "2026-10-14T13:30:00.000Z",
-      "end": "2026-10-14T20:00:00.000Z",
-      "post_start": "2026-10-14T20:00:00.000Z",
-      "post_end": "2026-10-15T00:00:00.000Z"
+      "Date": "2026-11-11T05:00:00.000Z",
+      "pre_start": "2026-11-11T09:00:00.000Z",
+      "pre_end": "2026-11-11T14:30:00.000Z",
+      "start": "2026-11-11T14:30:00.000Z",
+      "end": "2026-11-11T21:00:00.000Z",
+      "post_start": "2026-11-11T21:00:00.000Z",
+      "post_end": "2026-11-12T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-15T04:00:00.000Z",
-      "pre_start": "2026-10-15T08:00:00.000Z",
-      "pre_end": "2026-10-15T13:30:00.000Z",
-      "start": "2026-10-15T13:30:00.000Z",
-      "end": "2026-10-15T20:00:00.000Z",
-      "post_start": "2026-10-15T20:00:00.000Z",
-      "post_end": "2026-10-16T00:00:00.000Z"
+      "Date": "2026-11-12T05:00:00.000Z",
+      "pre_start": "2026-11-12T09:00:00.000Z",
+      "pre_end": "2026-11-12T14:30:00.000Z",
+      "start": "2026-11-12T14:30:00.000Z",
+      "end": "2026-11-12T21:00:00.000Z",
+      "post_start": "2026-11-12T21:00:00.000Z",
+      "post_end": "2026-11-13T01:00:00.000Z"
     },
     {
-      "Date": "2026-10-16T04:00:00.000Z",
-      "pre_start": "2026-10-16T08:00:00.000Z",
-      "pre_end": "2026-10-16T13:30:00.000Z",
-      "start": "2026-10-16T13:30:00.000Z",
-      "end": "2026-10-16T20:00:00.000Z",
-      "post_start": "2026-10-16T20:00:00.000Z",
-      "post_end": "2026-10-17T00:00:00.000Z"
+      "Date": "2026-11-13T05:00:00.000Z",
+      "pre_start": "2026-11-13T09:00:00.000Z",
+      "pre_end": "2026-11-13T14:30:00.000Z",
+      "start": "2026-11-13T14:30:00.000Z",
+      "end": "2026-11-13T21:00:00.000Z",
+      "post_start": "2026-11-13T21:00:00.000Z",
+      "post_end": "2026-11-14T01:00:00.000Z"
     }
   ]
 }

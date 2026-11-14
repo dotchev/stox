@@ -5,37 +5,37 @@
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
   "firstTradeDate": "2015-10-12T09:30:00-04:00",
-  "regularMarketTime": "2026-11-06T16:00:00-05:00",
+  "regularMarketTime": "2026-11-13T16:00:00-05:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -18000,
   "timezone": "EST",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 124.41,
-  "regularMarketChangePercent": 1.601,
-  "fulldayPrice": 124.41,
-  "fulldayChange": 2.15,
-  "fulldayChangePercent": 1.756,
+  "regularMarketPrice": 132.31,
+  "regularMarketChangePercent": -1.577,
+  "fulldayPrice": 132.31,
+  "fulldayChange": -2.91,
+  "fulldayChangePercent": -2.165,
   "fiftyTwoWeekHigh": 162.3,
   "fiftyTwoWeekLow": 107.24,
-  "regularMarketDayHigh": 126.23,
-  "regularMarketDayLow": 123.82,
-  "regularMarketVolume": 3216676,
+  "regularMarketDayHigh": 134.79,
+  "regularMarketDayLow": 130.628,
+  "regularMarketVolume": 1593626,
   "longName": "Invesco S&P 500 Momentum ETF",
   "shortName": "Invesco S&P 500 Momentum ETF",
-  "chartPreviousClose": 65.155,
+  "chartPreviousClose": 65.505,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-11-06T09:30:00-05:00",
-      "start": "2026-11-06T04:00:00-05:00"
+      "start": "2026-11-13T04:00:00-05:00",
+      "end": "2026-11-13T09:30:00-05:00"
     },
     "regular": {
-      "end": "2026-11-06T16:00:00-05:00",
-      "start": "2026-11-06T09:30:00-05:00"
+      "start": "2026-11-13T09:30:00-05:00",
+      "end": "2026-11-13T16:00:00-05:00"
     },
     "post": {
-      "end": "2026-11-06T20:00:00-05:00",
-      "start": "2026-11-06T16:00:00-05:00"
+      "start": "2026-11-13T16:00:00-05:00",
+      "end": "2026-11-13T20:00:00-05:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-02T05:00:00.000Z",
-      "pre_start": "2026-11-02T09:00:00.000Z",
-      "pre_end": "2026-11-02T14:30:00.000Z",
-      "start": "2026-11-02T14:30:00.000Z",
-      "end": "2026-11-02T21:00:00.000Z",
-      "post_start": "2026-11-02T21:00:00.000Z",
-      "post_end": "2026-11-03T01:00:00.000Z"
+      "Date": "2026-11-09T05:00:00.000Z",
+      "pre_start": "2026-11-09T09:00:00.000Z",
+      "pre_end": "2026-11-09T14:30:00.000Z",
+      "start": "2026-11-09T14:30:00.000Z",
+      "end": "2026-11-09T21:00:00.000Z",
+      "post_start": "2026-11-09T21:00:00.000Z",
+      "post_end": "2026-11-10T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-03T05:00:00.000Z",
-      "pre_start": "2026-11-03T09:00:00.000Z",
-      "pre_end": "2026-11-03T14:30:00.000Z",
-      "start": "2026-11-03T14:30:00.000Z",
-      "end": "2026-11-03T21:00:00.000Z",
-      "post_start": "2026-11-03T21:00:00.000Z",
-      "post_end": "2026-11-04T01:00:00.000Z"
+      "Date": "2026-11-10T05:00:00.000Z",
+      "pre_start": "2026-11-10T09:00:00.000Z",
+      "pre_end": "2026-11-10T14:30:00.000Z",
+      "start": "2026-11-10T14:30:00.000Z",
+      "end": "2026-11-10T21:00:00.000Z",
+      "post_start": "2026-11-10T21:00:00.000Z",
+      "post_end": "2026-11-11T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-04T05:00:00.000Z",
-      "pre_start": "2026-11-04T09:00:00.000Z",
-      "pre_end": "2026-11-04T14:30:00.000Z",
-      "start": "2026-11-04T14:30:00.000Z",
-      "end": "2026-11-04T21:00:00.000Z",
-      "post_start": "2026-11-04T21:00:00.000Z",
-      "post_end": "2026-11-05T01:00:00.000Z"
+      "Date": "2026-11-11T05:00:00.000Z",
+      "pre_start": "2026-11-11T09:00:00.000Z",
+      "pre_end": "2026-11-11T14:30:00.000Z",
+      "start": "2026-11-11T14:30:00.000Z",
+      "end": "2026-11-11T21:00:00.000Z",
+      "post_start": "2026-11-11T21:00:00.000Z",
+      "post_end": "2026-11-12T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-05T05:00:00.000Z",
-      "pre_start": "2026-11-05T09:00:00.000Z",
-      "pre_end": "2026-11-05T14:30:00.000Z",
-      "start": "2026-11-05T14:30:00.000Z",
-      "end": "2026-11-05T21:00:00.000Z",
-      "post_start": "2026-11-05T21:00:00.000Z",
-      "post_end": "2026-11-06T01:00:00.000Z"
+      "Date": "2026-11-12T05:00:00.000Z",
+      "pre_start": "2026-11-12T09:00:00.000Z",
+      "pre_end": "2026-11-12T14:30:00.000Z",
+      "start": "2026-11-12T14:30:00.000Z",
+      "end": "2026-11-12T21:00:00.000Z",
+      "post_start": "2026-11-12T21:00:00.000Z",
+      "post_end": "2026-11-13T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-06T05:00:00.000Z",
-      "pre_start": "2026-11-06T09:00:00.000Z",
-      "pre_end": "2026-11-06T14:30:00.000Z",
-      "start": "2026-11-06T14:30:00.000Z",
-      "end": "2026-11-06T21:00:00.000Z",
-      "post_start": "2026-11-06T21:00:00.000Z",
-      "post_end": "2026-11-07T01:00:00.000Z"
+      "Date": "2026-11-13T05:00:00.000Z",
+      "pre_start": "2026-11-13T09:00:00.000Z",
+      "pre_end": "2026-11-13T14:30:00.000Z",
+      "start": "2026-11-13T14:30:00.000Z",
+      "end": "2026-11-13T21:00:00.000Z",
+      "post_start": "2026-11-13T21:00:00.000Z",
+      "post_end": "2026-11-14T01:00:00.000Z"
     }
   ]
 }
