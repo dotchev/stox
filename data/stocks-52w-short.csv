@@ -1,14 +1,14 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.3163,0.0683,4.05,0.51
-VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.2308,0.0525,3.63,0.36
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,100,0.7128,0.2376,2.83,0.00
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,175,0.2596,0.0793,2.77,0.04
-SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.2036,0.0594,2.75,0.17
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,103,0.2799,0.0891,2.69,0.00
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.3819,0.1295,2.64,0.21
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.8413,0.3142,2.55,0.09
-XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.3248,0.1215,2.34,0.25
-QQQ,Invesco QQQ Trust,USD,261,0.2583,0.0952,2.29,0.12
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,107,0.2826,0.1106,2.19,0.01
-TOPT,iShares Top 20 U.S. Stocks ETF,USD,107,0.2049,0.0765,2.16,0.07
-MAGS,Roundhill Magnificent Seven ETF,USD,187,0.2177,0.1165,1.53,0.14
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.3142,0.0691,3.97,0.72
+VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.2290,0.0534,3.54,0.58
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,101,0.7060,0.2395,2.78,0.03
+SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.2022,0.0597,2.72,0.24
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,176,0.2571,0.0804,2.70,0.17
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.3793,0.1294,2.62,0.39
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,104,0.2761,0.0918,2.57,0.03
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.8298,0.3194,2.47,0.13
+XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.3212,0.1226,2.29,0.34
+QQQ,Invesco QQQ Trust,USD,261,0.2554,0.0963,2.24,0.15
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,108,0.2787,0.1125,2.12,0.03
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,108,0.2024,0.0775,2.09,0.14
+MAGS,Roundhill Magnificent Seven ETF,USD,188,0.2146,0.1173,1.49,0.17

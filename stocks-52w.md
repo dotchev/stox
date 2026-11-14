@@ -8,29 +8,29 @@ Sharpe = (gmean - 4%) / std.
 T200 = percentile of the current distance from the 200-day SMA
 within its 5-year history. Empty if history < 200 days.
 
-Return Period: last 100 weeks (limited by AIFS.DE)
+Return Period: last 101 weeks (limited by AIFS.DE)
 
-_Last updated: 2026-11-08 19:16 UTC_
+_Last updated: 2026-11-14 07:40 UTC_
 
 | Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe | T200 |
 |---|---|---|---|---|---|---|---|
-| VDIV.DE | VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF | EUR | 261 | 31.63% | 6.83% | 4.05 | 51% |
-| VHVE.MI | Vanguard FTSE Developed World UCITS ETF USD Accumulation | EUR | 261 | 23.08% | 5.25% | 3.63 | 36% |
-| AIFS.DE | iShares AI Infrastructure UCITS ETF USD (Acc) | EUR | 100 | 71.28% | 23.76% | 2.83 | **0%** |
-| XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 175 | 25.96% | 7.93% | 2.77 | **4%** |
-| SPY | State Street SPDR S&P 500 ETF Trust | USD | 261 | 20.36% | 5.94% | 2.75 | 17% |
-| WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 103 | 27.99% | 8.91% | 2.69 | **0%** |
-| XAIX.DE | Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C | EUR | 261 | 38.19% | 12.95% | 2.64 | 21% |
-| CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 84.13% | 31.42% | 2.55 | **9%** |
-| XLKS.MI | Invesco Technology S&P US Select Sector UCITS ETF | EUR | 261 | 32.48% | 12.15% | 2.34 | 25% |
-| QQQ | Invesco QQQ Trust | USD | 261 | 25.83% | 9.52% | 2.29 | 12% |
-| QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 107 | 28.26% | 11.06% | 2.19 | **1%** |
-| TOPT | iShares Top 20 U.S. Stocks ETF | USD | 107 | 20.49% | 7.65% | 2.16 | **7%** |
-| MAGS | Roundhill Magnificent Seven ETF | USD | 187 | 21.77% | 11.65% | 1.53 | 14% |
+| VDIV.DE | VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF | EUR | 261 | 31.42% | 6.91% | 3.97 | 72% |
+| VHVE.MI | Vanguard FTSE Developed World UCITS ETF USD Accumulation | EUR | 261 | 22.90% | 5.34% | 3.54 | 58% |
+| AIFS.DE | iShares AI Infrastructure UCITS ETF USD (Acc) | EUR | 101 | 70.60% | 23.95% | 2.78 | **3%** |
+| SPY | State Street SPDR S&P 500 ETF Trust | USD | 261 | 20.22% | 5.97% | 2.72 | 24% |
+| XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 176 | 25.71% | 8.04% | 2.70 | 17% |
+| XAIX.DE | Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C | EUR | 261 | 37.93% | 12.94% | 2.62 | 39% |
+| WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 104 | 27.61% | 9.18% | 2.57 | **3%** |
+| CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 82.98% | 31.94% | 2.47 | 13% |
+| XLKS.MI | Invesco Technology S&P US Select Sector UCITS ETF | EUR | 261 | 32.12% | 12.26% | 2.29 | 34% |
+| QQQ | Invesco QQQ Trust | USD | 261 | 25.54% | 9.63% | 2.24 | 15% |
+| QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 108 | 27.87% | 11.25% | 2.12 | **3%** |
+| TOPT | iShares Top 20 U.S. Stocks ETF | USD | 108 | 20.24% | 7.75% | 2.09 | 14% |
+| MAGS | Roundhill Magnificent Seven ETF | USD | 188 | 21.46% | 11.73% | 1.49 | 17% |
 
 CSV files, with empty values for symbols with less history than the period:
 
-- [Common period (100 weeks)](data/stocks-52w-short.csv)
+- [Common period (101 weeks)](data/stocks-52w-short.csv)
 - [3 years (156 weeks)](data/stocks-52w-3y.csv)
 - [5 years (261 weeks)](data/stocks-52w-5y.csv)
 
