@@ -5,37 +5,37 @@
   "fullExchangeName": "NasdaqGS",
   "instrumentType": "EQUITY",
   "firstTradeDate": "1999-01-22T09:30:00-05:00",
-  "regularMarketTime": "2026-11-13T16:00:01-05:00",
+  "regularMarketTime": "2026-11-20T16:00:01-05:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -18000,
   "timezone": "EST",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 162.85,
-  "regularMarketChangePercent": -2.01,
-  "fulldayPrice": 162.85,
-  "fulldayChange": -5.18,
-  "fulldayChangePercent": -3.117,
+  "regularMarketPrice": 125.53,
+  "regularMarketChangePercent": -14.009,
+  "fulldayPrice": 125.53,
+  "fulldayChange": -15.97,
+  "fulldayChangePercent": -10.94,
   "fiftyTwoWeekHigh": 243.37,
-  "fiftyTwoWeekLow": 148.8,
-  "regularMarketDayHigh": 170.0,
-  "regularMarketDayLow": 158.39,
-  "regularMarketVolume": 362490337,
+  "fiftyTwoWeekLow": 124.5,
+  "regularMarketDayHigh": 143.725,
+  "regularMarketDayLow": 124.5,
+  "regularMarketVolume": 626274281,
   "longName": "NVIDIA Corporation",
   "shortName": "NVIDIA Corporation",
-  "chartPreviousClose": 30.39,
+  "chartPreviousClose": 32.985,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-13T04:00:00-05:00",
-      "end": "2026-11-13T09:30:00-05:00"
+      "start": "2026-11-20T04:00:00-05:00",
+      "end": "2026-11-20T09:30:00-05:00"
     },
     "regular": {
-      "start": "2026-11-13T09:30:00-05:00",
-      "end": "2026-11-13T16:00:00-05:00"
+      "start": "2026-11-20T09:30:00-05:00",
+      "end": "2026-11-20T16:00:00-05:00"
     },
     "post": {
-      "start": "2026-11-13T16:00:00-05:00",
-      "end": "2026-11-13T20:00:00-05:00"
+      "start": "2026-11-20T16:00:00-05:00",
+      "end": "2026-11-20T20:00:00-05:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,49 +56,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-09T05:00:00.000Z",
-      "pre_start": "2026-11-09T09:00:00.000Z",
-      "pre_end": "2026-11-09T14:30:00.000Z",
-      "start": "2026-11-09T14:30:00.000Z",
-      "end": "2026-11-09T21:00:00.000Z",
-      "post_start": "2026-11-09T21:00:00.000Z",
-      "post_end": "2026-11-10T01:00:00.000Z"
+      "Date": "2026-11-16T05:00:00.000Z",
+      "pre_start": "2026-11-16T09:00:00.000Z",
+      "pre_end": "2026-11-16T14:30:00.000Z",
+      "start": "2026-11-16T14:30:00.000Z",
+      "end": "2026-11-16T21:00:00.000Z",
+      "post_start": "2026-11-16T21:00:00.000Z",
+      "post_end": "2026-11-17T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-10T05:00:00.000Z",
-      "pre_start": "2026-11-10T09:00:00.000Z",
-      "pre_end": "2026-11-10T14:30:00.000Z",
-      "start": "2026-11-10T14:30:00.000Z",
-      "end": "2026-11-10T21:00:00.000Z",
-      "post_start": "2026-11-10T21:00:00.000Z",
-      "post_end": "2026-11-11T01:00:00.000Z"
+      "Date": "2026-11-17T05:00:00.000Z",
+      "pre_start": "2026-11-17T09:00:00.000Z",
+      "pre_end": "2026-11-17T14:30:00.000Z",
+      "start": "2026-11-17T14:30:00.000Z",
+      "end": "2026-11-17T21:00:00.000Z",
+      "post_start": "2026-11-17T21:00:00.000Z",
+      "post_end": "2026-11-18T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-11T05:00:00.000Z",
-      "pre_start": "2026-11-11T09:00:00.000Z",
-      "pre_end": "2026-11-11T14:30:00.000Z",
-      "start": "2026-11-11T14:30:00.000Z",
-      "end": "2026-11-11T21:00:00.000Z",
-      "post_start": "2026-11-11T21:00:00.000Z",
-      "post_end": "2026-11-12T01:00:00.000Z"
+      "Date": "2026-11-18T05:00:00.000Z",
+      "pre_start": "2026-11-18T09:00:00.000Z",
+      "pre_end": "2026-11-18T14:30:00.000Z",
+      "start": "2026-11-18T14:30:00.000Z",
+      "end": "2026-11-18T21:00:00.000Z",
+      "post_start": "2026-11-18T21:00:00.000Z",
+      "post_end": "2026-11-19T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-12T05:00:00.000Z",
-      "pre_start": "2026-11-12T09:00:00.000Z",
-      "pre_end": "2026-11-12T14:30:00.000Z",
-      "start": "2026-11-12T14:30:00.000Z",
-      "end": "2026-11-12T21:00:00.000Z",
-      "post_start": "2026-11-12T21:00:00.000Z",
-      "post_end": "2026-11-13T01:00:00.000Z"
+      "Date": "2026-11-19T05:00:00.000Z",
+      "pre_start": "2026-11-19T09:00:00.000Z",
+      "pre_end": "2026-11-19T14:30:00.000Z",
+      "start": "2026-11-19T14:30:00.000Z",
+      "end": "2026-11-19T21:00:00.000Z",
+      "post_start": "2026-11-19T21:00:00.000Z",
+      "post_end": "2026-11-20T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-13T05:00:00.000Z",
-      "pre_start": "2026-11-13T09:00:00.000Z",
-      "pre_end": "2026-11-13T14:30:00.000Z",
-      "start": "2026-11-13T14:30:00.000Z",
-      "end": "2026-11-13T21:00:00.000Z",
-      "post_start": "2026-11-13T21:00:00.000Z",
-      "post_end": "2026-11-14T01:00:00.000Z"
+      "Date": "2026-11-20T05:00:00.000Z",
+      "pre_start": "2026-11-20T09:00:00.000Z",
+      "pre_end": "2026-11-20T14:30:00.000Z",
+      "start": "2026-11-20T14:30:00.000Z",
+      "end": "2026-11-20T21:00:00.000Z",
+      "post_start": "2026-11-20T21:00:00.000Z",
+      "post_end": "2026-11-21T01:00:00.000Z"
     }
   ]
 }

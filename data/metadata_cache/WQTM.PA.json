@@ -5,37 +5,37 @@
   "fullExchangeName": "Paris",
   "instrumentType": "ETF",
   "firstTradeDate": "2025-10-08T09:00:00+02:00",
-  "regularMarketTime": "2026-11-13T17:35:01+01:00",
+  "regularMarketTime": "2026-11-20T17:35:29+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Paris",
-  "regularMarketPrice": 26.585,
-  "regularMarketChangePercent": -4.456,
-  "fulldayPrice": 26.585,
-  "fulldayChange": -1.24,
-  "fulldayChangePercent": -4.456,
+  "regularMarketPrice": 23.415,
+  "regularMarketChangePercent": -7.996,
+  "fulldayPrice": 23.415,
+  "fulldayChange": -2.035,
+  "fulldayChangePercent": -7.996,
   "fiftyTwoWeekHigh": 40.76,
   "fiftyTwoWeekLow": 23.4,
-  "regularMarketDayHigh": 27.58,
-  "regularMarketDayLow": 26.35,
-  "regularMarketVolume": 1460,
+  "regularMarketDayHigh": 24.315,
+  "regularMarketDayLow": 23.4,
+  "regularMarketVolume": 2518,
   "longName": "WisdomTree Quantum Computing UCITS ETF - USD Acc",
   "shortName": "WisdomTree Quantum Computing UC",
   "chartPreviousClose": 29.98,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-13T09:00:00+01:00",
-      "end": "2026-11-13T09:00:00+01:00"
+      "start": "2026-11-20T09:00:00+01:00",
+      "end": "2026-11-20T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-11-13T09:00:00+01:00",
-      "end": "2026-11-13T17:30:00+01:00"
+      "start": "2026-11-20T09:00:00+01:00",
+      "end": "2026-11-20T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-11-13T17:30:00+01:00",
-      "end": "2026-11-13T17:30:00+01:00"
+      "start": "2026-11-20T17:30:00+01:00",
+      "end": "2026-11-20T17:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -54,29 +54,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-08T23:00:00.000Z",
-      "end": "2026-11-09T16:30:00.000Z",
-      "start": "2026-11-09T08:00:00.000Z"
+      "Date": "2026-11-15T23:00:00.000Z",
+      "end": "2026-11-16T16:30:00.000Z",
+      "start": "2026-11-16T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-09T23:00:00.000Z",
-      "end": "2026-11-10T16:30:00.000Z",
-      "start": "2026-11-10T08:00:00.000Z"
+      "Date": "2026-11-16T23:00:00.000Z",
+      "end": "2026-11-17T16:30:00.000Z",
+      "start": "2026-11-17T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-10T23:00:00.000Z",
-      "end": "2026-11-11T16:30:00.000Z",
-      "start": "2026-11-11T08:00:00.000Z"
+      "Date": "2026-11-17T23:00:00.000Z",
+      "end": "2026-11-18T16:30:00.000Z",
+      "start": "2026-11-18T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-11T23:00:00.000Z",
-      "end": "2026-11-12T16:30:00.000Z",
-      "start": "2026-11-12T08:00:00.000Z"
+      "Date": "2026-11-18T23:00:00.000Z",
+      "end": "2026-11-19T16:30:00.000Z",
+      "start": "2026-11-19T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-12T23:00:00.000Z",
-      "end": "2026-11-13T16:30:00.000Z",
-      "start": "2026-11-13T08:00:00.000Z"
+      "Date": "2026-11-19T23:00:00.000Z",
+      "end": "2026-11-20T16:30:00.000Z",
+      "start": "2026-11-20T08:00:00.000Z"
     }
   ]
 }

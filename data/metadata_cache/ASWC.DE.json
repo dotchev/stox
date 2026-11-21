@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2023-07-04T09:00:00+02:00",
-  "regularMarketTime": "2026-11-13T17:35:57+01:00",
+  "regularMarketTime": "2026-11-20T17:36:02+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 17.672,
-  "regularMarketChangePercent": -1.428,
-  "fulldayPrice": 17.672,
-  "fulldayChange": -0.256,
-  "fulldayChangePercent": -1.428,
+  "regularMarketPrice": 17.112,
+  "regularMarketChangePercent": -3.649,
+  "fulldayPrice": 17.112,
+  "fulldayChange": -0.648,
+  "fulldayChangePercent": -3.649,
   "fiftyTwoWeekHigh": 20.085,
   "fiftyTwoWeekLow": 15.072,
-  "regularMarketDayHigh": 17.97,
-  "regularMarketDayLow": 17.572,
-  "regularMarketVolume": 53851,
+  "regularMarketDayHigh": 17.424,
+  "regularMarketDayLow": 17.112,
+  "regularMarketVolume": 86110,
   "longName": "HANetf ICAV - Future of Defence UCITS ETF - Accumulating",
   "shortName": "HanETF-Fut.of Defence ETF     R",
   "chartPreviousClose": 7.189,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "end": "2026-11-13T09:00:00+01:00",
-      "start": "2026-11-13T07:00:00+01:00"
+      "start": "2026-11-20T07:00:00+01:00",
+      "end": "2026-11-20T09:00:00+01:00"
     },
     "regular": {
-      "end": "2026-11-13T17:30:00+01:00",
-      "start": "2026-11-13T09:00:00+01:00"
+      "start": "2026-11-20T09:00:00+01:00",
+      "end": "2026-11-20T17:30:00+01:00"
     },
     "post": {
-      "end": "2026-11-13T20:30:00+01:00",
-      "start": "2026-11-13T17:30:00+01:00"
+      "start": "2026-11-20T17:30:00+01:00",
+      "end": "2026-11-20T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,29 +55,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-08T23:00:00.000Z",
-      "start": "2026-11-09T08:00:00.000Z",
-      "end": "2026-11-09T16:30:00.000Z"
+      "Date": "2026-11-15T23:00:00.000Z",
+      "start": "2026-11-16T08:00:00.000Z",
+      "end": "2026-11-16T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-09T23:00:00.000Z",
-      "start": "2026-11-10T08:00:00.000Z",
-      "end": "2026-11-10T16:30:00.000Z"
+      "Date": "2026-11-16T23:00:00.000Z",
+      "start": "2026-11-17T08:00:00.000Z",
+      "end": "2026-11-17T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-10T23:00:00.000Z",
-      "start": "2026-11-11T08:00:00.000Z",
-      "end": "2026-11-11T16:30:00.000Z"
+      "Date": "2026-11-17T23:00:00.000Z",
+      "start": "2026-11-18T08:00:00.000Z",
+      "end": "2026-11-18T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-11T23:00:00.000Z",
-      "start": "2026-11-12T08:00:00.000Z",
-      "end": "2026-11-12T16:30:00.000Z"
+      "Date": "2026-11-18T23:00:00.000Z",
+      "start": "2026-11-19T08:00:00.000Z",
+      "end": "2026-11-19T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-12T23:00:00.000Z",
-      "start": "2026-11-13T08:00:00.000Z",
-      "end": "2026-11-13T16:30:00.000Z"
+      "Date": "2026-11-19T23:00:00.000Z",
+      "start": "2026-11-20T08:00:00.000Z",
+      "end": "2026-11-20T16:30:00.000Z"
     }
   ]
 }

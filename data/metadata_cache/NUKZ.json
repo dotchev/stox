@@ -5,37 +5,37 @@
   "fullExchangeName": "NYSEArca",
   "instrumentType": "ETF",
   "firstTradeDate": "2024-01-24T09:30:00-05:00",
-  "regularMarketTime": "2026-11-13T16:00:00-05:00",
+  "regularMarketTime": "2026-11-20T16:00:00-05:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -18000,
   "timezone": "EST",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 55.72,
-  "regularMarketChangePercent": -1.171,
-  "fulldayPrice": 55.72,
-  "fulldayChange": -0.68,
-  "fulldayChangePercent": -1.206,
+  "regularMarketPrice": 50.04,
+  "regularMarketChangePercent": -4.649,
+  "fulldayPrice": 50.04,
+  "fulldayChange": -3.215,
+  "fulldayChangePercent": -6.126,
   "fiftyTwoWeekHigh": 77.34,
-  "fiftyTwoWeekLow": 52.62,
-  "regularMarketDayHigh": 56.35,
-  "regularMarketDayLow": 55.08,
-  "regularMarketVolume": 65394,
+  "fiftyTwoWeekLow": 49.91,
+  "regularMarketDayHigh": 52.13,
+  "regularMarketDayLow": 49.935,
+  "regularMarketVolume": 196613,
   "longName": "Range Nuclear Renaissance ETF",
   "shortName": "Range Nuclear Renaissance Index",
   "chartPreviousClose": 25.58,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-13T04:00:00-05:00",
-      "end": "2026-11-13T09:30:00-05:00"
+      "start": "2026-11-20T04:00:00-05:00",
+      "end": "2026-11-20T09:30:00-05:00"
     },
     "regular": {
-      "start": "2026-11-13T09:30:00-05:00",
-      "end": "2026-11-13T16:00:00-05:00"
+      "start": "2026-11-20T09:30:00-05:00",
+      "end": "2026-11-20T16:00:00-05:00"
     },
     "post": {
-      "start": "2026-11-13T16:00:00-05:00",
-      "end": "2026-11-13T20:00:00-05:00"
+      "start": "2026-11-20T16:00:00-05:00",
+      "end": "2026-11-20T20:00:00-05:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,49 +55,49 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-09T05:00:00.000Z",
-      "pre_start": "2026-11-09T09:00:00.000Z",
-      "pre_end": "2026-11-09T14:30:00.000Z",
-      "start": "2026-11-09T14:30:00.000Z",
-      "end": "2026-11-09T21:00:00.000Z",
-      "post_start": "2026-11-09T21:00:00.000Z",
-      "post_end": "2026-11-10T01:00:00.000Z"
+      "Date": "2026-11-16T05:00:00.000Z",
+      "pre_start": "2026-11-16T09:00:00.000Z",
+      "pre_end": "2026-11-16T14:30:00.000Z",
+      "start": "2026-11-16T14:30:00.000Z",
+      "end": "2026-11-16T21:00:00.000Z",
+      "post_start": "2026-11-16T21:00:00.000Z",
+      "post_end": "2026-11-17T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-10T05:00:00.000Z",
-      "pre_start": "2026-11-10T09:00:00.000Z",
-      "pre_end": "2026-11-10T14:30:00.000Z",
-      "start": "2026-11-10T14:30:00.000Z",
-      "end": "2026-11-10T21:00:00.000Z",
-      "post_start": "2026-11-10T21:00:00.000Z",
-      "post_end": "2026-11-11T01:00:00.000Z"
+      "Date": "2026-11-17T05:00:00.000Z",
+      "pre_start": "2026-11-17T09:00:00.000Z",
+      "pre_end": "2026-11-17T14:30:00.000Z",
+      "start": "2026-11-17T14:30:00.000Z",
+      "end": "2026-11-17T21:00:00.000Z",
+      "post_start": "2026-11-17T21:00:00.000Z",
+      "post_end": "2026-11-18T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-11T05:00:00.000Z",
-      "pre_start": "2026-11-11T09:00:00.000Z",
-      "pre_end": "2026-11-11T14:30:00.000Z",
-      "start": "2026-11-11T14:30:00.000Z",
-      "end": "2026-11-11T21:00:00.000Z",
-      "post_start": "2026-11-11T21:00:00.000Z",
-      "post_end": "2026-11-12T01:00:00.000Z"
+      "Date": "2026-11-18T05:00:00.000Z",
+      "pre_start": "2026-11-18T09:00:00.000Z",
+      "pre_end": "2026-11-18T14:30:00.000Z",
+      "start": "2026-11-18T14:30:00.000Z",
+      "end": "2026-11-18T21:00:00.000Z",
+      "post_start": "2026-11-18T21:00:00.000Z",
+      "post_end": "2026-11-19T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-12T05:00:00.000Z",
-      "pre_start": "2026-11-12T09:00:00.000Z",
-      "pre_end": "2026-11-12T14:30:00.000Z",
-      "start": "2026-11-12T14:30:00.000Z",
-      "end": "2026-11-12T21:00:00.000Z",
-      "post_start": "2026-11-12T21:00:00.000Z",
-      "post_end": "2026-11-13T01:00:00.000Z"
+      "Date": "2026-11-19T05:00:00.000Z",
+      "pre_start": "2026-11-19T09:00:00.000Z",
+      "pre_end": "2026-11-19T14:30:00.000Z",
+      "start": "2026-11-19T14:30:00.000Z",
+      "end": "2026-11-19T21:00:00.000Z",
+      "post_start": "2026-11-19T21:00:00.000Z",
+      "post_end": "2026-11-20T01:00:00.000Z"
     },
     {
-      "Date": "2026-11-13T05:00:00.000Z",
-      "pre_start": "2026-11-13T09:00:00.000Z",
-      "pre_end": "2026-11-13T14:30:00.000Z",
-      "start": "2026-11-13T14:30:00.000Z",
-      "end": "2026-11-13T21:00:00.000Z",
-      "post_start": "2026-11-13T21:00:00.000Z",
-      "post_end": "2026-11-14T01:00:00.000Z"
+      "Date": "2026-11-20T05:00:00.000Z",
+      "pre_start": "2026-11-20T09:00:00.000Z",
+      "pre_end": "2026-11-20T14:30:00.000Z",
+      "start": "2026-11-20T14:30:00.000Z",
+      "end": "2026-11-20T21:00:00.000Z",
+      "post_start": "2026-11-20T21:00:00.000Z",
+      "post_end": "2026-11-21T01:00:00.000Z"
     }
   ]
 }

@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2024-04-22T09:00:00+02:00",
-  "regularMarketTime": "2026-11-13T17:36:12+01:00",
+  "regularMarketTime": "2026-11-20T17:38:25+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 7.264,
-  "regularMarketChangePercent": -3.953,
-  "fulldayPrice": 7.264,
-  "fulldayChange": -0.299,
-  "fulldayChangePercent": -3.953,
+  "regularMarketPrice": 6.562,
+  "regularMarketChangePercent": -8.339,
+  "fulldayPrice": 6.562,
+  "fulldayChange": -0.597,
+  "fulldayChangePercent": -8.339,
   "fiftyTwoWeekHigh": 9.733,
   "fiftyTwoWeekLow": 4.078,
-  "regularMarketDayHigh": 7.579,
-  "regularMarketDayLow": 7.18,
-  "regularMarketVolume": 215267,
+  "regularMarketDayHigh": 6.82,
+  "regularMarketDayLow": 6.562,
+  "regularMarketVolume": 121307,
   "longName": "ARK Genomic Revolution UCITS ETF Class A USD Accumulation",
   "shortName": "ARK Inv.UCITS-A.Gen.Rev.U.ETF R",
   "chartPreviousClose": 4.115,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-13T07:00:00+01:00",
-      "end": "2026-11-13T09:00:00+01:00"
+      "start": "2026-11-20T07:00:00+01:00",
+      "end": "2026-11-20T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-11-13T09:00:00+01:00",
-      "end": "2026-11-13T17:30:00+01:00"
+      "start": "2026-11-20T09:00:00+01:00",
+      "end": "2026-11-20T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-11-13T17:30:00+01:00",
-      "end": "2026-11-13T20:30:00+01:00"
+      "start": "2026-11-20T17:30:00+01:00",
+      "end": "2026-11-20T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,29 +55,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-08T23:00:00.000Z",
-      "end": "2026-11-09T16:30:00.000Z",
-      "start": "2026-11-09T08:00:00.000Z"
+      "Date": "2026-11-15T23:00:00.000Z",
+      "start": "2026-11-16T08:00:00.000Z",
+      "end": "2026-11-16T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-09T23:00:00.000Z",
-      "end": "2026-11-10T16:30:00.000Z",
-      "start": "2026-11-10T08:00:00.000Z"
+      "Date": "2026-11-16T23:00:00.000Z",
+      "start": "2026-11-17T08:00:00.000Z",
+      "end": "2026-11-17T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-10T23:00:00.000Z",
-      "end": "2026-11-11T16:30:00.000Z",
-      "start": "2026-11-11T08:00:00.000Z"
+      "Date": "2026-11-17T23:00:00.000Z",
+      "start": "2026-11-18T08:00:00.000Z",
+      "end": "2026-11-18T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-11T23:00:00.000Z",
-      "end": "2026-11-12T16:30:00.000Z",
-      "start": "2026-11-12T08:00:00.000Z"
+      "Date": "2026-11-18T23:00:00.000Z",
+      "start": "2026-11-19T08:00:00.000Z",
+      "end": "2026-11-19T16:30:00.000Z"
     },
     {
-      "Date": "2026-11-12T23:00:00.000Z",
-      "end": "2026-11-13T16:30:00.000Z",
-      "start": "2026-11-13T08:00:00.000Z"
+      "Date": "2026-11-19T23:00:00.000Z",
+      "start": "2026-11-20T08:00:00.000Z",
+      "end": "2026-11-20T16:30:00.000Z"
     }
   ]
 }
