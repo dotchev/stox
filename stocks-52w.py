@@ -23,6 +23,7 @@ symbols = [
     'XWEM.DE',  # Xtrackers MSCI World Momentum ESG UCITS ETF 1C
     'VDIV.DE',  # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
     'ESIF.DE',  # iShares MSCI Europe Financials Sector UCITS ETF
+    'FBT.MI',   # First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation
 ]
 
 weeks = 52

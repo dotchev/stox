@@ -1,0 +1,83 @@
+{
+  "currency": "EUR",
+  "symbol": "WDNA.MI",
+  "exchangeName": "MIL",
+  "fullExchangeName": "Milan",
+  "instrumentType": "ETF",
+  "firstTradeDate": "2022-01-17T09:00:00+01:00",
+  "regularMarketTime": "2026-11-13T17:35:17+01:00",
+  "hasPrePostMarketData": false,
+  "gmtoffset": 3600,
+  "timezone": "CET",
+  "exchangeTimezoneName": "Europe/Rome",
+  "regularMarketPrice": 22.915,
+  "regularMarketChangePercent": -2.634,
+  "fulldayPrice": 22.915,
+  "fulldayChange": -0.62,
+  "fulldayChangePercent": -2.634,
+  "fiftyTwoWeekHigh": 25.3,
+  "fiftyTwoWeekLow": 15.214,
+  "regularMarketDayHigh": 23.35,
+  "regularMarketDayLow": 22.835,
+  "regularMarketVolume": 1402,
+  "longName": "WisdomTree BioRevolution UCITS ETF - USD Acc",
+  "shortName": "WISDOMTREE BIOREVOLUTION UCITS ",
+  "chartPreviousClose": 20.13,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "start": "2026-11-13T08:00:00+01:00",
+      "end": "2026-11-13T09:00:00+01:00"
+    },
+    "regular": {
+      "start": "2026-11-13T09:00:00+01:00",
+      "end": "2026-11-13T17:30:00+01:00"
+    },
+    "post": {
+      "start": "2026-11-13T17:30:00+01:00",
+      "end": "2026-11-13T17:30:00+01:00"
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "5y",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "ytd",
+    "max"
+  ],
+  "YF repair?": false,
+  "tradingPeriods": [
+    {
+      "Date": "2026-11-08T23:00:00.000Z",
+      "end": "2026-11-09T16:30:00.000Z",
+      "start": "2026-11-09T08:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-09T23:00:00.000Z",
+      "end": "2026-11-10T16:30:00.000Z",
+      "start": "2026-11-10T08:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-10T23:00:00.000Z",
+      "end": "2026-11-11T16:30:00.000Z",
+      "start": "2026-11-11T08:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-11T23:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "start": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-12T23:00:00.000Z",
+      "end": "2026-11-13T16:30:00.000Z",
+      "start": "2026-11-13T08:00:00.000Z"
+    }
+  ]
+}

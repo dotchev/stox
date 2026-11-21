@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2016-10-24T09:00:00+02:00",
-  "regularMarketTime": "2026-10-23T17:36:05+02:00",
+  "regularMarketTime": "2026-11-13T17:35:51+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 17.896,
-  "regularMarketChangePercent": 0.709,
-  "fulldayPrice": 17.896,
-  "fulldayChange": 0.126,
-  "fulldayChangePercent": 0.709,
+  "regularMarketPrice": 16.912,
+  "regularMarketChangePercent": -3.194,
+  "fulldayPrice": 16.912,
+  "fulldayChange": -0.558,
+  "fulldayChangePercent": -3.194,
   "fiftyTwoWeekHigh": 21.12,
   "fiftyTwoWeekLow": 13.894,
-  "regularMarketDayHigh": 17.944,
-  "regularMarketDayLow": 17.6,
-  "regularMarketVolume": 187623,
+  "regularMarketDayHigh": 17.486,
+  "regularMarketDayLow": 16.834,
+  "regularMarketVolume": 86823,
   "longName": "iShares Edge MSCI USA Momentum Factor UCITS ETF USD (Acc)",
   "shortName": "iShsIV-Edge MSCI USA M.F.U.ETFR",
-  "chartPreviousClose": 10.936,
+  "chartPreviousClose": 11.312,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-23T07:00:00+02:00",
-      "end": "2026-10-23T09:00:00+02:00"
+      "end": "2026-11-13T09:00:00+01:00",
+      "start": "2026-11-13T07:00:00+01:00"
     },
     "regular": {
-      "start": "2026-10-23T09:00:00+02:00",
-      "end": "2026-10-23T17:30:00+02:00"
+      "end": "2026-11-13T17:30:00+01:00",
+      "start": "2026-11-13T09:00:00+01:00"
     },
     "post": {
-      "start": "2026-10-23T17:30:00+02:00",
-      "end": "2026-10-23T20:30:00+02:00"
+      "end": "2026-11-13T20:30:00+01:00",
+      "start": "2026-11-13T17:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,29 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-18T22:00:00.000Z",
-      "start": "2026-10-19T07:00:00.000Z",
-      "end": "2026-10-19T15:30:00.000Z"
+      "Date": "2026-11-08T23:00:00.000Z",
+      "end": "2026-11-09T16:30:00.000Z",
+      "start": "2026-11-09T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-19T22:00:00.000Z",
-      "start": "2026-10-20T07:00:00.000Z",
-      "end": "2026-10-20T15:30:00.000Z"
+      "Date": "2026-11-09T23:00:00.000Z",
+      "end": "2026-11-10T16:30:00.000Z",
+      "start": "2026-11-10T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-20T22:00:00.000Z",
-      "start": "2026-10-21T07:00:00.000Z",
-      "end": "2026-10-21T15:30:00.000Z"
+      "Date": "2026-11-10T23:00:00.000Z",
+      "end": "2026-11-11T16:30:00.000Z",
+      "start": "2026-11-11T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-21T22:00:00.000Z",
-      "start": "2026-10-22T07:00:00.000Z",
-      "end": "2026-10-22T15:30:00.000Z"
+      "Date": "2026-11-11T23:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "start": "2026-11-12T08:00:00.000Z"
     },
     {
-      "Date": "2026-10-22T22:00:00.000Z",
-      "start": "2026-10-23T07:00:00.000Z",
-      "end": "2026-10-23T15:30:00.000Z"
+      "Date": "2026-11-12T23:00:00.000Z",
+      "end": "2026-11-13T16:30:00.000Z",
+      "start": "2026-11-13T08:00:00.000Z"
     }
   ]
 }

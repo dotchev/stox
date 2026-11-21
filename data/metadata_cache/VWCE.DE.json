@@ -5,37 +5,37 @@
   "fullExchangeName": "XETRA",
   "instrumentType": "ETF",
   "firstTradeDate": "2019-07-29T09:00:00+02:00",
-  "regularMarketTime": "2026-10-23T17:35:58+02:00",
+  "regularMarketTime": "2026-11-13T17:36:04+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Berlin",
-  "regularMarketPrice": 169.3,
-  "regularMarketChangePercent": 0.012,
-  "fulldayPrice": 169.3,
-  "fulldayChange": 0.02,
-  "fulldayChangePercent": 0.012,
+  "regularMarketPrice": 169.86,
+  "regularMarketChangePercent": -0.91,
+  "fulldayPrice": 169.86,
+  "fulldayChange": -1.56,
+  "fulldayChangePercent": -0.91,
   "fiftyTwoWeekHigh": 173.96,
   "fiftyTwoWeekLow": 139.2,
-  "regularMarketDayHigh": 169.64,
-  "regularMarketDayLow": 168.22,
-  "regularMarketVolume": 337670,
+  "regularMarketDayHigh": 171.56,
+  "regularMarketDayLow": 169.06,
+  "regularMarketVolume": 280462,
   "longName": "Vanguard FTSE All-World UCITS ETF USD Accumulation",
   "shortName": "Vanguard FTSE All-World U.ETF R",
-  "chartPreviousClose": 99.54,
+  "chartPreviousClose": 103.42,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-10-23T07:00:00+02:00",
-      "end": "2026-10-23T09:00:00+02:00"
+      "start": "2026-11-13T07:00:00+01:00",
+      "end": "2026-11-13T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-10-23T09:00:00+02:00",
-      "end": "2026-10-23T17:30:00+02:00"
+      "start": "2026-11-13T09:00:00+01:00",
+      "end": "2026-11-13T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-10-23T17:30:00+02:00",
-      "end": "2026-10-23T20:30:00+02:00"
+      "start": "2026-11-13T17:30:00+01:00",
+      "end": "2026-11-13T20:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,29 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-10-18T22:00:00.000Z",
-      "start": "2026-10-19T07:00:00.000Z",
-      "end": "2026-10-19T15:30:00.000Z"
+      "Date": "2026-11-08T23:00:00.000Z",
+      "start": "2026-11-09T08:00:00.000Z",
+      "end": "2026-11-09T16:30:00.000Z"
     },
     {
-      "Date": "2026-10-19T22:00:00.000Z",
-      "start": "2026-10-20T07:00:00.000Z",
-      "end": "2026-10-20T15:30:00.000Z"
+      "Date": "2026-11-09T23:00:00.000Z",
+      "start": "2026-11-10T08:00:00.000Z",
+      "end": "2026-11-10T16:30:00.000Z"
     },
     {
-      "Date": "2026-10-20T22:00:00.000Z",
-      "start": "2026-10-21T07:00:00.000Z",
-      "end": "2026-10-21T15:30:00.000Z"
+      "Date": "2026-11-10T23:00:00.000Z",
+      "start": "2026-11-11T08:00:00.000Z",
+      "end": "2026-11-11T16:30:00.000Z"
     },
     {
-      "Date": "2026-10-21T22:00:00.000Z",
-      "start": "2026-10-22T07:00:00.000Z",
-      "end": "2026-10-22T15:30:00.000Z"
+      "Date": "2026-11-11T23:00:00.000Z",
+      "start": "2026-11-12T08:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z"
     },
     {
-      "Date": "2026-10-22T22:00:00.000Z",
-      "start": "2026-10-23T07:00:00.000Z",
-      "end": "2026-10-23T15:30:00.000Z"
+      "Date": "2026-11-12T23:00:00.000Z",
+      "start": "2026-11-13T08:00:00.000Z",
+      "end": "2026-11-13T16:30:00.000Z"
     }
   ]
 }
