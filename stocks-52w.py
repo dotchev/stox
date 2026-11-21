@@ -21,7 +21,7 @@ symbols = [
     'XAIX.DE',  # Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C
     'CHIP.PA',  # Amundi MSCI Semiconductors UCITS ETF Acc
     'XWEM.DE',  # Xtrackers MSCI World Momentum ESG UCITS ETF 1C
-    'VDIV.DE',  # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
+    'TDIV.AS',  # VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF
     'ESIF.DE',  # iShares MSCI Europe Financials Sector UCITS ETF
     'FBT.MI',   # First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation
 ]
