@@ -190,7 +190,7 @@ def main():
             'range': range.mean(), # mean over 3y of 2*(high-low)/(high+low) per rolling range_window (4W)
             'revenue': get_revenue_growth(symbol), # YoY growth of latest quarterly revenue (5 quarters)
             'T200': sma_temperature(symbol, daily, window=200), # temperature over 5y of distance to the 200-day SMA
-            'lowback': low_weeks(all_weekly.Low), # weeks over which last week's low is the lowest, over 5y (max ~261)
+            'lowback': low_weeks(all_weekly.Low), # weeks over which last week's low is the lowest, max 5y
         })
 
     df = pd.DataFrame(rows)
