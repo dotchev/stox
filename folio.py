@@ -1,5 +1,5 @@
-"""Write data/folio.csv with per-symbol return, risk, range, revenue growth
-and T200 stats for the portfolio watchlist.
+"""Write data/folio.csv with per-symbol return, risk, range, revenue growth,
+T200 and low lookback stats for the portfolio watchlist.
 """
 import json
 import os
@@ -141,6 +141,17 @@ def sma_temperature(symbol, daily, window=200):
     return temperature(daily.Close / sma - 1)
 
 
+def low_weeks(lows):
+    """Number of weeks, counting the last one, over which the last week's low
+    is the lowest - i.e. how far back the price goes before an earlier, lower
+    low. Capped by the available history."""
+    lows = lows.dropna()
+    if lows.empty:
+        return None
+    lower = (lows.iloc[:-1] < lows.iloc[-1]).to_numpy()[::-1] # most recent first
+    return int(lower.argmax()) + 1 if lower.any() else len(lows)
+
+
 def main():
     rows = []
     for symbol in symbols:
@@ -151,7 +162,8 @@ def main():
             # skip the symbol rather than failing the whole run
             print(f'WARNING: skipping {symbol}, no history')
             continue
-        weekly = to_weekly(daily, symbol).tail(history_weeks)
+        all_weekly = to_weekly(daily, symbol)
+        weekly = all_weekly.tail(history_weeks)
 
         if len(weekly) < history_weeks:
             print(f'Not enough history for {symbol}: {len(weekly)} weeks, need {history_weeks}')
@@ -169,14 +181,15 @@ def main():
         rows.append({
             'symbol': symbol, # ticker as given to yfinance
             'name': get_stock_name(symbol), # short name from yfinance metadata
-            'price': weekly.Close.iloc[-1], # last close
+            'price': weekly.Close.iloc[-1], # last close (latest bar)
             'weeks': len(weekly), # weekly bars used, capped at history_weeks (3Y = 156)
             'gmean': gmean_change, # geometric mean of the 52w changes over 3y
-            'std': std, # std dev of the same 52w changes over 3y
-            'sharpe': sharpe, # (gmean - risk_free_return 4%) / std
-            'range': range.mean(), # mean of 2*(high-low)/(high+low) over rolling range_window (4W)
-            'revenue': get_revenue_growth(symbol), # YoY growth of latest quarterly revenue
-            'T200': sma_temperature(symbol, daily, window=200), # T200 over 5y
+            'std': std, # std dev of the 52w changes over 3y
+            'sharpe': sharpe, # (gmean - risk_free_return 4%) / std, over 3y
+            'range': range.mean(), # mean over 3y of 2*(high-low)/(high+low) per rolling range_window (4W)
+            'revenue': get_revenue_growth(symbol), # YoY growth of latest quarterly revenue (5 quarters)
+            'T200': sma_temperature(symbol, daily, window=200), # temperature over 5y of distance to the 200-day SMA
+            'lowback': low_weeks(all_weekly.Low), # weeks over which last week's low is the lowest, over 5y (max ~261)
         })
 
     df = pd.DataFrame(rows)

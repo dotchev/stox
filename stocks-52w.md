@@ -10,7 +10,7 @@ within its 5-year history. Empty if history < 200 days.
 
 Return Period: last 102 weeks (limited by AIFS.DE)
 
-_Last updated: 2026-11-21 13:36 UTC_
+_Last updated: 2026-11-21 15:52 UTC_
 
 | Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe | T200 |
 |---|---|---|---|---|---|---|---|
@@ -22,6 +22,7 @@ _Last updated: 2026-11-21 13:36 UTC_
 | XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 177 | 25.25% | 8.48% | 2.51 | **2%** |
 | WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 105 | 27.04% | 9.77% | 2.36 | **0%** |
 | CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 81.20% | 33.24% | 2.32 | **2%** |
+| FBT.MI | First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation | EUR | 261 | 34.94% | 13.43% | 2.30 | 85% |
 | QQQ | Invesco QQQ Trust | USD | 261 | 25.06% | 10.04% | 2.10 | **5%** |
 | ESIF.DE | iShares MSCI Europe Financials Sector UCITS ETF | EUR | 261 | 34.34% | 14.69% | 2.06 | **7%** |
 | QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 109 | 27.31% | 11.71% | 1.99 | **0%** |
