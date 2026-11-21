@@ -5,37 +5,37 @@
   "fullExchangeName": "Milan",
   "instrumentType": "ETF",
   "firstTradeDate": "2019-09-24T09:00:00+02:00",
-  "regularMarketTime": "2026-11-13T17:35:03+01:00",
+  "regularMarketTime": "2026-11-20T17:35:23+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Rome",
-  "regularMarketPrice": 135.15,
-  "regularMarketChangePercent": -0.975,
-  "fulldayPrice": 135.15,
-  "fulldayChange": -1.33,
-  "fulldayChangePercent": -0.975,
+  "regularMarketPrice": 127.05,
+  "regularMarketChangePercent": -3.303,
+  "fulldayPrice": 127.05,
+  "fulldayChange": -4.34,
+  "fulldayChangePercent": -3.303,
   "fiftyTwoWeekHigh": 137.85,
-  "fiftyTwoWeekLow": 110.01,
-  "regularMarketDayHigh": 136.41,
-  "regularMarketDayLow": 134.94,
-  "regularMarketVolume": 3415,
+  "fiftyTwoWeekLow": 111.07,
+  "regularMarketDayHigh": 129.13,
+  "regularMarketDayLow": 127.25,
+  "regularMarketVolume": 11497,
   "longName": "Vanguard FTSE Developed World UCITS ETF USD Accumulation",
   "shortName": "VANGUARD FTSE DEVELOP WORLD UCI",
-  "chartPreviousClose": 79.77,
+  "chartPreviousClose": 80.7,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-13T08:00:00+01:00",
-      "end": "2026-11-13T09:00:00+01:00"
+      "start": "2026-11-20T08:00:00+01:00",
+      "end": "2026-11-20T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-11-13T09:00:00+01:00",
-      "end": "2026-11-13T17:30:00+01:00"
+      "start": "2026-11-20T09:00:00+01:00",
+      "end": "2026-11-20T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-11-13T17:30:00+01:00",
-      "end": "2026-11-13T17:30:00+01:00"
+      "start": "2026-11-20T17:30:00+01:00",
+      "end": "2026-11-20T17:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,29 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-08T23:00:00.000Z",
-      "end": "2026-11-09T16:30:00.000Z",
-      "start": "2026-11-09T08:00:00.000Z"
+      "Date": "2026-11-15T23:00:00.000Z",
+      "end": "2026-11-16T16:30:00.000Z",
+      "start": "2026-11-16T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-09T23:00:00.000Z",
-      "end": "2026-11-10T16:30:00.000Z",
-      "start": "2026-11-10T08:00:00.000Z"
+      "Date": "2026-11-16T23:00:00.000Z",
+      "end": "2026-11-17T16:30:00.000Z",
+      "start": "2026-11-17T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-10T23:00:00.000Z",
-      "end": "2026-11-11T16:30:00.000Z",
-      "start": "2026-11-11T08:00:00.000Z"
+      "Date": "2026-11-17T23:00:00.000Z",
+      "end": "2026-11-18T16:30:00.000Z",
+      "start": "2026-11-18T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-11T23:00:00.000Z",
-      "end": "2026-11-12T16:30:00.000Z",
-      "start": "2026-11-12T08:00:00.000Z"
+      "Date": "2026-11-18T23:00:00.000Z",
+      "end": "2026-11-19T16:30:00.000Z",
+      "start": "2026-11-19T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-12T23:00:00.000Z",
-      "end": "2026-11-13T16:30:00.000Z",
-      "start": "2026-11-13T08:00:00.000Z"
+      "Date": "2026-11-19T23:00:00.000Z",
+      "end": "2026-11-20T16:30:00.000Z",
+      "start": "2026-11-20T08:00:00.000Z"
     }
   ]
 }

@@ -1,15 +1,14 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.3142,0.0691,3.97,0.74
-VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.2287,0.0539,3.50,0.47
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,101,0.7048,0.2410,2.76,0.01
-SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.2022,0.0597,2.72,0.24
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,176,0.2565,0.0813,2.66,0.09
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.3786,0.1300,2.60,0.30
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,104,0.2757,0.0923,2.55,0.02
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.8281,0.3215,2.45,0.11
-XLKS.MI,Invesco Technology S&P US Select Sector UCITS ETF,EUR,261,0.3204,0.1237,2.27,0.27
-QQQ,Invesco QQQ Trust,USD,261,0.2554,0.0963,2.24,0.15
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,108,0.2787,0.1125,2.12,0.03
-ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,0.3475,0.1456,2.11,0.41
-TOPT,iShares Top 20 U.S. Stocks ETF,USD,108,0.2024,0.0775,2.09,0.14
-MAGS,Roundhill Magnificent Seven ETF,USD,188,0.2146,0.1173,1.49,0.17
+VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.3113,0.0712,3.81,0.25
+VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.2257,0.0570,3.26,0.14
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,102,0.6956,0.2457,2.67,0.00
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.3747,0.1315,2.54,0.12
+SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.1991,0.0625,2.54,0.05
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,177,0.2525,0.0848,2.51,0.02
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,105,0.2704,0.0977,2.36,0.00
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.8120,0.3324,2.32,0.02
+QQQ,Invesco QQQ Trust,USD,261,0.2506,0.1004,2.10,0.05
+ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,0.3434,0.1469,2.06,0.07
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,109,0.2731,0.1171,1.99,0.00
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,109,0.1980,0.0820,1.93,0.00
+MAGS,Roundhill Magnificent Seven ETF,USD,189,0.2095,0.1207,1.40,0.02
