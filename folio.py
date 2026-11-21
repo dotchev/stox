@@ -65,6 +65,7 @@ symbols = [
     'XAIX.DE', # Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C
     'AIFS.DE', # iShares AI Infrastructure UCITS ETF USD (Acc)
     '5MVL.DE', # iShares Edge MSCI EM Value Factor UCITS ETF USD (Acc)
+    'FBT.MI', # First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation
     'QTUM', # Defiance Quantum ETF
     'WQTM.PA', # WisdomTree Quantum Computing UCITS ETF - USD Acc
     'AGIX', # KraneShares Artificial Intelligence and Technology Public and Private ETF
