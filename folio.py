@@ -12,7 +12,7 @@ from yfetch import delay, get_stock_history, get_stock_name, get_stock_metadata,
 risk_free_return = 4/100
 history_weeks = 3 * 52 # 3Y
 change_weeks = 52 # 1Y
-range_window = 4 # ~ month
+range_window = 5 # ~ month
 cache_days = 1 # how long to cache price history
 revenue_cache_days = 5 # revenue changes once a quarter
 revenue_cache_file = 'data/revenue_cache.json'
@@ -187,7 +187,7 @@ def main():
             'gmean': gmean_change, # geometric mean of the 52w changes over 3y
             'std': std, # std dev of the 52w changes over 3y
             'sharpe': sharpe, # (gmean - risk_free_return 4%) / std, over 3y
-            'range': range.mean(), # mean over 3y of 2*(high-low)/(high+low) per rolling range_window (4W)
+            'range': range.mean(), # mean over 3y of 2*(high-low)/(high+low) per rolling range_window (5W)
             'revenue': get_revenue_growth(symbol), # YoY growth of latest quarterly revenue (5 quarters)
             'T200': sma_temperature(symbol, daily, window=200), # temperature over 5y of distance to the 200-day SMA
             'lowback': low_weeks(all_weekly.Low), # weeks over which last week's low is the lowest, max 5y
