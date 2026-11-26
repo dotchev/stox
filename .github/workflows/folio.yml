@@ -1,8 +1,6 @@
 name: Update Folio
 
 on:
-  schedule:
-    - cron: '13 13 * * 6'
   workflow_dispatch: {}
 
 permissions:
