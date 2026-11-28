@@ -31,25 +31,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # folio.py checks its own output (columns, skipped symbols, prices) and
+      # exits non-zero before writing data/folio.csv if it looks broken
       - name: Run folio
         run: python folio.py
-
-      - name: Sanity-check folio.csv
-        run: |
-          python - <<'EOF'
-          import csv, sys
-          rows = list(csv.reader(open('data/folio.csv')))
-          header = ['symbol', 'name', 'price', 'weeks', 'gmean', 'std', 'sharpe', 'range', 'revenue', 'T200']
-          if rows[0] != header:
-              sys.exit(f'unexpected header: {rows[0]}')
-          data = rows[1:]
-          if len(data) < 50:
-              sys.exit(f'only {len(data)} rows')
-          bad = [r[0] for r in data if not r[2] or float(r[2]) <= 0]
-          if bad:
-              sys.exit(f'missing or non-positive prices: {bad}')
-          print(f'folio.csv OK: {len(data)} rows')
-          EOF
 
       # folio.csv together with the refreshed caches. The sheet update checks
       # this commit's time for freshness.

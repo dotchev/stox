@@ -210,7 +210,15 @@ def get_stock_history(symbol, period='5y', interval='1d', cache_days=2):
     # Fetch fresh data
     delay()
     ticker_data = yf.Ticker(symbol)
-    history = ticker_data.history(interval=interval, period=period)
+    try:
+        history = ticker_data.history(interval=interval, period=period)
+    except Exception as e:
+        # A failed refetch (network error, rate limit) must not discard a cache
+        # that is merely stale
+        if cached is None:
+            raise
+        print(f"Fetching history for {symbol} failed ({e!r}), using the stale cache")
+        return _complete(cached)
     print(f"Fetched history for {symbol} ({len(history)} {_interval_unit(interval)})"
           + (", latest bar incomplete" if _incomplete_tail(history) else ""))
 

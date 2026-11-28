@@ -17,6 +17,11 @@ cache_days = 1 # how long to cache price history
 revenue_cache_days = 5 # revenue changes once a quarter
 revenue_cache_file = 'data/revenue_cache.json'
 
+# folio.csv columns, in order. symbol_row must return exactly these keys; the
+# run fails before writing the file if it does not.
+columns = ['symbol', 'name', 'price', 'weeks', 'gmean', 'std', 'sharpe',
+           'range', 'revenue', 'T200', 'lowback']
+
 symbols = [
     'MAGS', # Roundhill Magnificent Seven ETF
     'QTOP.AS', # iShares VII PLC - iShares Nasdaq 100 Top 30 UCITS ETF USD (Acc)
@@ -82,6 +87,10 @@ symbols = [
     'AMAT', # Applied Materials, Inc.
 ]
 
+# Symbols may be skipped for lack of history (transient Yahoo failures, a
+# delisting); more than this means something is broken and the run fails
+max_skipped = len(symbols) // 10
+
 try:
     with open(revenue_cache_file) as f:
         revenue_cache = json.load(f)
@@ -93,6 +102,9 @@ def fetch_revenue_growth(symbol):
     (None, None) if unavailable."""
     delay()
     qis = yf.Ticker(symbol).quarterly_income_stmt
+    if qis.empty:
+        # yfinance returns an empty statement on failed requests as well
+        raise RuntimeError('empty income statement')
     if 'Total Revenue' not in qis.index:
         print(f'No revenue for {symbol}')
         return None, None
@@ -115,7 +127,16 @@ def get_revenue_growth(symbol):
     if cached and (today - date.fromisoformat(cached['fetched'])).days < revenue_cache_days:
         return cached['growth']
 
-    growth, quarter = fetch_revenue_growth(symbol)
+    try:
+        growth, quarter = fetch_revenue_growth(symbol)
+    except Exception as e:
+        if cached and cached['growth'] is not None:
+            # A Yahoo hiccup must not wipe a known value. The entry keeps its
+            # old fetch date, so the next run retries.
+            print(f'WARNING: no revenue for {symbol} ({e!r}), using the stale cache')
+            return cached['growth']
+        print(f'No revenue for {symbol}: {e!r}')
+        growth, quarter = None, None
     if cached and (growth, quarter) != (cached['growth'], cached['quarter']):
         print(f'{symbol} revenue: {format_revenue(cached["growth"], cached["quarter"])}'
               f' => {format_revenue(growth, quarter)}')
@@ -153,50 +174,77 @@ def low_weeks(lows):
     return int(lower.argmax()) + 1 if lower.any() else len(lows)
 
 
+def symbol_row(symbol):
+    """The folio.csv row of a symbol, None if it has no price history."""
+    # one daily fetch per symbol - the weekly bars are aggregated from it
+    daily = get_stock_history(symbol, period='5y', interval='1d', cache_days=cache_days)
+    if daily.empty:
+        # Yahoo returns no rows for unknown tickers and transient failures
+        print(f'WARNING: skipping {symbol}, no history')
+        return None
+    all_weekly = to_weekly(daily, symbol)
+    weekly = all_weekly.tail(history_weeks)
+
+    if len(weekly) < history_weeks:
+        print(f'Not enough history for {symbol}: {len(weekly)} weeks, need {history_weeks}')
+        gmean_change = std = sharpe = None
+    else:
+        changes = weekly.Close.pct_change(periods=change_weeks, fill_method=None).dropna()
+        gmean_change = gmean(1 + changes) - 1 # geometric mean of changes
+        std = changes.std()
+        sharpe = (gmean_change - risk_free_return) / std
+
+    high = weekly.High.rolling(range_window).max()
+    low = weekly.Low.rolling(range_window).min()
+    range = ((high - low) / (high + low) * 2).dropna() # relative range per window
+
+    return {
+        'symbol': symbol, # ticker as given to yfinance
+        'name': get_stock_name(symbol), # short name from yfinance metadata
+        'price': weekly.Close.iloc[-1], # last close (latest bar)
+        'weeks': len(weekly), # weekly bars used, capped at history_weeks (3Y = 156)
+        'gmean': gmean_change, # geometric mean of the 52w changes over 3y
+        'std': std, # std dev of the 52w changes over 3y
+        'sharpe': sharpe, # (gmean - risk_free_return 4%) / std, over 3y
+        'range': range.mean(), # mean over 3y of 2*(high-low)/(high+low) per rolling range_window (5W)
+        'revenue': get_revenue_growth(symbol), # YoY growth of latest quarterly revenue (5 quarters)
+        'T200': sma_temperature(symbol, daily, window=200), # temperature over 5y of distance to the 200-day SMA
+        'lowback': low_weeks(all_weekly.Low), # weeks over which last week's low is the lowest, max 5y
+    }
+
+
+def check(df, skipped):
+    """Fail the run, before folio.csv is overwritten, if the result looks broken:
+    too many symbols missing, or a row without a usable price."""
+    if len(skipped) > max_skipped:
+        raise SystemExit(f'{len(skipped)} of {len(symbols)} symbols skipped'
+                         f' (max {max_skipped}): {skipped}')
+    if list(df.columns) != columns:
+        raise SystemExit(f'unexpected columns: {list(df.columns)}, expected {columns}')
+    bad = df.symbol[~(df.price > 0)].tolist()
+    if bad:
+        raise SystemExit(f'missing or non-positive prices: {bad}')
+
+
 def main():
-    rows = []
+    rows, skipped = [], []
     for symbol in symbols:
-        # one daily fetch per symbol - the weekly bars are aggregated from it
-        daily = get_stock_history(symbol, period='5y', interval='1d', cache_days=cache_days)
-        if daily.empty:
-            # Yahoo returns no rows for unknown tickers and transient failures;
-            # skip the symbol rather than failing the whole run
-            print(f'WARNING: skipping {symbol}, no history')
-            continue
-        all_weekly = to_weekly(daily, symbol)
-        weekly = all_weekly.tail(history_weeks)
-
-        if len(weekly) < history_weeks:
-            print(f'Not enough history for {symbol}: {len(weekly)} weeks, need {history_weeks}')
-            gmean_change = std = sharpe = None
+        try:
+            row = symbol_row(symbol)
+        except Exception as e:
+            # one bad symbol (a Yahoo hiccup, odd data) must not fail the whole run
+            print(f'WARNING: skipping {symbol}: {e!r}')
+            row = None
+        if row is None:
+            skipped.append(symbol)
         else:
-            changes = weekly.Close.pct_change(periods=change_weeks, fill_method=None).dropna()
-            gmean_change = gmean(1 + changes) - 1 # geometric mean of changes
-            std = changes.std()
-            sharpe = (gmean_change - risk_free_return) / std
-
-        high = weekly.High.rolling(range_window).max()
-        low = weekly.Low.rolling(range_window).min()
-        range = ((high - low) / (high + low) * 2).dropna() # relative range per window
-
-        rows.append({
-            'symbol': symbol, # ticker as given to yfinance
-            'name': get_stock_name(symbol), # short name from yfinance metadata
-            'price': weekly.Close.iloc[-1], # last close (latest bar)
-            'weeks': len(weekly), # weekly bars used, capped at history_weeks (3Y = 156)
-            'gmean': gmean_change, # geometric mean of the 52w changes over 3y
-            'std': std, # std dev of the 52w changes over 3y
-            'sharpe': sharpe, # (gmean - risk_free_return 4%) / std, over 3y
-            'range': range.mean(), # mean over 3y of 2*(high-low)/(high+low) per rolling range_window (5W)
-            'revenue': get_revenue_growth(symbol), # YoY growth of latest quarterly revenue (5 quarters)
-            'T200': sma_temperature(symbol, daily, window=200), # temperature over 5y of distance to the 200-day SMA
-            'lowback': low_weeks(all_weekly.Low), # weeks over which last week's low is the lowest, max 5y
-        })
+            rows.append(row)
 
     df = pd.DataFrame(rows)
-    f = f'data/folio.csv'
+    check(df, skipped)
+    f = 'data/folio.csv'
     df.to_csv(f, index=False)
-    print(f'Saved to {f} ({len(df)} rows)')
+    print(f'Saved to {f} ({len(df)} rows' + (f', skipped {skipped})' if skipped else ')'))
 
     df = df.reset_index(drop=True)
     for col in ['gmean', 'std', 'range', 'revenue', 'T200']:
