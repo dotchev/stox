@@ -8,30 +8,30 @@ Sharpe = (gmean - 4%) / std.
 T200 = percentile of the current distance from the 200-day SMA
 within its 5-year history. Empty if history < 200 days.
 
-Return Period: last 102 weeks (limited by AIFS.DE)
+Return Period: last 103 weeks (limited by AIFS.DE)
 
-_Last updated: 2026-11-21 15:52 UTC_
+_Last updated: 2026-11-28 12:16 UTC_
 
 | Symbol | Name | Currency | History (weeks) | Gmean | Std | Sharpe | T200 |
 |---|---|---|---|---|---|---|---|
-| VDIV.DE | VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF | EUR | 261 | 31.13% | 7.12% | 3.81 | 25% |
-| VHVE.MI | Vanguard FTSE Developed World UCITS ETF USD Accumulation | EUR | 261 | 22.57% | 5.70% | 3.26 | 14% |
-| AIFS.DE | iShares AI Infrastructure UCITS ETF USD (Acc) | EUR | 102 | 69.56% | 24.57% | 2.67 | **0%** |
-| XAIX.DE | Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C | EUR | 261 | 37.47% | 13.15% | 2.54 | 12% |
-| SPY | State Street SPDR S&P 500 ETF Trust | USD | 261 | 19.91% | 6.25% | 2.54 | **5%** |
-| XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 177 | 25.25% | 8.48% | 2.51 | **2%** |
-| WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 105 | 27.04% | 9.77% | 2.36 | **0%** |
-| CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 81.20% | 33.24% | 2.32 | **2%** |
-| FBT.MI | First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation | EUR | 261 | 34.94% | 13.43% | 2.30 | 85% |
-| QQQ | Invesco QQQ Trust | USD | 261 | 25.06% | 10.04% | 2.10 | **5%** |
-| ESIF.DE | iShares MSCI Europe Financials Sector UCITS ETF | EUR | 261 | 34.34% | 14.69% | 2.06 | **7%** |
-| QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 109 | 27.31% | 11.71% | 1.99 | **0%** |
-| TOPT | iShares Top 20 U.S. Stocks ETF | USD | 109 | 19.80% | 8.20% | 1.93 | **0%** |
-| MAGS | Roundhill Magnificent Seven ETF | USD | 189 | 20.95% | 12.07% | 1.40 | **2%** |
+| TDIV.AS | VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF | EUR | 261 | 30.86% | 7.27% | 3.69 | 46% |
+| VHVE.MI | Vanguard FTSE Developed World UCITS ETF USD Accumulation | EUR | 261 | 22.28% | 5.97% | 3.06 | 30% |
+| AIFS.DE | iShares AI Infrastructure UCITS ETF USD (Acc) | EUR | 103 | 68.67% | 25.02% | 2.58 | **1%** |
+| XAIX.DE | Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C | EUR | 261 | 37.10% | 13.27% | 2.50 | 15% |
+| SPY | State Street SPDR S&P 500 ETF Trust | USD | 261 | 19.66% | 6.43% | 2.44 | 13% |
+| XWEM.DE | Xtrackers MSCI World Momentum ESG UCITS ETF 1C | EUR | 178 | 24.84% | 8.82% | 2.36 | **4%** |
+| FBT.MI | First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation | EUR | 261 | 34.83% | 13.32% | 2.31 | **94%** |
+| CHIP.PA | Amundi MSCI Semiconductors UCITS ETF Acc | EUR | 261 | 79.71% | 34.15% | 2.22 | **6%** |
+| WMSE.DE | Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc | EUR | 106 | 26.52% | 10.26% | 2.19 | **2%** |
+| ESIF.DE | iShares MSCI Europe Financials Sector UCITS ETF | EUR | 261 | 33.90% | 14.84% | 2.01 | 14% |
+| QQQ | Invesco QQQ Trust | USD | 261 | 24.64% | 10.32% | 2.00 | 10% |
+| QTOP | iShares Nasdaq Top 30 Stocks ETF | USD | 110 | 26.82% | 12.04% | 1.90 | **2%** |
+| TOPT | iShares Top 20 U.S. Stocks ETF | USD | 110 | 19.43% | 8.48% | 1.82 | **5%** |
+| MAGS | Roundhill Magnificent Seven ETF | USD | 190 | 20.53% | 12.28% | 1.35 | 12% |
 
 CSV files, with empty values for symbols with less history than the period:
 
-- [Common period (102 weeks)](data/stocks-52w-short.csv)
+- [Common period (103 weeks)](data/stocks-52w-short.csv)
 - [3 years (156 weeks)](data/stocks-52w-3y.csv)
 - [5 years (261 weeks)](data/stocks-52w-5y.csv)
 

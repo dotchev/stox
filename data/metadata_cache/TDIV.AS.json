@@ -5,37 +5,37 @@
   "fullExchangeName": "Amsterdam",
   "instrumentType": "ETF",
   "firstTradeDate": "2016-05-23T09:00:00+02:00",
-  "regularMarketTime": "2026-11-20T17:35:18+01:00",
+  "regularMarketTime": "2026-11-27T17:35:11+01:00",
   "hasPrePostMarketData": false,
   "gmtoffset": 3600,
   "timezone": "CET",
   "exchangeTimezoneName": "Europe/Amsterdam",
-  "regularMarketPrice": 54.99,
-  "regularMarketChangePercent": -0.453,
-  "fulldayPrice": 54.99,
-  "fulldayChange": -0.25,
-  "fulldayChangePercent": -0.453,
+  "regularMarketPrice": 56.4,
+  "regularMarketChangePercent": 0.678,
+  "fulldayPrice": 56.4,
+  "fulldayChange": 0.38,
+  "fulldayChangePercent": 0.678,
   "fiftyTwoWeekHigh": 57.83,
-  "fiftyTwoWeekLow": 45.84,
-  "regularMarketDayHigh": 55.31,
-  "regularMarketDayLow": 54.82,
-  "regularMarketVolume": 126476,
+  "fiftyTwoWeekLow": 46.47,
+  "regularMarketDayHigh": 56.42,
+  "regularMarketDayLow": 56.16,
+  "regularMarketVolume": 88930,
   "longName": "VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF",
   "shortName": "VanEck Morningstar Developed Ma",
-  "chartPreviousClose": 29.61,
+  "chartPreviousClose": 29.27,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-20T09:00:00+01:00",
-      "end": "2026-11-20T09:00:00+01:00"
+      "start": "2026-11-27T09:00:00+01:00",
+      "end": "2026-11-27T09:00:00+01:00"
     },
     "regular": {
-      "start": "2026-11-20T09:00:00+01:00",
-      "end": "2026-11-20T17:30:00+01:00"
+      "start": "2026-11-27T09:00:00+01:00",
+      "end": "2026-11-27T17:30:00+01:00"
     },
     "post": {
-      "start": "2026-11-20T17:30:00+01:00",
-      "end": "2026-11-20T17:30:00+01:00"
+      "start": "2026-11-27T17:30:00+01:00",
+      "end": "2026-11-27T17:30:00+01:00"
     }
   },
   "dataGranularity": "1d",
@@ -56,29 +56,29 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-15T23:00:00.000Z",
-      "start": "2026-11-16T08:00:00.000Z",
-      "end": "2026-11-16T16:30:00.000Z"
+      "Date": "2026-11-22T23:00:00.000Z",
+      "end": "2026-11-23T16:30:00.000Z",
+      "start": "2026-11-23T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-16T23:00:00.000Z",
-      "start": "2026-11-17T08:00:00.000Z",
-      "end": "2026-11-17T16:30:00.000Z"
+      "Date": "2026-11-23T23:00:00.000Z",
+      "end": "2026-11-24T16:30:00.000Z",
+      "start": "2026-11-24T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-17T23:00:00.000Z",
-      "start": "2026-11-18T08:00:00.000Z",
-      "end": "2026-11-18T16:30:00.000Z"
+      "Date": "2026-11-24T23:00:00.000Z",
+      "end": "2026-11-25T16:30:00.000Z",
+      "start": "2026-11-25T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-18T23:00:00.000Z",
-      "start": "2026-11-19T08:00:00.000Z",
-      "end": "2026-11-19T16:30:00.000Z"
+      "Date": "2026-11-25T23:00:00.000Z",
+      "end": "2026-11-26T16:30:00.000Z",
+      "start": "2026-11-26T08:00:00.000Z"
     },
     {
-      "Date": "2026-11-19T23:00:00.000Z",
-      "start": "2026-11-20T08:00:00.000Z",
-      "end": "2026-11-20T16:30:00.000Z"
+      "Date": "2026-11-26T23:00:00.000Z",
+      "end": "2026-11-27T16:30:00.000Z",
+      "start": "2026-11-27T08:00:00.000Z"
     }
   ]
 }

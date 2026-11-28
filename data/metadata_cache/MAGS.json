@@ -5,37 +5,37 @@
   "fullExchangeName": "Cboe US",
   "instrumentType": "ETF",
   "firstTradeDate": "2023-04-11T09:30:00-04:00",
-  "regularMarketTime": "2026-11-20T16:00:00-05:00",
+  "regularMarketTime": "2026-11-27T13:00:00-05:00",
   "hasPrePostMarketData": true,
   "gmtoffset": -18000,
   "timezone": "EST",
   "exchangeTimezoneName": "America/New_York",
-  "regularMarketPrice": 61.66,
-  "regularMarketChangePercent": -5.182,
-  "fulldayPrice": 61.66,
-  "fulldayChange": -2.32,
-  "fulldayChangePercent": -3.568,
+  "regularMarketPrice": 66.53,
+  "regularMarketChangePercent": 2.259,
+  "fulldayPrice": 66.53,
+  "fulldayChange": 1.65,
+  "fulldayChangePercent": 2.536,
   "fiftyTwoWeekHigh": 74.775,
   "fiftyTwoWeekLow": 55.085,
-  "regularMarketDayHigh": 65.325,
-  "regularMarketDayLow": 61.365,
-  "regularMarketVolume": 9580889,
+  "regularMarketDayHigh": 66.605,
+  "regularMarketDayLow": 65.569,
+  "regularMarketVolume": 4153831,
   "longName": "Roundhill Magnificent Seven ETF",
   "shortName": "Roundhill Magnificent Seven ETF",
   "chartPreviousClose": 24.75,
   "priceHint": 2,
   "currentTradingPeriod": {
     "pre": {
-      "start": "2026-11-20T04:00:00-05:00",
-      "end": "2026-11-20T09:30:00-05:00"
+      "end": "2026-11-27T09:30:00-05:00",
+      "start": "2026-11-27T04:00:00-05:00"
     },
     "regular": {
-      "start": "2026-11-20T09:30:00-05:00",
-      "end": "2026-11-20T16:00:00-05:00"
+      "end": "2026-11-27T13:00:00-05:00",
+      "start": "2026-11-27T09:30:00-05:00"
     },
     "post": {
-      "start": "2026-11-20T16:00:00-05:00",
-      "end": "2026-11-20T20:00:00-05:00"
+      "end": "2026-11-27T20:00:00-05:00",
+      "start": "2026-11-27T13:00:00-05:00"
     }
   },
   "dataGranularity": "1d",
@@ -55,42 +55,6 @@
   "YF repair?": false,
   "tradingPeriods": [
     {
-      "Date": "2026-11-16T05:00:00.000Z",
-      "pre_start": "2026-11-16T09:00:00.000Z",
-      "pre_end": "2026-11-16T14:30:00.000Z",
-      "start": "2026-11-16T14:30:00.000Z",
-      "end": "2026-11-16T21:00:00.000Z",
-      "post_start": "2026-11-16T21:00:00.000Z",
-      "post_end": "2026-11-17T01:00:00.000Z"
-    },
-    {
-      "Date": "2026-11-17T05:00:00.000Z",
-      "pre_start": "2026-11-17T09:00:00.000Z",
-      "pre_end": "2026-11-17T14:30:00.000Z",
-      "start": "2026-11-17T14:30:00.000Z",
-      "end": "2026-11-17T21:00:00.000Z",
-      "post_start": "2026-11-17T21:00:00.000Z",
-      "post_end": "2026-11-18T01:00:00.000Z"
-    },
-    {
-      "Date": "2026-11-18T05:00:00.000Z",
-      "pre_start": "2026-11-18T09:00:00.000Z",
-      "pre_end": "2026-11-18T14:30:00.000Z",
-      "start": "2026-11-18T14:30:00.000Z",
-      "end": "2026-11-18T21:00:00.000Z",
-      "post_start": "2026-11-18T21:00:00.000Z",
-      "post_end": "2026-11-19T01:00:00.000Z"
-    },
-    {
-      "Date": "2026-11-19T05:00:00.000Z",
-      "pre_start": "2026-11-19T09:00:00.000Z",
-      "pre_end": "2026-11-19T14:30:00.000Z",
-      "start": "2026-11-19T14:30:00.000Z",
-      "end": "2026-11-19T21:00:00.000Z",
-      "post_start": "2026-11-19T21:00:00.000Z",
-      "post_end": "2026-11-20T01:00:00.000Z"
-    },
-    {
       "Date": "2026-11-20T05:00:00.000Z",
       "pre_start": "2026-11-20T09:00:00.000Z",
       "pre_end": "2026-11-20T14:30:00.000Z",
@@ -98,6 +62,42 @@
       "end": "2026-11-20T21:00:00.000Z",
       "post_start": "2026-11-20T21:00:00.000Z",
       "post_end": "2026-11-21T01:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-23T05:00:00.000Z",
+      "pre_start": "2026-11-23T09:00:00.000Z",
+      "pre_end": "2026-11-23T14:30:00.000Z",
+      "start": "2026-11-23T14:30:00.000Z",
+      "end": "2026-11-23T21:00:00.000Z",
+      "post_start": "2026-11-23T21:00:00.000Z",
+      "post_end": "2026-11-24T01:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-24T05:00:00.000Z",
+      "pre_start": "2026-11-24T09:00:00.000Z",
+      "pre_end": "2026-11-24T14:30:00.000Z",
+      "start": "2026-11-24T14:30:00.000Z",
+      "end": "2026-11-24T21:00:00.000Z",
+      "post_start": "2026-11-24T21:00:00.000Z",
+      "post_end": "2026-11-25T01:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-25T05:00:00.000Z",
+      "pre_start": "2026-11-25T09:00:00.000Z",
+      "pre_end": "2026-11-25T14:30:00.000Z",
+      "start": "2026-11-25T14:30:00.000Z",
+      "end": "2026-11-25T21:00:00.000Z",
+      "post_start": "2026-11-25T21:00:00.000Z",
+      "post_end": "2026-11-26T01:00:00.000Z"
+    },
+    {
+      "Date": "2026-11-27T05:00:00.000Z",
+      "pre_start": "2026-11-27T09:00:00.000Z",
+      "pre_end": "2026-11-27T14:30:00.000Z",
+      "start": "2026-11-27T14:30:00.000Z",
+      "end": "2026-11-27T18:00:00.000Z",
+      "post_start": "2026-11-27T18:00:00.000Z",
+      "post_end": "2026-11-28T01:00:00.000Z"
     }
   ]
 }

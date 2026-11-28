@@ -1,15 +1,15 @@
 symbol,name,currency,weeks,gmean,std,sharpe,t200
-VDIV.DE,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.1968,0.0966,1.62,0.25
-ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,0.2796,0.1557,1.54,0.07
-CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.4590,0.3914,1.07,0.02
-VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1566,0.1111,1.05,0.14
-XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.2719,0.2256,1.03,0.12
-SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.1627,0.1197,1.03,0.05
-QQQ,Invesco QQQ Trust,USD,261,0.2073,0.1760,0.95,0.05
-FBT.MI,First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation,EUR,261,0.1251,0.1592,0.53,0.85
-TOPT,iShares Top 20 U.S. Stocks ETF,USD,109,,,,0.00
-MAGS,Roundhill Magnificent Seven ETF,USD,189,,,,0.02
-QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,109,,,,0.00
-WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,105,,,,0.00
-AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,102,,,,0.00
-XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,177,,,,0.02
+TDIV.AS,VanEck Morningstar Developed Markets Dividend Leaders UCITS ETF,EUR,261,0.1969,0.0965,1.63,0.46
+ESIF.DE,iShares MSCI Europe Financials Sector UCITS ETF,EUR,261,0.2806,0.1544,1.56,0.14
+CHIP.PA,Amundi MSCI Semiconductors UCITS ETF Acc,EUR,261,0.4626,0.3881,1.09,0.06
+VHVE.MI,Vanguard FTSE Developed World UCITS ETF USD Accumulation,EUR,261,0.1578,0.1096,1.07,0.30
+XAIX.DE,Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C,EUR,261,0.2751,0.2220,1.06,0.15
+SPY,State Street SPDR S&P 500 ETF Trust,USD,261,0.1638,0.1183,1.05,0.13
+QQQ,Invesco QQQ Trust,USD,261,0.2094,0.1732,0.98,0.10
+FBT.MI,First Trust NYSE Arca Biotechnology UCITS ETF Class A USD Accumulation,EUR,261,0.1267,0.1591,0.54,0.94
+TOPT,iShares Top 20 U.S. Stocks ETF,USD,110,,,,0.05
+MAGS,Roundhill Magnificent Seven ETF,USD,190,,,,0.12
+QTOP,iShares Nasdaq Top 30 Stocks ETF,USD,110,,,,0.02
+WMSE.DE,Amundi MSCI World Momentum Screened Factor UCITS ETF USD Acc,EUR,106,,,,0.02
+AIFS.DE,iShares AI Infrastructure UCITS ETF USD (Acc),EUR,103,,,,0.01
+XWEM.DE,Xtrackers MSCI World Momentum ESG UCITS ETF 1C,EUR,178,,,,0.04
